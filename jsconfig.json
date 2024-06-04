@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "typeRoots": [
+    "./node_modules/@types",
+    "./src/types" // Add your custom types folder if needed
+  ]
+}

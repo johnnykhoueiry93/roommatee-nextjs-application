@@ -1,0 +1,9 @@
+:root {
+  --roomatee-theme-color: #4CAF50;
+  /* Replace with your desired color */
+}
+
+/* https://stackoverflow.com/questions/43547191/bootstrap-collapse-div-content-disappears */
+.collapse.show {
+  visibility: visible;
+}

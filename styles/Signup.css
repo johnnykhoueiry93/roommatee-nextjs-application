@@ -1,0 +1,169 @@
+* {
+	box-sizing: border-box;
+}
+
+.title {
+	text-align: center;
+	font-size: 24px;
+	padding-bottom: 30px;
+}
+
+.submit-button {
+	margin-top: 30px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.login-box-container {
+	padding-top: 40px;
+	margin: auto;
+	padding-bottom: 40px;
+}
+
+.login-box {
+	margin: auto;
+	border-radius: 15px;
+	padding: 15px;
+	background-color: white;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.Notifybutton {
+	background: rgb(0, 0, 0);
+	color: #fff;
+	font-size: 20px;
+	border: 2px solid rgb(60, 141, 110);
+	padding: 16px 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+
+.login-status {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.already {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.link-as-button-format {
+	text-decoration: none;
+	color: rgb(60, 60, 147);
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.privacy-policy-sign-in-up {
+	margin-top: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+input[type=text],
+select {
+	width: 100%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.userProfileForm {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.center-link {
+	text-align: center;
+}
+
+.back-to-login-container {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.forgot-password-instructions {
+	text-align: center;
+	color: rgb(88, 82, 82);
+}
+
+.email-does-not-exist {
+	color: red;
+	font-weight: bold;
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+	/* Styles for screens between 768px and 992px wide */
+	.login-box-container {
+	  width: 70%;
+	}
+  }
+
+/* ---------------------- LARGER SCREENS ---------------------- */
+@media (min-width: 1367px) {
+	.login-box-container {
+		width: 30%;
+	}
+
+	.login-box {
+		margin: auto;
+		border-radius: 15px;
+		padding: 30px;
+		background-color: white;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+}
+
+/* ---------------------- MOBILE SCREENS ---------------------- */
+@media (max-width: 820px) {
+	.login-box-container {
+		width: 100%;
+	}
+
+	.login-box {
+		margin: auto;
+		border-radius: 15px;
+		padding: 30px;
+		background-color: white;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	}
+}
+
+
+.circular-progress {
+	margin-left:50px;
+}
