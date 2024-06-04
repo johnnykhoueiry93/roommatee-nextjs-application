@@ -208,22 +208,19 @@ const navigateToChangePasswordPage = () => {
         setIsHydrated(true);
       }, []);
 
+      
+      if (!isHydrated) {
+        return <div>Loading...</div>; //TODO update to something better!!
+      }
+
       function returnMenuBasedOnUserType() {
         if (userIsAdmin()) {
-          // console.log('################ Returning ADMIN')
           return returnAdminUserMenu();
         } else {
-          // console.log('################ Returning REGULAR ')
           return returnRegularUserMenu();
         }
       }
       
-
-      if (!isHydrated) {
-        return <div>Loading...</div>;
-      }
-
-
 
 if (userAuth) {
     return (
@@ -240,8 +237,8 @@ if (userAuth) {
         <button
           className="navbar-toggler toggle-btn mr-2"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
