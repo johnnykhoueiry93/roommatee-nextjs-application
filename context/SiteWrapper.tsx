@@ -18,6 +18,7 @@ export const SiteWrapper = ({ children }) => {
   const [profiles, setProfiles] = useState("hello111");
   const [Bootstrap, setBootstrap] = useState(undefined);
   const [firebaseToken, setFirebaseToken] = useState();
+  const [userAdmin, setUserAdmin] = useState(false);
 
   // Without this the bootstrap functionality will not work
   useEffect(() => {
@@ -49,6 +50,11 @@ export const SiteWrapper = ({ children }) => {
   //       : [];
   //   }
   // });
+
+  const [userProfilePicture, setUserProfilePicture] = useState(() => {
+    const storedUserProfilePicture = localStorage.getItem('userProfilePicture');
+    return storedUserProfilePicture ? JSON.parse(storedUserProfilePicture) : [];
+  });
 
   const [userAuth, setUserAuth] = useState(() => {
     const storedUserAuth = Cookies.get("userAuth");
@@ -121,6 +127,8 @@ export const SiteWrapper = ({ children }) => {
         userIsAdmin,
         firebaseToken,
         setFirebaseToken,
+        userAdmin, setUserAdmin,
+        userProfilePicture, setUserProfilePicture
       }}
     >
       {children}

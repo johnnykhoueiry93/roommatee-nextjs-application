@@ -229,7 +229,7 @@ if (userAuth) {
       >
 
 
-      {/* { userInfo[0].isProfileComplete == 1  && */}
+      { userInfo.isProfileComplete == 1  &&
         <div className="container-fluid">
         {/* -------------------------- HOME BUTTON LOGO --------------------------*/}
         {returnApplicationLogo()}
@@ -257,7 +257,7 @@ if (userAuth) {
             <Avatar
               alt={'test'}
               // alt={userInfo[0].firstName}
-              // src={userProfilePicture}
+              src={userProfilePicture}
             />
             <div className="btn-group">
 
@@ -304,7 +304,7 @@ if (userAuth) {
         </div>
       </div>
       
-        {/* } */}
+        }
         
       </nav>
     );

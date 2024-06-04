@@ -12,7 +12,7 @@ import PasswordIcon from "@mui/icons-material/Password";
 // import FooterSimple from "../FooterSimple";
 import CirculatorProgressLoader from "../components/loaders/CirculatorProgressLoader";
 import { encryptData, decryptData } from '../utils/encryptionUtils';
-// import ReCAPTCHA from 'react-google-recaptcha';
+import ReCAPTCHA from 'react-google-recaptcha';
 import React, { useEffect, useState } from "react";
 // import BackendAxios from "../../backend/BackendAxios";
 import Link from "next/link";
@@ -68,7 +68,7 @@ const navigateToPage = (path) => {
 
     // @ts-ignore
     const isUserValid = (user) => {
-      return user && user[0] && user[0].firstName;
+      return user && user.firstName;
     };
 
       //@ts-ignore
@@ -98,41 +98,45 @@ const navigateToPage = (path) => {
     // navigate("/setup");
   }
 
+
+  async function getNavBarProfilePicture(user) {
+    const key = `profile-picture/${user.id}-profile-picture.png`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+      
+      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      setUserProfilePicture(data.s3Url);
+      console.log("setting in storage userProfilePicture: " + data.s3Url);
+      localStorage.setItem("userProfilePicture", JSON.stringify(data.s3Url));
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
     //@ts-ignore
     async function triggerSuccessLoginSteps(user, firebaseToken) {
-      console.log('we are in triggerSuccessLoginSteps'); 
 
-      // const key = `${user[0].id}-profile-picture.png?folder=profile-picture`;
-      // setLoginStatus(user[0].firstName);
+      console.log("[/api/login] - user value:", user);
+      console.log("[/api/login] firebaseToken value: ", firebaseToken);
       
-      // setUserInfo(user);
-      // console.log('!!!!!!',userInfo);
-      
-  
-      // if(user[0].userType == "admin") {
-      //   setUserAdmin(true);
-      // }
-  
-      // BackendAxios.post(`/getS3PictureUrl/${key}`)
-      //   .then((response) => {
-      //     console.log(
-      //       "Setting the user profile picture to URL: " + response.data.s3Url
-      //     );
-      //     setUserProfilePicture(response.data.s3Url);
-  
-      //     console.log(
-      //       "setting in storage userProfilePicture: " + response.data.s3Url
-      //     );
-  
-      //     // Move the localStorage update inside the promise resolution
+      setFirebaseToken(firebaseToken);
+      setUserAuth(true);
+      setUserInfo(user);
 
+      navigateToPage('/protected');
+
+      setLoginStatus(user.firstName);
+      
   
-      //     localStorage.setItem("userProfilePicture", JSON.stringify(response.data.s3Url));
-      //   })
-      //   .catch((error) => {
-      //     console.error("Error:", error);
-      //   });
-      // // }
+      if(user.userType == "admin") {
+        setUserAdmin(true);
+      }
+  
+      getNavBarProfilePicture(user);
+
   
       // BackendAxios.post("/getUserListings", {
       //   userProfileId: user[0].id,
@@ -169,15 +173,6 @@ const navigateToPage = (path) => {
     // } else {
       triggerSuccessLoginSteps(user, firebaseToken);
 
-      setFirebaseToken(firebaseToken);
-      setUserAuth(true);
-      setUserInfo(user);
-
-
-      console.log('I am here 3')
-      console.log('Navigating to /protected')
-
-      navigateToPage('/protected');
       // Set a cookie or local storage item to track authentication status
       // document.cookie = 'userAuth=true; path=/';
       // router.push('/protected-page'); // Redirect to a protected page
@@ -211,21 +206,10 @@ const navigateToPage = (path) => {
           } else {
             // LOGIN SUCCESS
 
-            console.log("[/api/login] login was success: " , responseData);
-            console.log("[/api/login] - user value:", user);
-            console.log("[/api/login] firebaseToken value: ", firebaseToken);
-
-            console.log("[/api/login] setting setUserInfo with value: ", user);
-            setUserInfo(user);
-    
-            console.log('[/api/login] - I am here 1 : ' , userInfo);
-            // if (isUserValid(user)) {
+            if (isUserValid(user)) {
               console.log('I am here 2')
               handleUserLogin(user, firebaseToken);
-            // }
-
-                   // Perform other actions like navigating to /protected
-          navigateToPage('/protected');
+            }
           }
       };
 
