@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Developer Notes
+--------------------------------------------------------------------
+UseContext is created to support sibling components and holding values across the lifecyle of the application
+Some values upon a screen refresh will be stored in storage including userInfo, userAuth, profilePicture meaning if you reload the page they will not be lost until logout
 
-## Getting Started
 
-First, run the development server:
+# Use Context Main values
+--------------------------------------------------------------------
+userIsAdmin --> userIsAdmin() --> return true/false if the currently logged in user is admin or not
+userAuth --> return true/false if the user is logged in or not
+isMobile --> return true/false if the screen dimnentions is mobile
+isTabletuserInfo --> return true/false if the screen dimnentions is tablet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# How to send frontend log to the backend
+--------------------------------------------------------------------
+step 1: import { logFrontendActivityToBackend } from '../frontendUtils/apiUtils'
+Step 2: let message = 'whatever you want to send';
+Step 3: logFrontendActivityToBackend( message, userInfo)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# How to use the frontend static labels and messages
+--------------------------------------------------------------------
+Step 1: import StaticFrontendLabel from "../StaticFrontend";
+Step 2: const SETUP_PROFILE_MAX_ALLOWED_CITIES = StaticFrontendLabel.SETUP_PROFILE_MAX_ALLOWED_CITIES;
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+# Color
+--------------------------------------------------------------------
+Logo color: #4CAF50
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# To change a component to match the color above
+--------------------------------------------------------------------
+1- Import App.css
+2- Usage for example:  background-color: var(--roomatee-theme-color); //--roomatee-theme-color is in the APP.css
 
-## Deploy on Vercel
+# Chat Exmaple with keyboard for mobile
+--------------------------------------------------------------------
+https://gist.github.com/MartijnHols/e9f4f787efa9190885a708468f63c5bb#file-useonscreenkeyboardscrollfix-ts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Icons
+https://mui.com/material-ui/material-icons/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Fonts
+https://www.fontsmarket.com/font-details/engravers-gothic-bt
+
+# Random user profile pics
+https://xsgames.co/randomusers/avatar.php?g=male
+
+# Email functionality using: Brevo API 
+https://github.com/getbrevo/brevo-node
+API Key is in the .env file under src/backend
+
+# Services Used
+- Google map
+- Brevo API (send email)
+- Firebase
+- AWS S3
+- MySQL database on cloud cluster
+
+
+# Webserivces Migrated
+/api/login
+/getUserListings
+
+# Webserivces Pening Migration
+/getUsers
+/posts
+/getS3PictureUrl
+/resendVerificationToken
+/signup
+/uploadMultiple
+/updateRoomListing
+/handleUploadPictureToS3SubFolder
+/createNewRoomListing
+/createUserProfile
+/changePassword
+/resetPassword
+/setMysqlDatabaseFlagTrue
+/verifyCode
+/createTicket
+/sendTicketReply
+/reportUserChat
+/getUserSupportTickets
+/getTicketDetails
+/updateSocialMediaLinks
+/insertProfileSetupInfo
+/getUserCounts
+/getUserProfileCounts
+/logInitialMessageSent
+/logFrontendActivity
+/searchProfile
+/search
+/searchListingById
+/searchTenantById

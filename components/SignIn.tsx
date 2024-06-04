@@ -116,6 +116,33 @@ const navigateToPage = (path) => {
       console.error("Error:", error);
     }
   }
+
+   async function getUserListings(user) {
+    let userProfileId = user.id;
+    let emailAddress = userInfo.emailAddress;
+    try {
+      const response = await fetch('/api/getUserListings', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ userProfileId , emailAddress }),
+      });
+  
+      if (!response.ok) {
+        throw new Error('Failed to fetch user listings');
+      }
+  
+      const data = await response.json();
+      console.log('getUserListings ' , data);
+      return data;
+    } catch (error) {
+      console.error('Error fetching user listings:', error);
+      throw error;
+    }
+  }
+
+
     //@ts-ignore
     async function triggerSuccessLoginSteps(user, firebaseToken) {
 
@@ -136,6 +163,8 @@ const navigateToPage = (path) => {
       }
   
       getNavBarProfilePicture(user);
+
+      getUserListings(user);
 
   
       // BackendAxios.post("/getUserListings", {

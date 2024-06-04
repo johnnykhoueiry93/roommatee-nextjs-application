@@ -15,6 +15,7 @@ import Badge from '@mui/material/Badge';
 import { encryptData, decryptData } from '../../utils/encryptionUtils';
 import Cookies from 'js-cookie';
 import NavigationItem from "./NavigationItem";
+import { useRouter } from 'next/navigation';
 
 const Nav = () => {
     //@ts-ignore
@@ -24,7 +25,12 @@ const Nav = () => {
    const [badgeCount, setBadgeCount] = useState(0);
    const [activeTab, setActiveTab] = useState('Home');
 
- 
+   const router = useRouter();
+
+const navigateToPage = (path) => {
+  router.push(path);
+};
+
   
 useEffect(() => {
   if(userAuth) {
@@ -124,7 +130,7 @@ const navigateToChangePasswordPage = () => {
 
       const handleLoginClick = () => {
         console.log("The user clicked on the Login button");
-        // navigate("/login");
+        navigateToPage('/login');
       };
 
       const handleNavBarBurgerButtonOnClick = () => {
@@ -342,13 +348,13 @@ if (userAuth) {
               </li>
             </ul>
 
-            <Link href="/login">
+            {/* <Link href="/login"> */}
             <div className="d-flex nav-item" onClick={handleLoginClick}>
               <div className="btn-group nav-login-btn"> 
                 <span><PersonOutlineIcon style={iconStyle}/> Log in</span>
                </div>
             </div> 
-            </Link>
+            {/* </Link> */}
           </div>
         </div>
 

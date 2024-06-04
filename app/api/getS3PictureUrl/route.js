@@ -1,5 +1,6 @@
 import AWS from 'aws-sdk';
 import { NextResponse } from 'next/server';
+const logger = require("../../../utils/logger");
 
 const S3_UPLOAD_BUCKET_NAME = process.env.S3_UPLOAD_BUCKET_NAME;
 
@@ -12,7 +13,7 @@ AWS.config.update({
 const s3 = new AWS.S3();
 
 export async function POST(request) {
-  console.log('We reached S3');
+  console.log('[getS3PictureUrl] request received');
   const { searchParams } = new URL(request.url);
   const key = searchParams.get('key');
   const folder = searchParams.get('folder');
