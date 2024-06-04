@@ -52,7 +52,10 @@ export const SiteWrapper = ({ children }) => {
   // });
 
   const [userProfilePicture, setUserProfilePicture] = useState(() => {
-    const storedUserProfilePicture = localStorage.getItem('userProfilePicture');
+    let storedUserProfilePicture;
+    if (typeof window !== 'undefined') {
+      storedUserProfilePicture = localStorage.getItem('userProfilePicture');
+    }
     return storedUserProfilePicture ? JSON.parse(storedUserProfilePicture) : [];
   });
 
