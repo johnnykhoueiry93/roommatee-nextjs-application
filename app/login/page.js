@@ -20,13 +20,13 @@ export default async function Login() {
   const password = "password123";
 
   // const data = await fetchUserData(emailAddress, password);
-  const data = await fetchUserData(emailAddress);
+  // const data = await fetchUserData(emailAddress);
 
-if(!data) {
-  return (
-    <div>Loading...</div>
-  )
-}
+// if(!data) {
+//   return (
+//     <div>Loading...</div>
+//   )
+// }
 
 // const session = await getSession();
   return (

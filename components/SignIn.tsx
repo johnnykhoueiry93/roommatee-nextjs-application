@@ -17,7 +17,7 @@ import React, { useEffect, useState } from "react";
 // import BackendAxios from "../../backend/BackendAxios";
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
-
+import { signIn } from 'next-auth/react'
 
 const SignIn = () => {
     // @ts-ignore
@@ -213,32 +213,52 @@ const navigateToPage = (path) => {
         setLoading(true);
 
         console.log("Sending WS /api/login request from frontend to backend");
-        const response = await fetch('/api/login', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ emailAddress, password }),
-        });
+        // const response = await fetch('/api/login', {
+        //   method: 'POST',
+        //   headers: {
+        //     'Content-Type': 'application/json',
+        //   },
+        //   body: JSON.stringify({ emailAddress, password }),
+        // });
 
-        // Parse the response as JSON
-        const responseData = await response.json();
-        console.log("[/api/login] response returned: " , responseData);
+        // // Parse the response as JSON
+        // const responseData = await response.json();
 
-        const { message, firebaseToken, user } = responseData;
+        const result = await signIn('credentials', {
+          redirect: false, // Prevents automatic redirection
+          emailAddress,
+          password,
+        })
+    
+        setLoading(false)
+    
+        if (result?.error) {
+          console.log(result.error)
+        } else {
+          // Handle successful login (e.g., redirect to a dashboard)
+          console.log('Login successful:', result)
+          // navigateToPage('/protected');
+      // setLoginStatus(result.firstName);
+        }
 
-          if (message) {
-            // LOGIN FAILED
-            setLoginStatus(message);
-            setUserAuth(false);
-          } else {
-            // LOGIN SUCCESS
+        // console.log("[/api/login] response returned: " , responseData);
 
-            if (isUserValid(user)) {
-              console.log('I am here 2')
-              handleUserLogin(user, firebaseToken);
-            }
-          }
+        // const { message, firebaseToken, user } = responseData;
+
+        // console.log('Printing out: ' , responseData);
+        
+          // if (message) {
+          //   // LOGIN FAILED
+          //   setLoginStatus(message);
+          //   setUserAuth(false);
+          // } else {
+          //   // LOGIN SUCCESS
+
+          //   if (isUserValid(user)) {
+          //     console.log('I am here 2')
+          //     handleUserLogin(user, firebaseToken);
+          //   }
+          // }
       };
 
       useEffect(() => {

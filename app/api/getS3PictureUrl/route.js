@@ -1,3 +1,4 @@
+// /api/getS3PictureUrl
 import AWS from 'aws-sdk';
 import { NextResponse } from 'next/server';
 const logger = require("../../../utils/logger");
