@@ -863,3 +863,167 @@
 [2024-06-04 18:42:36] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU0MDk1NiwiZXhwIjoxNzE3NTQ0NTU2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.jM4RGrM6ydM0MST1ejmD_yA6YLGkyVFxBYftWywChPbbf3QG8YbJzuRlHXFwPB5jvXik11oKYoV_Fgix4soFKvOyb-pexujY3NAaGkhYDYuqIpiSyrgku-w7OKx4_15--9E4zrNgWnK8XJC2ra2wfjA9EffbQeA2UGOI1td0XaWdK9C054GBZDNvvkpZXE56y5PNZ65mu8L_mpjwhU_WSmqYQhcFkfQ2-j24crVIQnZJLZscgdJKfPwznfbxMrE5I384G-Y_eV867mHmQ95dgbHzA9FDIp-P04Tp8ObD6ayiBkPfZ0av231YQFrYe4IE9KOcuhtKBOCA0yREDdDL-g
 [2024-06-04 18:42:39] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
 [2024-06-04 18:42:39] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 18:43:29] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 18:43:29] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 18:43:29] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 18:43:35] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 18:43:35] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 18:43:35] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 18:43:35] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU0MTAxNSwiZXhwIjoxNzE3NTQ0NjE1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.R_WhylTsylB2sFqHd-V7I-0fvj5EizMnYRY8Ll8cqQmXo_7fGMD-WwnI3PTz2ovnGQvRbVOE0Tm-6RZICPnlbbHG6Q4WLiakwsQT-CiVGsvKFWkhievwcA5N9eKI9C8f7bgLqonJexXAFY8ObNFY5Jp_zV2iWCTq70KrBWI6RxcoXbfWKFwc7EQH5dEJWtqhm4sIFzHdP8gcX46Bg2Rnz2wS6JyJkLGHaIlgzt15O3nZJptCUyqNSCuhD_rN_eiIuDRFuXzcjD3Ju8UR80hGhQ0geqaxx_9R0ZAyPDmKoNt1QCgrexAnJyLaCjTNo7XdBrlox_uCnICvt9nQ4KRWyg
+[2024-06-04 18:43:35] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 18:43:35] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 19:19:47] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 19:19:47] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 19:19:48] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 19:19:54] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 19:19:54] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 19:19:54] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 19:19:54] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU0MzE5NCwiZXhwIjoxNzE3NTQ2Nzk0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.EaWnTWNOpvs7vdTE5iEdXp0QRdVvUJ1NbxyR5j3D4MBJNOj0s8e9BFIif__jgefV2vJGgo6n4qNvOMWbjdafooJTyzb_HkCpGM3trnm_nPT2gVI7fa54xj8U15hDy3oTePfmqSFqVx3zmhwHJcOt7fpjKT4hlmcXUUGxZcAZE5BuEJzPZaB34W81BMUiljsFexFCa44P5vR8NEQFk9jgSNtse3zwYcgz3RVP-SvaBKHziy33fRPRQxJK2j0TWzSQPg_IZPFz36AKXHsEq5FThkLAHt9_4phg3pJRRlwobpYfopBh_YD-S3ramQqxGm4XUYjxSzvM6-hkPyMUqAJH2Q
+[2024-06-04 19:22:10] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 19:22:10] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 19:22:10] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 19:22:27] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 19:22:27] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 19:22:27] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 19:22:27] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU0MzM0NywiZXhwIjoxNzE3NTQ2OTQ3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.gJCT3VqTw-eJPiPH7sGqeBQgmOv0uDAfZXtITOnvt0KsqZ7nJ3CYbenLPR6UVteCvJGRmbm5bi-hD47OI3CkxBxIAr4LsQRdq_YlKS5Xqj7-YOQx7LBaQcQ4XEGu4gyv1vs53-FDJgOXGlafUByeFk5XwHj-JRFZBYnkaQyIQYcIM5vvHQei_pHxDmGyas3RA5k0_5tC-tmx491flzA1EOiEY2O4WK_R7IHMjTdshsSvsASRehDikcZCNbz--92qxkZaQd-LIhUm-KcS38w-ZRXP-g9bhrlq2fiExuXvVeEfNjc_gF3RVmDasE-9aQj6and70-iPyC_wknYe1Vj8-w
+[2024-06-04 19:22:30] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 19:22:30] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 19:31:25] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 19:31:25] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 19:31:26] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 19:31:32] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 19:31:32] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 19:31:32] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 19:31:32] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU0Mzg5MiwiZXhwIjoxNzE3NTQ3NDkyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.R1Twl9K2WDLIKLdTJV3y6KxbbCYIsRmwRfgwD8k2KHnHFI8CY1ox0vSyHQFveLg4Obhfn-o0cocnFs_EAddmBKcrkHS-GdmNV-FSRnDk5Hzb_u-JWloaKzNhRUxIC7FuX0xdUh70rZtUhYGvf0820PEA-e621ew2aMKQ5Znr81hGY_j37F0LVynUj8KggUvt0yG-d-0Z_xByYPX9WVjt-_G1OdfU5ik_AC8AXGIWzMgXVKNEEirkx9fIGpOCiqalZvtm_--5kko93cDOdEjJoykzCCK5MNbFSIZ2dr_ymakIQbAmwdnAqucLpuS9Bb57q5kugFbpEzGBhwihLyaVmg
+[2024-06-04 19:31:38] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 19:31:38] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 21:08:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:08:30] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:08:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:08:30] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:08:31] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:08:31] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:08:36] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:08:36] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:08:36] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:08:36] - [error] - Backend failure during the /login webservice user is not defined
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:10:13] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:10:13] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:10:13] - [error] - Backend failure during the /login webservice encrypt is not defined
+[2024-06-04 21:10:13] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:10:26] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:10:26] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:10:27] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:10:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:10:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:10:58] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:11:05] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:11:05] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:11:05] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:11:05] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU0OTg2NSwiZXhwIjoxNzE3NTUzNDY1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.fb2sTX-Tde_eU4MVFalW7oMGbdJbHryVfwGRsqIEKw4pvS65FjCcdYuUgfKzkuR5e5HqZLBvl5JN8NiioAoX6hj2p5ZYE9dNrKzB94xp8zRKfxzjA2nf1TElBrUYCHTfLL12MOO06krkxfgRzPJpOtinygoQpCZEVNfOmk65o1qntGKC3dCTURzX4YSBHVRDj9JyrPMpLe2PDFpGYHpHIEeQIbuiiblU-6IukOSm0zs9T9iIl9xyEUw1UPYhkImsiYUe_rdsepR9FP5V9rLh55Ml70AMk-Oi9et3kIUpkkBi0qsPyOftv5dS8PnPNwbdlku5rLY9YezLEaR9KuWATw
+[2024-06-04 21:11:10] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 21:11:10] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 21:13:40] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:13:40] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:13:41] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:13:41] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:13:41] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:13:41] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:13:45] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:13:45] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:13:45] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:13:45] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU1MDAyNSwiZXhwIjoxNzE3NTUzNjI1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.VlSvmvALQYU0k9Ft7BRL2ewJBd7INGgYh3F0LJSRCG5vlE7V3mhO9TbMLvvDNcq1lKsA5VXsg25999X7VSEVAJ0YjxgsRvZBx28bMEgWQhyMYK8QRrqeEtMbKwrq38tqUckqOXY86Hyl-WQY_m11-NyKyXM0LIYHAokstX5CBfqxwF_PZ-X_gbfRvte5buBvrwwpB38aVF7MVGocNCPIghY5hcujQzYHGT8sn5ITc2AKkxWWtTO2RZM6V1y8P0jBaiC6La-T8OYoBSyGLRBFJxuE9u8itDbMzNbtFIbATxBdG243lBIJDIyczw6hB_Q3HFZfDQttyR6dl74nHd_UZQ
+[2024-06-04 21:13:50] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 21:13:50] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 21:14:45] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:14:45] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:14:46] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:14:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:14:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:14:51] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:14:51] - [error] - Backend failure during the /login webservice Invalid time period format
+[2024-06-04 21:15:01] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:15:01] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:15:01] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:15:01] - [error] - Backend failure during the /login webservice Invalid time period format
+[2024-06-04 21:15:29] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:15:29] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:15:29] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:15:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:15:30] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:15:30] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:15:30] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU1MDEzMCwiZXhwIjoxNzE3NTUzNzMwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.nYdEykk6rgjiswtL9zfO_RGUwZLHOVcO608jeU3noGf8lWbszkSV7xlFMaMMVn2cbaOGpox4kCdDeDTGlmgOo3qgcdiZBivaYS_74CzCquQVKBeI4zHPKf--zHgBwaKY64m6pE-hwwWiLeZfokwKxBfWB8vKTbFNTElmIQrk8V8PiecvhXBedSBH4g2J9YfO8zSDpFRkMK55_rEjDT_6iqVoQtbloeSzwtvzblIOWGZOpMRfugITwuFzUvc3T5LA5q9qDpiyw8-JdHVhL6andADB_LVmt9PFCjq7DFEHjg1BSLKGk0AG4a4k-H6_CAZgF7dCyPtmMB6KFvHzvIUcDA
+[2024-06-04 21:15:31] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 21:15:32] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 21:15:47] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:15:47] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:15:47] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:15:55] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:15:55] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 21:15:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 21:15:55] - [error] - Backend failure during the /login webservice Invalid time period format
+[2024-06-04 21:20:02] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:20:02] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:20:02] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 21:20:02] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 21:20:03] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 21:20:03] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:50:41] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:50:41] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 22:50:42] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:50:49] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:50:49] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 22:50:49] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 22:50:49] - [error] - Backend failure during the /login webservice encrypt is not defined
+[2024-06-04 22:51:00] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:51:00] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 22:51:00] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 22:51:00] - [error] - Backend failure during the /login webservice encrypt is not defined
+[2024-06-04 22:52:09] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:52:09] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 22:52:09] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:52:09] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 22:52:09] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:52:09] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:52:11] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:52:11] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 22:52:11] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 22:52:13] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU1NTkzMywiZXhwIjoxNzE3NTU5NTMzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.PBrBcECdx1EMaiuDjP8Csfh7XaOREBDigxSlzx9EqYNfgrFsHMFDGZlDChMCGTcI71iKjSDZ8JzvPH6aMqIqLlZDh33PzSMC9q6LrATLD7KB3nJAbeCb3JgCY82coYdz5uxl7OSqrF5NtUFXKr49Zqw4zu3SjGPpFLTqVgCXUxP-NIpT-pLTBleunmFdW-o_6R-9uYz2lch4J7PiAJvdk25X3AEKstABFBIPmgi-EpMwO9igfkISkf9IQ3ARiwIcuKHDxQAFn-qr4YMIyAMt3UnMs2rhGo6mc_Z5YoqANGqmqOy-7me8QiiCO94Rb0duXErQWNtYFQtvHJLOwpFkpg
+[2024-06-04 22:52:20] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 22:52:20] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 22:57:36] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:57:36] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 22:57:36] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:57:41] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:57:41] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 22:57:41] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 22:57:41] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU1NjI2MSwiZXhwIjoxNzE3NTU5ODYxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.BTQO7DPm4YWFsSO6yOi5YfNjRQn2aNk1sPVqhBCTvn-1UoAntd5S9QwMSw2aq_RYJZT9Ri51Zr5utiIs_TrEHok_a_SSpqV9PrHFPcwOVBSMeUwN78_4Uh0RpRdYdHciWgzqaY7LnDscEPITmMbDTufjCZFe92kAg9aFj7Wt-FqKriFk1DwqkFJhqgmjKk4QojJQy8beCXbcO6hpuvShZErxPJ88_4ZcvwdDzK4CHjo5UHTiLYtplK8XvIitAZKBFqh5gVpjiJoNT73IwnhMNerGySq3L_DvD8BVzYu4yV_g17vqq6fhtHUByQFekB8BnFgPXG7WYH12QwuYi7YdZg
+[2024-06-04 22:57:45] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 22:57:46] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 22:58:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:58:30] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 22:58:30] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:58:37] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:58:37] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 22:58:37] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 22:58:45] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 22:58:45] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-04 22:58:45] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-04 22:58:45] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzU1NjMyNSwiZXhwIjoxNzE3NTU5OTI1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.DH3SATN8oZryEJGqrNtHWsrqqeVqIlKbFL10NcZgkH1gOPDCaPV-WxtbtcJowHqquvLfs6kmKAz-S1EVn78JPrSj9XRNdCVUwwh3k7Ajiyw49kU3NwcFTklQnt4RJVg7S7v9DySMv_-JOihuFnfYh3KRpCR9EUzs0q1YfoPfy-gfrzlRvbdDlUGImRhGMV4FKDURMWrrE2RjvihEFa4zJG00H2Fa7qJPq87C-sN-ry5P3n6sdqIz6vc3D-X4oyKrQER_b281VDS_3bJeDFv4Yisbl-2pmziFlrX_RuJ3ZEmZz9nrg2USUqvzRHaarSbVK5kndIhlY2K7ZY7zOb-pCQ
+[2024-06-04 22:58:46] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-04 22:58:46] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-04 23:00:23] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 23:00:23] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 23:00:24] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 23:00:33] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 23:00:33] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 23:00:33] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-04 23:00:35] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-04 23:00:35] - [info] - [johnny.kh@hotmail.com] - Received plain password: undefined
+[2024-06-04 23:00:35] - [error] - Backend failure during the /login webservice data and hash arguments required

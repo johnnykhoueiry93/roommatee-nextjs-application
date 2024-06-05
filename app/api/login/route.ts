@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database"; // Adjust the import path based on your project structure
+import { cookies } from "next/headers";
 import admin from "../../../utils/firebaseAdmin";
 const logger = require("../../../utils/logger");
 const passwordUtils = require("../../../utils/passwordUtils");
@@ -20,6 +21,7 @@ export async function POST(request) {
 
       if (passwordMatch) {
         logger.info(`[${emailAddress}] - Login was successful`);
+
 
         // await incrementLoginFrequencyAndLastLogin(emailAddress);
 

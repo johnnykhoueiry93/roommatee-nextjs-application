@@ -19,18 +19,18 @@ import Link from "next/link";
 import { useRouter } from 'next/navigation';
 
 
-
 const SignIn = () => {
     // @ts-ignore
-  const { setUserAdmin, userAuth, userInfo, setUserAuth, intendedDestination, setUserProfilePicture, setFirebaseToken, setEmailAddressToReset, setSupportTickets, setUserInfo, setListing, setSignUpEmail, setUserProfileSetupComplete} = SiteData();
+  const { loading, setLoading, setUserAdmin, userAuth, userInfo, setUserAuth, intendedDestination, setUserProfilePicture, setFirebaseToken, setEmailAddressToReset, setSupportTickets, setUserInfo, setListing, setSignUpEmail, setUserProfileSetupComplete} = SiteData();
   const [loginStatus, setLoginStatus] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   const [password, setPassword] = useState("");
   const [recaptchaToken, setRecaptchaToken] = useState('');
 
-  const [loading, setLoading] = useState(false);
+  
   const [showPassword, setShowPassword] = React.useState(false);
   const handleClickShowPassword = () => setShowPassword((show) => !show);
+
 
   const router = useRouter();
 
@@ -119,7 +119,7 @@ const navigateToPage = (path) => {
 
    async function getUserListings(user) {
     let userProfileId = user.id;
-    let emailAddress = userInfo.emailAddress;
+    let emailAddress = user.emailAddress;
     try {
       const response = await fetch('/api/getUserListings', {
         method: 'POST',
@@ -166,7 +166,6 @@ const navigateToPage = (path) => {
 
       getUserListings(user);
 
-  
       // BackendAxios.post("/getUserListings", {
       //   userProfileId: user[0].id,
       // }).then((listingResponse) => {

@@ -1,5 +1,5 @@
-// app/login/page.js
 import SignIn from "../../components/SignIn";
+import { getSession } from "../api/login/route";
 
 async function fetchUserData(emailAddress, password) {
   const response = await fetch("http://localhost:3000/api/login", {
@@ -28,20 +28,10 @@ if(!data) {
   )
 }
 
+// const session = await getSession();
   return (
     <div>
       <SignIn />
-      <div>
-        <h1>User Profiles</h1>
-        {/* <ul>
-          {data.map((user, index) => (
-            <li key={index}>
-              <h2>{user.name}</h2>
-              <p>Email: {user.emailAddress}</p>
-            </li>
-          ))}
-        </ul> */}
-      </div>
     </div>
   );
 }

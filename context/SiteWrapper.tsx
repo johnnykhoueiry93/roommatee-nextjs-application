@@ -19,6 +19,7 @@ export const SiteWrapper = ({ children }) => {
   const [Bootstrap, setBootstrap] = useState(undefined);
   const [firebaseToken, setFirebaseToken] = useState();
   const [userAdmin, setUserAdmin] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   // Without this the bootstrap functionality will not work
   useEffect(() => {
@@ -131,7 +132,8 @@ export const SiteWrapper = ({ children }) => {
         firebaseToken,
         setFirebaseToken,
         userAdmin, setUserAdmin,
-        userProfilePicture, setUserProfilePicture
+        userProfilePicture, setUserProfilePicture,
+        loading, setLoading,
       }}
     >
       {children}

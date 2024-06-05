@@ -19,7 +19,6 @@ import { useRouter } from 'next/navigation';
 
 const Nav = () => {
     //@ts-ignore
-   // @ts-ignore
    const { userIsAdmin, userAuth, setUserAuth, resetSearchValue , isMobile, setIntendedDestination, userInfo,  setSearchClick, userProfilePicture  } = SiteData();
    const [hasScrolled, setHasScrolled] = useState(false);
    const [badgeCount, setBadgeCount] = useState(0);
