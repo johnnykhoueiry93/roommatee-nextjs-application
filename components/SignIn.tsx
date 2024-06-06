@@ -213,16 +213,7 @@ const navigateToPage = (path) => {
         setLoading(true);
 
         console.log("Sending WS /api/login request from frontend to backend");
-        // const response = await fetch('/api/login', {
-        //   method: 'POST',
-        //   headers: {
-        //     'Content-Type': 'application/json',
-        //   },
-        //   body: JSON.stringify({ emailAddress, password }),
-        // });
 
-        // // Parse the response as JSON
-        // const responseData = await response.json();
 
         const result = await signIn('credentials', {
           redirect: false, // Prevents automatic redirection
@@ -233,30 +224,44 @@ const navigateToPage = (path) => {
         setLoading(false)
     
         if (result?.error) {
-          console.log(result.error)
+          console.log(result.error);
+          // setLoginStatus(message);
+          setUserAuth(false);
         } else {
           // Handle successful login (e.g., redirect to a dashboard)
           console.log('Login successful:', result)
-          // navigateToPage('/protected');
+          const response = await fetch('/api/login', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ emailAddress, password }),
+          });
+  
+          // Parse the response as JSON
+          const responseData = await response.json();
+          const { message, firebaseToken, user } = responseData;
+          console.log("[/api/login] response returned: " , responseData);
+          setLoginStatus(message);
+            handleUserLogin(user, firebaseToken);
+
       // setLoginStatus(result.firstName);
         }
 
-        // console.log("[/api/login] response returned: " , responseData);
+        // 
 
-        // const { message, firebaseToken, user } = responseData;
+        // 
 
         // console.log('Printing out: ' , responseData);
         
           // if (message) {
           //   // LOGIN FAILED
-          //   setLoginStatus(message);
-          //   setUserAuth(false);
+
           // } else {
           //   // LOGIN SUCCESS
 
           //   if (isUserValid(user)) {
           //     console.log('I am here 2')
-          //     handleUserLogin(user, firebaseToken);
           //   }
           // }
       };

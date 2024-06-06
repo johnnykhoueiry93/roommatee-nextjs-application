@@ -23,12 +23,11 @@ const authOptions = {
             password: credentials.password,
           }),
         })
-
         logger.info('##################### we are in NextAuth')
 
         const user = await res.json();
 
-        logger.info('##################### we are in user --> ' , res.json());
+        // logger.info('##################### we are in user --> ' , res.json());
 
         if (res.ok && user) {
           return user

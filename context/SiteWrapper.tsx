@@ -20,7 +20,7 @@ export const SiteWrapper = ({ children }) => {
   const [firebaseToken, setFirebaseToken] = useState();
   const [userAdmin, setUserAdmin] = useState(false);
   const [loading, setLoading] = useState(false);
-
+  
   // Without this the bootstrap functionality will not work
   useEffect(() => {
     if (!Bootstrap) {

@@ -20,6 +20,17 @@ const UserProfile = () => {
     }
   }, []);
 
+  useEffect(() => {
+    async function checkSession() {
+      const response = await fetch('/api/check-session')
+      if (response.status === 401) {
+        router.push('/login')
+      }
+    }
+
+    checkSession()
+  }, [])
+
 
   useEffect(() => {
     setIsHydrated(true);

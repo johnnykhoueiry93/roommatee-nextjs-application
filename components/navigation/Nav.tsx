@@ -16,6 +16,8 @@ import { encryptData, decryptData } from '../../utils/encryptionUtils';
 import Cookies from 'js-cookie';
 import NavigationItem from "./NavigationItem";
 import { useRouter } from 'next/navigation';
+import { signOut } from 'next-auth/react'
+import { destroyCookie } from 'nookies' // Import destroyCookie from nookies for cookie removal
 
 const Nav = () => {
     //@ts-ignore
@@ -112,20 +114,62 @@ const navigateToChangePasswordPage = () => {
     // navigate("/support");
   };
 
+
+  async function removeCookiesOnServer() {
+    try {
+      const response = await fetch('/api/logout', {
+        method: 'POST',
+      })
+  
+      if (response.ok) {
+        console.log('Cookies removed successfully.')
+      } else {
+        console.error('Failed to remove cookies:', response.statusText)
+      }
+    } catch (error) {
+      console.error('Error removing cookies:', error)
+    }
+  }
+
     // @ts-ignore
-    const logout = (e) => {
-        e.preventDefault();
-        console.log("The user clicked on the logout button");
-        setUserAuth(false);
-        // setIntendedDestination("/")
-        // setUserProfilePicture('0');
-        Cookies.remove('userInfo');
-        Cookies.remove('userProfilePicture');
-        localStorage.clear(); // This clears all items in local storage
-        // navigate("/");
-        // setSearchClick(false);
-        // resetSearchValue();
-      };
+    async function logout() {
+
+      removeCookiesOnServer();
+
+
+      // e.preventDefault();
+      console.log("The user clicked on the logout button");
+      setUserAuth(false);
+      // setIntendedDestination("/")
+      // setUserProfilePicture('0');
+      Cookies.remove("userInfo");
+      Cookies.remove("next-auth.session-token");
+      Cookies.remove("next-auth.csrf-token");
+      Cookies.remove("userAuth");
+      localStorage.clear(); // This clears all items in local storage
+      
+      destroyCookie(null, 'next-auth.session-token', {
+        path: '/',
+        expires: new Date(0), // Set expiry to a past date
+      })
+
+
+      // navigate("/");
+      // setSearchClick(false);
+      // resetSearchValue();
+
+      // Sign out the user using NextAuth
+      await signOut({ redirect: false }); // Set redirect to false to prevent automatic redirection
+
+      // // Remove the session cookie manually
+      // destroyCookie(null, "next-auth.session-token", {
+      //   path: "/", // Ensure the cookie path matches your setup
+      // });
+
+      // Redirect the user to the login page or any desired location
+      window.location.replace("/login");
+    }
+
 
       const handleLoginClick = () => {
         console.log("The user clicked on the Login button");
