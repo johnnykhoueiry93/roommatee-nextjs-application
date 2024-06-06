@@ -52,6 +52,9 @@ export const SiteWrapper = ({ children }) => {
   //   }
   // });
 
+
+
+
   const [userProfilePicture, setUserProfilePicture] = useState(() => {
     let storedUserProfilePicture;
     if (typeof window !== 'undefined') {
@@ -60,16 +63,44 @@ export const SiteWrapper = ({ children }) => {
     return storedUserProfilePicture ? JSON.parse(storedUserProfilePicture) : [];
   });
 
+
+  // Code related to userAuth -- No Encryption
+  // const [userAuth, setUserAuth] = useState(() => {
+  //   const storedUserAuth = Cookies.get("userAuth");
+  //   return storedUserAuth ? JSON.parse(storedUserAuth) : false;
+  // });
+
+  // // This use effect is monitoring the state of userAuth so if someone logs out
+  // // it will set it to false. Without it the state change will not be reflected.
+  // useEffect(() => {
+  //   Cookies.set("userAuth", JSON.stringify(userAuth), { expires: 1 / 8 }); // 3 hours expiration
+  // }, [userAuth]);
+
+// Code related to userAuth -- With Encryption
   const [userAuth, setUserAuth] = useState(() => {
     const storedUserAuth = Cookies.get("userAuth");
-    return storedUserAuth ? JSON.parse(storedUserAuth) : false;
+    if (storedUserAuth) {
+      try {
+        const decryptedAuth = decryptData(storedUserAuth);
+        return JSON.parse(decryptedAuth);
+      } catch (error) {
+        console.error("Error decrypting userAuth:", error);
+        return false;
+      }
+    }
+    return false;
   });
 
-  // This use effect is monitoring the state of userAuth so if someone logs out
-  // it will set it to false. Without it the state change will not be reflected.
   useEffect(() => {
-    Cookies.set("userAuth", JSON.stringify(userAuth), { expires: 1 / 8 }); // 3 hours expiration
+    if (userAuth !== false) {
+      const encryptedAuth = encryptData(JSON.stringify(userAuth));
+      Cookies.set("userAuth", encryptedAuth, { expires: 1 / 8 }); // 3 hours expiration
+    } else {
+      Cookies.remove("userAuth");
+    }
   }, [userAuth]);
+
+
 
   const [userInfo, setUserInfo] = useState(null);
 

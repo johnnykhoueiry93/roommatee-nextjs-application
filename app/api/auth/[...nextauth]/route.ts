@@ -1,10 +1,8 @@
-// app/api/auth/[...nextauth]/route.ts
 import NextAuth from 'next-auth'
 import CredentialsProvider from 'next-auth/providers/credentials'
 import logger from "../../../../utils/logger";
 
-
-const authOptions = {
+ const authOptions = {
   providers: [
     CredentialsProvider({
       name: 'Credentials',
@@ -26,8 +24,6 @@ const authOptions = {
         logger.info('##################### we are in NextAuth')
 
         const user = await res.json();
-
-        // logger.info('##################### we are in user --> ' , res.json());
 
         if (res.ok && user) {
           return user
@@ -53,8 +49,9 @@ const authOptions = {
       return session
     },
   },
+  secret: process.env.NEXTAUTH_SECRET,
 }
 
 const handler = NextAuth(authOptions)
 
-export { handler as GET, handler as POST }
+export { handler as GET, handler as POST, authOptions }

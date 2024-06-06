@@ -17,19 +17,22 @@ const UserProfile = () => {
   useEffect(() => {
     if (!userAuth) {
       navigateToPage("/login");
+    } else {
+      console.log('The value of userAuth is: ' + userAuth);
     }
   }, []);
 
-  useEffect(() => {
-    async function checkSession() {
-      const response = await fetch('/api/check-session')
-      if (response.status === 401) {
-        router.push('/login')
-      }
-    }
+  // This logic checks the seesion if exits to authenticate. Good to have for server side rendering
+  // useEffect(() => {
+  //   async function checkSession() {
+  //     const response = await fetch('/api/check-session');
+  //     if (response.status === 401) {
+  //       router.push('/login');
+  //     }
+  //   }
 
-    checkSession()
-  }, [])
+  //   checkSession();
+  // }, [router]);
 
 
   useEffect(() => {
@@ -40,9 +43,7 @@ const UserProfile = () => {
     return <div></div>; //TODO update to something better!!
   }
 
-  if (userAuth) {
     return <div>User Profile</div>;
-  }
 };
 
 export default UserProfile;

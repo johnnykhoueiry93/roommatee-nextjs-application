@@ -242,7 +242,6 @@ const navigateToPage = (path) => {
           const responseData = await response.json();
           const { message, firebaseToken, user } = responseData;
           console.log("[/api/login] response returned: " , responseData);
-          setLoginStatus(message);
             handleUserLogin(user, firebaseToken);
 
       // setLoginStatus(result.firstName);
