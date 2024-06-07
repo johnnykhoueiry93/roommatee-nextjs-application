@@ -3,7 +3,7 @@
 import "../../styles/Signup.css";
 import React, { useState, useEffect } from "react";
 // import BackendAxios from "../../backend/BackendAxios";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 import { SiteData } from "../../context/SiteWrapper";
 import IconButton from "@mui/material/IconButton";
 import OutlinedInput from "@mui/material/OutlinedInput";
@@ -22,6 +22,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import { useRouter } from 'next/navigation';
 
 const Signup = () => {
+    const GOOGLE_REACPTCHA_KEY = process.env.GOOGLE_REACPTCHA_KEY;
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -228,10 +229,9 @@ const mapErrorCodeToMessage = (errorCode) => {
 
               <PasswordPolicy password={password} onValidationChange={handleValidationChange}/>
 
-      {/* ---------------------- RECAPTCHA ----------------------*/}
+                {/* ---------------------- RECAPTCHA ----------------------*/}
               <div className='pt-3'>
-              {/* @ts-ignore */}
-                <ReCAPTCHA sitekey="6LdqU-cpAAAAAOvIqjHD1FaLAeiOVeTU8PQJilHA" onChange={(e) => setRecaptchaToken(e)} />
+                <ReCAPTCHA sitekey='6LdqU-cpAAAAAOvIqjHD1FaLAeiOVeTU8PQJilHA' onChange={(e) => setRecaptchaToken(e)} />
               </div>
 
               {/* ----------------------------- SUBMIT BUTTON ----------------------------- */}
@@ -243,7 +243,7 @@ const mapErrorCodeToMessage = (errorCode) => {
               <div className="row already">
                 <label>
                   Have an account already?{" "}
-                  <Link to="/login" className="link-as-button-format">
+                  <Link href="/login" className="link-as-button-format">
                     Login
                   </Link>
                 </label>
@@ -252,12 +252,24 @@ const mapErrorCodeToMessage = (errorCode) => {
               
 
               {/* ----------------------------- PRIVACY STATEMENT ----------------------------- */}
-              <div className="privacy-policy-sign-in-up">
-                <p>
-                  By sigining up, you agree to the <span className="link-as-button-format">Terms of Service</span>, <span className="link-as-button-format">Privacy
-                  Policy</span>, and including <span className="link-as-button-format">Cookie Use</span>.
-                </p>
-              </div>
+            <div className="privacy-policy-sign-in-up">
+            <p>
+                By sigining up, you agree to the{" "}
+                <Link href="/terms-of-service" className="link-as-button-format">
+                Terms of Service
+                </Link>
+                ,{" "}
+                <Link href="/privacy-policy" className="link-as-button-format">
+                Privacy Policy
+                </Link>
+                , and including{" "}
+                <Link href="/cookie-use" className="link-as-button-format">
+                Coolie Use
+                </Link>
+                .
+            </p>
+            </div>;
+
             </div>
           </form>
         </div>
