@@ -1,0 +1,21 @@
+.footerContainer {
+  /* background-color: rgb(10, 190, 115); */
+  background-color:#282d32;
+  color:#f0f9ff;
+  position: relative;
+  bottom : 0;
+  width: 100%;
+}
+
+.footer-container-top {
+  padding-top:30px;
+}
+.social-media {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* .footerContainer {
+    min-height: 100vh;
+  } */
+}

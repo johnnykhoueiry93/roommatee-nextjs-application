@@ -1,0 +1,36 @@
+.container-custom {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%; /* Adjust the maximum width of the grid */
+  }
+  
+  .grid-item {
+    flex: 1 0 calc(20% - 10px); /* 20% width for each column with 10px margin */
+    margin: 5px; /* Adjust the margin between columns */
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  @media (max-width: 991px) {
+    .grid-item {
+      flex-basis: 25%; /* 25% width for each column (4 columns per row) on smaller screens */
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .grid-item {
+      flex-basis: 33.33%; /* 33.33% width for each column (3 columns per row) on even smaller screens */
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .grid-item {
+      flex-basis: 50%; /* 50% width for each column (2 columns per row) on mobile screens */
+    }
+  }

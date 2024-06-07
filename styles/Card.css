@@ -1,0 +1,43 @@
+.listing-price-preview {
+    font-size: 18px;
+}
+
+.card-body {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    min-height: 350px;
+}
+
+.card-title {
+    height: 60px;
+}
+
+.card-details p {
+    margin: 0px 0px 0px;
+    padding: 0px;
+}
+
+.card-image-preview {
+    width: 100%;
+}
+
+.details-button {
+    float: right;
+    color: blue;
+}
+
+.details-button:hover {
+    cursor: pointer;
+}
+
+.card-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card-details-container {
+    padding: 15px 15px 0px 15px;
+}

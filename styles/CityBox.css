@@ -1,0 +1,67 @@
+.city-box {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+  }
+  
+  .city-box-hover-title {
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0; /* Adjust margins as needed */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; /* Match the bottom border radius of the container */
+    transition: opacity 0.3s ease, visibility 0.3s ease, font-size 0.3s ease; /* Added font-size transition */
+  }
+
+  .city-box-title {
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(37, 35, 35, 0.7); /* Optional: Adds a semi-transparent background to improve readability */
+    margin: 0; /* Adjust margins as needed */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px; /* Match the bottom border radius of the container */
+    transition: opacity 0.3s ease, visibility 0.3s ease, font-size 0.3s ease; /* Added font-size transition */
+  }
+  
+  .city-box-title {
+    margin-bottom: 20px;
+    width: 90%;
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    font-size: 20px; /* Initial font size */
+  }
+  
+  .city-box-hover-title {
+    bottom: 50%;
+    width: 90%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .city-box:hover .city-box-title {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .city-box:hover .city-box-hover-title {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .city-box:hover .city-box-image {
+    transform: scale(1.2); /* Zoom in effect */
+    transition: transform 0.3s ease;
+  }
+  
+  .city-box-image {
+    width: 100%;
+  }
+  

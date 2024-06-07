@@ -1,0 +1,11 @@
+.question {
+    font-weight: bold;
+}
+
+.missing-field-highlight {
+    border-color: red;
+  }
+
+  .selected-city {
+    white-space: pre-line;
+    }

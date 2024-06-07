@@ -1,0 +1,51 @@
+
+
+
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+.chat-selection-panel-overflow::-webkit-scrollbar {
+    width: 3px;
+    /* Set the width of the scrollbar */
+}
+
+.chat-selection-panel-overflow::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 128, 128);
+    /* Set the color of the scrollbar thumb */
+    border-radius: 3px;
+    /* Set the border radius of the scrollbar thumb */
+}
+
+.conversation-search-input {
+    width: 95%;
+    margin: auto;
+}
+
+.chat-selection-panle-current-user-profile {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.channels-label {
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
+
+/* DESKTOP */
+@media (min-width: 767px) {
+    .chat-selection-panel-container {
+        border-right: 1px solid rgb(218, 210, 210);
+        margin-bottom: 20px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+
+    }
+
+    .chat-selection-panel-overflow {
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: rgb(207, 196, 196) transparent;
+    }
+}

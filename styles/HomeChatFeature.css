@@ -1,0 +1,9 @@
+.non-colored-background {
+    color:rgb(0, 0, 0);
+}
+
+.colored-background {
+    background-color: var(--roomatee-theme-color);
+    color:white;
+}
+

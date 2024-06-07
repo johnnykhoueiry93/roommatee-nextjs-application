@@ -1,0 +1,16 @@
+.last-update-on {
+    color: rgb(129, 129, 115);
+    font-size: 13px;
+}
+
+.ticket-item-row {
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+    display: flex;
+    
+}
+
+.ticket-item-row:hover {
+    background-color: rgb(247, 247, 247); /* Change the background color on hover */
+    transform: scale(1.01);
+}

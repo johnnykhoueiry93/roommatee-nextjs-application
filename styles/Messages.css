@@ -1,0 +1,14 @@
+.messages-container {
+    min-height: 100vh;
+}
+
+.message-count {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.messages-section {
+    margin-bottom: 200px;
+}
+

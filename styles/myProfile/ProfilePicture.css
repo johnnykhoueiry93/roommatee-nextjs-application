@@ -1,0 +1,29 @@
+.profile-picture-container {
+    /* Add your desired border style */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    /* Add your desired box shadow style */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: white;
+}
+
+.user-full-name {
+    font-size: 24px;
+}
+
+.file-upload-container {
+    display: flex;
+}
+
+.upload-button {
+    margin-left: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .user-full-name {
+        font-size: 18px;
+    }
+
+}

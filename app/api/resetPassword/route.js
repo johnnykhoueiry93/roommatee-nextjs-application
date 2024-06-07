@@ -41,7 +41,7 @@ export async function POST(request) {
         const encryptedNewTempPassword = await passwordUtils.hashPassword(newTempPassword);
         logger.info(`[${emailAddressToReset}] - [/resetPassword] - encryptedNewTempPassword : >` + encryptedNewTempPassword +'<')
 
-        const resetPasswordResults = await executeQuery("UPDATE userprofile SET password = ?, profileStatus = ? WHERE emailAddress = ?", [newPassword, profileStatus, emailAddressToReset]);
+        const resetPasswordResults = await executeQuery("UPDATE userprofile SET password = ?, profileStatus = ? WHERE emailAddress = ?", [newTempPassword, profileStatus, emailAddressToReset]);
         if(resetPasswordResults.affectedRows > 0) {
             logger.info(`[${emailAddressToReset}] - [/resetPassword] - Password updated successfully in the database`);
             return NextResponse.json({ message: "Email found." }, { status: 200 });

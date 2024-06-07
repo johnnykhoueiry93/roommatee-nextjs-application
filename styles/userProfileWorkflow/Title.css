@@ -1,0 +1,13 @@
+.component-title-format {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.component-sub-title-format {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+}

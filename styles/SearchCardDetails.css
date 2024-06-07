@@ -1,0 +1,44 @@
+.container-elements {
+    height: 100hv;
+    padding-top: 10px;
+ }
+
+ .address {
+    font-size: 14px;
+    color: grey;
+ }
+
+ .span-section {
+   color: grey;
+ }
+
+ .price {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--roomatee-theme-color);
+ }
+
+ .avatar {
+    padding-top:20px;
+    display: flex;
+ }
+
+ .hosted-by {
+    padding-left: 20px;
+ }
+
+ .description {
+    padding-top: 20px;
+    max-width: 700px;
+    
+ }
+
+ .send-message-container {
+   width: 340px;
+ }
+
+ .back-to-result-style {
+   color: #3d40cc;
+   font-size: 18px;
+ }
+

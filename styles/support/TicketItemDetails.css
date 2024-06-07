@@ -1,0 +1,36 @@
+.ticket-messages-container {
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.ticket-title {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.clase-closed-label {
+  margin: auto;
+  font-style: italic;
+  color:rgb(148, 148, 148)
+}
+
+/* Customize scrollbar */
+.ticket-messages-container::-webkit-scrollbar {
+    width: 5px; /* Set width of the scrollbar */
+  }
+  
+  /* Track */
+  .ticket-messages-container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set background color of the track */
+  }
+  
+  /* Handle */
+  .ticket-messages-container::-webkit-scrollbar-thumb {
+    background: rgb(46, 40, 40); /* Set background color of the scrollbar handle */
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .ticket-messages-container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Set background color of the scrollbar handle on hover */
+  }

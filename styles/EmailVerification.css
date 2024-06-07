@@ -1,0 +1,38 @@
+.activate-account-primary-box {
+	padding-top: 20px;
+	width: 40%;
+	margin: auto;
+}
+
+.email-verification-box {
+	padding-top: 20px;
+	text-align: center;
+	margin: auto;
+	border-radius: 15px;
+	padding: 30px;
+	background-color: white;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.email-was-sent-to {
+	font-style: italic;
+}
+
+.resend-verification-email-btn {
+	text-decoration: none;
+	color: #0000EE;
+	cursor: pointer;
+}
+
+.server-code-verification-response {
+	padding-top: 20px;
+	color: red;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	.activate-account-primary-box {
+		width: 90%;
+		padding-bottom: 100px;
+	}
+}

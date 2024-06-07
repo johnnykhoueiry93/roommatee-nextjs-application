@@ -1,0 +1,47 @@
+.no-search-results-returned {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 24px;
+}
+
+.returned-results-counter {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
+.no-search-result-container {
+    height: 100vh;
+}
+
+
+.listing-panels {
+    /* Set the width of the scrollbar */
+    scrollbar-width: thin;
+    /* Set the color of the scrollbar thumb */
+    scrollbar-color: #555 transparent;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+.listing-panels::-webkit-scrollbar {
+    width: 3px;
+    /* Set the width of the scrollbar */
+}
+
+.listing-panels::-webkit-scrollbar-thumb {
+    background-color: rgb(136, 128, 128);
+    /* Set the color of the scrollbar thumb */
+    border-radius: 3px;
+    /* Set the border radius of the scrollbar thumb */
+}
+
+
+  
+
+@media screen and (max-width: 600px) {
+    .no-search-results-returned,
+    .returned-results-counter {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+}

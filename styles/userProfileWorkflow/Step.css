@@ -1,0 +1,15 @@
+.component-step-format {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+.step-color {
+    color: grey;
+    font-weight: 500;
+}
+
+.current-step-format {
+    font-size: 20px;
+}

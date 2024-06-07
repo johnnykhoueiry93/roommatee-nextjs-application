@@ -1,0 +1,10 @@
+/* DESKTOP */
+@media (min-width: 767px) {
+    .chat-container {
+        border: 1px solid rgb(218, 210, 210);
+        /* border-radius: 25px; */
+        box-shadow: 1px 1px 20px rgb(218, 210, 210);
+        /* background-color: yellow; */
+    }
+}
+

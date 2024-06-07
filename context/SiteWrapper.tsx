@@ -22,6 +22,7 @@ export const SiteWrapper = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [emailAddressToReset, setEmailAddressToReset] = useState();
   const [signUpEmail, setSignUpEmail] = useState(null);
+  const [userEmailVerified, setUserEmailVerified] = useState(false);
 
   // Without this the bootstrap functionality will not work
   useEffect(() => {
@@ -121,7 +122,11 @@ export const SiteWrapper = ({ children }) => {
   }, []);
 
 
-
+  // ---------------------------------------------------------- SNACK BAR
+  const [snackbarOpen, setSnackbarOpen] = useState(false);
+  const [snackbarMessage, setSnackbarMessage] = useState("");
+  const [snackbarSeverity, setSnackbarSeverity] = useState<"success" | "error" | "warning" | "info">("success");
+  // ---------------------------------------------------------- SNACK BAR
 
   // useEffect(() => {
   //   if(userAuth) {
@@ -165,8 +170,9 @@ export const SiteWrapper = ({ children }) => {
         firebaseToken,
         setFirebaseToken,
         userAdmin, setUserAdmin,
-        userProfilePicture, setUserProfilePicture,
+        userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
+        snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,
       }}
     >
       {children}

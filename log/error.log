@@ -191,3 +191,6 @@
 [2024-06-06 21:54:07] - [error] - Backend failure during the /api/changePassword webservice password is not defined
 [2024-06-06 21:56:32] - [error] - Backend failure during the /api/resetPassword webservice updateErr is not defined
 [2024-06-06 21:57:11] - [error] - Backend failure during the /api/resetPassword webservice updateErr is not defined
+[2024-06-06 22:00:36] - [error] - Backend failure during the /api/resetPassword webservice newPassword is not defined
+[2024-06-06 22:48:41] - [error] - Backend failure during the /api/changePassword webservice init["status"] must be in the range of 200 to 599, inclusive.
+[2024-06-06 22:50:02] - [error] - Backend failure during the /api/changePassword webservice init["status"] must be in the range of 200 to 599, inclusive.

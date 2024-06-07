@@ -1,0 +1,9 @@
+/* Add this CSS in your styles or stylesheet */
+.accomodation-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .feature-icon {
+    padding-top:10px;
+  }

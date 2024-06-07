@@ -1,0 +1,90 @@
+.conversation-container {
+  background-color: #efeae2;
+  height: 100%;
+}
+
+.inner-container-size-properties {
+  overflow-y: scroll;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* Set the width of the scrollbar */
+  scrollbar-width: thin;
+  /* Set the color of the scrollbar thumb */
+  scrollbar-color: rgb(207, 196, 196) transparent;
+}
+
+/* For Webkit browsers (e.g., Chrome, Safari) */
+.inner-container-size-properties::-webkit-scrollbar {
+  width: 3px;
+  /* Set the width of the scrollbar */
+}
+
+.inner-container-size-properties::-webkit-scrollbar-thumb {
+  background-color: rgb(136, 128, 128);
+}
+
+.input-message-container {  
+  width: 95%;
+  /* Makes the input and button centered */
+  margin: auto; 
+  /* Makes the input and button on the same line */
+  display: flex;
+}
+
+.send-message-button {
+  margin-left: 10px;
+}
+
+.message-container {
+  /* Common styles for both left and right alignment */
+  margin-bottom: 10px;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.no-chat-selected-message {
+  padding-top:30%;
+  width: 50%;
+  margin: auto;
+}
+
+.no-chat-selected-message p {
+  color: #555;
+}
+
+.no-chat-selected-message h4 {
+  font-weight: bold;
+}
+
+.conversation-fixed-header {
+  position: sticky;
+  z-index: 1000;
+  background-color: white; /* Optionally set a background color */
+  padding: 10px 20px;
+  height: 10vh;
+}
+
+
+
+/* DESKTOP */
+@media (min-width: 767px) {
+  .conversation-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  /* CSS for content inside container */
+  .conversation-content {
+    flex-grow: 1; /* Allow content to grow and fill remaining space */
+  }
+
+}

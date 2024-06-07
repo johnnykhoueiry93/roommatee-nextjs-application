@@ -1,0 +1,33 @@
+.conversation-fixed-header-mobile {
+    position: sticky;
+    z-index: 1000;
+    background-color: white; /* Optionally set a background color */
+    padding: 10px 20px;
+    height: 18vh;
+  }
+
+.inner-container-size-properties-mobile {
+    overflow-y: scroll;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* Set the width of the scrollbar */
+    scrollbar-width: thin;
+    /* Set the color of the scrollbar thumb */
+    scrollbar-color: rgb(207, 196, 196) transparent;
+}
+
+.input-message-container-mobile {
+    width: 95%;
+    /* Makes the input and button centered */
+    margin: auto; 
+    /* Makes the input and button on the same line */
+    display: flex;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.push-chat-recipient-down {
+    padding-top: 70px;
+  }
+
+

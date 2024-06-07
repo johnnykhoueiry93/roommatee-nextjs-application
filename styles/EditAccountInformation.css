@@ -1,0 +1,38 @@
+.edit-account-information-container {
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    background-color: white;
+}
+
+/* This ensures that the 'Basic Account Information' and 'Application Setup' both have the same height */
+.profile-container-min-height {
+    min-height: 700px;
+}
+
+.label-input-group {
+    margin-top:10px;
+    display: flex;
+}
+
+.label-input-group span {
+    padding-right: 10px;
+    padding-top:15px;
+}
+
+.index-back {
+    z-index: 0;
+}
+
+.label {
+    min-width: 120px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .account-information-input {
+        width: 100%;
+    }
+  }
+

@@ -1,0 +1,22 @@
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff; /* Blue color for the button, adjust as needed */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #4CAF50; /* Darker shade of blue on hover */
+  }
+
+  .fade-background {
+  animation: fadeBackground 2s linear forwards;
+}
+

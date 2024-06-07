@@ -1,0 +1,36 @@
+.price-sort{
+    width: 170px;
+}
+
+.date-sort {
+    width: 170px;
+    padding-left: 10px;
+}
+
+.min-max-price {
+    width: 120px;
+}
+
+.filter-container {
+    padding-bottom: 20px;
+    padding-top: 15px;
+    display:flex;
+}
+
+.modal-search-filter-label {
+    margin-top: 10px;
+}
+
+.search-filter-modal-helper-text {
+    color: black;
+}
+
+.verticale-separator {
+    height: 60px ; /* Adjust the height as needed */
+    width: 1px;
+    background-color: var(--roomatee-theme-color); /* Set the color of the separator */
+    margin-right: 10px; 
+    box-sizing: content-box;
+    overflow: visible;
+    align-self: center;
+}

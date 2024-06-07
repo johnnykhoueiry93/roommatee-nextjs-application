@@ -1,0 +1,22 @@
+.animated-typing {
+    width: 100%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.break-line {
+    display: none;
+}
+
+.typed-script-styling {
+    font-weight: bold;
+    color: #272323;
+}
+
+@media (max-width: 768px) {
+    .break-line {
+        display: block;
+    }
+}

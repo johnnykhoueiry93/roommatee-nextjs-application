@@ -1,6 +1,6 @@
 "use client";
-import "../styles/Signup.css";
-import { SiteData } from "../context/SiteWrapper";
+import "../../styles/Signup.css";
+import { SiteData } from "../../context/SiteWrapper";
 import IconButton from "@mui/material/IconButton";
 import OutlinedInput from "@mui/material/OutlinedInput";
 import InputLabel from "@mui/material/InputLabel";
@@ -10,18 +10,19 @@ import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import PasswordIcon from "@mui/icons-material/Password";
 // import FooterSimple from "../FooterSimple";
-import CirculatorProgressLoader from "../components/loaders/CirculatorProgressLoader";
-import { encryptData, decryptData } from '../utils/encryptionUtils';
+import CirculatorProgressLoader from "../loaders/CirculatorProgressLoader";
+import { encryptData, decryptData } from '../../utils/encryptionUtils';
 import ReCAPTCHA from 'react-google-recaptcha';
 import React, { useEffect, useState } from "react";
-// import BackendAxios from "../../backend/BackendAxios";
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
 import { signIn } from 'next-auth/react'
+import SnackBarAlert from "../alerts/SnackBarAlerts";
+import Snackbar, { SnackbarOrigin } from "@mui/material/Snackbar";
 
 const SignIn = () => {
     // @ts-ignore
-  const { loading, setLoading, setUserAdmin, userAuth, userInfo, setUserAuth, intendedDestination, setUserProfilePicture, setFirebaseToken, setEmailAddressToReset, setSupportTickets, setUserInfo, setListing, setSignUpEmail, setUserProfileSetupComplete} = SiteData();
+  const { loading, setLoading, setUserAdmin, userAuth, userInfo, setUserAuth, intendedDestination, setUserProfilePicture, setFirebaseToken, setEmailAddressToReset, setSupportTickets, setUserInfo, setListing, setSignUpEmail, setUserProfileSetupComplete, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity} = SiteData();
   const [loginStatus, setLoginStatus] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   const [password, setPassword] = useState("");
@@ -78,8 +79,8 @@ const navigateToPage = (path) => {
     );
     console.log( "Your email is not yet verified. Please verify your email to proceed."
     );
-    setSignUpEmail(user[0].emailAddress);
-    // navigateToPage("/emailVerification");
+    setSignUpEmail(user.emailAddress);
+    navigateToPage("/emailVerification");
   }
 
     // @ts-ignore
@@ -165,50 +166,22 @@ const navigateToPage = (path) => {
       getNavBarProfilePicture(user);
 
       getUserListings(user);
-
-      // BackendAxios.post("/getUserListings", {
-      //   userProfileId: user[0].id,
-      // }).then((listingResponse) => {
-      //   console.log(listingResponse.data);
-      //   setListing(listingResponse.data);
-      // });
-  
-      // await getUserSupportTickets(user);
-  
-      // At this point the user is authenticated and ready to access the private area of the application
-      // We are checking if there is any intendedDestination provided by any component to resume his progress
-      // of we should just take him to home / if this is the first login
-      // if (intendedDestination) {
-      //   navigateToPage(intendedDestination);
-      // } else {
-
-      
-
-      // }
     }
 
-      // @ts-ignore
-  const handleUserLogin = (user, firebaseToken) => {
-    // if (user.isEmailVerified === 0) {
-    //   triggerUserEmailIsNotVerified(user);
-    // }
-
-    if (user.profileStatus === "PASSWORD RESET") {
-      triggerUserPasswordResetMode(user);
-    } else {
-      triggerSuccessLoginSteps(user, firebaseToken);
-    }
-
-    // } else if (user[0].isProfileComplete === 0) {
-    //   triggerUserProfileCompletionWorkflow(user);
-
-    // } else {
-
-      // Set a cookie or local storage item to track authentication status
-      // document.cookie = 'userAuth=true; path=/';
-      // router.push('/protected-page'); // Redirect to a protected page
-    // }
-  };
+    const handleUserLogin = (user, token) => {
+      if (user.isEmailVerified === 0) {
+        triggerUserEmailIsNotVerified(user);
+  
+      } else if (user.profileStatus === "PASSWORD RESET") {
+        triggerUserPasswordResetMode(user);
+  
+      } else if (user.isProfileComplete === 0) {
+        triggerUserProfileCompletionWorkflow(user);
+  
+      } else {
+        triggerSuccessLoginSteps(user, token);
+      }
+    };
 
     const login = async (e) => {
         console.log("Login started");
@@ -228,7 +201,7 @@ const navigateToPage = (path) => {
     
         if (result?.error) {
           console.log(result.error);
-          // setLoginStatus(message);
+          setLoginStatus("Incorrect email or password.");
           setUserAuth(false);
         } else {
           // Handle successful login (e.g., redirect to a dashboard)
@@ -280,7 +253,7 @@ const navigateToPage = (path) => {
 
       function handleUserClickOnRegisterNow() {
         console.log("The user clicked on the button Register now");
-        // navigateToPage("/signup");
+        navigateToPage("/signup");
       }
 
       function handleUserClickResetYourPassword() {
@@ -301,6 +274,13 @@ const navigateToPage = (path) => {
         <meta name="keywords" content={keywords.join(', ')} />
         <link rel="canonical" href="/login" />
       </Helmet> */}
+
+<SnackBarAlert
+          message={snackbarMessage}
+          open={snackbarOpen}
+          handleClose={() => setSnackbarOpen(false)}
+          severity={snackbarSeverity}
+        />
 
 
       <div className="row login-box-container">

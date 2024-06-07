@@ -1,0 +1,61 @@
+.welcome-title {
+    padding-top: 20px;
+    width: 70%;
+    margin:  auto;
+    text-align: center;
+}
+
+.welcome-start-setup-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--roomatee-theme-color);
+    border: none;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.remaining-characters-style {
+    font-size: 14px;
+    color: grey;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.center-avatar {
+    width: 50%;
+    margin: auto;
+}
+
+.upload-picture-btn {
+    width: 50%;
+    margin:auto;
+    text-align: center;
+}
+
+.session-timer-sign-out-btn {
+    background-color: var(--roomatee-theme-color);
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    color:white;
+    font-size: large;
+
+}
+
+.session-timer-sign-in-btn {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(49, 38, 38);
+    font-size: large;
+}

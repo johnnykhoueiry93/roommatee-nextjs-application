@@ -1,0 +1,164 @@
+.sadFace {
+  padding-top: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.input-field-width {
+  width: 100%;
+}
+
+/* This is the area when the inputs are held */
+.new-listing-section {
+  padding: 50px;
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  height: 100%;
+}
+
+/* This is the form container */
+.listing-container {
+  padding-top : 40px;
+  margin:auto;
+  padding-bottom: 100px;
+}
+
+.button-image {
+  cursor: pointer;
+}
+
+.search-input-v2 {
+  height: 60px;
+}
+
+
+.input-dropdown {
+  /* height: 50px; */
+  height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+  min-height: calc(3.5rem + calc(var(--bs-border-width) * 2));
+  line-height: 1.25;
+  padding: 1rem 0.75rem;
+}
+
+.switch {
+  margin-bottom: 12px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked+.slider {
+  background-color: #2196F3;
+}
+
+input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.radio-label {
+  padding-top:10px;
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 19px;
+}
+
+.asking-price{
+  height: 55px;
+}
+
+.create-new-listing-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.list-a-room-hint {
+  font-style: italic;
+}
+
+.card-user-count-heading {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.listings-view-plus-icon {
+  text-align: center;
+  padding-bottom: 15px;
+  z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+  .new-listing-section {
+    padding: 10px;
+  }
+
+  .list-a-room-hint {
+    font-size: 16px;
+  }
+
+  .input-field-width {
+    width: 100%;
+    z-index: 0;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+

@@ -1460,3 +1460,249 @@
 [2024-06-06 21:57:11] - [error] - Backend failure during the /api/resetPassword webservice updateErr is not defined
 [2024-06-06 21:57:58] - [info] - [tommy222@hotmail.com] - User attempting to reset email: tommy222@hotmail.com
 [2024-06-06 21:57:58] - [info] - [tommy222@hotmail.com] - [/resetPassword] - The requested email address does not exist in the database. System will do nothing.
+[2024-06-06 22:00:36] - [info] - [tommy@hotmail.com] - User attempting to reset email: tommy@hotmail.com
+[2024-06-06 22:00:36] - [info] - [tommy@hotmail.com] - [/resetPassword] - The email address: tommy@hotmail.com requested to reset was found.
+[2024-06-06 22:00:36] - [info] - [tommy@hotmail.com] - [/resetPassword] - newTempPassword : >^=^GqWdO<
+[2024-06-06 22:00:36] - [info] - [tommy@hotmail.com] - [/resetPassword] - encryptedNewTempPassword : >$2b$10$cjKgp73p2Z/mYiSlDhMJCuuf.Tuq4Xk6wN/5SIDwLSHPHfBupLfAq<
+[2024-06-06 22:00:36] - [error] - Backend failure during the /api/resetPassword webservice newPassword is not defined
+[2024-06-06 22:00:37] - [info] - [tommy@hotmail.com] - Reset email was sent successfully
+[2024-06-06 22:01:57] - [info] - [tommy@hotmail.com] - User attempting to reset email: tommy@hotmail.com
+[2024-06-06 22:01:58] - [info] - [tommy@hotmail.com] - [/resetPassword] - The email address: tommy@hotmail.com requested to reset was found.
+[2024-06-06 22:01:58] - [info] - [tommy@hotmail.com] - [/resetPassword] - newTempPassword : >pPIK=sXG<
+[2024-06-06 22:01:58] - [info] - [tommy@hotmail.com] - [/resetPassword] - encryptedNewTempPassword : >$2b$10$8g2JniCmWWClk0XVRG63vuz1ecqj.zUPBe1SAf548fME5.HjXLS5C<
+[2024-06-06 22:01:58] - [info] - [tommy@hotmail.com] - [/resetPassword] - Password updated successfully in the database
+[2024-06-06 22:01:58] - [info] - [tommy@hotmail.com] - Reset email was sent successfully
+[2024-06-06 22:02:24] - [info] - [johnny.kh@hotmail.com] - User attempting to reset email: johnny.kh@hotmail.com
+[2024-06-06 22:02:24] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - The email address: johnny.kh@hotmail.com requested to reset was found.
+[2024-06-06 22:02:24] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - newTempPassword : >==J5WFUr<
+[2024-06-06 22:02:25] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - encryptedNewTempPassword : >$2b$10$g0w/2y.9gM5HA8dRsmtINuhbXe8SPBySUi1Krtj8muPg44oy6qLRq<
+[2024-06-06 22:02:25] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - Password updated successfully in the database
+[2024-06-06 22:02:25] - [info] - [johnny.kh@hotmail.com] - Reset email was sent successfully
+[2024-06-06 22:06:48] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:06:48] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:06:49] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:06:49] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:07:13] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:07:13] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:07:13] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:07:13] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:08:23] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:08:23] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:08:24] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:08:24] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:16:38] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:16:38] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:16:38] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:16:38] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:16:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:16:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: ==J5WFUr
+[2024-06-06 22:16:58] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:16:58] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:17:07] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:17:07] - [info] - [johnny.kh@hotmail.com] - Received plain password: ==J5WFUr
+[2024-06-06 22:17:07] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:17:07] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:17:13] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:17:13] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:17:13] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:17:13] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:17:35] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:17:35] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:17:35] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:17:35] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:17:47] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:17:47] - [info] - [johnny.kh@hotmail.com] - Received plain password: ==J5WFUr
+[2024-06-06 22:17:47] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-06 22:17:47] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNjczNywiZXhwIjoxNzE3NzMwMzM3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ZQdTCwLLS7w2CweubzLJBmi5WIqcAU5hnb9bV8EsjcsITGxxtYjxojkm5NOPBYUjSJ98-zbvb1E0DyXPP8dP2dEszwv_jbDT8oCbAp7vW6afMjmvgsmr6YF0Wdwhp-X5kWTwWzxdNP0qDjB3KsJAfrqf0Pccc7_7nle7MqTJY1rK3pF6Qkpm5dhE2ak3ZHlok27xPxtULji5B-a393T4LUYK8Um4EpmV3trnlqX_HxNOAB6WKOEKojOFQJG9a661lkJDFKmrOOL8W5htQoX1Y0ayXAhEDDQyzFt3nO0bAw5hP8jfUSCXQKt3M6mpCD2ToV3YHBafeT7lyznfNoeFsg
+[2024-06-06 22:18:57] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:18:57] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNjczNywiZXhwIjoxNzE3NzMwMzM3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ZQdTCwLLS7w2CweubzLJBmi5WIqcAU5hnb9bV8EsjcsITGxxtYjxojkm5NOPBYUjSJ98-zbvb1E0DyXPP8dP2dEszwv_jbDT8oCbAp7vW6afMjmvgsmr6YF0Wdwhp-X5kWTwWzxdNP0qDjB3KsJAfrqf0Pccc7_7nle7MqTJY1rK3pF6Qkpm5dhE2ak3ZHlok27xPxtULji5B-a393T4LUYK8Um4EpmV3trnlqX_HxNOAB6WKOEKojOFQJG9a661lkJDFKmrOOL8W5htQoX1Y0ayXAhEDDQyzFt3nO0bAw5hP8jfUSCXQKt3M6mpCD2ToV3YHBafeT7lyznfNoeFsg
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNjkxOSwiZXhwIjoxNzE3NzMwNTE5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.SCchtaCNf1NzwJNZTMaUx_2x_ea2q9qu264spdIdCXuAV02YEf7xdZ8SdMfFYT4fLh2Jnsspm2tJ0sWF_teVUR3_IGNrWqYDnbhe85TecelhASzpPIK1eMtMS7l_-hYnXEpV-tj2WHss49mSpmXvl3wSWNyNgqPgNgIZSs94UG2xqTOliu0ndETG2AT6uw4zvrFyongoKwgXO_PcqUru_atIUgNAwSq9a2INgEPool4nTxVoJ_uLalyuwR0xxw3RH9Hol-jbcBP1zaSD-_pUPGkwsL0G5mdw38LmYeXWXj_43jGZkPywqlXJWq-BLz9jhcZIkVlvUfk8My7Yve83wQ
+[2024-06-06 22:21:59] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:21:59] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNjkxOSwiZXhwIjoxNzE3NzMwNTE5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.SCchtaCNf1NzwJNZTMaUx_2x_ea2q9qu264spdIdCXuAV02YEf7xdZ8SdMfFYT4fLh2Jnsspm2tJ0sWF_teVUR3_IGNrWqYDnbhe85TecelhASzpPIK1eMtMS7l_-hYnXEpV-tj2WHss49mSpmXvl3wSWNyNgqPgNgIZSs94UG2xqTOliu0ndETG2AT6uw4zvrFyongoKwgXO_PcqUru_atIUgNAwSq9a2INgEPool4nTxVoJ_uLalyuwR0xxw3RH9Hol-jbcBP1zaSD-_pUPGkwsL0G5mdw38LmYeXWXj_43jGZkPywqlXJWq-BLz9jhcZIkVlvUfk8My7Yve83wQ
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzAzNiwiZXhwIjoxNzE3NzMwNjM2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.DQ8bHwqT4zkk0mOi7HI7MYEXI_hU9nxkYf1pRCjpTsU-wRAD61HSHKGqTwapRbsasB2QwjRkiTeqptox0O5tEE7jdW_K109hSWUd0_4mAlxIZL98lectNuWOr0v_0WhRvr-BI098Xk-7MR9uOg1J-SoCLv-LJGQGdTctLQlnmUluXisD56LXxzLaBublLdPeVOqWX3nnlmJK_TAg7xhgjnhxXeK3xrlvXYwAelMebGOsydVJkM8Nhre6N-yfuBn3NZatDlflArzNkBsMHt671hZbD5XSxQ08-__yl-pFRBOtYvnQTu_mccUYLXDBqMKoN4nff27lGSKuZamvtDp-QQ
+[2024-06-06 22:23:56] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:23:56] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzAzNiwiZXhwIjoxNzE3NzMwNjM2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.DQ8bHwqT4zkk0mOi7HI7MYEXI_hU9nxkYf1pRCjpTsU-wRAD61HSHKGqTwapRbsasB2QwjRkiTeqptox0O5tEE7jdW_K109hSWUd0_4mAlxIZL98lectNuWOr0v_0WhRvr-BI098Xk-7MR9uOg1J-SoCLv-LJGQGdTctLQlnmUluXisD56LXxzLaBublLdPeVOqWX3nnlmJK_TAg7xhgjnhxXeK3xrlvXYwAelMebGOsydVJkM8Nhre6N-yfuBn3NZatDlflArzNkBsMHt671hZbD5XSxQ08-__yl-pFRBOtYvnQTu_mccUYLXDBqMKoN4nff27lGSKuZamvtDp-QQ
+[2024-06-06 22:36:02] - [info] - [null] - [/verifyCode] Backend verification started for email: null and code: undefined
+[2024-06-06 22:36:02] - [info] - [null] - The verification code: undefined provided for the user: null is invalid
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzgyNCwiZXhwIjoxNzE3NzMxNDI0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.nlyxtXZ6T9bBzaX6AoQ6aXzcrvMv2IcQYwW8-Bo8IeDpY_nh4yqShws7Z2ehamkvaYUnOimztO8P9p4_JAZxsLf4gc7SDQ_z2k27BeeohR6iw3kT9zFHXLdU7x-JALb-DeNyYSf0e9kLHi-v0cWFnx2nyADIDaC21nYogCwctyc6WisqZE3DrWBsABgMYI8TtHnbP0O0JVBPmRdVB7-RMw2Xc_aN4b5U8vL4GgI7Dw8vCI8DesQf-us94u58e43BHGd2TaWb_1jwQDuHs6Qd9ytGSnXhCbCWwTBzSW7PEtBhrYc8l6s_SV3UAdji-Ez6YpMvmHmBmjBorZSJgUuKaQ
+[2024-06-06 22:37:04] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:37:04] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzgyNCwiZXhwIjoxNzE3NzMxNDI0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.nlyxtXZ6T9bBzaX6AoQ6aXzcrvMv2IcQYwW8-Bo8IeDpY_nh4yqShws7Z2ehamkvaYUnOimztO8P9p4_JAZxsLf4gc7SDQ_z2k27BeeohR6iw3kT9zFHXLdU7x-JALb-DeNyYSf0e9kLHi-v0cWFnx2nyADIDaC21nYogCwctyc6WisqZE3DrWBsABgMYI8TtHnbP0O0JVBPmRdVB7-RMw2Xc_aN4b5U8vL4GgI7Dw8vCI8DesQf-us94u58e43BHGd2TaWb_1jwQDuHs6Qd9ytGSnXhCbCWwTBzSW7PEtBhrYc8l6s_SV3UAdji-Ez6YpMvmHmBmjBorZSJgUuKaQ
+[2024-06-06 22:37:15] - [info] - [undefined] - [/verifyCode] Backend verification started for email: undefined and code: 136732
+[2024-06-06 22:37:15] - [info] - [undefined] - The verification code: 136732 provided for the user: undefined is invalid
+[2024-06-06 22:38:36] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:38:36] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:38:37] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:38:37] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzkxNywiZXhwIjoxNzE3NzMxNTE3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.JgyiThZwrREF4n0ZVRLgA78kTJ2SFFkfbWR5vMnLvHQIglUoiL_g1Bxvo5zyWDoY-gEs_3Ibu0rcLqFRUazRz1xUWfprj82T1ibej-as4n3c7CCokDpJNFy3QFbZd1LWohd-Tujh5aBPAxdtrF1VOQrO0Xph--SHXt4UdHSfq95tyOluUSpPBDCNirRwr0OYFSO0cOqw9fkDUUmmm0nOw3fDq5ST7yHf_PCWqRkLCDzKZvf_xwiZswnrmd94nara85UnwBurYZLPHFHAVZctVZFvDw7AFpvW4ADpn3RluqINkL1JCx3JQjPOT5Go2kydMq3LuqdOcxVJjlsNwII2nQ
+[2024-06-06 22:38:37] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:38:37] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:38:37] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:38:37] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:38:37] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzkxNywiZXhwIjoxNzE3NzMxNTE3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.JgyiThZwrREF4n0ZVRLgA78kTJ2SFFkfbWR5vMnLvHQIglUoiL_g1Bxvo5zyWDoY-gEs_3Ibu0rcLqFRUazRz1xUWfprj82T1ibej-as4n3c7CCokDpJNFy3QFbZd1LWohd-Tujh5aBPAxdtrF1VOQrO0Xph--SHXt4UdHSfq95tyOluUSpPBDCNirRwr0OYFSO0cOqw9fkDUUmmm0nOw3fDq5ST7yHf_PCWqRkLCDzKZvf_xwiZswnrmd94nara85UnwBurYZLPHFHAVZctVZFvDw7AFpvW4ADpn3RluqINkL1JCx3JQjPOT5Go2kydMq3LuqdOcxVJjlsNwII2nQ
+[2024-06-06 22:38:47] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 22:38:47] - [info] - [johnny.kh@hotmail.com] - The verification code: 136732 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 22:39:42] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:39:42] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:39:43] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:39:43] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzk4MywiZXhwIjoxNzE3NzMxNTgzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.SgQQ1UdNrnj_Dwz0tmeiO7RXTQiUZFIpyi7uT5y5SC5bYL85jt-3jsc0fgo-jmtHonaoRW68elVN2BbSJYDQ6O4-I7HkET7oWan0AEN8W_fOlukXqMWRkHWxwuwVCV8AHVlfvFYTqGDs-Ai0QhAClsjP7gkzlOazUxFXnTk4OKbvwiLhU8qiJssSc3QB2eQ-u_dkYn1b2Ks8HmfD2msiJtfZkEeroHie6O3v2cNIYOZUnB3tMQv5AJ3u61xoFXeG5jTqSAupYZuCDY_bPjYetIocHM_NqqXAkRc21PT-8z2R5Gjf19sfozpJD8Lb1I-KzL6dtYT68ui3OxUviY5dMw
+[2024-06-06 22:39:43] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:39:43] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:39:43] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:39:43] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:39:43] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyNzk4MywiZXhwIjoxNzE3NzMxNTgzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.SgQQ1UdNrnj_Dwz0tmeiO7RXTQiUZFIpyi7uT5y5SC5bYL85jt-3jsc0fgo-jmtHonaoRW68elVN2BbSJYDQ6O4-I7HkET7oWan0AEN8W_fOlukXqMWRkHWxwuwVCV8AHVlfvFYTqGDs-Ai0QhAClsjP7gkzlOazUxFXnTk4OKbvwiLhU8qiJssSc3QB2eQ-u_dkYn1b2Ks8HmfD2msiJtfZkEeroHie6O3v2cNIYOZUnB3tMQv5AJ3u61xoFXeG5jTqSAupYZuCDY_bPjYetIocHM_NqqXAkRc21PT-8z2R5Gjf19sfozpJD8Lb1I-KzL6dtYT68ui3OxUviY5dMw
+[2024-06-06 22:39:51] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 22:39:51] - [info] - [johnny.kh@hotmail.com] - Email is now verified
+[2024-06-06 22:47:49] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:47:49] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:47:49] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:47:49] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODQ2OSwiZXhwIjoxNzE3NzMyMDY5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.TdK2nZrwQlw6HfQo15pcBX503lqRdGDm7A4nlblCsBMNWS4xl8SDZTuj_q4SAxao2pl_EPozrrqFsYQrNOgF7eprjvO9fpGzJDeuORzg1pdTqeaGbpwHPiq6JsPtqc2MzEEbnRuY6b8_18UcVehggNxRNhh5QlyvfBWGEchmC6e2wgjQbcbjYDiRXFds5OFo72Bx7fZKhWPr1aJ74oe8qkw-KVHMQxFj6IVsKh4sLHDn6j-X-wVEznITWHujFhhxq8Ui_9YNM6rb6aQE7WLzZ1cUcwyV42K8l9hSqRmXoapQvbinoVYtyiTHo_MYY34wOWUVV8-YfYv5krTObFyXtw
+[2024-06-06 22:47:49] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:47:49] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:47:49] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:47:50] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:47:50] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODQ3MCwiZXhwIjoxNzE3NzMyMDcwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mTrZbbHNr0n-NdHefvTKZvfwosZuDmN76rb-2ieDerzws90gCqlMgyS1ZmzFWOxWUpf5cL-h29tgJGI2vqwgdFW1bPx-m6NgLEZJd4nnQfuAqCA1QshfEgR3Km6q2YMh-Mccc-DnAz_Tbg5ACUzfLyqPEl6KisUVGSp8X-BbrHLF5iU3H9Ved0oUpec0Z5dlQs7TIIdfmtNSGFJqiGL61riNsFLLWB8-tsMUHRh4deGhzkw2xNVpi6OWXIkPC5XdiEXnxFpFm1eXnulXIadk5ZbgofxIGMGEok5CDePbxKzi6uVcyiyVxVOsN_56Gv20UktcyfbPXck98AbmA3wtLg
+[2024-06-06 22:48:41] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136733
+[2024-06-06 22:48:41] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136733 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 22:48:41] - [error] - Backend failure during the /api/changePassword webservice init["status"] must be in the range of 200 to 599, inclusive.
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODU4MiwiZXhwIjoxNzE3NzMyMTgyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.JYVwoutl4hYMbgkpjQc5tVr1GQk87vN8vyH4vzqeHVGybYS9LTbLFLxXG1ttUp-Jg7OceFsHYM6g0g8PZGAI9B8uXIDaNFjZq9QCiAqOlv5YtI3H-KqL4Tw8kVOxJVzRWh2nNqjwWncRnG8OKX67NjyDGAn5LsNu95rVO0VolxGtgfkomzGf7HRvVJejDnyZu7SaAA9ekE994EzISwM9owU5c5ZhzCnBY29oQq5RyeMTT2GwdIuRsccMrMOeDtCkMNqaw0-2PrQf7sLkNSJ4cKUj1FRVuIeX3tEyaljCef-PI45vPCGJLIXwxPxQb9T5JxZwdrURhSqg_lXIqbfV9Q
+[2024-06-06 22:49:42] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODU4MiwiZXhwIjoxNzE3NzMyMTgyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.JYVwoutl4hYMbgkpjQc5tVr1GQk87vN8vyH4vzqeHVGybYS9LTbLFLxXG1ttUp-Jg7OceFsHYM6g0g8PZGAI9B8uXIDaNFjZq9QCiAqOlv5YtI3H-KqL4Tw8kVOxJVzRWh2nNqjwWncRnG8OKX67NjyDGAn5LsNu95rVO0VolxGtgfkomzGf7HRvVJejDnyZu7SaAA9ekE994EzISwM9owU5c5ZhzCnBY29oQq5RyeMTT2GwdIuRsccMrMOeDtCkMNqaw0-2PrQf7sLkNSJ4cKUj1FRVuIeX3tEyaljCef-PI45vPCGJLIXwxPxQb9T5JxZwdrURhSqg_lXIqbfV9Q
+[2024-06-06 22:50:01] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136733
+[2024-06-06 22:50:02] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136733 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 22:50:02] - [error] - Backend failure during the /api/changePassword webservice init["status"] must be in the range of 200 to 599, inclusive.
+[2024-06-06 22:51:01] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136733
+[2024-06-06 22:51:01] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136733 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 22:51:17] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136733
+[2024-06-06 22:51:18] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136733 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 22:51:24] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 22:51:24] - [info] - [johnny.kh@hotmail.com] - Email is now verified
+[2024-06-06 22:53:05] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:53:05] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:53:06] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:53:06] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODc4NiwiZXhwIjoxNzE3NzMyMzg2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.pUBcEHFkCbQd1PPzpjCFJ4symeptIKgViuY_nfPaGgXo0Uf_JdeYn4tuVrXpr9vJZ0GnoNG4gA5s5auhlh8Y6ZOi2RLSnM93UbpBu12PW-VvSBvwLqTERTbAvS9nd-qQ-eKuNIQBGRg1Ud0sN30rG8OKAX5tEv8g04dyfogcf8jo9hxIYt-iFHuX4kn9LWayxwsf8mkC-HqP_pJnyXJ5KajXo0PhtsuodnOUWlHCEwQMRcSLvDEUjFEaa9HVRYGDUfE2ev_HKiChn4ZN3swtlqA-c3x3ccjzr2kh9SWT6EibhPxD8gHFHF5tDXvq7tEyK-oSnsXs-ROHJZnWnL8Hwg
+[2024-06-06 22:53:06] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:53:06] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:53:06] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:53:06] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:53:06] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODc4NiwiZXhwIjoxNzE3NzMyMzg2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.pUBcEHFkCbQd1PPzpjCFJ4symeptIKgViuY_nfPaGgXo0Uf_JdeYn4tuVrXpr9vJZ0GnoNG4gA5s5auhlh8Y6ZOi2RLSnM93UbpBu12PW-VvSBvwLqTERTbAvS9nd-qQ-eKuNIQBGRg1Ud0sN30rG8OKAX5tEv8g04dyfogcf8jo9hxIYt-iFHuX4kn9LWayxwsf8mkC-HqP_pJnyXJ5KajXo0PhtsuodnOUWlHCEwQMRcSLvDEUjFEaa9HVRYGDUfE2ev_HKiChn4ZN3swtlqA-c3x3ccjzr2kh9SWT6EibhPxD8gHFHF5tDXvq7tEyK-oSnsXs-ROHJZnWnL8Hwg
+[2024-06-06 22:53:14] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136733
+[2024-06-06 22:53:14] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136733 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 22:53:20] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 22:53:20] - [info] - [johnny.kh@hotmail.com] - Email is now verified
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODg5MSwiZXhwIjoxNzE3NzMyNDkxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ep8bHT3arbmg6iPNg852otKbIzgiF_o7B45DZhP31hs75OUp92_gBRf6VcxzBLu1tI6R32CM3zrGnWnQfsBIVbIEQqZs4x7BB4HEeI3BTgWmPT2wxZugD8Vjw7XZJEad-M2A3a3puXpXIzYqLmRI-y1VZDC2mHFehgTZ_5ICVU8X66MdUNZ8gnkx7RZyvqro58sVgehIWAvSJCfg3WvMbJGerWPASOB02Wqe4lpz5iToo5z7lE3xK_HLeXHmlAGHpwWhXqZRFRQuJiMkO5UgF324GUrh-6Ag_mDCtE_7KQsNcwg_iD10votqOYEvxpGGOHXpfj2vhAucin1tV5Eosg
+[2024-06-06 22:54:51] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:54:51] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODg5MSwiZXhwIjoxNzE3NzMyNDkxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ep8bHT3arbmg6iPNg852otKbIzgiF_o7B45DZhP31hs75OUp92_gBRf6VcxzBLu1tI6R32CM3zrGnWnQfsBIVbIEQqZs4x7BB4HEeI3BTgWmPT2wxZugD8Vjw7XZJEad-M2A3a3puXpXIzYqLmRI-y1VZDC2mHFehgTZ_5ICVU8X66MdUNZ8gnkx7RZyvqro58sVgehIWAvSJCfg3WvMbJGerWPASOB02Wqe4lpz5iToo5z7lE3xK_HLeXHmlAGHpwWhXqZRFRQuJiMkO5UgF324GUrh-6Ag_mDCtE_7KQsNcwg_iD10votqOYEvxpGGOHXpfj2vhAucin1tV5Eosg
+[2024-06-06 22:55:01] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 22:55:01] - [info] - [johnny.kh@hotmail.com] - Email is now verified
+[2024-06-06 22:55:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:55:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:55:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:55:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODk1OCwiZXhwIjoxNzE3NzMyNTU4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UZHKuxU1LMRq-eJj1a8MI14F4djuMoRtUJD5YZ-L4LSX2hC7zodTi5deImsNvCM7bCDOJwauugcYVk4UoVa40cdHKXWP8V6W1qpS3xYhuZ5cw7_g7iqDbf1u5DTSUHd095uFr18AvUDy6CDuqD10SEwyxWq6SlGOfX6h2rR_-tZJIp3Zz9rhRelCJH9NmacUx5JnUDHsg9VqtxcyLCKQl_PcVI7FQrFf_sJY5OZWgHqD4yzYk91MpTlfiUpYJw7OfTyuW3E3J7gHdgqjQb3nh7JTKWT-X1-dphtcPAWMaPN4SCz3YpWYTVWu6_r8kdPewsItdxdHTMF75F5Si0JaQw
+[2024-06-06 22:55:58] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:55:58] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:55:58] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:55:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:55:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODk1OCwiZXhwIjoxNzE3NzMyNTU4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UZHKuxU1LMRq-eJj1a8MI14F4djuMoRtUJD5YZ-L4LSX2hC7zodTi5deImsNvCM7bCDOJwauugcYVk4UoVa40cdHKXWP8V6W1qpS3xYhuZ5cw7_g7iqDbf1u5DTSUHd095uFr18AvUDy6CDuqD10SEwyxWq6SlGOfX6h2rR_-tZJIp3Zz9rhRelCJH9NmacUx5JnUDHsg9VqtxcyLCKQl_PcVI7FQrFf_sJY5OZWgHqD4yzYk91MpTlfiUpYJw7OfTyuW3E3J7gHdgqjQb3nh7JTKWT-X1-dphtcPAWMaPN4SCz3YpWYTVWu6_r8kdPewsItdxdHTMF75F5Si0JaQw
+[2024-06-06 22:56:03] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 22:56:03] - [info] - [johnny.kh@hotmail.com] - Email is now verified
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODk3MiwiZXhwIjoxNzE3NzMyNTcyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.lD-CrxL3Id0xB8BC6gCJVN62YW3AAbabRirMK4zcIeOPFuAIM9BACDfP8xAcXOGN-Jx_GCviACm5t3ZozJQgJs6Kb-UYu5CVdUp_ylSYEASu1lx0TsLM0eFtqZSt5Gw8L0Ro3FjjdZ2BSfpfhrbUL8Hm1jwW5nr_WkWCHEGBxTJLNlc5WtkHS-iW3m5cqsDFyJpkIKhLDzq1wkGtb_8CvqUdMWjUuwetybFlHAUG8Bkw8mvAAO_vbiDyQTs_NsNmUSKK8k6LUsp_9WCSUBjLRQ4aR_1n3yU1RmsbNFiVw7HrGvbex6ujFXOuCFPRosZ-UMHluVI8V2Z8Kqarrlqrug
+[2024-06-06 22:56:12] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:56:12] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODk3MiwiZXhwIjoxNzE3NzMyNTcyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.lD-CrxL3Id0xB8BC6gCJVN62YW3AAbabRirMK4zcIeOPFuAIM9BACDfP8xAcXOGN-Jx_GCviACm5t3ZozJQgJs6Kb-UYu5CVdUp_ylSYEASu1lx0TsLM0eFtqZSt5Gw8L0Ro3FjjdZ2BSfpfhrbUL8Hm1jwW5nr_WkWCHEGBxTJLNlc5WtkHS-iW3m5cqsDFyJpkIKhLDzq1wkGtb_8CvqUdMWjUuwetybFlHAUG8Bkw8mvAAO_vbiDyQTs_NsNmUSKK8k6LUsp_9WCSUBjLRQ4aR_1n3yU1RmsbNFiVw7HrGvbex6ujFXOuCFPRosZ-UMHluVI8V2Z8Kqarrlqrug
+[2024-06-06 22:56:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:56:30] - [info] - encryptedNewTempPassword : >$2b$10$LkOFqeDu683gJ04RVtEU4euVTqbAMhF45GA4b05OJUzt3XqjIl8ja<
+[2024-06-06 22:56:30] - [info] - Password updated successfully in the database
+[2024-06-06 22:56:37] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:56:37] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:56:37] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:56:37] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODk5NywiZXhwIjoxNzE3NzMyNTk3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.SYU5aAl7lRMJDy-BSFnWAmZk9x0ZCizcKHrFqosxLA33ET4-yObkrBeeV3xHGjoO1qsJBhIsedaUB6wFxQ7__jPG2g-w3E1cEqPxZSBxWgBvDtRvfQpQ6wGdcNpztQS2VSSYMztmwAjeGbEmUvLgqHCWqMC9Nc1vkiZT2sbTP7Ql9_D9N_NzUrYZThaTQIVl3OumkEaT1mp5-cIRiA3JeHTShcmUgDcUqO3Uy4jNWbVMtiVQGRGmVFZKuNtxWyHNK0Fppa2jVL7cynvhhivc6Cz-WSqf_O8zyOVZ9Sgf44IVXVedu_A69Dhzt8lNlDuzXK7M_7G8LRNeWCjQPHHkmQ
+[2024-06-06 22:56:37] - [info] - ##################### we are in NextAuth
+[2024-06-06 22:56:38] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 22:56:38] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 22:56:38] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 22:56:38] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzcyODk5OCwiZXhwIjoxNzE3NzMyNTk4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.aN8yj7gfqTInBp6YNhz4nJBRb6V5M1dvbl_qz7_rx2qCMIOsEG2gNkRklgjws9e9jbgQg6rZ81V2qDQUwhD3o75NGLgbxeTMIxUmUlawMb_lNChLzpY6yYk3Y58kIGZd-OGG3_1qJa5xMkE25Tg38Q5QiH9Jh15-d7g7fBSKwiGZlJsBvPPNDD5cL3EoK7FCxJDJZ5h-Fc_gLODgD5R9INOqxVP9GYa9Gc7QFFRmbBrblaUGAEBVE9I6AEBUrsG1YfEOGaU9FEFcHZyJJNZYuPU_4gsRmEx1eWtO8R866iTjsGU8dA-Vu20OqCpBF1GNsj8TI8ksnN2MGyy_TALy9w
+[2024-06-06 22:56:44] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-06 22:56:45] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-06 22:59:32] - [info] - Request to logout
+[2024-06-06 22:59:32] - [info] - Request to logout
+[2024-06-06 23:13:34] - [info] - [johnny.kh@hotmail.com] - User attempting to reset email: johnny.kh@hotmail.com
+[2024-06-06 23:13:34] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - The email address: johnny.kh@hotmail.com requested to reset was found.
+[2024-06-06 23:13:34] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - newTempPassword : >J3G!IwIn<
+[2024-06-06 23:13:34] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - encryptedNewTempPassword : >$2b$10$FGw66F1XVsZxdOdhEHLgju1fEqNyuvnz/.6HKaIzonbOzJTc/x4sm<
+[2024-06-06 23:13:34] - [info] - [johnny.kh@hotmail.com] - [/resetPassword] - Password updated successfully in the database
+[2024-06-06 23:13:35] - [info] - [johnny.kh@hotmail.com] - Reset email was sent successfully
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzczMDA2NiwiZXhwIjoxNzE3NzMzNjY2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UaD19Wd1k-d1UuXZLzbcRxQlbo7R4KoQQgGlR438D6jhjR5BFFob7PVB1uYEXbwiCbIjTn0FK8vqkXLHLMHyvVFIZ8oY7PubYkOgqjuHPDTP3xYUKcVXDnY6qAczf7Yl0Inw3LCv3KVcvJ4oKOwMQE1eVl7lCsixaq1Lo7ISFnUby_yiCBoygP8m2og3ircARYQ2NgsJs6zfvMxmTSzQxrKe5g2LkDCLLuYk9yC4OLPJdSHqRlAXxf8n07g7C7sbccfaH8eUDgcbqp8ts0F_Tjwo3XHGbY3woesrz2bVDU-aTGHHZkv_b9OPh1Z1NqiMcwfese2s7RRUivl_-w59bQ
+[2024-06-06 23:14:26] - [info] - ##################### we are in NextAuth
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 23:14:26] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzczMDA2NiwiZXhwIjoxNzE3NzMzNjY2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UaD19Wd1k-d1UuXZLzbcRxQlbo7R4KoQQgGlR438D6jhjR5BFFob7PVB1uYEXbwiCbIjTn0FK8vqkXLHLMHyvVFIZ8oY7PubYkOgqjuHPDTP3xYUKcVXDnY6qAczf7Yl0Inw3LCv3KVcvJ4oKOwMQE1eVl7lCsixaq1Lo7ISFnUby_yiCBoygP8m2og3ircARYQ2NgsJs6zfvMxmTSzQxrKe5g2LkDCLLuYk9yC4OLPJdSHqRlAXxf8n07g7C7sbccfaH8eUDgcbqp8ts0F_Tjwo3XHGbY3woesrz2bVDU-aTGHHZkv_b9OPh1Z1NqiMcwfese2s7RRUivl_-w59bQ
+[2024-06-06 23:14:42] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 23:14:42] - [info] - encryptedNewTempPassword : >$2b$10$BtCYU308W.hzq5/NjqRo5erMr4.FQpXCwgVOK06VQzhCFOPR81PfO<
+[2024-06-06 23:14:42] - [info] - Password updated successfully in the database
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzczMDA5NywiZXhwIjoxNzE3NzMzNjk3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ntZLuxqkkQrN0NNDn8ps-Nhijh2lvVP_RmFBBKi2GC9t4wU2FBfgDI_0NdP5ycv9K8IZR-BhjZahIAwXyj4cullXzujgSDHnFoAH3ptOV3uON-etIyxf3SeLB-tlvwe4ft6vQuDhOuwS_B7tuUmQ5VZbVEfb6A0DgRFasbWEhTj4_cCAq5_6X_cAlzN57F8FuQidycz0CLiS3hDv28Jh-APc3HCF1cjKSfQvWVvK5ZJSmfy3o7hOCbEZ5F-RrzsVkseZdhB-y69AiF11RDMBj0XPzznjLxROeaTAZehopUQc0UvPS62jeoYsAa3-uLlkqkkDbJe_dEPlbDtZBhg8QA
+[2024-06-06 23:14:57] - [info] - ##################### we are in NextAuth
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-06 23:14:57] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzczMDA5NywiZXhwIjoxNzE3NzMzNjk3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ntZLuxqkkQrN0NNDn8ps-Nhijh2lvVP_RmFBBKi2GC9t4wU2FBfgDI_0NdP5ycv9K8IZR-BhjZahIAwXyj4cullXzujgSDHnFoAH3ptOV3uON-etIyxf3SeLB-tlvwe4ft6vQuDhOuwS_B7tuUmQ5VZbVEfb6A0DgRFasbWEhTj4_cCAq5_6X_cAlzN57F8FuQidycz0CLiS3hDv28Jh-APc3HCF1cjKSfQvWVvK5ZJSmfy3o7hOCbEZ5F-RrzsVkseZdhB-y69AiF11RDMBj0XPzznjLxROeaTAZehopUQc0UvPS62jeoYsAa3-uLlkqkkDbJe_dEPlbDtZBhg8QA
+[2024-06-06 23:15:04] - [info] - [johnny.kh@hotmail.com] - [/api/resendVerificationToken] - Received request to resend verification token after sign up.
+[2024-06-06 23:15:58] - [info] - [johnny.kh@hotmail.com] - [/api/resendVerificationToken] - Received request to resend verification token after sign up.
+[2024-06-06 23:15:59] - [info] - here I am
+[2024-06-06 23:16:50] - [info] - [johnny.kh@hotmail.com] - [/api/resendVerificationToken] - Received request to resend verification token after sign up.
+[2024-06-06 23:16:51] - [info] - [johnny.kh@hotmail.com] - Sennding the verification code to email address: johnny.kh@hotmail.com
+[2024-06-06 23:16:51] - [info] - [johnny.kh@hotmail.com] - Email verification code sent successfully
+[2024-06-06 23:20:58] - [info] - [johnny.kh@hotmail.com] - [/api/resendVerificationToken] - Received request to resend verification token after sign up.
+[2024-06-06 23:20:58] - [info] - [johnny.kh@hotmail.com] - Sennding the verification code to email address: johnny.kh@hotmail.com
+[2024-06-06 23:20:59] - [info] - [johnny.kh@hotmail.com] - Email verification code sent successfully
+[2024-06-06 23:21:09] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 136732
+[2024-06-06 23:21:09] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136732 provided for the user: johnny.kh@hotmail.com is invalid
+[2024-06-06 23:21:30] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 249624
+[2024-06-06 23:21:30] - [info] - [johnny.kh@hotmail.com] - Email is now verified
