@@ -71,6 +71,7 @@ API Key is in the .env file under src/backend
 
 # Webserivces Migrated
 /api/login
+/signup
 /getUserListings
 /changePassword
 /resetPassword
@@ -79,11 +80,9 @@ API Key is in the .env file under src/backend
 /resendVerificationToken
 
 
-
 # Webserivces Pening Migration
 /getUsers
 /posts
-/signup
 /uploadMultiple
 /updateRoomListing
 /handleUploadPictureToS3SubFolder

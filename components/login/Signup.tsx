@@ -16,7 +16,7 @@ import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import "react-toastify/dist/ReactToastify.css";
 import HttpsIcon from '@mui/icons-material/Https';
 import PasswordPolicy from "./PasswordPolicy";
-// import FooterSimple from "../FooterSimple";
+import FooterSimple from "../footer/FooterSimple";
 //@ts-ignore
 import ReCAPTCHA from 'react-google-recaptcha';
 import { useRouter } from 'next/navigation';
@@ -76,20 +76,41 @@ const mapErrorCodeToMessage = (errorCode) => {
   }
 };
 
+async function registerNewUser() {
+    try {
+      const response = await fetch('/api/signup', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ formData }),
+      });
+  
+      if (!response.ok) {
+        throw new Error('Failed to fetch user listings');
+      }
+  
+      const data = await response.json();
+      console.log('getUserListings ' , data);
+      return data;
+    } catch (error) {
+      console.error('Error fetching user listings:', error);
+      throw error;
+    }
+  }
  
   // @ts-ignore
   const handleSignUp = async (e) => {
     e.preventDefault();
-
     try {
-    //   await BackendAxios.post("/signup", formData);
+        registerNewUser();
+
       console.log("User registered successfully");
       setSignUpEmail(formData.emailAddress);
       resetInputForm();
       navigateUserToTokenVerification();
       setShowUserAlreadyRegistered(false);
 
-      // Redirect to the login page or do something else
     } catch (error) {
       // @ts-ignore
       console.error("Error registering user: " + error.message);
@@ -268,13 +289,16 @@ const mapErrorCodeToMessage = (errorCode) => {
                 </Link>
                 .
             </p>
-            </div>;
+            </div>
 
             </div>
           </form>
+          
         </div>
+
+        <FooterSimple />
+
       </div>
-      {/* <FooterSimple /> */}
 
     </div>
   );

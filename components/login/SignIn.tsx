@@ -9,7 +9,7 @@ import FormControl from "@mui/material/FormControl";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import PasswordIcon from "@mui/icons-material/Password";
-// import FooterSimple from "../FooterSimple";
+import FooterSimple from "../footer/FooterSimple";
 import CirculatorProgressLoader from "../loaders/CirculatorProgressLoader";
 import { encryptData, decryptData } from '../../utils/encryptionUtils';
 import ReCAPTCHA from 'react-google-recaptcha';
@@ -93,10 +93,10 @@ const navigateToPage = (path) => {
       //@ts-ignore
   function triggerUserProfileCompletionWorkflow(user) {
     console.log("Starting the complete user profile workflow");
-    setLoginStatus(user[0].firstName);
+    setLoginStatus(user.firstName);
     setUserInfo(user);
     setUserAuth(true);
-    // navigateToPage("/setup");
+    navigateToPage("/setup");
   }
 
 
@@ -104,6 +104,7 @@ const navigateToPage = (path) => {
     const key = `profile-picture/${user.id}-profile-picture.png`;
     
     try {
+      
       const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
         method: 'POST',
       });
@@ -338,16 +339,15 @@ const navigateToPage = (path) => {
 
               {/* ---------------------- RECAPTCHA ----------------------*/}
               <div className='pt-3'>
-                {/* @ts-ignore */}
-                {/* <ReCAPTCHA sitekey="6LdqU-cpAAAAAOvIqjHD1FaLAeiOVeTU8PQJilHA" onChange={(e) => setRecaptchaToken(e)} /> */}
+                <ReCAPTCHA sitekey="6LdqU-cpAAAAAOvIqjHD1FaLAeiOVeTU8PQJilHA" onChange={(e) => setRecaptchaToken(e)} />
               </div>
 
-              {/* {loading ? (
+              {loading ? (
                 <CirculatorProgressLoader />
-              ) : ( */}
+              ) : (
                 <div className="pt-2">
                   <input
-                    // disabled={loading || !recaptchaToken} //TODO
+                    disabled={loading || !recaptchaToken} 
                     type="submit"
                     value="Submit"
                     className="submit-button"
@@ -356,7 +356,7 @@ const navigateToPage = (path) => {
                     }
                   />
                 </div>
-              {/* )} */}
+               )} 
 
               <div className="row already">
                 <span>
@@ -385,8 +385,9 @@ const navigateToPage = (path) => {
             <p>{loginStatus}</p>
           </div>
         </div>
+      <FooterSimple />
+
       </div>
-      {/* <FooterSimple /> */}
 
     </div>
   );

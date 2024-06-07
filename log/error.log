@@ -194,3 +194,8 @@
 [2024-06-06 22:00:36] - [error] - Backend failure during the /api/resetPassword webservice newPassword is not defined
 [2024-06-06 22:48:41] - [error] - Backend failure during the /api/changePassword webservice init["status"] must be in the range of 200 to 599, inclusive.
 [2024-06-06 22:50:02] - [error] - Backend failure during the /api/changePassword webservice init["status"] must be in the range of 200 to 599, inclusive.
+[2024-06-07 15:16:44] - [error] - [nextjsotrtizx@gmail.com] - [/api/signup] - Error in /signup: generateNumericCode is not defined
+[2024-06-07 17:34:30] - [error] - Backend failure during the /api/logFrontEndActivity webservice Unexpected end of JSON input
+[2024-06-07 18:06:43] - [error] - Backend failure during the /api/logFrontEndActivity webservice next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.ok is not a function
+[2024-06-07 18:07:26] - [error] - Backend failure during the /api/logFrontEndActivity webservice next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.ok is not a function
+[2024-06-07 18:11:38] - [error] - Backend failure during the /api/logFrontEndActivity webservice next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.ok is not a function

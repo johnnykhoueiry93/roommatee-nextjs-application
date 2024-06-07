@@ -126,6 +126,7 @@ input[type=submit]:hover {
 	font-weight: bold;
 }
 
+  
 @media (min-width: 1024px) and (max-width: 1366px) {
 	/* Styles for screens between 768px and 992px wide */
 	.login-box-container {

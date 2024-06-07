@@ -1,9 +1,16 @@
 :root {
   --roomatee-theme-color: #4CAF50;
-  /* Replace with your desired color */
 }
 
 /* https://stackoverflow.com/questions/43547191/bootstrap-collapse-div-content-disappears */
 .collapse.show {
   visibility: visible;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.custom-autocomplete input {
+  height: 100px; /* Adjust the height to your preference */
 }

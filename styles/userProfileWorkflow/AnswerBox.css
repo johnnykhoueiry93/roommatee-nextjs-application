@@ -72,6 +72,12 @@
 }
 
 
+  .container {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+
 @media (max-width: 768px) {
     .box {
         width: 170px;

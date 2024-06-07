@@ -12,6 +12,7 @@ const SiteContext = createContext();
 export const SiteData = () => useContext(SiteContext);
 import { encryptData, decryptData } from "../utils/encryptionUtils";
 import Cookies from "js-cookie";
+import { useMediaQuery } from "@mui/material";
 
 // @ts-ignore
 export const SiteWrapper = ({ children }) => {
@@ -23,6 +24,20 @@ export const SiteWrapper = ({ children }) => {
   const [emailAddressToReset, setEmailAddressToReset] = useState();
   const [signUpEmail, setSignUpEmail] = useState(null);
   const [userEmailVerified, setUserEmailVerified] = useState(false);
+  const isMobile = useMediaQuery("(max-width:767px)");
+  const isTablet = useMediaQuery("(min-width:768px) and (max-width:1023px)");
+  const PROFILE_PICTURE_S3_SUB_FOLDER='profile-picture';
+  const ID_DOCUMENT_S3_SUB_FOLDER='id-document';
+  const ID_DOCUMENT_SELFIE_S3_SUB_FOLDER='id-document-selfie';
+
+    // This function is used to scroll up when needed
+    const scrollToTop = () => {
+      console.log("Scrolling to the top of the window");
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth", // Optional: smooth scrolling animation
+      });
+    };
 
   // Without this the bootstrap functionality will not work
   useEffect(() => {
@@ -142,7 +157,44 @@ export const SiteWrapper = ({ children }) => {
   //   } 
   // }, [userInfo, userAuth]); // add userProfilePicture
 
-
+  /**
+   * This object holds all the user information saved during the 
+   * first time setup or as we also call the onboarding of the user
+   * to the application.
+   */
+   const [describePlaceWorkflow, setDescribePlaceWorkflow] = useState("");
+   const [prevProgress, setPrevProgress] = useState(0);
+   const [nextProgress, setNextProgress] = useState(10);
+   const [describeTenanteWorkflow, setDescribeTenanteWorkflow] = useState("");
+   const [welcomeProfileSetupStep, setWelcomeProfileSetupStep] = useState({
+    isProfileComplete: '',
+    isLookingForRoommate: "",
+    citiesLookingToLiveIn: '', // array for arrays [Massachusetts, Burlington], [Massachusetts. Boston], [Massachusetts, Bedford]
+    budget: '',
+    typeOfPlace: "", 
+    minAge: "18",
+    maxAge: "30",
+    userHasAPlace: "", // 0 or 1
+    gender: "",
+    socialStatus: "",
+    isSmoker: "", // 0 or 1
+    hasPet: "", // 0 or 1
+    cleanlinessLevel: "",
+    dob: "",
+    age: '',
+    instagram: '',
+    twitter: '',
+    facebook: '',
+    socialstatusDetails: '',
+    bio: '',
+    languages: '', // English, Frensh
+    hasKids: '', // 0 or 1
+    preferredFurnishedPlace: '', // 0 or 1
+    preferredLeaseTerm: '',
+    phoneNumber: '',
+    roommateCount: '',
+    moveInDate: '',
+  });
 
 
 
@@ -159,9 +211,10 @@ export const SiteWrapper = ({ children }) => {
   return (
     <SiteContext.Provider
       value={{
+        isMobile,isTablet, PROFILE_PICTURE_S3_SUB_FOLDER, ID_DOCUMENT_S3_SUB_FOLDER, ID_DOCUMENT_SELFIE_S3_SUB_FOLDER,
         profiles,
         setProfiles,
-        Bootstrap,
+        Bootstrap, scrollToTop,
         userAuth,
         setUserAuth,
         userInfo,
@@ -173,6 +226,8 @@ export const SiteWrapper = ({ children }) => {
         userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
         snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,
+        welcomeProfileSetupStep, setWelcomeProfileSetupStep, describePlaceWorkflow, setDescribePlaceWorkflow, prevProgress, setPrevProgress, nextProgress, setNextProgress,
+        describeTenanteWorkflow, setDescribeTenanteWorkflow,  
       }}
     >
       {children}

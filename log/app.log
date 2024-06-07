@@ -1706,3 +1706,48 @@
 [2024-06-06 23:21:09] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - The verification code: 136732 provided for the user: johnny.kh@hotmail.com is invalid
 [2024-06-06 23:21:30] - [info] - [johnny.kh@hotmail.com] - [/verifyCode] - Backend verification started for email: johnny.kh@hotmail.com and code: 249624
 [2024-06-06 23:21:30] - [info] - [johnny.kh@hotmail.com] - Email is now verified
+[2024-06-07 15:13:34] - [info] - [titoortyez@gmail.com] - [/api/signup] - User with email titoortyez@gmail.com already exists
+[2024-06-07 15:16:44] - [error] - [nextjsotrtizx@gmail.com] - [/api/signup] - Error in /signup: generateNumericCode is not defined
+[2024-06-07 15:18:56] - [info] - [nextjsortiz@gmail.com] - [/api/signup] - User created successfully
+[2024-06-07 15:19:43] - [info] - [nextjsortiz@gmail.com] - [/verifyCode] - Backend verification started for email: nextjsortiz@gmail.com and code: 914105
+[2024-06-07 15:19:43] - [info] - [nextjsortiz@gmail.com] - Email is now verified
+[2024-06-07 15:29:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-07 15:29:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-07 15:29:52] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-07 15:29:52] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzc4ODU5MiwiZXhwIjoxNzE3NzkyMTkyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.FNl4XqM36ritpQqtTuTEu-RDOwhxJuEamUNhaeauG6CtGKCpyOnl1j5UJOZifXiLyMb5lrcsWF0NLwT6ThFBUw2F3Rxm26eA4HkIVgDVDlCROjtoJrO5qdx_ieuZeefW7WnEZqWwfEmdfTBwfACvteXhgv3jB5EwNt7TQH7gjncVuH0IsTqd4e8XzxKj3UEZLuIreU3PeXAiyKAMIFwSAxXAwA6RiKspfjtgjKS5P-5O3TODXPtJEB0vvAtH4DOvcaeSX4dRYSHHDOLdpymMK3PiUfBz9lxn5pojagoyZrIOGICSYclVLURyoOtApTOPCMTRTAfvoPqfHe2P9VUK_A
+[2024-06-07 15:29:52] - [info] - ##################### we are in NextAuth
+[2024-06-07 15:29:52] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-07 15:29:52] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-07 15:29:52] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-07 15:29:52] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzc4ODU5MiwiZXhwIjoxNzE3NzkyMTkyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.FNl4XqM36ritpQqtTuTEu-RDOwhxJuEamUNhaeauG6CtGKCpyOnl1j5UJOZifXiLyMb5lrcsWF0NLwT6ThFBUw2F3Rxm26eA4HkIVgDVDlCROjtoJrO5qdx_ieuZeefW7WnEZqWwfEmdfTBwfACvteXhgv3jB5EwNt7TQH7gjncVuH0IsTqd4e8XzxKj3UEZLuIreU3PeXAiyKAMIFwSAxXAwA6RiKspfjtgjKS5P-5O3TODXPtJEB0vvAtH4DOvcaeSX4dRYSHHDOLdpymMK3PiUfBz9lxn5pojagoyZrIOGICSYclVLURyoOtApTOPCMTRTAfvoPqfHe2P9VUK_A
+[2024-06-07 15:29:58] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-07 15:29:59] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-07 15:30:55] - [info] - Request to logout
+[2024-06-07 15:30:55] - [info] - Request to logout
+[2024-06-07 16:51:16] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-07 16:51:16] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-07 16:51:16] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-07 16:51:17] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzc5MzQ3NywiZXhwIjoxNzE3Nzk3MDc3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.I4HKhiD8snl4ATUCopghQtfvhQeSQLCD8dqPDCWHW8XKwzvRdyaUiX2wanNNZGGH8qf4DA-XlYe_9Oy36BO20_1njwu5j_Z-pwEAdOvL7eRQX87LKW85AsriGXQJaOaE9GBNEJQ0PQUNf7V6MOpwRP_Y-IxgDgRtCdU7JM4S7KxH10nqulAfUuYRkUJ9lodkLNjR6gxS7Q6HWnDFI0C0vNZUsgcndWScpDwvzobZ-UzSHvR5m_vE9ydnzMWq0m_a4YQKh8gotwnK6uBRTDRynI37cXNsS-PViKIGegj_3JIoZva4gI84ZbT0LVV9ksW5KvzljbnwFwnrWnjDbI6YCA
+[2024-06-07 16:51:17] - [info] - ##################### we are in NextAuth
+[2024-06-07 16:51:17] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-07 16:51:17] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-07 16:51:18] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-07 16:51:18] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzc5MzQ3OCwiZXhwIjoxNzE3Nzk3MDc4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.RvXmlmxNhOjulBgWmy16_kyR7o2w2C_nRO2YENBO0tRv72Ovd1oDWbfd1AEG2cZPDfYgMZnIRQ0qbrNtqXfolIpZL74U4JEQ4a5HYIbUfjMubxOchZFaG3GhNS6nbznRlwpj2_fbVJGimcW8svrkWdM3GuvRGePFFJNbdmbsYvgS8YQMNB5-JU99f74LC9xQOSYOBuS96lWOBnZNxNxSn0mSIbS_70jCm9w-fe75Y_HQ6DxFKgaxgMCl3m-lMP7McgGl-EaMd1s-lH-YHwhX_04shaIodQLh-R2iB35e5tqHnlPdBtvYG6QgojGFuEvS8BsIotPYQh-ldMCUMTGdxQ
+[2024-06-07 16:52:26] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 17:16:57] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 17:18:49] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 17:26:06] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 17:33:18] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 17:34:30] - [error] - Backend failure during the /api/logFrontEndActivity webservice Unexpected end of JSON input
+[2024-06-07 17:34:32] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:05:31] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:06:43] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:06:43] - [error] - Backend failure during the /api/logFrontEndActivity webservice next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.ok is not a function
+[2024-06-07 18:07:26] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:07:26] - [error] - Backend failure during the /api/logFrontEndActivity webservice next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.ok is not a function
+[2024-06-07 18:11:38] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:11:38] - [error] - Backend failure during the /api/logFrontEndActivity webservice next_server__WEBPACK_IMPORTED_MODULE_0__.NextResponse.ok is not a function
+[2024-06-07 18:12:35] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:14:41] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:16:09] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-07 18:37:31] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow

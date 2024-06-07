@@ -14,17 +14,17 @@ body, html {
   flex-direction: column;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   font-size: 6vw;
-}
+} */
 
 /* Change the white to any color */
-input:-webkit-autofill,
+/* input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   -webkit-box-shadow: 0 0 0 30px white inset !important;
-}
+} */
 
 .no-highlight-input {
   -webkit-user-select: none; /* Chrome, Safari, Opera */
