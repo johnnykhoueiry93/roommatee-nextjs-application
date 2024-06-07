@@ -20,7 +20,9 @@ export const SiteWrapper = ({ children }) => {
   const [firebaseToken, setFirebaseToken] = useState();
   const [userAdmin, setUserAdmin] = useState(false);
   const [loading, setLoading] = useState(false);
-  
+  const [emailAddressToReset, setEmailAddressToReset] = useState();
+  const [signUpEmail, setSignUpEmail] = useState(null);
+
   // Without this the bootstrap functionality will not work
   useEffect(() => {
     if (!Bootstrap) {
@@ -164,7 +166,7 @@ export const SiteWrapper = ({ children }) => {
         setFirebaseToken,
         userAdmin, setUserAdmin,
         userProfilePicture, setUserProfilePicture,
-        loading, setLoading,
+        loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
       }}
     >
       {children}

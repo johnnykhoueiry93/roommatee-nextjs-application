@@ -79,14 +79,14 @@ const navigateToPage = (path) => {
     console.log( "Your email is not yet verified. Please verify your email to proceed."
     );
     setSignUpEmail(user[0].emailAddress);
-    // navigate("/emailVerification");
+    // navigateToPage("/emailVerification");
   }
 
     // @ts-ignore
     function triggerUserPasswordResetMode(user) {
       setUserAuth(false);
-      setEmailAddressToReset(user[0].emailAddress);
-      // navigate("/resetPassword");
+      setEmailAddressToReset(user.emailAddress);
+      navigateToPage('/resetPassword');
     }
 
       //@ts-ignore
@@ -95,7 +95,7 @@ const navigateToPage = (path) => {
     setLoginStatus(user[0].firstName);
     setUserInfo(user);
     setUserAuth(true);
-    // navigate("/setup");
+    // navigateToPage("/setup");
   }
 
 
@@ -179,7 +179,7 @@ const navigateToPage = (path) => {
       // We are checking if there is any intendedDestination provided by any component to resume his progress
       // of we should just take him to home / if this is the first login
       // if (intendedDestination) {
-      //   navigate(intendedDestination);
+      //   navigateToPage(intendedDestination);
       // } else {
 
       
@@ -189,17 +189,20 @@ const navigateToPage = (path) => {
 
       // @ts-ignore
   const handleUserLogin = (user, firebaseToken) => {
-    // if (user[0].isEmailVerified === 0) {
+    // if (user.isEmailVerified === 0) {
     //   triggerUserEmailIsNotVerified(user);
+    // }
 
-    // } else if (user[0].profileStatus === "PASSWORD RESET") {
-    //   triggerUserPasswordResetMode(user);
+    if (user.profileStatus === "PASSWORD RESET") {
+      triggerUserPasswordResetMode(user);
+    } else {
+      triggerSuccessLoginSteps(user, firebaseToken);
+    }
 
     // } else if (user[0].isProfileComplete === 0) {
     //   triggerUserProfileCompletionWorkflow(user);
 
     // } else {
-      triggerSuccessLoginSteps(user, firebaseToken);
 
       // Set a cookie or local storage item to track authentication status
       // document.cookie = 'userAuth=true; path=/';
@@ -277,12 +280,12 @@ const navigateToPage = (path) => {
 
       function handleUserClickOnRegisterNow() {
         console.log("The user clicked on the button Register now");
-        // navigate("/signup");
+        // navigateToPage("/signup");
       }
 
       function handleUserClickResetYourPassword() {
         console.log("The user clicked on the button Reset your password");
-        // navigate("/forgotPassword");
+        navigateToPage("/forgotPassword");
       }
     
       // if (!data) {

@@ -11,6 +11,15 @@ userAuth --> return true/false if the user is logged in or not
 isMobile --> return true/false if the screen dimnentions is mobile
 isTabletuserInfo --> return true/false if the screen dimnentions is tablet
 
+# How to navigate to another page
+--------------------------------------------------------------------
+import { useRouter } from 'next/navigation';
+const router = useRouter();
+const navigateToPage = (path) => {
+  router.push(path);
+};
+navigateToPage('/new page');
+
 
 # How to send frontend log to the backend
 --------------------------------------------------------------------

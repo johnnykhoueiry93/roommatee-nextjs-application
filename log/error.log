@@ -182,3 +182,12 @@
 [2024-06-05 17:24:59] - [error] - Backend failure during the /login webservice data and hash arguments required
 [2024-06-05 17:25:08] - [error] - Backend failure during the /login webservice data and hash arguments required
 [2024-06-05 17:25:55] - [error] - Backend failure during the /login webservice data and hash arguments required
+[2024-06-06 19:51:48] - [error] - Backend failure during the /login webservice updateErr is not defined
+[2024-06-06 20:04:35] - [error] - Backend failure during the /login webservice res is not defined
+[2024-06-06 20:07:16] - [error] - Backend failure during the /api/changePassword webservice res is not defined
+[2024-06-06 20:07:51] - [error] - Backend failure during the /api/changePassword webservice res is not defined
+[2024-06-06 21:50:28] - [error] - Backend failure during the /api/changePassword webservice data and salt arguments required
+[2024-06-06 21:50:53] - [error] - Backend failure during the /api/changePassword webservice data and salt arguments required
+[2024-06-06 21:54:07] - [error] - Backend failure during the /api/changePassword webservice password is not defined
+[2024-06-06 21:56:32] - [error] - Backend failure during the /api/resetPassword webservice updateErr is not defined
+[2024-06-06 21:57:11] - [error] - Backend failure during the /api/resetPassword webservice updateErr is not defined
