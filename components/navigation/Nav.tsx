@@ -40,17 +40,17 @@ useEffect(() => {
     // localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
     // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
 
-    // if(userInfo[0].isProfilePictureUploaded == "0") {
+    // if(userInfo.isProfilePictureUploaded == "0") {
     //   setBadgeCount(prevCount => prevCount + 1);
     //   console.log('My profile badge counter increased because profile picture was not found');
     //   console.log('Badge Count #1: ' + badgeCount);
     // }
-    // if(userInfo[0].idDocument == "0") {
+    // if(userInfo.idDocument == "0") {
     //   setBadgeCount(prevCount => prevCount + 1);
     //   console.log('My profile badge counter increased because id document was not uploaded');
     //   console.log('Badge Count #2: ' + badgeCount);
     // }
-    // if(userInfo[0].idDocumentSelfie == "0") {
+    // if(userInfo.idDocumentSelfie == "0") {
     //   setBadgeCount(prevCount => prevCount + 1);
     //   console.log('My profile badge counter increased because id document selfie was not uploaded');
     //   console.log('Badge Count #3: ' + badgeCount);
@@ -276,7 +276,6 @@ if (userAuth) {
       <nav id="topNavBarId"
         className={`navbar navbar-expand-lg navbar-light bg-light sticky-top ${ hasScrolled ? "shadow opacity" : "" }  `   }  // if you want a border for the nav add this in the classnName above ==> nav-basic-border
       >
-
 
       { userInfo.isProfileComplete == 1  &&
         <div className="container-fluid">

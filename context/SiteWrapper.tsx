@@ -81,19 +81,6 @@ export const SiteWrapper = ({ children }) => {
     return storedUserProfilePicture ? JSON.parse(storedUserProfilePicture) : [];
   });
 
-
-  // Code related to userAuth -- No Encryption
-  // const [userAuth, setUserAuth] = useState(() => {
-  //   const storedUserAuth = Cookies.get("userAuth");
-  //   return storedUserAuth ? JSON.parse(storedUserAuth) : false;
-  // });
-
-  // // This use effect is monitoring the state of userAuth so if someone logs out
-  // // it will set it to false. Without it the state change will not be reflected.
-  // useEffect(() => {
-  //   Cookies.set("userAuth", JSON.stringify(userAuth), { expires: 1 / 8 }); // 3 hours expiration
-  // }, [userAuth]);
-
 // Code related to userAuth -- With Encryption
   const [userAuth, setUserAuth] = useState(() => {
     const storedUserAuth = Cookies.get("userAuth");
@@ -143,19 +130,19 @@ export const SiteWrapper = ({ children }) => {
   const [snackbarSeverity, setSnackbarSeverity] = useState<"success" | "error" | "warning" | "info">("success");
   // ---------------------------------------------------------- SNACK BAR
 
-  // useEffect(() => {
-  //   if(userAuth) {
-  //     localStorage.setItem('userInfo', encryptData(userInfo));
-  //     // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
-  //     // localStorage.setItem('userSupportTickets', JSON.stringify(supportTickets));
-  //     // localStorage.setItem('storedOpenedSupportTicket', JSON.stringify(openedSupportTicket));
-  //     // localStorage.setItem('storedSupportTicketMessages', JSON.stringify(supportTicketMessages));
-  //     // if(userInfo[0].userType == "admin") {
-  //     //   setUserAdmin(true);
-  //     // }
+  useEffect(() => {
+    if(userAuth) {
+      localStorage.setItem('userInfo', encryptData(userInfo));
+      // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
+      // localStorage.setItem('userSupportTickets', JSON.stringify(supportTickets));
+      // localStorage.setItem('storedOpenedSupportTicket', JSON.stringify(openedSupportTicket));
+      // localStorage.setItem('storedSupportTicketMessages', JSON.stringify(supportTicketMessages));
+      // if(userInfo.userType == "admin") {
+      //   setUserAdmin(true);
+      // }
 
-  //   } 
-  // }, [userInfo, userAuth]); // add userProfilePicture
+    } 
+  }, [userInfo, userAuth, userProfilePicture]); // add userProfilePicture
 
   /**
    * This object holds all the user information saved during the 
@@ -212,17 +199,8 @@ export const SiteWrapper = ({ children }) => {
     <SiteContext.Provider
       value={{
         isMobile,isTablet, PROFILE_PICTURE_S3_SUB_FOLDER, ID_DOCUMENT_S3_SUB_FOLDER, ID_DOCUMENT_SELFIE_S3_SUB_FOLDER,
-        profiles,
-        setProfiles,
-        Bootstrap, scrollToTop,
-        userAuth,
-        setUserAuth,
-        userInfo,
-        setUserInfo,
-        userIsAdmin,
-        firebaseToken,
-        setFirebaseToken,
-        userAdmin, setUserAdmin,
+        profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo,
+        userIsAdmin, firebaseToken, setFirebaseToken, userAdmin, setUserAdmin,
         userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
         snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,

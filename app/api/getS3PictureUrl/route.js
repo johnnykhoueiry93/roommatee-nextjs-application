@@ -34,7 +34,7 @@ export async function POST(request) {
 
   try {
     const url = s3.getSignedUrl('getObject', params);
-    return NextResponse.json({ s3Url: url });
+    return NextResponse.json({ s3Url: url } , { status: 200 });
   } catch (error) {
     console.error('Error generating S3 signed URL:', error);
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });

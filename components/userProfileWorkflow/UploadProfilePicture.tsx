@@ -3,17 +3,18 @@
 import Title from "./Title";
 import SubTitle from "./SubTitle";
 import NavigationButton from "./NavigationButton";
-// import BackendAxios from "../../backend/BackendAxios";
 import { SiteData } from "../../context/SiteWrapper";
 import { logFrontendActivityToBackend } from "../../utils/apiUtils";
 import { Avatar } from "@mui/material";
 import { useState } from "react";
 import { Button } from "@mui/material";
+import SnackBarAlert from "../alerts/SnackBarAlerts";
+import Snackbar, { SnackbarOrigin } from "@mui/material/Snackbar";
 
 //@ts-ignore
 const UploadProfilePicture = ({ nextStep, prevStep }) => {
   //@ts-ignore
-  const { isMobile, userInfo, setUserInfo, welcomeProfileSetupStep, setWelcomeProfileSetupStep, userProfilePicture, setUserProfilePicture, PROFILE_PICTURE_S3_SUB_FOLDER, setPrevProgress, setNextProgress } = SiteData();
+  const { isMobile, userInfo, setUserInfo, welcomeProfileSetupStep, setWelcomeProfileSetupStep, userProfilePicture, setUserProfilePicture, PROFILE_PICTURE_S3_SUB_FOLDER, setPrevProgress, setNextProgress, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity } = SiteData();
   setPrevProgress(90);
   setNextProgress(95);
   let completionMessage = "The user completed the Setup Profile workflow";
@@ -34,76 +35,87 @@ const UploadProfilePicture = ({ nextStep, prevStep }) => {
     setSelectedFile(file);
   };
 
+  async function getNavBarProfilePicture(user) {
+    const key = `profile-picture/${user.id}-profile-picture.png`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+
+      if (response.status === 200) {
+        console.log("Setting the user profile picture to URL: " + data.s3Url);
+        setUserProfilePicture(data.s3Url);
+        console.log("setting in storage userProfilePicture: " + data.s3Url);
+        localStorage.setItem("userProfilePicture", JSON.stringify(data.s3Url));
+        // Set Snackbar state
+        setSnackbarMessage("Profile picture uploaded");
+        setSnackbarSeverity("success");
+        setSnackbarOpen(true);
+      } else {
+        // Set Snackbar state
+        setSnackbarMessage("Failed to upload profile picture.");
+        setSnackbarSeverity("error");
+        setSnackbarOpen(true);    
+      }
+      
+     
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+
   //@ts-ignore
   const handleUploadPictureToS3SubFolder = async (s3SubFolderPath) => {
     if (selectedFile) {
       console.log(`Upoading profile picture to: ${s3SubFolderPath}`);
 
       const key = `${userInfo.id}-${s3SubFolderPath}.png?folder=${s3SubFolderPath}`;
-      const formData = new FormData();
-      formData.append("picture", selectedFile);
-      formData.append("userId", userInfo.id);
-      formData.append("emailAddress", userInfo.emailAddress);
 
+      //@ts-ignore
+      const toBase64 = (file) => new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.readAsDataURL(file);
+        //@ts-ignore
+        reader.onload = () => resolve(reader.result.split(',')[1]);
+        reader.onerror = (error) => reject(error);
+      });
+    
+      const base64File = await toBase64(selectedFile);
 
-      const response = await fetch("/api/handleUploadPictureToS3SubFolder", {
+      const response =  await fetch("/api/handleUploadPictureToS3SubFolder", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ formData }), // Send the parameters in the request body
+        body: JSON.stringify({ selectedFile: base64File,
+          userId: userInfo.id,
+          emailAddress: userInfo.emailAddress,
+          s3SubFolderPath}), // Send the parameters in the request body
         cache: 'no-store' // Ensures the data is fetched on every request
       });
-      const data = await response.json();
-    //   return data;
+
 
     if (response.status === 200) {
-        window.alert('Picture uploaded successfully!'); //TODO add success snack bar
+        getNavBarProfilePicture(userInfo);
       } else {
         window.alert('Failred to upload picture!') //TODO add success snack bar
       }
-
-      // Start by calling the upload picture
-    //   BackendAxios.post("/handleUploadPictureToS3SubFolder", formData, {
-    //     params: { folder: s3SubFolderPath },
-    //   })
-    //     .then((response) => {
-    //       console.log(
-    //         "File uploaded successfully. S3 location:",
-    //         response.data.s3Location
-    //       );
-
-    //       // Since the upload is success get the URL of the picture from S3
-    //       BackendAxios.post(`/getS3PictureUrl/${key}`)
-    //         .then((response) => {
-    //           console.log(
-    //             "Setting the user profile picture to URL: " +
-    //               response.data.s3Url
-    //           );
-    //           setUserProfilePicture(response.data.s3Url);
-    //           console.log("Profile picture uploaded successfully");
-    //           //   showSuccessAlert('Success! Profile picture updated.');
-    //         })
-    //         .catch((error) => {
-    //           console.error("Error:", error);
-    //           //   showFailureAlert('Failed to update profile picture.');
-    //         });
-    //     })
-    //     .catch((error) => {
-    //       console.error("Error uploading file:", error);
-    //       //   showFailureAlert('Failed to update profile picture.');
-    //     });
-    // } else {
-    //   console.log("No profile picture selected");
-    //   //   showFailureAlert("No profile picture selected");
-    // }
-
     }
 
   };
 
   return (
     <div>
+
+
+<SnackBarAlert
+          message={snackbarMessage}
+          open={snackbarOpen}
+          handleClose={() => setSnackbarOpen(false)}
+          severity={snackbarSeverity}
+        />
 
       {/* ---------------------------------- TITLE ---------------------------------- */}
       <Title text={COMPONENT_TITLE} />
@@ -133,9 +145,7 @@ const UploadProfilePicture = ({ nextStep, prevStep }) => {
           <Button
           variant="contained"
           color="primary"
-          onClick={() =>
-            handleUploadPictureToS3SubFolder(PROFILE_PICTURE_S3_SUB_FOLDER)
-          }
+          onClick={() => handleUploadPictureToS3SubFolder(PROFILE_PICTURE_S3_SUB_FOLDER) }
           disabled={!selectedFile}
           style={{ marginTop: 20, width: '100px' }}
         >

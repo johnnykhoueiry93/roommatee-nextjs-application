@@ -14,7 +14,6 @@ export async function connectWithRetry(retries = 3) {
   while (retries > 0) {
     try {
       const connection = await pool.getConnection();
-      // console.info("Connected to MySQL database");
       return connection;
     } catch (err) {
       logger.error("Error connecting to MySQL database:", err);
@@ -32,7 +31,7 @@ export async function executeQuery(query, values = []) {
     connection.release();
     return results;
   } catch (err) {
-    logger.error("Error executing MySQL query:", err);
+    logger.error("[executeQuery] - Error executing MySQL query:", err);
     throw err; // Re-throw the error for handling in the route
   } finally {
     connection.release(); // Release the connection even on error

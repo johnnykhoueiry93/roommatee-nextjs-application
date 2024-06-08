@@ -1,62 +1,52 @@
-// /api/handleUploadPictureToS3SubFolder
+// /api/handleUploadPictureToS3SubFolder.js
 
-import { NextRequest, NextResponse } from "next/server";
-import { uploadSinglePictureToS3 } from "../../../utils/awsUtils"; // Adjust the import path based on your project structure
+import AWS from 'aws-sdk';
+import { NextResponse } from 'next/server';
 const logger = require("../../../utils/logger");
-import formidable from 'formidable';
+import { Buffer } from 'buffer';
+export const config = {
+  api: {
+    bodyParser: false, // Disable body parsing to handle file upload manually
+  },
+};
 
 export async function POST(request) {
     try {
-      const { formData } = await request.json();
-      const { userId, emailAddress } = formData;
-      const { folder } = request.query;
+        const { userId,  emailAddress, selectedFile, s3SubFolderPath} = await request.json();
 
-      logger.info(`[${emailAddress}] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with paramter: ${folder}`);
+        logger.info(`[${emailAddress}] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with paramter: ${s3SubFolderPath}`);
 
-      // Check if the required parameters are present
-      if (!userId || !req.file) {
-        return res.status(400).json({ error: 'Missing required parameters' });
-      }
+        // Decode base64 file to buffer
+        const fileBuffer = Buffer.from(selectedFile, 'base64');
 
-      // Parse the incoming request using formidable
-    const form = new formidable.IncomingForm();
+        AWS.config.update({
+        accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+        secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
+        region: process.env.AWS_REGION,
+        });
 
-    // Set the upload directory for the files
-    form.uploadDir = "./uploads"; // Adjust the upload directory as needed
+        // Create an S3 instance
+        const s3 = new AWS.S3();
 
-    // Parse the request
-    const fileToUploadPromise = new Promise((resolve, reject) => {
-      form.parse(request, (err, fields, files) => {
-        if (err) {
-          reject(err);
-          return;
-        }
-        resolve(files.file.path); // Get the path of the uploaded file
-      });
-    });
+        const params = {
+            Bucket: process.env.S3_UPLOAD_BUCKET_NAME,
+            Key: `${s3SubFolderPath}/${userId}-${s3SubFolderPath}.png`,
+            Body: fileBuffer,
+            ContentEncoding: 'base64',
+            ContentType: 'image/png',
+            ACL: 'public-read',
+          };
 
-    // Wait for the promise to resolve
-    const fileToUpload = await fileToUploadPromise;
+        const uploadResult = await s3.upload(params).promise();
 
-    const key = `${folder}/${userId}-${folder}.png`;
+        console.log("File uploaded successfully:", uploadResult.Location);
+        
+        // You can do additional processing or return data as needed
+        return NextResponse.json({ success: true, message: 'File uploaded successfully', imageUrl: uploadResult.Location }, { status: 200 });
 
-
-    logger.info('fileToUpload: ' + fileToUpload);
-    logger.info('key: ' + key);
-
-    
-      //@ts-ignore
-      uploadSinglePictureToS3(emailAddress, fileToUpload, key, (err, s3Location) => {
-        if (err) {
-            return NextResponse.json({ message: "Internal server error", error: err.message }, { status: 500 });
-        } else {
-          return NextResponse.json({ success: true, s3Location }, { status: 200 });
-        }
-      });
-      
-  
-    } catch (err) {
-      logger.error(`Backend failure during the /api/handleUploadPictureToS3SubFolder webservice`, err);
-      return NextResponse.json({ message: "Internal server error", error: err.message }, { status: 500 });
+    } catch (error) {
+        // Handle errors
+        console.error(error);
+        return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
     }
-  }
+}

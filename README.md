@@ -70,7 +70,7 @@ API Key is in the .env file under src/backend
 
 
 # Webserivces Migrated
-/api/login
+/login
 /signup
 /getUserListings
 /changePassword
@@ -78,6 +78,8 @@ API Key is in the .env file under src/backend
 /verifyCode
 /getS3PictureUrl
 /resendVerificationToken
+/handleUploadPictureToS3SubFolder
+/logFrontendActivity
 
 
 # Webserivces Pening Migration
@@ -85,7 +87,6 @@ API Key is in the .env file under src/backend
 /posts
 /uploadMultiple
 /updateRoomListing
-/handleUploadPictureToS3SubFolder
 /createNewRoomListing
 /createUserProfile
 /setMysqlDatabaseFlagTrue
@@ -99,7 +100,6 @@ API Key is in the .env file under src/backend
 /getUserCounts
 /getUserProfileCounts
 /logInitialMessageSent
-/logFrontendActivity
 /searchProfile
 /search
 /searchListingById

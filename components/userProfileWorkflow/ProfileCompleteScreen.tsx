@@ -19,10 +19,11 @@ const navigateToPage = (path) => {
 
 setPrevProgress(95);
 setNextProgress(99);
+
   useEffect(() => {
     const timer = setTimeout(() => {
         handleInsertProfileSetupInfo();
-        navigateToPage('/');
+        navigateToPage('/'); 
     }, 2000); // Navigate after 2 seconds
 
     return () => clearTimeout(timer); // Clear the timer on component unmount
@@ -31,19 +32,25 @@ setNextProgress(99);
   function setUserProfileSetupToComplete() {
     //@ts-ignore
     setUserInfo((prevUserInfo) => {
-      if (prevUserInfo.length > 0) {
-        const updatedUserInfo = [
-          {
-            ...prevUserInfo[0], // Update the first object in the array
-            isProfileComplete: 1,
-          },
-          ...prevUserInfo.slice(1), // Keep the rest of the array as is
-        ];
-        return updatedUserInfo;
-      }
-      return prevUserInfo; // If userInfo is empty, return as is
+        if (Array.isArray(prevUserInfo) && prevUserInfo.length > 0) {
+            const updatedUserInfo = [
+                {
+                    ...prevUserInfo[0], // Update the first object in the array
+                    isProfileComplete: 1,
+                },
+                ...prevUserInfo.slice(1), // Keep the rest of the array as is
+            ];
+            return updatedUserInfo;
+        } else if (typeof prevUserInfo === 'object' && prevUserInfo !== null) {
+            // Handle case where prevUserInfo is an object, not an array
+            return {
+                ...prevUserInfo,
+                isProfileComplete: 1,
+            };
+        }
+        return prevUserInfo; // If userInfo is empty or not an array, return as is
     });
-  }
+}
   
     /** ROOMT-156
    * This function is very important.
@@ -82,14 +89,25 @@ setNextProgress(99);
     // Function to update a subset of userInfo 
     //@ts-ignore
     const updateUserInfoSubset = (updatedSubset) => {
-        setUserInfo([
-          {
-            ...userInfo, // Copy existing userInfo
+      setUserInfo((prevUserInfo) => {
+        if (Array.isArray(prevUserInfo)) {
+          return [
+            {
+              ...prevUserInfo[0], // Copy existing userInfo (first object in the array)
+              ...updatedSubset, // Update the specified subset
+            },
+            ...prevUserInfo.slice(1), // Keep other elements unchanged
+          ];
+        } else if (typeof prevUserInfo === 'object' && prevUserInfo !== null) {
+          // Handle case where prevUserInfo is an object, not an array
+          return {
+            ...prevUserInfo,
             ...updatedSubset, // Update the specified subset
-          },
-          ...userInfo.slice(1), // Keep other elements unchanged
-        ]);
-      };
+          };
+        }
+        return prevUserInfo; // If prevUserInfo is empty or not an array/object, return as is
+      });
+    };
 
   const handleInsertProfileSetupInfo = async () => {
     console.log( "The user clicked on the finish button to complete the User Profile Setup" );
@@ -104,21 +122,23 @@ setNextProgress(99);
       });
 
       let emailAddress = userInfo.emailAddress;
-      // const response = await BackendAxios.post("/insertProfileSetupInfo", {
-      //   welcomeProfileSetupStep,
-      //   emailAddress,
-      // });
-      // console.log("Insertion successful:", response.data);
-      // Handle any further logic after successful insertion
+      const response =  await fetch("/api/insertProfileSetupInfo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
+        cache: 'no-store' // Ensures the data is fetched on every request
+      });
+
+
     } catch (error) {
       console.error("Error inserting profile setup info:", error);
-      // Handle error response
     }
 
     console.log("Full profile print: ################################# ", welcomeProfileSetupStep);
 
     updateCurrentUserInfo();
-
 
   };
 
