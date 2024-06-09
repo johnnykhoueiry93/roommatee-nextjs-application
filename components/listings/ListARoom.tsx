@@ -165,7 +165,9 @@ const ListARoom = () => {
   const handleSubmitNewRoomListing = () => {
     // Submit the form and pass the foreign key the user
     // id to associate this listing to his personal key id
+    console.log("Appending to roomListingData the userProfileId of value: " + userInfo.id);
     setRoomListingData({ ...roomListingData, userProfileId: userInfo.id });
+    setRoomListingData({ ...roomListingData, emailAddress: userInfo.emailAddress });
 
     // this should update the value that the useEffect
     // is dependant on to redender again the listing array
@@ -176,6 +178,20 @@ const ListARoom = () => {
   };
 
 
+  const createFormData = (data) => {
+    const formData = new FormData();
+    for (const key in data) {
+      if (key === "pictures") {
+        const pictures = data[key];
+        for (let i = 0; i < pictures.length; i++) {
+          formData.append("pictures", pictures[i]);
+        }
+      } else {
+        formData.append(key, data[key]);
+      }
+    }
+    return formData;
+  };
 
   // @ts-ignore
   const handleInsertNewRoomListing = async (e) => {
@@ -191,17 +207,32 @@ const ListARoom = () => {
 
     setSelectedAddress("");
 
-    const formData = new FormData();
-    for (const key in roomListingData) {
-      if (key === "pictures") {
-        for (let i = 0; i < roomListingData[key].length; i++) {
-          formData.append("pictures", roomListingData[key][i]);
-        }
-      } else {
-        // @ts-ignore
-        formData.append(key, roomListingData[key]);
-      }
+    console.log("roomListingData" , roomListingData);
+
+    const formData = createFormData(roomListingData);
+
+    // Verify formData contents
+    for (const [key, value] of formData.entries()) {
+        console.log(`Key: ${key}, Value: ${value}`);
     }
+
+    try {
+        const response = await fetch("/api/createNewRoomListing", {
+          method: "POST",
+          body: formData, // No need to stringify FormData
+          cache: 'no-store' // Ensures the data is fetched on every request
+        });
+      
+        if (!response.ok) {
+          throw new Error('Network response was not ok' + response.statusText);
+        }
+      
+        const data = await response.json();
+        // Handle the response data here
+      } catch (error) {
+        // Handle the error here
+        console.error("Error:", error);
+      }
 
     // try {
     //   const response = await BackendAxios.post(
@@ -326,6 +357,121 @@ function returnSectionHeader(headingLabel) {
         </div>
     )
   }
+  function returnBedSizeSection() {
+    return(
+      <div className='mb-3'>
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Select bed size</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={roomListingData.preferredLeaseTerm}
+              label="Select bed size"
+              //@ts-ignore
+              onChange={(e) =>
+                setRoomListingData({
+                  ...roomListingData,
+                  bedSize: e.target.value,
+                })
+              }
+            >
+              <MenuItem value={"Small Single"}>Small Single</MenuItem>
+              <MenuItem value={"Twin"}>Twin</MenuItem>
+              <MenuItem value={"Twin XL"}>Twin XL</MenuItem>
+              <MenuItem value={"Queen"}>Queen</MenuItem>
+              <MenuItem value={"King"}>King</MenuItem>
+              <MenuItem value={"Not Available"}>Not Available</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+    )
+  }
+  function returnHousingTypeSection() {
+    return(
+      <div className='mb-3'>
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Housing Type</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={roomListingData.listingType}
+              label="Housing Type"
+              //@ts-ignore
+              onChange={(e) =>
+                setRoomListingData({
+                  ...roomListingData,
+                  listingType: e.target.value,
+                })
+              }
+            >
+              <MenuItem value={"House"}>House</MenuItem>
+              <MenuItem value={"Apartment"}>Apartment</MenuItem>
+              <MenuItem value={"Bedroom"}>Bedroom</MenuItem>
+              <MenuItem value={"Studio"}>Studio</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+    )
+  }
+
+  function returnGenderPreference() {
+    return(
+      <div className='mb-3'>
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Gender Preference</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={roomListingData.genderPreference}
+              label="Gender Preference"
+              //@ts-ignore
+              onChange={(e) =>
+                setRoomListingData({
+                  ...roomListingData,
+                  genderPreference: e.target.value,
+                })
+              }
+            >
+              <MenuItem value={"Male"}>Male</MenuItem>
+              <MenuItem value={"Female"}>Female</MenuItem>
+              <MenuItem value={"X"}>X</MenuItem>
+              <MenuItem value={"Any"}>Any</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+    )
+  }
+                  
+  function returnAgePreference() {
+    return(
+      <div className='mb-3 input-field-width'>
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Age Preference</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={roomListingData.agePreference}
+              label="Gender Preference"
+              onChange={(e) => {
+                const value = e.target.value;
+                setRoomListingData({
+                  ...roomListingData,
+                  agePreference: value,
+                  minAge: value === "Any" ? 0 : roomListingData.minAge, // Reset minAge when switching from Custom
+                  maxAge: value === "Any" ? 0 : roomListingData.maxAge, // Reset maxAge when switching from Custom
+                });
+              }}
+            >
+              <MenuItem value={"Any"}>Any</MenuItem>
+              <MenuItem value={"Custom"}>Custom</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+    )
+  }
+
+
+  
   
   return (
     <div className="container-fluid">
@@ -406,52 +552,10 @@ function returnSectionHeader(headingLabel) {
                 </div>
 
                 {/* LISTING TYPE */}
-                <div className="form-floating mb-3 input-field-width">
-                  <select
-                    required
-                    className="input-dropdown "
-                    id="listingType"
-                    name="cars"
-                    onChange={(e) =>
-                      setRoomListingData({
-                        ...roomListingData,
-                        listingType: e.target.value,
-                      })
-                    }
-                  >
-                    <option value="" selected disabled>
-                    Housing Type
-                    </option>
-                    <option value="House">House</option>
-                    <option value="Apartment">Apartment</option>
-                    <option value="Studio">Studio</option>
-                    <option value="Bedroom">Bedroom</option>
-                  </select>
-                </div>
-                {/* BED SIZE */}
-                <div className="form-floating mb-3 input-field-width">
-                  <select
-                    required
-                    className="input-dropdown "
-                    id="bedSize"
-                    onChange={(e) =>
-                      setRoomListingData({
-                        ...roomListingData,
-                        bedSize: e.target.value,
-                      })
-                    }
-                  >
-                    <option value="" selected disabled>
-                      Select bed size
-                    </option>
-                    <option value="Small Single">Small Single</option>
-                    <option value="Twin">Twin</option>
-                    <option value="Twin XL">Twin XL</option>
-                    <option value="Queen">Queen</option>
-                    <option value="King">King</option>
-                    <option value="Not Available">Not Available</option>
-                  </select>
-                </div>
+                {returnHousingTypeSection()}
+                
+                {/* ---------------------------------------- BED SIZE ---------------------------------------- */}
+                {returnBedSizeSection()}
 
                 {/* ---------------------------------------- Pricing ----------------------------------------------------- */}
                 {returnSectionHeader('Pricing')}
@@ -473,7 +577,7 @@ function returnSectionHeader(headingLabel) {
                       })
                     }
                   />
-                  <div className="input-group-append">
+                  <div className="input-group-append ">
                     <span className="input-group-text">$</span>
                   </div>
                 </div>
@@ -493,59 +597,14 @@ function returnSectionHeader(headingLabel) {
                   roommate/tenant.
                 </p>
 
-                <div className="form-floating mb-3 input-field-width">
-                  <select
-                    required
-                    className="input-dropdown "
-                    id="listingType"
-                    name="cars"
-                    onChange={(e) =>
-                      setRoomListingData({
-                        ...roomListingData,
-                        genderPreference: e.target.value,
-                      })
-                    }
-                  >
-                    <option value="" selected disabled>
-                      Gender Preference
-                    </option>
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="X">X</option>
-                  </select>
-                </div>
+                {/* ---------------------------------------- Gender Preference ----------------------------------------------------- */}
+                {returnGenderPreference()}
 
                 <div
                   className="form-floating mb-3"
                   style={{ display: "flex", alignItems: "center" }}
                 >
-                  <div className="input-field-width">
-                    <select
-                      required
-                      className="input-dropdown"
-                      id="listingType"
-                      name="cars"
-                      onChange={(e) => {
-                        const value = e.target.value;
-                        setRoomListingData({
-                          ...roomListingData,
-                          agePreference: value,
-                          // @ts-ignore
-                          minAge:
-                            value === "Any" ? 0 : roomListingData.minAge, // Reset minAge when switching from Custom
-                          // @ts-ignore
-                          maxAge:
-                            value === "Any" ? 0 : roomListingData.maxAge, // Reset maxAge when switching from Custom
-                        });
-                      }}
-                    >
-                      <option value="" disabled selected>
-                        Age Preference
-                      </option>
-                      <option value="Any">Any</option>
-                      <option value="Custom">Custom</option>
-                    </select>
-                  </div>
+                  {returnAgePreference()}
 
                   {/* This is the custom check.
                   IF the age is CUSTOM will display the Age Range and the Slider for Min and Max Age */}

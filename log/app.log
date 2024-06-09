@@ -2123,3 +2123,162 @@
 [2024-06-08 21:24:25] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
 [2024-06-08 21:24:26] - [info] - [johnny.kh@hotmail.com] - Login was successful
 [2024-06-08 21:24:26] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzg5NjI2NiwiZXhwIjoxNzE3ODk5ODY2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.EPCD-X7c6LeEZfJQURwucvahb3rAfidbI6Q2R5480LUrngr-fwIGAvtWBYCTyBdz-wGMWHt2H92wCuPlRpt1omDWV-SNjsqyoJ18R8KWVDIOaCBLq8uXbnDhRDKkKfkyso8dgbeTlGT2n1CUnYA5afOVbLoYerEdovIuE8xmr7KQlfEL-0OR-kNdymo8Q9lotew_kruo9LKTlv39Bahyj_RTYaeIOcGZeUJ15R4i8fgC10D-Q3F0YCZOvHgCzHiH3vibo3AqzG0xDHBRrkRBaozGYOJMle2PGACdo-hb4_QMXjxsAcNCWsdy_Df57U-4Hsw2aoRDIofucl8y6XFp9Q
+[2024-06-08 21:24:34] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-08 21:24:35] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-08 21:24:37] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button List a Room
+[2024-06-08 22:33:19] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzkwMDgzNSwiZXhwIjoxNzE3OTA0NDM1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.G-re1HdQ7NOeHYFHoa3dn9K9dgCXmIFEHFgphTDaG1WafVpBaVm3lM2Ax7eA1t6Q5SetCs04ne17bYH1gq9JitEIAe-SChLv5YKK29QBf8OSNG6hmbJp746nMWD845vr16mHiGtOviMYx_T-w-zfyBotsp4t4_UZEUQ8A65NeQ0su9bE_95chkGSibn3sGm9vgb5uc2B_E1qNsd7t1HzEtgFdb761xwF-mljjrhLklrzLKHM0T2ddy0Py22EkEfUrdRNFuwA8n0OigJtmdc5FaUJ_JF0-PUwN9s09ufXmvZiZXBEgy6jL57g8wGaQggggkG8SdeXfZLkIBSMUmyhrQ
+[2024-06-08 22:40:35] - [info] - ##################### we are in NextAuth
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-08 22:40:35] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzkwMDgzNSwiZXhwIjoxNzE3OTA0NDM1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.G-re1HdQ7NOeHYFHoa3dn9K9dgCXmIFEHFgphTDaG1WafVpBaVm3lM2Ax7eA1t6Q5SetCs04ne17bYH1gq9JitEIAe-SChLv5YKK29QBf8OSNG6hmbJp746nMWD845vr16mHiGtOviMYx_T-w-zfyBotsp4t4_UZEUQ8A65NeQ0su9bE_95chkGSibn3sGm9vgb5uc2B_E1qNsd7t1HzEtgFdb761xwF-mljjrhLklrzLKHM0T2ddy0Py22EkEfUrdRNFuwA8n0OigJtmdc5FaUJ_JF0-PUwN9s09ufXmvZiZXBEgy6jL57g8wGaQggggkG8SdeXfZLkIBSMUmyhrQ
+[2024-06-08 22:40:48] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-08 22:40:48] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button List a Room
+[2024-06-08 22:40:49] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-08 22:41:04] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:42:37] - [info] - Breakpoint 1
+[2024-06-08 22:42:37] - [info] - Breakpoint 2
+[2024-06-08 22:42:37] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:44:43] - [info] - Breakpoint 1
+[2024-06-08 22:44:43] - [info] - Breakpoint 2
+[2024-06-08 22:44:43] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:46:06] - [info] - Breakpoint 1
+[2024-06-08 22:46:06] - [info] - Breakpoint 2
+[2024-06-08 22:46:06] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:46:24] - [info] - Breakpoint 1
+[2024-06-08 22:46:24] - [info] - Breakpoint 2
+[2024-06-08 22:46:24] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:56:05] - [info] - Breakpoint 1
+[2024-06-08 22:56:05] - [info] - Breakpoint 2
+[2024-06-08 22:56:05] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:56:15] - [info] - Breakpoint 1
+[2024-06-08 22:56:15] - [info] - Breakpoint 2
+[2024-06-08 22:56:15] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:56:57] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-08 22:56:57] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-08 22:56:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-08 22:56:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzkwMTgxOCwiZXhwIjoxNzE3OTA1NDE4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.AQtTGkOfFyWXrr2z2hhn9TVytF1JebI2nGKkAg50AYKYoA9ks01H72UGzVZdTvzr9C_3Vsj79NJIRu9D6M_bwGUPN5a5KhkEfkC9_Q0eG3MtJqwK5tY7FhkfB3AeHVYiTanO4Uc9VkXb12mZs6fskVv_KhaWOKkUfUc2yPEAY-pc0ppHkQlxfg4ujDODlcpuQivSAZ1XVluiithRs2_zBZwd87__8wFZ9YZDKdTbWMeBwevM95TtwleLM9CAE--1PfpImM_WsPuPXdkeH0vLzslyxtR57JMYTlOvPeQPdMPr2lAqE02J6LDV5hiJJtjNPJYX7_ey7xUYSaQ5TAa3PA
+[2024-06-08 22:56:58] - [info] - ##################### we are in NextAuth
+[2024-06-08 22:56:58] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-08 22:56:58] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-08 22:56:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-08 22:56:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzkwMTgxOCwiZXhwIjoxNzE3OTA1NDE4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.AQtTGkOfFyWXrr2z2hhn9TVytF1JebI2nGKkAg50AYKYoA9ks01H72UGzVZdTvzr9C_3Vsj79NJIRu9D6M_bwGUPN5a5KhkEfkC9_Q0eG3MtJqwK5tY7FhkfB3AeHVYiTanO4Uc9VkXb12mZs6fskVv_KhaWOKkUfUc2yPEAY-pc0ppHkQlxfg4ujDODlcpuQivSAZ1XVluiithRs2_zBZwd87__8wFZ9YZDKdTbWMeBwevM95TtwleLM9CAE--1PfpImM_WsPuPXdkeH0vLzslyxtR57JMYTlOvPeQPdMPr2lAqE02J6LDV5hiJJtjNPJYX7_ey7xUYSaQ5TAa3PA
+[2024-06-08 22:57:11] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-08 22:57:11] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-08 22:57:13] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button List a Room
+[2024-06-08 22:57:38] - [info] - Breakpoint 1
+[2024-06-08 22:57:38] - [info] - Breakpoint 2
+[2024-06-08 22:57:38] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 23:01:04] - [info] - Breakpoint 1
+[2024-06-08 23:01:04] - [info] - Breakpoint 2
+[2024-06-08 23:01:04] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 23:01:32] - [info] - Breakpoint 1
+[2024-06-08 23:01:32] - [info] - Breakpoint 2
+[2024-06-08 23:01:32] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 23:12:19] - [info] - Breakpoint 1
+[2024-06-08 23:12:19] - [info] - Breakpoint 2
+[2024-06-08 23:12:19] - [info] - Breakpoint 3
+[2024-06-08 23:12:19] - [info] - Breakpoint 4
+[2024-06-08 23:12:19] - [info] - Breakpoint 5
+[2024-06-08 23:12:19] - [error] - Backend failure during the /api/createNewRoomListing webservice userProfileId is not defined
+[2024-06-08 23:13:57] - [info] - Breakpoint 1
+[2024-06-08 23:13:57] - [info] - Breakpoint 2
+[2024-06-08 23:13:57] - [info] - Breakpoint 3
+[2024-06-08 23:13:57] - [error] - Backend failure during the /api/createNewRoomListing webservice formDataValues is not defined
+[2024-06-08 23:14:09] - [info] - Breakpoint 1
+[2024-06-08 23:14:09] - [info] - Breakpoint 2
+[2024-06-08 23:14:09] - [info] - Breakpoint 3
+[2024-06-08 23:14:09] - [error] - Backend failure during the /api/createNewRoomListing webservice formDataValues is not defined
+[2024-06-08 23:14:22] - [info] - Breakpoint 1
+[2024-06-08 23:14:22] - [info] - Breakpoint 2
+[2024-06-08 23:14:22] - [info] - Breakpoint 3
+[2024-06-08 23:14:22] - [error] - Backend failure during the /api/createNewRoomListing webservice formDataValues is not defined
+[2024-06-08 23:14:46] - [info] - Breakpoint 1
+[2024-06-08 23:14:46] - [info] - Breakpoint 2
+[2024-06-08 23:14:46] - [info] - Breakpoint 3
+[2024-06-08 23:14:46] - [error] - Backend failure during the /api/createNewRoomListing webservice formData.reduce is not a function
+[2024-06-08 23:18:22] - [info] - Breakpoint 1
+[2024-06-08 23:18:22] - [info] - Breakpoint 2
+[2024-06-08 23:18:22] - [info] - Breakpoint 3
+[2024-06-08 23:18:22] - [info] - Breakpoint 4
+[2024-06-08 23:18:22] - [info] - Breakpoint 5
+[2024-06-08 23:18:22] - [info] - Breakpoint 6
+[2024-06-08 23:18:22] - [info] - Breakpoint 7
+[2024-06-08 23:18:22] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-08 23:18:22] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-08 23:21:06] - [info] - Breakpoint 3
+[2024-06-08 23:21:06] - [info] - Breakpoint 4
+[2024-06-08 23:21:06] - [info] - Breakpoint 5
+[2024-06-08 23:21:06] - [info] - Breakpoint 6
+[2024-06-08 23:21:06] - [info] - Breakpoint 7
+[2024-06-08 23:21:07] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-08 23:21:07] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:49:52] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 09:49:52] - [info] - Breakpoint 4
+[2024-06-09 09:49:52] - [info] - Breakpoint 5
+[2024-06-09 09:49:52] - [info] - Breakpoint 6
+[2024-06-09 09:49:52] - [info] - Breakpoint 7
+[2024-06-09 09:49:52] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:49:52] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:53:48] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 09:53:48] - [info] - Breakpoint 5
+[2024-06-09 09:53:48] - [info] - Breakpoint 6
+[2024-06-09 09:53:48] - [info] - Breakpoint 7
+[2024-06-09 09:53:48] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:53:48] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:55:45] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 09:55:45] - [info] - Breakpoint 5
+[2024-06-09 09:55:45] - [info] - Breakpoint 6
+[2024-06-09 09:55:45] - [info] - Breakpoint 7
+[2024-06-09 09:55:45] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:55:45] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:56:46] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 09:56:46] - [info] - Breakpoint 5
+[2024-06-09 09:56:46] - [info] - Breakpoint 6
+[2024-06-09 09:56:46] - [info] - Breakpoint 7
+[2024-06-09 09:56:47] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:56:47] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:59:35] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 09:59:35] - [info] - Breakpoint 5
+[2024-06-09 09:59:35] - [info] - Breakpoint 6
+[2024-06-09 09:59:35] - [info] - Breakpoint 7
+[2024-06-09 09:59:35] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:59:35] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:01:47] - [info] - Request to logout
+[2024-06-09 10:02:11] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-09 10:02:11] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-09 10:02:12] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-09 10:02:12] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzk0MTczMiwiZXhwIjoxNzE3OTQ1MzMyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ZY0ZodaiS5gvp7eDWCFTCG5np0aS0LeJMj-gXTyZnjgFPeM6C97BTo13P-fyvCCs8s2E2Dz8bq_QsCczMMVlfzjKg6mGE1f1OYXABqZhWhTtEfZMUJAhcGC6TuCkTjKwNoTOgMFDzYvDeZdPfo6iJdTWCgGcIGX8Gg0pu2VhXP2uxGihNMT40dfsObLvjX4dBcXoDMICE-B8uy6qAMvPrrz8sv-lMW4Dk_wmXWZkEkI2vhdnYuT-4CQsvujyU2n900DVIUm7z5YyqCjpcDfPPzwwkOczymDghJnHBgI_tu6x97IgqED3Hzdm3UdkJdRkBX81ksA0tY5L0OxNVJlLFw
+[2024-06-09 10:02:12] - [info] - ##################### we are in NextAuth
+[2024-06-09 10:02:12] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-09 10:02:12] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-09 10:02:12] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-09 10:02:12] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzk0MTczMiwiZXhwIjoxNzE3OTQ1MzMyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ZY0ZodaiS5gvp7eDWCFTCG5np0aS0LeJMj-gXTyZnjgFPeM6C97BTo13P-fyvCCs8s2E2Dz8bq_QsCczMMVlfzjKg6mGE1f1OYXABqZhWhTtEfZMUJAhcGC6TuCkTjKwNoTOgMFDzYvDeZdPfo6iJdTWCgGcIGX8Gg0pu2VhXP2uxGihNMT40dfsObLvjX4dBcXoDMICE-B8uy6qAMvPrrz8sv-lMW4Dk_wmXWZkEkI2vhdnYuT-4CQsvujyU2n900DVIUm7z5YyqCjpcDfPPzwwkOczymDghJnHBgI_tu6x97IgqED3Hzdm3UdkJdRkBX81ksA0tY5L0OxNVJlLFw
+[2024-06-09 10:02:24] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-09 10:02:24] - [info] - [/api/getUserListings] - Room listings results returned: 10
+[2024-06-09 10:02:32] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button List a Room
+[2024-06-09 10:03:17] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 10:03:18] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:03:18] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:04:55] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 10:04:55] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:04:55] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:09:54] - [info] - Breakpoint 3 printing formData: 
+[2024-06-09 10:09:54] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:09:54] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:12:07] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:12:07] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:12:36] - [error] - Backend failure during the /api/createNewRoomListing webservice newRoomListing is not defined
+[2024-06-09 11:40:55] - [error] - Backend failure during the /api/createNewRoomListing webservice newRoomListing is not defined
+[2024-06-09 11:42:25] - [error] - Backend failure during the /api/createNewRoomListing webservice emailAddress is not defined
+[2024-06-09 11:46:49] - [error] - Backend failure during the /api/createNewRoomListing webservice emailAddress is not defined
+[2024-06-09 11:47:48] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 215 inserted successfully
+[2024-06-09 11:48:01] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 216 inserted successfully
+[2024-06-09 12:04:37] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 217 inserted successfully
+[2024-06-09 12:04:37] - [error] - Backend failure during the /api/createNewRoomListing webservice userProfileId is not defined
+[2024-06-09 12:05:38] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 218 inserted successfully
+[2024-06-09 12:05:40] - [info] - Picture update success

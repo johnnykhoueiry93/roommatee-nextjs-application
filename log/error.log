@@ -215,3 +215,46 @@
 [2024-06-07 23:15:58] - [error] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Error executing query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0', '12', 'Boston, MA', 1, 'Male', 1, 'Apartment', '18', '30', 'Employee', 'T-M' at line 1
 [2024-06-08 12:52:20] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
 [2024-06-08 12:52:20] - [error] - Backend failure during the /login webservice Can't add new command when connection is in closed state
+[2024-06-08 22:33:19] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:41:04] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:42:37] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:44:43] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:46:06] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:46:24] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:56:05] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:56:15] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 22:57:38] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 23:01:04] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 23:01:32] - [error] - Backend failure during the /api/createNewRoomListing webservice Unexpected number in JSON at position 1
+[2024-06-08 23:12:19] - [error] - Backend failure during the /api/createNewRoomListing webservice userProfileId is not defined
+[2024-06-08 23:13:57] - [error] - Backend failure during the /api/createNewRoomListing webservice formDataValues is not defined
+[2024-06-08 23:14:09] - [error] - Backend failure during the /api/createNewRoomListing webservice formDataValues is not defined
+[2024-06-08 23:14:22] - [error] - Backend failure during the /api/createNewRoomListing webservice formDataValues is not defined
+[2024-06-08 23:14:46] - [error] - Backend failure during the /api/createNewRoomListing webservice formData.reduce is not a function
+[2024-06-08 23:18:22] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-08 23:18:22] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-08 23:21:07] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-08 23:21:07] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:49:52] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:49:52] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:53:48] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:53:48] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:55:45] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:55:45] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:56:47] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:56:47] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 09:59:35] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 09:59:35] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:03:18] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:03:18] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:04:55] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:04:55] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:09:54] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:09:54] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:12:07] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 10:12:07] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 10:12:36] - [error] - Backend failure during the /api/createNewRoomListing webservice newRoomListing is not defined
+[2024-06-09 11:40:55] - [error] - Backend failure during the /api/createNewRoomListing webservice newRoomListing is not defined
+[2024-06-09 11:42:25] - [error] - Backend failure during the /api/createNewRoomListing webservice emailAddress is not defined
+[2024-06-09 11:46:49] - [error] - Backend failure during the /api/createNewRoomListing webservice emailAddress is not defined
+[2024-06-09 12:04:37] - [error] - Backend failure during the /api/createNewRoomListing webservice userProfileId is not defined

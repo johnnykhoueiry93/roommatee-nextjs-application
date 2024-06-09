@@ -31,7 +31,8 @@ export const SiteWrapper = ({ children }) => {
   const ID_DOCUMENT_SELFIE_S3_SUB_FOLDER='id-document-selfie';
   const [userSearchType, setUserSearchType] = useState([]);
   const [intendedDestination, setIntendedDestination] = useState(null); // defines the next page the user is going to in case no logged in to sign in then resume where they left off
-
+  const [listingsCreated, setListingsCreated] = useState(0);
+  const [showListingCreatedAlert, setShowListingCreatedAlert] = useState(false);
 
     // This function is used to scroll up when needed
     const scrollToTop = () => {
@@ -326,7 +327,7 @@ setRoomListingData({
         snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,
         welcomeProfileSetupStep, setWelcomeProfileSetupStep, describePlaceWorkflow, setDescribePlaceWorkflow, prevProgress, setPrevProgress, nextProgress, setNextProgress,
         describeTenanteWorkflow, setDescribeTenanteWorkflow,  searchValue, setSearchValue, userSearchType, setUserSearchType, intendedDestination, setIntendedDestination,
-        roomListingData, setRoomListingData, resetRoomListingData, 
+        roomListingData, setRoomListingData, resetRoomListingData, listingsCreated, setListingsCreated, showListingCreatedAlert, setShowListingCreatedAlert,
       }}
     >
       {children}
