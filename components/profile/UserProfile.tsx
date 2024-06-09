@@ -22,19 +22,6 @@ const UserProfile = () => {
     }
   }, []);
 
-  // This logic checks the seesion if exits to authenticate. Good to have for server side rendering
-  // useEffect(() => {
-  //   async function checkSession() {
-  //     const response = await fetch('/api/check-session');
-  //     if (response.status === 401) {
-  //       router.push('/login');
-  //     }
-  //   }
-
-  //   checkSession();
-  // }, [router]);
-
-
   useEffect(() => {
     setIsHydrated(true);
   }, []);

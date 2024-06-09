@@ -270,14 +270,15 @@ const navigateToChangePasswordPage = () => {
         }
       }
       
-
+let yes = 1;
 if (userAuth) {
     return (
       <nav id="topNavBarId"
         className={`navbar navbar-expand-lg navbar-light bg-light sticky-top ${ hasScrolled ? "shadow opacity" : "" }  `   }  // if you want a border for the nav add this in the classnName above ==> nav-basic-border
       >
 
-      { userInfo.isProfileComplete == 1  &&
+      {/* { userInfo.isProfileComplete == 1  && */}
+      { yes == 1  &&
         <div className="container-fluid">
         {/* -------------------------- HOME BUTTON LOGO --------------------------*/}
         {returnApplicationLogo()}

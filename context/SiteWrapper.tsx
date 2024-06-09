@@ -29,6 +29,9 @@ export const SiteWrapper = ({ children }) => {
   const PROFILE_PICTURE_S3_SUB_FOLDER='profile-picture';
   const ID_DOCUMENT_S3_SUB_FOLDER='id-document';
   const ID_DOCUMENT_SELFIE_S3_SUB_FOLDER='id-document-selfie';
+  const [userSearchType, setUserSearchType] = useState([]);
+  const [intendedDestination, setIntendedDestination] = useState(null); // defines the next page the user is going to in case no logged in to sign in then resume where they left off
+
 
     // This function is used to scroll up when needed
     const scrollToTop = () => {
@@ -184,10 +187,127 @@ export const SiteWrapper = ({ children }) => {
   });
 
 
+  const [searchValue, setSearchValue] = useState({
+    rawAddressValue: '',
+    locationResolved: 0,
+    zip: '',
+    city: '',
+    state: '',
+    country: '',
+    address: '',
+    street: '',
+  });
+
+  // This function when called will ensure that the Autocomplete search is reset and it doesnt 
+  // hold any value if the user logs out for example
+  const resetSearchValue = () => {
+    console.log('[SiteWrapper] - The setSearchValue has been reset')
+    setSearchValue({ //@ts-ignore
+      rawAddressValue: null, //@ts-ignore
+      locationResolved: null, //@ts-ignore
+      zip: null, //@ts-ignore
+      city: null, //@ts-ignore
+      state: null, //@ts-ignore
+      country: null, //@ts-ignore
+      address: null, //@ts-ignore
+      street: null, //@ts-ignore
+    });
+  };
 
 
+/**
+   * This object holds the information of the create room listing and edit room listing
+   */
+ const [roomListingData, setRoomListingData] = useState({
+  userProfileId: "",
+  listingType: "",
+  price: "",
+  address: "",
+  country: "",
+  city: "",
+  state: "",
+  zip: "",
+  moveInDate: "",
+  privateBathroom: false,
+  privateParking: false,
+  publicParking: false,
+  internetConnection: false,
+  washer: false,
+  dryer: false,
+  dishWasher: false,
+  wheelChairAccessibility: false,
+  floor: "",
+  petFriendly: false,
+  refrigerator: false,
+  microwave: false,
+  genderPreference: "",
+  agePreference: "",
+  minAge: 0,
+  maxAge: 0,
+  smokingAllowed: false,
+  furnished: false,
+  television: false,
+  airConditionning: false,
+  heating: false,
+  fireplace: false,
+  smokeAlarm: false,
+  dishes: false,
+  toaster: false,
+  coffeeMaker: false,
+  bedSize: "",
+  pictures: [],
+  description: "",
+  latitude: "",
+  longitude: ""
+});
 
-
+// This is the function to reset roomListingData
+//@ts-ignore
+const resetRoomListingData = (setRoomListingData) => {
+setRoomListingData({
+  userProfileId: null,
+  listingType: null,
+  price: null,
+  address: null,
+  country: null,
+  city: null,
+  state: null,
+  zip: null,
+  moveInDate: null,
+  leaseDurationInMonth: null,
+  privateBathroom: null,
+  privateParking: null,
+  publicParking: null,
+  internetConnection: null,
+  washer: null,
+  dryer: null,
+  dishWasher: null,
+  wheelChairAccessibility: null,
+  floor: null,
+  petFriendly: null,
+  refrigerator: null,
+  microwave: null,
+  genderPreference: null,
+  agePreference: null,
+  minAge: null,
+  maxAge: null,
+  smokingAllowed: null,
+  furnished: null,
+  television: null,
+  airConditioning: null,
+  heating: null,
+  fireplace: null,
+  smokeAlarm: null,
+  dishes: null,
+  toaster: null,
+  coffeeMaker: null,
+  bedSize: null,
+  pictures: [],
+  description: null,
+  latitude: null,
+  longitude: null
+});
+};
 
 
 
@@ -205,7 +325,8 @@ export const SiteWrapper = ({ children }) => {
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
         snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,
         welcomeProfileSetupStep, setWelcomeProfileSetupStep, describePlaceWorkflow, setDescribePlaceWorkflow, prevProgress, setPrevProgress, nextProgress, setNextProgress,
-        describeTenanteWorkflow, setDescribeTenanteWorkflow,  
+        describeTenanteWorkflow, setDescribeTenanteWorkflow,  searchValue, setSearchValue, userSearchType, setUserSearchType, intendedDestination, setIntendedDestination,
+        roomListingData, setRoomListingData, resetRoomListingData, 
       }}
     >
       {children}

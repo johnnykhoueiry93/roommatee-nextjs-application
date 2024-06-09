@@ -155,9 +155,9 @@ const navigateToPage = (path) => {
       setUserAuth(true);
       setUserInfo(user);
 
-      navigateToPage('/protected');
+      navigateToPage('/');
 
-      setLoginStatus(user.firstName);
+      // setLoginStatus(user.firstName);
       
   
       if(user.userType == "admin") {
