@@ -136,6 +136,7 @@ const navigateToPage = (path) => {
       }
   
       const data = await response.json();
+      setListing(data);
       console.log('getUserListings ' , data);
       return data;
     } catch (error) {
@@ -144,6 +145,7 @@ const navigateToPage = (path) => {
     }
   }
 
+  
 
     //@ts-ignore
     async function triggerSuccessLoginSteps(user, firebaseToken) {
@@ -153,6 +155,7 @@ const navigateToPage = (path) => {
       
       setFirebaseToken(firebaseToken);
       setUserAuth(true);
+      console.log('Setting the user info from the SignIn component');
       setUserInfo(user);
 
       navigateToPage('/');

@@ -13,6 +13,47 @@ const s3 = new AWS.S3({
   });
 
 
+  async function uploadListingPictures(userProfileId, lastInsertedListingId, pictures, emailAddress) {
+    try {
+      const arrayPictures = [];
+  
+      for (const picture of pictures) {
+        const buffer = Buffer.from(await picture.arrayBuffer());
+        const newFilename = `${userProfileId}_${lastInsertedListingId}_${picture.name}`;
+        arrayPictures.push(newFilename);
+  
+        const params = {
+          Bucket: process.env.S3_UPLOAD_BUCKET_NAME,
+          Key: newFilename,
+          Body: buffer,
+          ContentType: picture.type,
+        };
+  
+        await s3.upload(params).promise();
+      }
+  
+        // Join the array of picture filenames into a CSV string
+        const csvPictures = arrayPictures.join(',');
+
+    //   const result = await executeQuery(`UPDATE roomListings SET picture1='${arrayPictures[0]}', picture2='${arrayPictures[1]}', picture3='${arrayPictures[2]}', picture4='${arrayPictures[3]}', picture5='${arrayPictures[4]}' WHERE id = ${lastInsertedListingId}`);
+    const result = await executeQuery(`UPDATE roomListings SET pictures='${csvPictures}' WHERE id = ${lastInsertedListingId}`);
+
+
+      if (result.affectedRows > 0) {
+        return true;
+      } else {
+        logger.error(`[${emailAddress}] - [uploadListingPictures] - Failed to upload pictures for listing id: ${lastInsertedListingId}`);
+        return false;
+      }
+    } catch (error) {
+      logger.error(`[${emailAddress}] - [uploadListingPictures] - Error during picture upload: ${error.message} for listing id: ${lastInsertedListingId}`);
+      return false;
+    }
+  }
+
+
+
+
 export async function POST(request) {
   try {
     const formData = await request.formData();
@@ -78,44 +119,30 @@ export async function POST(request) {
 
     if (results.affectedRows > 0) {
       const lastInsertedListingId = results.insertId;
-      logger.info( `[${emailAddress}] - [/api/createNewRoomListing] - New Room listing with id: ${lastInsertedListingId} inserted successfully` );
-      
 
         // Upload pictures to S3
       const pictures = formData.getAll("pictures");
-      const uploadedPictureUrls = [];
-      const arrayPictures = [];
 
-      for (const picture of pictures) {
-        const buffer = Buffer.from(await picture.arrayBuffer());
-        const newFilename = `${userProfileId}_${lastInsertedListingId}_${picture.name}`;
-        arrayPictures.push(newFilename);
+      const uploadResult = await uploadListingPictures(userProfileId, lastInsertedListingId, pictures, emailAddress);
 
-        const params = {
-          Bucket: process.env.S3_UPLOAD_BUCKET_NAME,
-          Key: newFilename,
-          Body: buffer,
-          ContentType: picture.type,
-        };
-
-        const data = await s3.upload(params).promise();
-        uploadedPictureUrls.push(data.Location);
-      }
-
-      roomListingData.pictures = uploadedPictureUrls;
-
-      const results_v2 = await executeQuery(`UPDATE roomListings set picture1='${arrayPictures[0]}' , picture2='${arrayPictures[1]}' , picture3='${arrayPictures[2]}' , picture4='${arrayPictures[3]}' WHERE id = ${lastInsertedListingId}` );
-
-      if(results_v2.affectedRows > 0 ) {
-        logger.info('Picture update success');
+      /**
+       * If uploadResult is true means that:
+       * 1- the insert into the databse was a success
+       * 2- The picture upload was a success
+       * 3- the database update with the pictures is a success
+       */
+      if (uploadResult) {
+        logger.info( `[${emailAddress}] - [/api/createNewRoomListing] - New Room listing with id: ${lastInsertedListingId} inserted successfully and pictures uploaded to S3` );
+        return NextResponse.json(
+            { message: "Listing created successfully!" },
+            { status: 200 }
+          );
       } else {
-        logger.error('Picture update failed');
+        return NextResponse.json(
+            { message: "Listing failed to create!" },
+            { status: 500 }
+          );
       }
-
-      return NextResponse.json(
-        { message: "Signup successful" },
-        { status: 200 }
-      );
 
     } else {
       throw new Error("Failed to insert listing");

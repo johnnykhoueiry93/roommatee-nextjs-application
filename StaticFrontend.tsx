@@ -15,7 +15,7 @@
     APPLICATION_COMPANY_TELEPHONE: '+001 34926290462',
     MY_PROFILE_PROFILE_PICTURE_TEXT: ' Let\'s make sure your future roomie knows they\'re getting the coolest companion around.',
     CHAT_REPORT_USER_SUCCESS_MESSAGE: 'The user was reported. We will contact the user and inform you of the final outcome',
-
+    LIST_A_ROOM_PAGE_TITLE: 'List a Place',
     USER_INACTIVITY_TIMER: 6, // after X the user will be prompted with popup to stay signed in or sign out
 
     PRIVACY_MESSAGE_PHONE_NUMBER: 'We respect your privacy and will never share your phone number. The number is private and you\'re in control to set it to public/private.',

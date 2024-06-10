@@ -3,7 +3,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
-// import BackendAxios from "../../backend/BackendAxios";
 import { useRouter } from 'next/navigation';
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
@@ -11,7 +10,6 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import Slider from "@mui/material/Slider";
 import "../../styles/Listings.css";
 import AutocompleteInput from "../modals/AutocompleteInput";
-import SnackBarAlert from "../alerts/SnackBarAlerts";
 import StaticFrontendLabel from "../../StaticFrontend";
 import dayjs from 'dayjs';
 import {
@@ -35,7 +33,7 @@ function valuetext(value) {
 
 const ListARoom = () => {
     // @ts-ignore
-  const { isMobile, userAuth, isTablet, applicationLabels, setListingsCreated, userInfo, setShowListingCreatedAlert, scrollToTop, roomListingData, setRoomListingData, resetRoomListingData, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
+  const { isMobile, userAuth, isTablet, setListingsCreated, userInfo, setShowListingCreatedAlert, scrollToTop, roomListingData, setRoomListingData, resetRoomListingData, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
   const [selectedDate, setSelectedDate] = useState(null);
   const [moveInDateError, setMoveInDateError] = useState(false);
   const [isValidAddress, setIsValidAddress] = useState(false);
@@ -66,8 +64,15 @@ const ListARoom = () => {
     coffeeMaker: false,
   });
 
+  const router = useRouter();
+  const navigateToPage = (path) => {
+    router.push(path);
+  };
+
+
   const [selectedAddress, setSelectedAddress] = useState(roomListingData?.address || "");
  
+
     useEffect(() => {
         if (!userAuth) {
           navigateToPage("/login");
@@ -82,11 +87,7 @@ const ListARoom = () => {
     //     return <div>wle</div>; //TODO update to something better!!
     //   }
 
-      const router = useRouter();
-      const navigateToPage = (path) => {
-        router.push(path);
-      };
-    
+
 
   
 
@@ -131,7 +132,6 @@ const ListARoom = () => {
   };
 
 
-
   //@ts-ignore
   const handleCheckboxChange = (fieldName) => {
     setBooleanFields((prevFields) => ({
@@ -159,25 +159,38 @@ const ListARoom = () => {
   };
 
   const takeUserToHisListings = () => {
-    navigateToPage("/listings");
+    navigateToPage("/my-listings");
   };
 
   const handleSubmitNewRoomListing = () => {
+    console.log("userInfo:", userInfo);
+
     // Submit the form and pass the foreign key the user
     // id to associate this listing to his personal key id
     console.log("Appending to roomListingData the userProfileId of value: " + userInfo.id);
-    setRoomListingData({ ...roomListingData, userProfileId: userInfo.id });
-    setRoomListingData({ ...roomListingData, emailAddress: userInfo.emailAddress });
+
+    // Create a new data object with updated values
+    const updatedData = {
+        ...roomListingData,
+        userProfileId: userInfo.id,
+        emailAddress: userInfo.emailAddress,
+    };
+
+    // Update the state with the new data
+    setRoomListingData(updatedData);
+
 
     // this should update the value that the useEffect
     // is dependant on to redender again the listing array
     // @ts-ignore
     setListingsCreated((prevCount) => prevCount + 1);
-
-
   };
 
-
+/**
+ * This function will create the formData which contains the fields
+ * and the pictures uploaded by the user. The formData will be sent
+ * to the backend for processing and databae insertion.
+ */
   const createFormData = (data) => {
     const formData = new FormData();
     for (const key in data) {
@@ -212,6 +225,7 @@ const ListARoom = () => {
     const formData = createFormData(roomListingData);
 
     // Verify formData contents
+    //@ts-ignore
     for (const [key, value] of formData.entries()) {
         console.log(`Key: ${key}, Value: ${value}`);
     }
@@ -219,8 +233,8 @@ const ListARoom = () => {
     try {
         const response = await fetch("/api/createNewRoomListing", {
           method: "POST",
-          body: formData, // No need to stringify FormData
-          cache: 'no-store' // Ensures the data is fetched on every request
+          body: formData, 
+          cache: 'no-store'
         });
       
         if (!response.ok) {
@@ -228,43 +242,28 @@ const ListARoom = () => {
         }
       
         const data = await response.json();
-        // Handle the response data here
+
+        if (response.status === 200) {
+          console.log("Place listing added successfully");
+
+          setShowListingCreatedAlert(true);
+          resetInputForm();
+          takeUserToHisListings();
+          scrollToTop();
+          resetRoomListingData(setRoomListingData);
+          setSnackbarMessage(data.message);
+          setSnackbarSeverity("success");
+          setSnackbarOpen(true);
+        } else {
+          console.error("Error room listing: " + data.message);
+          setSnackbarMessage("Error creating place listing");
+          setSnackbarSeverity("error");
+          setSnackbarOpen(true);
+        }
       } catch (error) {
         // Handle the error here
         console.error("Error:", error);
       }
-
-    // try {
-    //   const response = await BackendAxios.post(
-    //     "/createNewRoomListing",
-    //     formData,
-    //     {
-    //       headers: {
-    //         "Content-Type": "multipart/form-data",
-    //       },
-    //     }
-    //   );
-
-    //   console.log("Room listing added successfully");
-
-    //   setShowListingCreatedAlert(true);
-    //   resetInputForm();
-    //   takeUserToHisListings();
-    //   scrollToTop();
-    //   resetRoomListingData(setRoomListingData);
-    //   setSnackbarMessage(response.data);
-    //   setSnackbarSeverity("success");
-    //   setSnackbarOpen(true);
-
-    //   // Redirect to the login page or do something else
-    // } catch (error) {
-    //   setSnackbarMessage("Error creating room listing: " + error);
-    //   setSnackbarSeverity("error");
-    //   setSnackbarOpen(true);
-
-    //   // @ts-ignore
-    //   console.error("Error room listing: " + error.message);
-    // }
   };
 
 
@@ -475,12 +474,7 @@ function returnSectionHeader(headingLabel) {
   
   return (
     <div className="container-fluid">
-            <SnackBarAlert
-        message={snackbarMessage}
-        open={snackbarOpen}
-        handleClose={() => setSnackbarOpen(false)}
-        severity={snackbarSeverity}
-      />
+      
       <div className="row ">
         <div className="col-lg-6 col-sm-12 listing-container">
           <div className={`row ${isMobile ? '' : 'new-listing-section'}`}>
@@ -491,13 +485,11 @@ function returnSectionHeader(headingLabel) {
             >
               <div>
                 <h2 className="create-new-listing-title">
-                  {/* {applicationLabels.List_A_Room_Title} */}
-                  A TITLE
+                  {StaticFrontendLabel.LIST_A_ROOM_PAGE_TITLE}
                 </h2>
                 <input
                   type="hidden"
                   id="userProfileId"
-                //   value={userInfo.id}
                 />
                 {/* ---------------------------------------- ADDRESS ----------------------------------------------------- */}
                 {returnSectionHeader('Address')}
@@ -953,7 +945,7 @@ function returnSectionHeader(headingLabel) {
                   type="submit"
                   value="Create Listing!"
                   className="submit-button"
-                  onClick={handleSubmitNewRoomListing}
+                  onClick={handleSubmitNewRoomListing} // do not remove this otherwise the userId will not populate properly.
                 />
               </div>
             </form>

@@ -33,32 +33,32 @@ const navigateToPage = (path) => {
 };
 
   
-useEffect(() => {
-  if(userAuth) {
-    console.log('Setting the userInfo')
-    console.log('Badge Count: ' + badgeCount);
-    // localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
-    // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
+// useEffect(() => {
+//   if(userAuth) {
+//     console.log('Setting the userInfo')
+//     console.log('Badge Count: ' + badgeCount);
+//     // localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
+//     // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
 
-    // if(userInfo.isProfilePictureUploaded == "0") {
-    //   setBadgeCount(prevCount => prevCount + 1);
-    //   console.log('My profile badge counter increased because profile picture was not found');
-    //   console.log('Badge Count #1: ' + badgeCount);
-    // }
-    // if(userInfo.idDocument == "0") {
-    //   setBadgeCount(prevCount => prevCount + 1);
-    //   console.log('My profile badge counter increased because id document was not uploaded');
-    //   console.log('Badge Count #2: ' + badgeCount);
-    // }
-    // if(userInfo.idDocumentSelfie == "0") {
-    //   setBadgeCount(prevCount => prevCount + 1);
-    //   console.log('My profile badge counter increased because id document selfie was not uploaded');
-    //   console.log('Badge Count #3: ' + badgeCount);
-    // }
-  } else {
-    // localStorage.clear(); // This clears all items in local storage
-  }
-}, [userInfo, userProfilePicture, userAuth]);
+//     // if(userInfo.isProfilePictureUploaded == "0") {
+//     //   setBadgeCount(prevCount => prevCount + 1);
+//     //   console.log('My profile badge counter increased because profile picture was not found');
+//     //   console.log('Badge Count #1: ' + badgeCount);
+//     // }
+//     // if(userInfo.idDocument == "0") {
+//     //   setBadgeCount(prevCount => prevCount + 1);
+//     //   console.log('My profile badge counter increased because id document was not uploaded');
+//     //   console.log('Badge Count #2: ' + badgeCount);
+//     // }
+//     // if(userInfo.idDocumentSelfie == "0") {
+//     //   setBadgeCount(prevCount => prevCount + 1);
+//     //   console.log('My profile badge counter increased because id document selfie was not uploaded');
+//     //   console.log('Badge Count #3: ' + badgeCount);
+//     // }
+//   } else {
+//     // localStorage.clear(); // This clears all items in local storage
+//   }
+// }, [userInfo, userProfilePicture, userAuth]);
 
 
 const handleLogoClick = () => {
@@ -277,8 +277,7 @@ if (userAuth) {
         className={`navbar navbar-expand-lg navbar-light bg-light sticky-top ${ hasScrolled ? "shadow opacity" : "" }  `   }  // if you want a border for the nav add this in the classnName above ==> nav-basic-border
       >
 
-      {/* { userInfo.isProfileComplete == 1  && */}
-      { yes == 1  &&
+      { userInfo.isProfileComplete == 1  &&
         <div className="container-fluid">
         {/* -------------------------- HOME BUTTON LOGO --------------------------*/}
         {returnApplicationLogo()}
@@ -305,7 +304,7 @@ if (userAuth) {
           <div className={`d-flex isMobile ? mr-2 : ml-2`}>
             <Avatar
               alt={'test'}
-              // alt={userInfo[0].firstName}
+              // alt={userInfo.firstName}
               src={userProfilePicture}
             />
             <div className="btn-group">

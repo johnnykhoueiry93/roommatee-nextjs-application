@@ -33,6 +33,7 @@ export const SiteWrapper = ({ children }) => {
   const [intendedDestination, setIntendedDestination] = useState(null); // defines the next page the user is going to in case no logged in to sign in then resume where they left off
   const [listingsCreated, setListingsCreated] = useState(0);
   const [showListingCreatedAlert, setShowListingCreatedAlert] = useState(false);
+  const [listing, setListing] = useState([]);
 
     // This function is used to scroll up when needed
     const scrollToTop = () => {
@@ -62,21 +63,28 @@ export const SiteWrapper = ({ children }) => {
     return isAdmin;
   }
 
-  // const [userInfo, setUserInfo] = useState(() => {
-  //   // If the userInfo already exists meaning the user was logged in
-  //   // and they performed a refresh then get it from the local storage
-  //   if (localStorage.getItem("userInfo")) {
-  //     const storedUserInfo = decryptData(localStorage.getItem("userInfo")); // get decrypted text
-  //     console.log("SiteWrapper: ", storedUserInfo);
-  //     return storedUserInfo && typeof storedUserInfo === "object"
-  //       ? storedUserInfo
-  //       : [];
-  //   }
-  // });
 
+  const [userInfo, setUserInfo] = useState(null);
 
+  useEffect(() => {
+    // Check if we are in the browser environment
+    if (typeof window !== 'undefined') {
+      // Retrieve the userInfo from localStorage, if it exists
+      const savedUserInfo = localStorage.getItem('userInfo');
+      if (savedUserInfo) {
+        setUserInfo(JSON.parse(decryptData(savedUserInfo)));
+      }
+    }
+  }, []);
 
+  useEffect(() => {
+    // Save userInfo to localStorage whenever it changes
+    if (userInfo !== null) {
+      localStorage.setItem('userInfo', JSON.stringify(encryptData(userInfo)));
+    }
+  }, [userInfo]);
 
+  
   const [userProfilePicture, setUserProfilePicture] = useState(() => {
     let storedUserProfilePicture;
     if (typeof window !== 'undefined') {
@@ -108,24 +116,6 @@ export const SiteWrapper = ({ children }) => {
       Cookies.remove("userAuth");
     }
   }, [userAuth]);
-
-
-
-  const [userInfo, setUserInfo] = useState(null);
-
-  useEffect(() => {
-    // If the userInfo already exists meaning the user was logged in
-    // and they performed a refresh then get it from the local storage
-    const storedUserInfo = localStorage.getItem("userInfo");
-
-    console.log("SiteWrapper Getting storedUserInfo: ", storedUserInfo);
-
-    if (storedUserInfo) {
-      const decryptedUserInfo = decryptData(storedUserInfo); // get decrypted text
-      console.log("SiteWrapper: ", decryptedUserInfo);
-      setUserInfo(decryptedUserInfo);
-    }
-  }, []);
 
 
   // ---------------------------------------------------------- SNACK BAR
@@ -321,7 +311,7 @@ setRoomListingData({
       value={{
         isMobile,isTablet, PROFILE_PICTURE_S3_SUB_FOLDER, ID_DOCUMENT_S3_SUB_FOLDER, ID_DOCUMENT_SELFIE_S3_SUB_FOLDER,
         profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo,
-        userIsAdmin, firebaseToken, setFirebaseToken, userAdmin, setUserAdmin,
+        userIsAdmin, firebaseToken, setFirebaseToken, userAdmin, setUserAdmin, listing, setListing,
         userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
         snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,

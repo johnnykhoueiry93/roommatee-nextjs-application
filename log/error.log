@@ -258,3 +258,23 @@
 [2024-06-09 11:42:25] - [error] - Backend failure during the /api/createNewRoomListing webservice emailAddress is not defined
 [2024-06-09 11:46:49] - [error] - Backend failure during the /api/createNewRoomListing webservice emailAddress is not defined
 [2024-06-09 12:04:37] - [error] - Backend failure during the /api/createNewRoomListing webservice userProfileId is not defined
+[2024-06-09 14:00:12] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'pictures' in 'field list'
+[2024-06-09 14:00:12] - [error] - [johnny.kh@hotmail.com] - [uploadListingPictures] - Error during picture upload: Unknown column 'pictures' in 'field list' for listing id: 223
+[2024-06-09 14:19:24] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 14:19:24] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 14:21:26] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 14:21:26] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 14:22:23] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 14:22:23] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 14:22:37] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 14:22:37] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 14:40:40] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 14:40:40] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 14:42:01] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 14:42:01] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 16:51:28] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 16:51:28] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 17:17:32] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 17:17:32] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-09 18:51:45] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
+[2024-06-09 18:51:45] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
