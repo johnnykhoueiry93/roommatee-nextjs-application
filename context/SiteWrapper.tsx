@@ -80,8 +80,13 @@ export const SiteWrapper = ({ children }) => {
   }, []);
 
 
+  /**
+   * ---------------------------- Context for Listings --------------------------------
+   */
   const [listing, setListing] = useState([]);
 
+  // Ensure the listings are available and loaded from the storage
+  // if the page is loaded
   useEffect(() => {
     const storedUserListings = localStorage.getItem('userListings');
 
@@ -99,7 +104,50 @@ export const SiteWrapper = ({ children }) => {
   }, []);
 
 
+  useEffect(() => {
+    // This delay allows the record to get inserted before we try to retrieve everything again.
+    const delay = 100; // 100ms
 
+    async function getUserListings(user) {
+      if (!user) return;
+      
+      const { id: userProfileId, emailAddress } = user;
+
+      try {
+        const response = await fetch('/api/getUserListings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ userProfileId, emailAddress }),
+        });
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch user listings');
+        }
+
+        const data = await response.json();
+
+        setListing(data);
+        localStorage.setItem('userListings', JSON.stringify(data));
+        console.log('getUserListings:', data);
+        return data;
+      } catch (error) {
+        console.error('Error fetching user listings:', error);
+        throw error;
+      }
+    }
+
+    // Ensure userInfo is available before calling the function
+    if (userInfo) {
+      const timeout = setTimeout(() => {
+        getUserListings(userInfo);
+      }, delay);
+
+      // Cleanup timeout on component unmount or on dependency change
+      return () => clearTimeout(timeout);
+    }
+  }, [listingsCreated]);
 
 
 

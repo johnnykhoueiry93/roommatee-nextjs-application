@@ -2642,3 +2642,25 @@
 [2024-06-09 20:49:48] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
 [2024-06-09 20:49:48] - [info] - [johnny.kh@hotmail.com] - Login was successful
 [2024-06-09 20:49:48] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzk4MDU4OCwiZXhwIjoxNzE3OTg0MTg4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.e_vZ83cqmU5Rp-EvMZcr1zye8veV6YxHtIJ6f-3IVxhs-YJsGLmGf8Fv14ujSt6jgp5CRWRqMQ5CNKMvxI_UxbyxGz-RDMgp0Pimv65Y9GlFYE94-DGE3kAE6l_2Wt5n96cvoOaSRo8pPEz4WuT9BOIGyNTMfy6RihEF2iJFiCg5Qt2BS3gyzbiwtdwiFK9DOfg2Ed6u9ge7ctlz_K2_2t_qLHpjPy5LRnj9BZwHsQLOp-SuqC0UoySLhSPhLd_HKoCN1wH5WHrKYfOuAR9qakkv06vlcrIeZBk43EGMTJ6WMFFh94PYSSbEvQAoKd3jOCnU0uF0JPJc-ghh2iABwQ
+[2024-06-09 20:50:03] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-09 20:50:04] - [info] - [/api/getUserListings] - Room listings results returned: 27
+[2024-06-09 20:59:30] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 230 inserted successfully and pictures uploaded to S3
+[2024-06-09 21:05:31] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-09 21:05:31] - [info] - [/api/getUserListings] - Room listings results returned: 28
+[2024-06-09 21:05:34] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 231 inserted successfully and pictures uploaded to S3
+[2024-06-09 21:05:52] - [info] - Request to logout
+[2024-06-09 21:05:52] - [info] - Request to logout
+[2024-06-09 21:06:29] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-09 21:06:29] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-09 21:06:29] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-09 21:06:30] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzk4MTU4OSwiZXhwIjoxNzE3OTg1MTg5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UBeXvLc-u50ueCPU5C20s2w7l8bt9jshCSIyQHA27CC7oASiOq--iZgqsBFPn0ChydybGlGmhMAIfvgE5TJ9gJhI-wuItlFHgmHx4BMKDOPKYs7SLK8RzK2EBm6Gp6tqerlgaATgPZ-6TKTAZw2AVNMrLBw0mh50Szs0noEM9GJ4n_m12qJQKX5lgTsFmymVZUICfIGZiiJLNtP9enWkWT5KEyYkazJP7uNfGyCuTYMXfv1RYZV4_Vdwksqs8vAdwYJ2fqaaa9PXLyaLEOQuGMn1CAl14T1G1M2tAXSzwOprFTeKauWpCit2s5dY9dhPSfPUPBbESqfm4C9nDL2OdQ
+[2024-06-09 21:06:30] - [info] - ##################### we are in NextAuth
+[2024-06-09 21:06:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-09 21:06:30] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-09 21:06:30] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-09 21:06:30] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxNzk4MTU5MCwiZXhwIjoxNzE3OTg1MTkwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.egb73-ctkDR-iCcke2cYaMOIHt_I63mqvRZADLs5vMCyu0H3V5D3h0Qw7d0zC4NcDLxZdmgIIE6PXOijjXZpE_KrdglDT5IdEXS_VZ0OZOX84sB_RFSV5EXy53n3CHWUXD4IDWt0zL5GLvARz1ycbuxdVW2Y-8SaDjwPLrQxtaqv4inONYWkumRzE0Loak9AGSfNJoK9I5tOmeTNINTOP87Im6S54slFI81_x-PbWtoBEeKdfZrrONjVcTOmlxzoOPGmnxJ-dAcKSlHqHre7y5zsE6oHML9t5vGyE4F7Hkj7WHKjQ_SfOtabZpvSCuZhsCQEyh5a0fiQXlsb-rgq1w
+[2024-06-09 21:06:36] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-09 21:06:36] - [info] - [/api/getUserListings] - Room listings results returned: 29
+[2024-06-09 21:07:12] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-09 21:07:12] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-09 21:07:15] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 232 inserted successfully and pictures uploaded to S3
