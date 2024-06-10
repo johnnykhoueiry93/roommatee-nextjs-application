@@ -14,3 +14,10 @@
 .custom-autocomplete input {
   height: 100px; /* Adjust the height to your preference */
 }
+
+.submit-button {
+	margin-top: 30px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 18px;
+}
