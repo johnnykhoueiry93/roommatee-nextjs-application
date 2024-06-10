@@ -5,6 +5,7 @@ import { SiteData } from "../../context/SiteWrapper";
 import AddIcon from '@mui/icons-material/Add';
 import { Fab } from "@mui/material";
 import { useRouter } from 'next/navigation';
+import "../../styles/Listings.css"
 
 const UserListings = () => {
   //@ts-ignore
@@ -22,7 +23,7 @@ const UserListings = () => {
 
     return (
     // @ts-ignore
-    <div className="container-fluid" style={{'padding-bottom': '100px'}}>
+    <div className="container-fluid" style={{'paddingBottom': '100px'}}>
       <SnackBarAlert
         message={snackbarMessage}
         open={snackbarOpen}

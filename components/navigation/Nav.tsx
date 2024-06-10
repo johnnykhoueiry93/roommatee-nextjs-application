@@ -154,7 +154,6 @@ const navigateToChangePasswordPage = () => {
       })
 
 
-      // navigate("/");
       // setSearchClick(false);
       // resetSearchValue();
 
@@ -167,7 +166,7 @@ const navigateToChangePasswordPage = () => {
       // });
 
       // Redirect the user to the login page or any desired location
-      window.location.replace("/login");
+      window.location.replace("/");
     }
 
 
@@ -208,7 +207,7 @@ const navigateToChangePasswordPage = () => {
           <NavigationItem label="Home" activeTab={activeTab} handleTabClick={handleTabClick} path="/" setSearchClick={setSearchClick}>Home</NavigationItem>
     
           {/* MENU ITEM 2 */}
-          <NavigationItem label="My Listings" activeTab={activeTab} handleTabClick={handleTabClick} path="/listings" setSearchClick={setSearchClick}>My Listings</NavigationItem>
+          <NavigationItem label="My Listings" activeTab={activeTab} handleTabClick={handleTabClick} path="/my-listings" setSearchClick={setSearchClick}>My Listings</NavigationItem>
     
           {/* MENU ITEM 3 */}
           <NavigationItem label="My Chats" activeTab={activeTab} handleTabClick={handleTabClick} path="/chats" setSearchClick={setSearchClick}>My Chats</NavigationItem>

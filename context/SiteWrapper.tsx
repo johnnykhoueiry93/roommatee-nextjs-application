@@ -33,8 +33,7 @@ export const SiteWrapper = ({ children }) => {
   const [intendedDestination, setIntendedDestination] = useState(null); // defines the next page the user is going to in case no logged in to sign in then resume where they left off
   const [listingsCreated, setListingsCreated] = useState(0);
   const [showListingCreatedAlert, setShowListingCreatedAlert] = useState(false);
-  const [listing, setListing] = useState([]);
-
+  const [isSearchClicked, setSearchClick] = useState(false);
     // This function is used to scroll up when needed
     const scrollToTop = () => {
       console.log("Scrolling to the top of the window");
@@ -67,22 +66,43 @@ export const SiteWrapper = ({ children }) => {
   const [userInfo, setUserInfo] = useState(null);
 
   useEffect(() => {
-    // Check if we are in the browser environment
-    if (typeof window !== 'undefined') {
-      // Retrieve the userInfo from localStorage, if it exists
-      const savedUserInfo = localStorage.getItem('userInfo');
-      if (savedUserInfo) {
-        setUserInfo(JSON.parse(decryptData(savedUserInfo)));
+    // If the userInfo already exists meaning the user was logged in
+    // and they performed a refresh then get it from the local storage
+    const storedUserInfo = localStorage.getItem("userInfo");
+
+    console.log("SiteWrapper Getting storedUserInfo: ", storedUserInfo);
+
+    if (storedUserInfo) {
+      const decryptedUserInfo = decryptData(storedUserInfo); // get decrypted text
+      console.log("SiteWrapper: ", decryptedUserInfo);
+      setUserInfo(decryptedUserInfo);
+    }
+  }, []);
+
+
+  const [listing, setListing] = useState([]);
+
+  useEffect(() => {
+    const storedUserListings = localStorage.getItem('userListings');
+
+    console.log('SiteWrapper Getting storedUserListings: ', storedUserListings);
+
+    if (storedUserListings) {
+      try {
+        const parsedListings = JSON.parse(storedUserListings);
+        console.log('SiteWrapper parsedListings: ', parsedListings);
+        setListing(parsedListings);
+      } catch (error) {
+        console.error('Failed to parse storedUserListings', error);
       }
     }
   }, []);
 
-  useEffect(() => {
-    // Save userInfo to localStorage whenever it changes
-    if (userInfo !== null) {
-      localStorage.setItem('userInfo', JSON.stringify(encryptData(userInfo)));
-    }
-  }, [userInfo]);
+
+
+
+
+
 
   
   const [userProfilePicture, setUserProfilePicture] = useState(() => {
@@ -124,19 +144,19 @@ export const SiteWrapper = ({ children }) => {
   const [snackbarSeverity, setSnackbarSeverity] = useState<"success" | "error" | "warning" | "info">("success");
   // ---------------------------------------------------------- SNACK BAR
 
-  useEffect(() => {
-    if(userAuth) {
-      localStorage.setItem('userInfo', encryptData(userInfo));
-      // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
-      // localStorage.setItem('userSupportTickets', JSON.stringify(supportTickets));
-      // localStorage.setItem('storedOpenedSupportTicket', JSON.stringify(openedSupportTicket));
-      // localStorage.setItem('storedSupportTicketMessages', JSON.stringify(supportTicketMessages));
-      // if(userInfo.userType == "admin") {
-      //   setUserAdmin(true);
-      // }
+  // useEffect(() => {
+  //   if(userAuth) {
+  //     localStorage.setItem('userInfo', encryptData(userInfo));
+  //     // localStorage.setItem('userProfilePicture', JSON.stringify(userProfilePicture));
+  //     // localStorage.setItem('userSupportTickets', JSON.stringify(supportTickets));
+  //     // localStorage.setItem('storedOpenedSupportTicket', JSON.stringify(openedSupportTicket));
+  //     // localStorage.setItem('storedSupportTicketMessages', JSON.stringify(supportTicketMessages));
+  //     // if(userInfo.userType == "admin") {
+  //     //   setUserAdmin(true);
+  //     // }
 
-    } 
-  }, [userInfo, userAuth, userProfilePicture]); // add userProfilePicture
+  //   } 
+  // }, [userInfo, userAuth, userProfilePicture]); // add userProfilePicture
 
   /**
    * This object holds all the user information saved during the 
@@ -312,7 +332,7 @@ setRoomListingData({
         isMobile,isTablet, PROFILE_PICTURE_S3_SUB_FOLDER, ID_DOCUMENT_S3_SUB_FOLDER, ID_DOCUMENT_SELFIE_S3_SUB_FOLDER,
         profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo,
         userIsAdmin, firebaseToken, setFirebaseToken, userAdmin, setUserAdmin, listing, setListing,
-        userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified,
+        userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified, isSearchClicked, setSearchClick,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,
         snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity,
         welcomeProfileSetupStep, setWelcomeProfileSetupStep, describePlaceWorkflow, setDescribePlaceWorkflow, prevProgress, setPrevProgress, nextProgress, setNextProgress,

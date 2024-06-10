@@ -1,10 +1,15 @@
 "use client"
 import React from "react";
-// import { useNavigate } from "react-router-dom";
+import { useRouter } from 'next/navigation';
+
 
 //@ts-ignore
 const NavigationItem = ({ label, activeTab, handleTabClick, path, setSearchClick, children }) => {
-  // let navigate = useNavigate();
+const router = useRouter();
+const navigateToPage = (path) => {
+  router.push(path);
+};
+
   return (
     <li className="nav-item">
       <a
@@ -13,7 +18,7 @@ const NavigationItem = ({ label, activeTab, handleTabClick, path, setSearchClick
         data-bs-target=".navbar-collapse.show"
         onClick={() => {
           handleTabClick(label);
-          // navigate(path);
+          navigateToPage(path);
           setSearchClick(false);
         }}
       >

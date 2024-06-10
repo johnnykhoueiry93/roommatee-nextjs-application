@@ -136,7 +136,9 @@ const navigateToPage = (path) => {
       }
   
       const data = await response.json();
+
       setListing(data);
+      localStorage.setItem("userListings", JSON.stringify(data));
       console.log('getUserListings ' , data);
       return data;
     } catch (error) {
