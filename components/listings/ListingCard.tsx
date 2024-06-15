@@ -20,6 +20,8 @@ const ListingCard = ({ listing }) => {
     }
   }
 
+  // console.log('ListingCard.tsx: ' , listing);
+
   function returnLaptop() {
     return (
       <div className="container">

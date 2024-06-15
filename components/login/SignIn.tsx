@@ -390,7 +390,8 @@ const navigateToPage = (path) => {
             <p>{loginStatus}</p>
           </div>
         </div>
-      <FooterSimple />
+        <FooterSimple />
+      
 
       </div>
 

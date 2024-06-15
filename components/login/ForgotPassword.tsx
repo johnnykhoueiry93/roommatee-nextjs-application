@@ -10,6 +10,7 @@ import "../../styles/Signup.css";
 import { SiteData } from "../../context/SiteWrapper";
 import LockResetIcon from '@mui/icons-material/LockReset';
 import { useRouter } from 'next/navigation';
+import FooterSimple from "../footer/FooterSimple";
 
 const ForgotPassword = () => {
   const [errorMessage, setErrorMessage] = useState('');
@@ -102,6 +103,7 @@ const ForgotPassword = () => {
           </div>
         </div>
       </div>
+      <FooterSimple />
     </div>
   );
 };

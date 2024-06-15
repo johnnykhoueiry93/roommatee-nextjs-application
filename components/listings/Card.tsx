@@ -1,6 +1,7 @@
 import React from "react";
 import { useRouter } from 'next/navigation';
 // import BackendAxios from "../../backend/BackendAxios";
+import ReactResponsiveCarousel from "../modals/ReactResponsiveCarousel";
 import { SiteData } from "../../context/SiteWrapper";
 import { useState, useEffect } from "react";
 import "../../styles/Card.css";
@@ -16,7 +17,7 @@ const Card = ({ listingItem, index, listing }) => {
   const router = useRouter();
 
   // @ts-ignore
-  const { setListing } = SiteData([]);
+  const { setListing, userInfo } = SiteData([]);
   const [deleteConfirmationShow, setDeleteConfirmationShow] = useState(false);
 
 
@@ -76,26 +77,47 @@ const Card = ({ listingItem, index, listing }) => {
     const [ s3UrlPicture1, setS3UrlPicture1] = useState("");
 
     //@ts-ignore
-    const fetchS3Url = (key, setS3Url) => {
-      /**
-       * Logic update
-       * fetch call to backend to get the first picture
-       * from the database we need to return all the pictures column and select the first picture as the primary
-       */
+    async function fetchS3Url(pictureFilename) {
+
+      const key = `${pictureFilename}`;
+      console.log(`Trying to fetch the S3 url for key: ${key}`);
+    
+      try {
+        const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+          method: 'POST',
+        });
+        const data = await response.json();
+        
+        console.log("Setting the user profile picture to URL: " + data.s3Url);
+        // setUserProfilePicture(data.s3Url);
+        // console.log("setting in storage userProfilePicture: " + data.s3Url);
+        // localStorage.setItem("userProfilePicture", JSON.stringify(data.s3Url));
+      } catch (error) {
+        console.error("Error:", error);
+      }
+  }
 
 
-      // BackendAxios.post(`/getS3PictureUrl/${key}`)
-      //   .then((response) => {
-      //     setS3Url(response.data.s3Url);
-      //   })
-      //   .catch((error) => {
-      //     console.error("Error:", error);
-      //   });
-    };
+    // useEffect(() => {
+    //   console.log('listingItem.pictures', listingItem.pictures);
 
-    useEffect(() => {
-      fetchS3Url(listingItem.picture1, setS3UrlPicture1);
-    }, [listingItem.picture1]);
+    //   if (listingItem.pictures) {
+    //     const picturesArray = listingItem.pictures.split(',');
+
+    //     if (picturesArray.length > 0) {
+    //       picturesArray.forEach(picture => {
+    //         console.log(picture);
+    //         fetchS3Url(picture);
+    //       });
+    //     } else {
+    //       console.log('No pictures found');
+    //     }
+    //   } else {
+    //     console.log('No pictures available');
+    //   }
+    //   // then fetchS3Url(48_230_1.PNG); // using the first iteration, then second then third...
+
+    // }, []);
 
     function returnPriceEditDeleteSection() {
       return (
@@ -140,18 +162,22 @@ const Card = ({ listingItem, index, listing }) => {
     }
 
     function returnPrimaryImagePreview() {
+      // return (
+      //   <div>
+      //   <img
+      //     className="card-image-preview"
+      //     src={s3UrlPicture1}
+      //     onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
+      //       (e.target as HTMLImageElement).onerror = null;
+      //       (e.target as HTMLImageElement).src = "/images/listing_placeholder.jpg";
+      //     }}
+      //     alt={`Listing ${listingItem.id}`}
+      //   />
+      // </div>
+      // )
+
       return (
-        <div>
-        <img
-          className="card-image-preview"
-          src={s3UrlPicture1}
-          onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
-            (e.target as HTMLImageElement).onerror = null;
-            (e.target as HTMLImageElement).src = "/images/listing_placeholder.jpg";
-          }}
-          alt={`Listing ${listingItem.id}`}
-        />
-      </div>
+        <ReactResponsiveCarousel selectedCardDetails={listingItem} carouselHeight={'200'}/>
       )
     }
 

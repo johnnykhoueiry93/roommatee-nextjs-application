@@ -278,3 +278,167 @@
 [2024-06-09 17:17:32] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
 [2024-06-09 18:51:45] - [error] - [executeQuery] - Error executing MySQL query: Column 'userProfileId' cannot be null
 [2024-06-09 18:51:45] - [error] - Backend failure during the /api/createNewRoomListing webservice Column 'userProfileId' cannot be null
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')

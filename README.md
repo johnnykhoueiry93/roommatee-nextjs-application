@@ -80,15 +80,14 @@ API Key is in the .env file under src/backend
 /resendVerificationToken
 /handleUploadPictureToS3SubFolder
 /logFrontendActivity
-
+/createNewRoomListing
+/createUserProfile
+/uploadMultiple
 
 # Webserivces Pening Migration
 /getUsers
 /posts
-/uploadMultiple
 /updateRoomListing
-/createNewRoomListing
-/createUserProfile
 /setMysqlDatabaseFlagTrue
 /createTicket
 /sendTicketReply

@@ -13,7 +13,7 @@ const FooterSimple = () => {
       };
   
     return (
-      <div className="mt-1">
+      <div className="mt-1" style={{textAlign: 'center'}}>
         <section className="social-media">
           <div>
             <a href="" className="me-4 link-secondary">

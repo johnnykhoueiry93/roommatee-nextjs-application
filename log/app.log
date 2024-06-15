@@ -2664,3 +2664,1172 @@
 [2024-06-09 21:07:12] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
 [2024-06-09 21:07:12] - [info] - [/api/getUserListings] - Room listings results returned: 30
 [2024-06-09 21:07:15] - [info] - [johnny.kh@hotmail.com] - [/api/createNewRoomListing] - New Room listing with id: 232 inserted successfully and pictures uploaded to S3
+[2024-06-10 08:18:25] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button List a Room
+[2024-06-10 16:33:02] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-10 16:33:02] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-10 16:33:02] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-10 16:33:03] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODA2MjM4MywiZXhwIjoxNzE4MDY1OTgzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.IsmOJlp6CDGyWeVX9AfW4203PraISX6KuSIFTgz-9NECn76vdN7S7gwLAsZVAovnrd5aH6XQlLn-CCCxD36nOiujEu4Sha_Y3cQfuAZkVf40j1QG75BuiAzORHCJqr2gpePpzRlcedHkMRNCyDjIAhUMH7vCLLwDf8jnkyDY_8iDnIa6OT40Sx1YXSfeJE9jrdlTcjhh6IrAIQp1Ek0wCGdl1SE136KpsfXu5ke1dovHdPpH4eWcriDFxF9kxE6cQoYXB9QVIPup0xlLFhs7LY1u9ilVEKzWuL-fU28htKkcaDDtZ5Xb5o70XjNpiW9hAR6s4O7vZqO9RZaEuonynw
+[2024-06-10 16:33:04] - [info] - ##################### we are in NextAuth
+[2024-06-10 16:33:04] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-10 16:33:04] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-10 16:33:04] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-10 16:33:04] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODA2MjM4NCwiZXhwIjoxNzE4MDY1OTg0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.nOneDDIhcvKH57k4N2H-_YnKpi9VoXFg7Z0_OMS1pRcz1wwH3Ue9vIF81thgJD6e3kWS5I0F6CJmEaWpoJadfsfXh25h5THWHN1xaEsgpeJhVO7AYy8beuzAYW3GsRT4iAoyHYJRq79KYLT3RlTvgNnT7i-4_b6RMkVe5pZwI0IGaIT8Xrrbhn9UdWpVB3w1MLjNRn2KgmyLoOj0xLMxOKgEz53zvVD8hMdW5CJwvs8K7OpjfG8l_iOHvKurRzy8IMl--SUNDSPq_ctrv7DOfD4ZK24_GVqIziQqR_PcwlEO2xWXS9Dtb68ozJulfSr1GO5NlbiTTMIXf0J5dPTtKA
+[2024-06-10 16:33:11] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-10 16:33:11] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-13 17:10:40] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-13 17:10:40] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-13 17:10:41] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-13 17:10:42] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODMyMzg0MiwiZXhwIjoxNzE4MzI3NDQyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.kq_c6bF2ciyPqN2qTpNX3Kxyo4SeuFy96SMwH6c-2GB63sKERl5xV05bTzHyQtCsbDKtctSIT-yCqmHz97r8XakMwb1_FGze4lajSB1OkTp4TIxojOwbjVFbfhulaKIBkzkf7yscHTIU9EJo_KIUYlNmc_AquRBWHCi5BpVAKBtgwDgnApURhpXohTvkfjl0PKvDkZItjdzb0tKMWZVSFrZ1YfkA9SKZW84LGxwXJH8TcYYizV_uhSqs7lJ5YrBaqDhq0ydZ3XQuLXmnr8J-slQr4R8hJd4bDrUwygk52yJL_xhwRZxoMwSQl0VZVAjI77RFI5iBArLuKzai40Mtsw
+[2024-06-13 17:10:42] - [info] - ##################### we are in NextAuth
+[2024-06-13 17:10:42] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-13 17:10:42] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-13 17:10:43] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-13 17:10:43] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODMyMzg0MywiZXhwIjoxNzE4MzI3NDQzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.QrxP9wahIVMQjwqBLqzDnmRbkXLxkuzsIdEd8SitZT2AKV31kmNAqLnS4BUgVJ--H3f0gLCD-O--ZExfM9fNSk_95SZPxRQUd2wylAkfix5jPU_8rs_ScZ6weKbZuwlCKCdAZegW5X40vEPqp5kGarGZdJ-DvgwQAcdmJAJZnxkP0x2rluRL07DllxfXTCbhxwtjLIhSs73yJtEup7Ww4U0Jio-i5ikkqdYQeM27wC4Blz7FgbewpB4qwLZhfQ828xSX5PVH3bIsFPVBNXl2XEBBfXtw8Buuj8x78pLzqbwN_xEsq_EHAo_kiVZRAaCjtZjWUnfYL4QAOqtrwCuMrA
+[2024-06-13 17:10:46] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-13 17:10:46] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:13:27] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:28] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:13:28] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:13:29] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:14:51] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:14:52] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:52] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:53] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:14:53] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:11] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:12] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:13] - [info] - The pictures column returns is: 
+[2024-06-13 17:15:13] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:21] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:22:21] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:22:21] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:22:21] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:22:21] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:22:21] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:22:21] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:21] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:21] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:21] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:21] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:21] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:22:22] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:22] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:22:23] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:08] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:23:08] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:23:08] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:23:08] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:23:08] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:23:08] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:23:08] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:08] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:08] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:08] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:08] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:08] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:09] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:23:10] - [info] - The pictures column returns is: 
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:25:32] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:32] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:25:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:33] - [error] - Backend failure during the /api/getListingPicturesURL webservice Table 'roomzeydb.userProfile' doesn't exist
+[2024-06-13 17:25:48] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:25:48] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:25:48] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:25:48] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:25:48] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:25:48] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:48] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:25:49] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:25:49] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:25:50] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:28:01] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:28:01] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:28:01] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:28:01] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:28:01] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:28:02] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:28:03] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:38:33] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:38:34] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:43:30] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:43:31] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 169
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 193
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 200
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 202
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 203
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 206
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 207
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 208
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 209
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 211
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 213
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 214
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 215
+[2024-06-13 17:43:40] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 216
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 217
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 218
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 219
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 220
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 221
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 222
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 223
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 224
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 225
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 226
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 227
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 228
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 229
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 230
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 231
+[2024-06-13 17:43:41] - [info] - [johnny.kh@hotmail.com] - [/getListingPicturesURL] - Getting the listing picture URLs for listingId: 232
+[2024-06-15 10:27:09] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-15 10:27:09] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-15 10:27:10] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-15 10:27:10] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ3MjQzMCwiZXhwIjoxNzE4NDc2MDMwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.a7dv3XTnZxSaYy_jfeSmzihru0RN2_QgVF5x2C1xMnh2-u3mPpOD9JZmYJT08nBK25zuuwSibN5-g8kW9A7ms3_mZU1jGfaPr3kMWgm8Jy3ndZHrNtqhFr_7WZelDU9lgAEjcvcRNVAKXFBCdXWytOW93Znwlq8PgO7oZz8hsKBxy58SEwwAPZradd2gtOBjBcrSOA2J5Wo0qe1-lkGnNkCSurMOd3p6qIboReMKtVlDYyDBnehqxoKXfNGzEF7grx6VPZb8Oe6P9DyLa2AknPvhqZo_ziVZwUnptA0ZgUPNtvsccPHfT1T3RkqYav6RKnimEj0Ejx_EYC_V4g9-Fw
+[2024-06-15 13:27:10] - [info] - ##################### we are in NextAuth
+[2024-06-15 13:27:10] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-15 13:27:10] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-15 13:27:10] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-15 13:27:12] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ3MjQzMiwiZXhwIjoxNzE4NDc2MDMyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.T73WoAI4jOqVAYXQzY0dgXiILXdnF5IFoA9LHF-iFsCJOsG7NpS6e_IOjmQi68bh6SURrtRBCRINgBBx8M8z7OKop02_SuAOpWEZ7w02kLuz5pC1xaCHb_prIPWQz5dAxe0kbVXMXyr70iXS6jDXphBHdFZvoNzv39-vhjOfgO4oq2_7mp-_5xQoWx3Zl3j2HkoA0X8KkillJ78s6gBSFY0v53M6SRhYWWNoUg2vaioP7sowftgCi6dr1Gf60uK_fTO9ai1SKAgWmnbtqLbUVK6TYszJ2IxHl13M3nXdo2_OqQtjOAxM8cv_PRQsdUCy-O8LNwIDQLIW33PC-hxigQ
+[2024-06-15 13:27:18] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 13:27:19] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 14:23:03] - [info] - Request to logout
+[2024-06-15 14:23:03] - [info] - Request to logout
+[2024-06-15 11:23:20] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-15 11:23:20] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-15 11:23:20] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-15 11:23:20] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ3NTgwMCwiZXhwIjoxNzE4NDc5NDAwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.as4FjQZ4PQImnCQGz4h1qJeGL2txTPVCJq9NshLSn-xU0eA-3_s2SJ91LtI0VBKzJWhWzK-aPsgvHE0L6Iozogo-8pfEgEKv_Ww3NoFqWobY7bGqMbBLc5EEeDUzEaxd_6KcptE0FM8zm7jzw3tuYWxtWRqtpOHmdoGW4ODjumcZIyU06KfmapOb0iwfP1yrGieA0KhEPdCVbr8fLPaykiawxvDTdvTuYme-M_2dTLI4rKPhVt-mgm-foE82lEKBlfzwHzlMz3mApREveSQ9vtZnFkMfFaqdRO9J1Esc_Iij45wj6wbVkf23ClwHrD3tbaZNoAanDkKxqaitjPJXHg
+[2024-06-15 14:23:20] - [info] - ##################### we are in NextAuth
+[2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ3NTgwMSwiZXhwIjoxNzE4NDc5NDAxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.kQk14nD4IirtWKOHly7lIHqMx8hNHctaTbOIA7NSFXbuLUELuWZzXnyA0yfqvzO9IqTE3Cwp8LIuruFZd1ki-J8y1LaARMDVK6IetfOcpBgbdGJKBWt_blCxFVLK4t8GPKY7xm04PmJwCsGgBXPkGcRj2p0jbV1jUWJpGNfDYpQtBUvHY3qd0PQkJBaeaCn4WLUO7jVef0o6ldKjdf1KX6xFfyDVk_JneC2Bhg3W__udmnZEk_q5-PkOFYbZbKdBSF60GYssFlgKjl_QI79aCL5OH7nmQB1FOl2Yasnmv0Cersu44Y_xo2L8Gau4kG7avWuFMnfi7ja4LS5dqhKlSg

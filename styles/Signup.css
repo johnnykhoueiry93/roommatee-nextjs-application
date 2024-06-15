@@ -137,7 +137,7 @@ input[type=submit]:hover {
 /* ---------------------- LARGER SCREENS ---------------------- */
 @media (min-width: 1367px) {
 	.login-box-container {
-		width: 30%;
+		width: 50%;
 	}
 
 	.login-box {
