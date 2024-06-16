@@ -1,5 +1,7 @@
 "use client";
 
+import React from "react";
+import { useEffect, useState } from "react";
 import "../../styles/Listings.css";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import { SiteData } from "../../context/SiteWrapper";
@@ -12,8 +14,10 @@ import "../../styles/Listings.css"
 
 const UserListings = () => {
   //@ts-ignore
-  const {  listing, showListingCreatedAlert, setShowListingCreatedAlert, createListingStatus, setCreateListingStatus, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
+  const {  userAuth, listing, showListingCreatedAlert, setShowListingCreatedAlert, createListingStatus, setCreateListingStatus, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
   const router = useRouter();
+  const [isHydrated, setIsHydrated] = useState(false);
+
   const navigateToPage = (path) => {
     router.push(path);
   };
@@ -24,6 +28,21 @@ const UserListings = () => {
   };
 
 
+  useEffect(() => {
+    if (!userAuth) {
+      navigateToPage("/login");
+    } else {
+      console.log('The value of userAuth is: ' + userAuth);
+    }
+  }, []);
+
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
+  if (!isHydrated) {
+    return <div></div>; //TODO update to something better!!
+  }
     return (
     // @ts-ignore
     <div className="container-fluid" style={{'paddingBottom': '100px'}}>

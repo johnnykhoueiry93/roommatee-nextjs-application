@@ -364,7 +364,7 @@ function returnSectionHeader(headingLabel) {
             <Select
               labelId="demo-simple-select-label"
               id="demo-simple-select"
-              value={roomListingData.preferredLeaseTerm}
+              // value={roomListingData.preferredLeaseTerm}
               label="Select bed size"
               //@ts-ignore
               onChange={(e) =>

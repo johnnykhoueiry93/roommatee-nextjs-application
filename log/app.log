@@ -3833,3 +3833,108 @@
 [2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
 [2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - Login was successful
 [2024-06-15 14:23:21] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ3NTgwMSwiZXhwIjoxNzE4NDc5NDAxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.kQk14nD4IirtWKOHly7lIHqMx8hNHctaTbOIA7NSFXbuLUELuWZzXnyA0yfqvzO9IqTE3Cwp8LIuruFZd1ki-J8y1LaARMDVK6IetfOcpBgbdGJKBWt_blCxFVLK4t8GPKY7xm04PmJwCsGgBXPkGcRj2p0jbV1jUWJpGNfDYpQtBUvHY3qd0PQkJBaeaCn4WLUO7jVef0o6ldKjdf1KX6xFfyDVk_JneC2Bhg3W__udmnZEk_q5-PkOFYbZbKdBSF60GYssFlgKjl_QI79aCL5OH7nmQB1FOl2Yasnmv0Cersu44Y_xo2L8Gau4kG7avWuFMnfi7ja4LS5dqhKlSg
+[2024-06-15 14:23:24] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 14:23:24] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 16:10:13] - [info] - Request to logout
+[2024-06-15 16:10:13] - [info] - Request to logout
+[2024-06-15 13:21:47] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-15 13:21:47] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-15 13:21:48] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-15 13:21:48] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ4MjkwOCwiZXhwIjoxNzE4NDg2NTA4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.FQnhybihtN5d09ddhPLwadCEMGCZGkS2V5TSt-D9I6m3REa8nD5A_HftjGbMJr8XQFk6px_7FrJG3MmnvBOGSWu79x1JbErqlUXREQ5vyBXJnt4HePlTL4kjvaavk_dGJHYUIPC4qi6Ai5ZvlzT6ZlEp3sK2GZj1oBQ8KOzSvuLtnalrWoH6hQnZ65-2RDBC2_LEIMYkXnMiN10xtgI26cOKPpayB00dwuQ7kNTVUWvuNW-g9YHG0Dzg4VRrESz6fXtCuyxBFxu_vnqxR0LVaOeCHrp8PNIUNtwK8SIvN7_AD1QUOITmmtLn-i1Mw9gl_vVSUDGGJdAYXeGZi-kqiA
+[2024-06-15 16:21:48] - [info] - ##################### we are in NextAuth
+[2024-06-15 16:21:49] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-15 16:21:49] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-15 16:21:49] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-15 16:21:49] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODQ4MjkwOSwiZXhwIjoxNzE4NDg2NTA5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.JE5xNqkT7iq6u_FPW96HQcCjbRbnB5T7sgqbtP5lDM41L9KjOQ1P6gdQk1GkgaI4G_WML3OHVbcrFHdusHSemI62pKGTepPDG2GzVjoy_mCTTwiKiy-atZwx7a8_BQYo2vXfTnEyIpdazgtuBfTCgq8khFbGKVID04xRTXccceqOvoRfMvti7Rr1Ah4YiYwO7AAZ0Sydr0AUNNx27Hh1ynUfdXtdpz7FxoAmMDzahoji7HF68f9w9gFRZou56vVsLedrEQ81DqdBSLg4_lBAkmRTkou4LcHkh9x1vyEDNGFOaB2MOVIsFj-zuYZWXc1_mQDuBDxwIapM2bU7tq64-Q
+[2024-06-15 16:21:57] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 16:21:57] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 16:45:10] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 16:45:10] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 19:53:19] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 19:53:19] - [info] - 
+[2024-06-15 19:53:19] - [error] - Backend failure during the /api/createNewRoomListing webservice Cannot access 'emailAddress' before initialization
+[2024-06-15 19:53:19] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 19:54:26] - [info] - 
+[2024-06-15 19:54:26] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 19:54:26] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 19:54:26] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - Room listing with id: 169 was successfully updated
+[2024-06-15 19:54:26] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 20:39:06] - [info] - 
+[2024-06-15 20:39:06] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 20:39:07] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 20:39:07] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 20:39:07] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 20:39:53] - [info] - 
+[2024-06-15 20:39:53] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 20:39:53] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 20:39:53] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 20:39:53] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 20:39:58] - [info] - 
+[2024-06-15 20:39:58] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 20:39:58] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 20:39:58] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 20:39:58] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 21:26:26] - [info] - 
+[2024-06-15 21:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 21:26:26] - [error] - [executeQuery] - Error executing MySQL query: read ECONNRESET
+[2024-06-15 21:26:26] - [error] - Backend failure during the /api/updateRoomListing webservice read ECONNRESET
+[2024-06-15 21:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 21:26:26] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
+[2024-06-15 21:26:26] - [error] - [/api/getUserListings] - Error fetching user listings: Can't add new command when connection is in closed state
+[2024-06-15 21:27:27] - [info] - 
+[2024-06-15 21:27:27] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 21:27:27] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
+[2024-06-15 21:27:27] - [error] - Backend failure during the /api/updateRoomListing webservice Can't add new command when connection is in closed state
+[2024-06-15 21:27:29] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 21:27:29] - [error] - [executeQuery] - Error executing MySQL query: read ECONNRESET
+[2024-06-15 21:27:29] - [error] - [/api/getUserListings] - Error fetching user listings: read ECONNRESET
+[2024-06-15 21:27:43] - [info] - 
+[2024-06-15 21:27:43] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 21:27:43] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 21:27:43] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 21:27:43] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 21:27:59] - [info] - 
+[2024-06-15 21:27:59] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 21:27:59] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 21:27:59] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 21:28:00] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 22:30:09] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 22:30:09] - [info] - 
+[2024-06-15 22:30:09] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 22:30:09] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 22:30:09] - [error] - [executeQuery] - Error executing MySQL query: Incorrect integer value: 'null' for column 'leaseDurationInMonth' at row 1
+[2024-06-15 22:30:09] - [error] - Backend failure during the /api/updateRoomListing webservice Incorrect integer value: 'null' for column 'leaseDurationInMonth' at row 1
+[2024-06-15 22:30:23] - [info] - 
+[2024-06-15 22:30:23] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 22:30:23] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 22:30:23] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 22:30:23] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 22:35:10] - [info] - 
+[2024-06-15 22:35:10] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 22:35:10] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 22:35:10] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 22:35:10] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 22:35:34] - [info] - 
+[2024-06-15 22:35:34] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-15 22:35:34] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-15 22:35:34] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-15 22:35:34] - [info] - [/api/getUserListings] - Room listings results returned: 30
+[2024-06-15 22:48:52] - [info] - 
+[2024-06-15 22:48:52] - [error] - Backend failure during the /api/deleteRoomListing webservice emailAddress is not defined
+[2024-06-15 22:49:41] - [info] - 
+[2024-06-15 22:49:41] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 200
+[2024-06-15 22:49:41] - [error] - Backend failure during the /api/deleteRoomListing webservice roomListingData is not defined
+[2024-06-15 22:50:09] - [info] - 
+[2024-06-15 22:50:09] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 200
+[2024-06-15 22:50:09] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 200 deleted successfully.
+[2024-06-15 22:56:25] - [info] - 
+[2024-06-15 22:56:25] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 207
+[2024-06-15 22:56:25] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 207 deleted successfully.
+[2024-06-15 22:57:19] - [info] - 
+[2024-06-15 22:57:19] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 208
+[2024-06-15 22:57:20] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 208 deleted successfully.
+[2024-06-15 22:57:20] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_208 were deleted successfully
+[2024-06-15 22:59:34] - [info] - 
+[2024-06-15 22:59:34] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 193
+[2024-06-15 22:59:34] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 193 deleted successfully.
+[2024-06-15 22:59:34] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_193 were deleted successfully

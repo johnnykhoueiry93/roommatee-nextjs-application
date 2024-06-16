@@ -17,11 +17,12 @@ const Card = ({ listingItem, index, listing }) => {
   const router = useRouter();
 
   // @ts-ignore
-  const { setListing, userInfo } = SiteData([]);
+  const { setListing, userInfo, setEditListingId, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData([]);
   const [deleteConfirmationShow, setDeleteConfirmationShow] = useState(false);
 
 
   const navigateToPage = (path) => {
+    localStorage.setItem('navigatedToEditListing', 'true');
       router.push(path);
     };
 
@@ -37,10 +38,11 @@ const Card = ({ listingItem, index, listing }) => {
   };
 
   const redirectUserToFullCardDetails = () => {
-    console.log(
-      `The user clicked on Edit button for listing item with ID: ${listingItem.id}`
-    );
-    navigateToPage(`/editRoomListing/${listingItem.id}`);
+    console.log( `The user clicked on Edit button for listing item with ID: ${listingItem.id}`);
+    setEditListingId(listingItem.id);
+    localStorage.setItem('storedEditListingId', listingItem.id);
+    console.log( `Setting setEditListingId to value: ${listingItem.id}`);
+    navigateToPage('/edit-place-listing');
   };
 
   const showDeleteConfirmationPopup = () => {
@@ -53,15 +55,44 @@ const Card = ({ listingItem, index, listing }) => {
   // @ts-ignore
   const deleteRoomListing = async (id) => {
     console.log(`The user clicked on Delete for listing item with ID: ${id}`);
-    // try {
-    //   await BackendAxios.delete(`/deleteRoomListing/${id}`);
-    //   // @ts-ignore
-    //   const newListingAfterDelete = listing.filter((card) => card.id !== id);
-    //   setListing(newListingAfterDelete);
-    // } catch (err) {
-    //   // @ts-ignore
-    //   console.log(`Error: ${err.message}`);
-    // }
+    const formData = new FormData();
+    formData.append("userProfileId", userInfo.id);
+    formData.append("id", listingItem.id);
+    formData.append("emailAddress", userInfo.emailAddress);
+
+
+    try {
+      const response = await fetch("/api/deleteRoomListing", {
+        method: "POST",
+        body: formData, 
+        cache: 'no-store'
+      });
+    
+      if (!response.ok) {
+        throw new Error('Network response was not ok' + response.statusText);
+      }
+    
+      const data = await response.json();
+
+      if (response.status === 200) {
+        console.log("Place listing added successfully");
+        const newListingAfterDelete = listing.filter((card) => card.id !== id);
+        setListing(newListingAfterDelete);
+        localStorage.setItem("userListings", JSON.stringify(newListingAfterDelete));
+
+        setSnackbarMessage(data.message);
+        setSnackbarSeverity("success");
+        setSnackbarOpen(true);
+      } else {
+        console.error("Error room listing: " + data.message);
+        setSnackbarMessage("Error creating place listing");
+        setSnackbarSeverity("error");
+        setSnackbarOpen(true);
+      }
+    } catch (error) {
+      // Handle the error here
+      console.error("Error:", error);
+    }
   };
 
     //@ts-ignore
@@ -73,109 +104,41 @@ const Card = ({ listingItem, index, listing }) => {
       }
     }
 
-    // This is the pirmary preview picture
-    const [ s3UrlPicture1, setS3UrlPicture1] = useState("");
 
-    //@ts-ignore
-    async function fetchS3Url(pictureFilename) {
-
-      const key = `${pictureFilename}`;
-      console.log(`Trying to fetch the S3 url for key: ${key}`);
-    
-      try {
-        const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
-          method: 'POST',
-        });
-        const data = await response.json();
-        
-        console.log("Setting the user profile picture to URL: " + data.s3Url);
-        // setUserProfilePicture(data.s3Url);
-        // console.log("setting in storage userProfilePicture: " + data.s3Url);
-        // localStorage.setItem("userProfilePicture", JSON.stringify(data.s3Url));
-      } catch (error) {
-        console.error("Error:", error);
-      }
-  }
-
-
-    // useEffect(() => {
-    //   console.log('listingItem.pictures', listingItem.pictures);
-
-    //   if (listingItem.pictures) {
-    //     const picturesArray = listingItem.pictures.split(',');
-
-    //     if (picturesArray.length > 0) {
-    //       picturesArray.forEach(picture => {
-    //         console.log(picture);
-    //         fetchS3Url(picture);
-    //       });
-    //     } else {
-    //       console.log('No pictures found');
-    //     }
-    //   } else {
-    //     console.log('No pictures available');
-    //   }
-    //   // then fetchS3Url(48_230_1.PNG); // using the first iteration, then second then third...
-
-    // }, []);
 
     function returnPriceEditDeleteSection() {
       return (
-        <div className="row p-1" style={{bottom: '0', display: 'flex', width: '100%'}}>
-          <div className="col-6">
-            <Typography gutterBottom variant="h5" component="div">
-              ${listingItem.price}
-            </Typography>
-          </div>
-          
-          <div className="col-2 ml-auto" >
-            <p
-              className="details-button"
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingBottom: '15px' }}>
+          <Typography gutterBottom variant="h5" component="div" style={{ margin: 0 }}>
+            ${listingItem.price}
+          </Typography>
+    
+          <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+            <Fab
+              color="secondary"
+              aria-label="edit"
+              size="small"
               onClick={redirectUserToFullCardDetails}
+              style={{ zIndex: 0 }}
             >
-              <Fab
-                color="secondary"
-                aria-label="edit"
-                size="small"
-                style={{ zIndex: 0 }}
-              >
-                <EditIcon />
-              </Fab>
-            </p>
+              <EditIcon />
+            </Fab>
+    
+            <Fab
+              color="secondary"
+              aria-label="delete"
+              size="small"
+              onClick={showDeleteConfirmationPopup}
+              style={{ zIndex: 0 }}
+            >
+              <DeleteForeverIcon />
+            </Fab>
           </div>
-
-          <div className="col-2">
-            <p className="details-button" onClick={showDeleteConfirmationPopup}>
-              <Fab
-                color="secondary"
-                aria-label="delete"
-                size="small"
-                style={{ zIndex: 0 }}
-              >
-                <DeleteForeverIcon />
-              </Fab>
-            </p>
-          </div>
-          
         </div>
-      )
+      );
     }
 
-    function returnPrimaryImagePreview() {
-      // return (
-      //   <div>
-      //   <img
-      //     className="card-image-preview"
-      //     src={s3UrlPicture1}
-      //     onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
-      //       (e.target as HTMLImageElement).onerror = null;
-      //       (e.target as HTMLImageElement).src = "/images/listing_placeholder.jpg";
-      //     }}
-      //     alt={`Listing ${listingItem.id}`}
-      //   />
-      // </div>
-      // )
-
+    function returnImageCarouselPreview() {
       return (
         <ReactResponsiveCarousel selectedCardDetails={listingItem} carouselHeight={'200'}/>
       )
@@ -196,16 +159,13 @@ const Card = ({ listingItem, index, listing }) => {
   return (
     <div key={listingItem.imageId} className="card-body">
       {/* ------------------------------- IMAGE PREVIEW ------------------------------- */}
-      {returnPrimaryImagePreview()}
+      {returnImageCarouselPreview()}
 
       <div className="card-details-container">
         {/* ------------------------------- TITLE ------------------------------- */}
         {returnCardTitleHeader()}
+
         <hr />
-
-        {/* ------------------------------- CHIP ICON DETAILS ------------------------------- */}
-
-        {/* <hr /> */}
 
         {/* ------------------------------- PRICE ------------------------------- */}
         {returnPriceEditDeleteSection()}

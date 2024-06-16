@@ -1,4 +1,4 @@
-// /api/createNewRoomListing
+// /api/updateRoomListing
 
 import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database";
@@ -56,20 +56,22 @@ const s3 = new AWS.S3({
 
 export async function POST(request) {
   try {
+    logger.info()
     const formData = await request.formData();
+    const emailAddress = formData.get("emailAddress");
 
     // Verify formData contents
     for (const [key, value] of formData.entries()) {
       console.log(`Key: ${key}, Value: ${value}`);
     }
 
+    logger.info(`[${emailAddress}] - [/api/updateRoomListing] - WS request received to update existing place listing with id`);
+
     // Convert boolean strings to integers
     const convertBooleanToInt = (value) => (value == "true" ? 1 : 0);
 
-    const emailAddress = formData.get("emailAddress");
     const userProfileId = formData.get("userProfileId");
-
-    logger.info(`[${emailAddress}] - [/api/createNewRoomListing] - WS request received to create a new place listing.`)
+    const listingId = formData.get("id");
 
     const roomListingData = {
       userProfileId: formData.get("userProfileId"),
@@ -117,51 +119,52 @@ export async function POST(request) {
     console.log("roomListingData:", roomListingData);
 
     // Execute the query with parameters
-    const results = await executeQuery( "INSERT INTO roomListings SET ?", roomListingData );
+    const results = await executeQuery( "UPDATE roomListings SET ? WHERE id = ?", [roomListingData, listingId] );
 
     if (results.affectedRows > 0) {
-      const lastInsertedListingId = results.insertId;
-
-        // Upload pictures to S3
-      const pictures = formData.getAll("pictures");
-      
-      if (pictures && pictures.length > 0) {
-            const uploadResult = await uploadListingPictures(userProfileId, lastInsertedListingId, pictures, emailAddress);
-
-              /**
-             * If uploadResult is true means that:
-             * 1- the insert into the databse was a success
-             * 2- The picture upload was a success
-             * 3- the database update with the pictures is a success
-             */
-            if (uploadResult) {
-              logger.info( `[${emailAddress}] - [/api/createNewRoomListing] - New Room listing with id: ${lastInsertedListingId} inserted successfully and pictures uploaded to S3` );
+  
+          // Upload pictures to S3
+        const pictures = formData.getAll("pictures");
+        
+        if (pictures && pictures.length > 0) {
+              const uploadResult = await uploadListingPictures(userProfileId, listingId, pictures, emailAddress);
+  
+                /**
+               * If uploadResult is true means that:
+               * 1- the insert into the databse was a success
+               * 2- The picture upload was a success
+               * 3- the database update with the pictures is a success
+               */
+              if (uploadResult) {
+                logger.info( `[${emailAddress}] - [/api/updateRoomListing] - Room listing with id: ${listingId} updated successfully and pictures uploaded to S3` );
+                return NextResponse.json(
+                    { message: "Listing updated successfully!" },
+                    { status: 200 }
+                  );
+              } else {
+                return NextResponse.json(
+                    { message: "Listing failed to update!" },
+                    { status: 500 }
+                  );
+              }
+  
+        } else {
+              logger.info( `[${emailAddress}] - [/api/updateRoomListing] -  Room listing with id: ${listingId} updated successfully. No pictures provided.` );
               return NextResponse.json(
-                  { message: "Listing created successfully!" },
-                  { status: 200 }
-                );
-            } else {
-              return NextResponse.json(
-                  { message: "Listing failed to create!" },
-                  { status: 500 }
-                );
-            }
-
+                { message: "Listing updated successfully!" },
+                { status: 200 }
+              );
+        }
+        
+  
       } else {
-            logger.info( `[${emailAddress}] - [/api/createNewRoomListing] - New Room listing with id: ${lastInsertedListingId} inserted successfully. No pictures provided.` );
-            return NextResponse.json(
-              { message: "Listing created successfully!" },
-              { status: 200 }
-            );
+        throw new Error("Failed to insert listing");
       }
-      
-
-    } else {
-      throw new Error("Failed to insert listing");
-    }
   } catch (err) {
-    logger.error( `Backend failure during the /api/createNewRoomListing webservice`, err );
-
+    logger.error(
+      `Backend failure during the /api/updateRoomListing webservice`,
+      err
+    );
     return NextResponse.json(
       { message: "Internal server error", error: err.message },
       { status: 500 }

@@ -34,6 +34,7 @@ export const SiteWrapper = ({ children }) => {
   const [listingsCreated, setListingsCreated] = useState(0);
   const [showListingCreatedAlert, setShowListingCreatedAlert] = useState(false);
   const [isSearchClicked, setSearchClick] = useState(false);
+  
     // This function is used to scroll up when needed
     const scrollToTop = () => {
       console.log("Scrolling to the top of the window");
@@ -79,6 +80,13 @@ export const SiteWrapper = ({ children }) => {
     }
   }, []);
 
+  const [editListingId, setEditListingId] = useState(null);
+  useEffect(() => {
+    const storedEditListingId = localStorage.getItem('storedEditListingId');
+    console.log('SiteWrapper Getting storedEditListingId: ', storedEditListingId);
+
+      setEditListingId(storedEditListingId);
+  }, []);
 
   /**
    * ---------------------------- Context for Listings --------------------------------
@@ -378,7 +386,7 @@ setRoomListingData({
     <SiteContext.Provider
       value={{
         isMobile,isTablet, PROFILE_PICTURE_S3_SUB_FOLDER, ID_DOCUMENT_S3_SUB_FOLDER, ID_DOCUMENT_SELFIE_S3_SUB_FOLDER,
-        profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo,
+        profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo, editListingId, setEditListingId,
         userIsAdmin, firebaseToken, setFirebaseToken, userAdmin, setUserAdmin, listing, setListing,
         userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified, isSearchClicked, setSearchClick,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,

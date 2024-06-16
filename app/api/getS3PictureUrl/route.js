@@ -14,7 +14,7 @@ AWS.config.update({
 const s3 = new AWS.S3();
 
 export async function POST(request) {
-  console.log('[getS3PictureUrl] request received');
+  // console.log('[getS3PictureUrl] request received');
   const { searchParams } = new URL(request.url);
   const key = searchParams.get('key');
   const folder = searchParams.get('folder');
@@ -36,7 +36,7 @@ export async function POST(request) {
     const url = s3.getSignedUrl('getObject', params);
     return NextResponse.json({ s3Url: url } , { status: 200 });
   } catch (error) {
-    console.error('Error generating S3 signed URL:', error);
+    logger.error('Error generating S3 signed URL:', error);
     return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
   }
 }

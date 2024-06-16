@@ -442,3 +442,16 @@
 [2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
 [2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
 [2024-06-13 17:25:50] - [error] - Backend failure during the /api/getListingPicturesURL webservice Cannot read properties of null (reading 'split')
+[2024-06-15 19:53:19] - [error] - Backend failure during the /api/createNewRoomListing webservice Cannot access 'emailAddress' before initialization
+[2024-06-15 21:26:26] - [error] - [executeQuery] - Error executing MySQL query: read ECONNRESET
+[2024-06-15 21:26:26] - [error] - Backend failure during the /api/updateRoomListing webservice read ECONNRESET
+[2024-06-15 21:26:26] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
+[2024-06-15 21:26:26] - [error] - [/api/getUserListings] - Error fetching user listings: Can't add new command when connection is in closed state
+[2024-06-15 21:27:27] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
+[2024-06-15 21:27:27] - [error] - Backend failure during the /api/updateRoomListing webservice Can't add new command when connection is in closed state
+[2024-06-15 21:27:29] - [error] - [executeQuery] - Error executing MySQL query: read ECONNRESET
+[2024-06-15 21:27:29] - [error] - [/api/getUserListings] - Error fetching user listings: read ECONNRESET
+[2024-06-15 22:30:09] - [error] - [executeQuery] - Error executing MySQL query: Incorrect integer value: 'null' for column 'leaseDurationInMonth' at row 1
+[2024-06-15 22:30:09] - [error] - Backend failure during the /api/updateRoomListing webservice Incorrect integer value: 'null' for column 'leaseDurationInMonth' at row 1
+[2024-06-15 22:48:52] - [error] - Backend failure during the /api/deleteRoomListing webservice emailAddress is not defined
+[2024-06-15 22:49:41] - [error] - Backend failure during the /api/deleteRoomListing webservice roomListingData is not defined
