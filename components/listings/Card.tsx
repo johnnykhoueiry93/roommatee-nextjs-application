@@ -11,6 +11,8 @@ import { Fab } from "@mui/material";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteForeverIcon from "@mui/icons-material/DeleteForever";
 import Typography from "@mui/material/Typography";
+import Skeleton from '@mui/material/Skeleton';
+
 
 // @ts-ignore
 const Card = ({ listingItem, index, listing }) => {
@@ -19,13 +21,16 @@ const Card = ({ listingItem, index, listing }) => {
   // @ts-ignore
   const { setListing, userInfo, setEditListingId, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData([]);
   const [deleteConfirmationShow, setDeleteConfirmationShow] = useState(false);
-
+  const [loading, setLoading] = useState(true); // State to manage loading status
 
   const navigateToPage = (path) => {
     localStorage.setItem('navigatedToEditListing', 'true');
       router.push(path);
     };
-
+    
+    useEffect(() => {
+      setLoading(false); // Simulating content loaded after some time
+    }, []);
 
   // @ts-ignore
   const bufferToBase64 = (buffer) => {

@@ -15,6 +15,22 @@
 	font-size: 18px;
 }
 
+.submit-button-disabled {
+	margin-top: 30px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #cccccc; /* Light grey background */
+	color: #666666; /* Dark grey text color */
+	cursor: not-allowed; /* Not-allowed cursor */
+	opacity: 0.6; /* Reduced opacity */
+	pointer-events: none; /* Prevents interactions */
+	padding: 10px 20px; /* Add padding for better appearance */
+	border: none; /* Remove border if necessary */
+	border-radius: 5px; /* Optional: add rounded corners */
+	text-align: center; /* Center text */
+}
+
 input[type=submit]:hover {
 	background-color: #45a049;
 }

@@ -6,10 +6,12 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import { useState, useEffect } from "react";
+import Skeleton from '@mui/material/Skeleton';
 
 //@ts-ignore
 const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
   const [images, setImages] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchAllS3Urls = async () => {
@@ -39,6 +41,7 @@ const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
       }));
 
       setImages(imagesArray);
+      setLoading(false);
 
     } else {
       const imagesArray = [
@@ -48,6 +51,7 @@ const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
         },
       ];
       setImages(imagesArray);
+      setLoading(false);
     }
     };
 
@@ -56,7 +60,10 @@ const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
   
   return (
     <div>
-      <Carousel
+      {loading ? (
+        <Skeleton sx={{ height: 200 }} animation="wave" variant="rectangular" />
+      ) : (
+    <Carousel
         swipeable={true}
         swipeScrollTolerance={1}
         width="100%"
@@ -72,6 +79,8 @@ const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
       ))}
 
       </Carousel>
+      )}
+      
     </div>
   );
 };

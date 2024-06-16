@@ -11,6 +11,7 @@ import Slider from "@mui/material/Slider";
 import "../../styles/Listings.css";
 import AutocompleteInput from "../modals/AutocompleteInput";
 import StaticFrontendLabel from "../../StaticFrontend";
+import '../../styles/Signup.css'
 import dayjs from 'dayjs';
 import {
   FormControl,
@@ -601,11 +602,11 @@ function returnSectionHeader(headingLabel) {
                   {/* This is the custom check.
                   IF the age is CUSTOM will display the Age Range and the Slider for Min and Max Age */}
                   {roomListingData.agePreference === "Custom" && (
-                    <div className="input-field-width ml-3">
+                    <div className="input-field-width" style={{marginLeft: '40px'}}>
                       <span>Age Range</span>
 
                       <Slider
-                        getAriaLabel={() => "Temperature range"}
+                        getAriaLabel={() => "Age range"}
                         value={value}
                         onChange={handleChange}
                         valueLabelDisplay="auto"

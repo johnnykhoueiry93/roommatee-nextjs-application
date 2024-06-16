@@ -11,6 +11,7 @@ import dayjs from "dayjs";
 import Autocomplete from "react-google-autocomplete";
 import { useRouter } from 'next/navigation';
 import StaticFrontendLabel from "../../StaticFrontend";
+import '../../styles/Signup.css'
 import {
   FormControl,
   InputLabel,
@@ -101,6 +102,8 @@ const EditRoomListing = () => {
     setRoomListingData({ ...roomListingData, moveInDate: formattedDate });
   };
 
+  // this function ensure we are capture a least a single edit.
+  // if 1 or more edits happened the button will be clickable to submit
   const handleInputChange = () => {
     setIsFormEdited(true);
   };
@@ -755,8 +758,8 @@ const EditRoomListing = () => {
               value={listingType}
               label="Housing Type"
               onChange={(e) => {
-                      setListingType(e.target.value);
-                      handleInputChange();
+                setListingType(e.target.value);
+                handleInputChange();
               }}
             >
               <MenuItem value={"House"}>House</MenuItem>
@@ -907,11 +910,11 @@ const EditRoomListing = () => {
                   {/* This is the custom check.
                   IF the age is CUSTOM will display the Age Range and the Slider for Min and Max Age */}
                   {roomListingData.agePreference === "Custom" && (
-                    <div className="input-field-width ml-3" >
+                    <div className="input-field-width" style={{marginLeft: '40px'}} >
                       <span>Range</span>
 
                       <Slider
-                        getAriaLabel={() => "Temperature range"}
+                        getAriaLabel={() => "Age range"}
                         value={value}
                         onChange={handleChange}
                         valueLabelDisplay="auto"
@@ -1402,9 +1405,9 @@ const EditRoomListing = () => {
                 <input
                   type="submit"
                   value="Update Listing!"
-                  className="submit-button"
+                  className={isFormEdited ? "submit-button" : "submit-button-disabled"}
                   onClick={handleEdit}
-                  // disabled={!isFormEdited}
+                  disabled={!isFormEdited}
                 />
               </div>
             </form>
