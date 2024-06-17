@@ -2,6 +2,7 @@
   --roomatee-theme-color: #4CAF50;
 }
 
+
 /* https://stackoverflow.com/questions/43547191/bootstrap-collapse-div-content-disappears */
 .collapse.show {
   visibility: visible;
@@ -9,6 +10,11 @@
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.search-bar-sub-heading {
+  text-align: center;
+  padding-top: 20px;
 }
 
 .custom-autocomplete input {

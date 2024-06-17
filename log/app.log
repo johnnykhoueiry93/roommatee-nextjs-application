@@ -3986,3 +3986,629 @@
 [2024-06-16 09:27:13] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU0NDQzMywiZXhwIjoxNzE4NTQ4MDMzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.h6hTsurA_l8w7HXLMES9AqCdtzhjJSr0XhZA31RGNU7T3VZwMH6TYr6AIb05XdyZezpJ-VZxoYpuIqRoDizP49qvnsbf4SrghclcGEF3lYmTbNUkvcdMEt59oN3LP4xXhy8d7j4CjKDotkVG9zdodIeR-VawkXcNnmnIcHvZjlh8jkJ0T_F4ObabtcK19eHTUJEGI6LOWjjP3mt5kH_eoNTcEfXDSKNQpp5Pe5B_75YjOMfNCBQaJHCYQ6PUwJ8l5SoVNAO_k8SX33vBQBHohhQqCaVQDh9yBaKkY6EodvzCX_3Io8J6YiYxkNz41i_FKFC4xJjaG04KxtVsanqWJA
 [2024-06-16 09:27:16] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
 [2024-06-16 09:27:16] - [info] - [/api/getUserListings] - Room listings results returned: 26
+[2024-06-16 09:44:37] - [info] - 
+[2024-06-16 09:44:37] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 219
+[2024-06-16 09:44:38] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 219 deleted successfully.
+[2024-06-16 09:44:38] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_219 were deleted successfully
+[2024-06-16 09:44:44] - [info] - 
+[2024-06-16 09:44:44] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 220
+[2024-06-16 09:44:44] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 220 deleted successfully.
+[2024-06-16 09:44:44] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_220 were deleted successfully
+[2024-06-16 09:44:47] - [info] - 
+[2024-06-16 09:44:47] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 221
+[2024-06-16 09:44:47] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 221 deleted successfully.
+[2024-06-16 09:44:48] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_221 were deleted successfully
+[2024-06-16 09:45:14] - [info] - 
+[2024-06-16 09:45:14] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 216
+[2024-06-16 09:45:15] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 216 deleted successfully.
+[2024-06-16 09:45:17] - [info] - 
+[2024-06-16 09:45:17] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 218
+[2024-06-16 09:45:17] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 218 deleted successfully.
+[2024-06-16 09:45:17] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_218 were deleted successfully
+[2024-06-16 09:45:19] - [info] - 
+[2024-06-16 09:45:19] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 222
+[2024-06-16 09:45:19] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 222 deleted successfully.
+[2024-06-16 09:45:20] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_222 were deleted successfully
+[2024-06-16 09:45:22] - [info] - 
+[2024-06-16 09:45:22] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 223
+[2024-06-16 09:45:22] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 223 deleted successfully.
+[2024-06-16 09:45:22] - [info] - [johnny.kh@hotmail.com] - [deleteAssociatedListingPictures] - Listing pictures with prefix pattern 48_223 were deleted successfully
+[2024-06-16 09:45:24] - [info] - 
+[2024-06-16 09:45:24] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 217
+[2024-06-16 09:45:24] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 217 deleted successfully.
+[2024-06-16 09:45:32] - [info] - 
+[2024-06-16 09:45:32] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 213
+[2024-06-16 09:45:32] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 213 deleted successfully.
+[2024-06-16 09:45:34] - [info] - 
+[2024-06-16 09:45:34] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 215
+[2024-06-16 09:45:34] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 215 deleted successfully.
+[2024-06-16 09:45:39] - [info] - 
+[2024-06-16 09:45:39] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - WS request received to delete existing place listing with id: 214
+[2024-06-16 09:45:39] - [info] - [johnny.kh@hotmail.com] - [/api/deleteRoomListing] - Room listing with id: 214 deleted successfully.
+[2024-06-16 09:49:54] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 10:00:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:33:05] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:33:19] - [error] - [/api/searchListings] - Error fetching search listings: Cannot read properties of undefined (reading 'emailAddress')
+[2024-06-16 12:34:06] - [error] - [/api/searchListings] - Error fetching search listings: Cannot read properties of undefined (reading 'emailAddress')
+[2024-06-16 12:42:39] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:42:46] - [error] - [/api/searchListings] - Error fetching search listings: Cannot read properties of undefined (reading 'emailAddress')
+[2024-06-16 12:43:40] - [error] - [/api/searchListings] - Error fetching search listings: Cannot access 'rawAddressValue' before initialization
+[2024-06-16 12:44:11] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:44:58] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:46:19] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:46:29] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:48:26] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:48:34] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:48:47] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:48:53] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:49:51] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:49:59] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:51:04] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:51:10] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:53:20] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:53:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: Billerica, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:53:30] - [error] - [/api/searchListings] - Error fetching search listings: profileLimit is not defined
+[2024-06-16 12:56:00] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:56:07] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: Billerica, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:56:07] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Billerica%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 12:56:08] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 12:56:43] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:56:56] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: Billerica, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:56:56] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Billerica%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 12:56:56] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 12:57:11] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:57:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: Burlington, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:57:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Burlington%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 12:57:16] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 12:57:28] - [info] - Request to logout
+[2024-06-16 12:57:30] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 12:57:40] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: Burlington, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:57:40] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Burlington%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 12:57:40] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 12:57:53] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: Billerica, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:57:53] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Billerica%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 12:57:54] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 12:58:02] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: New York, NY, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:58:02] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%New York%' AND r.state LIKE '%NY%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 12:58:02] - [info] - [/api/searchListings] - Room listings results returned: 0
+[2024-06-16 12:58:07] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 12:58:07] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-16 12:58:07] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-16 13:07:26] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: burlington, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 13:07:26] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%burlington%'
+            OR r.city LIKE '%burlington%'
+            OR r.state LIKE '%burlington%'
+            OR r.zip LIKE '%burlington%') 
+      ;
+[2024-06-16 13:07:26] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:27:03] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: Billerica, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:27:03] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Billerica%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 15:27:04] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:27:14] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:27:14] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 15:27:14] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:28:53] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:28:53] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-16 15:28:53] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-16 15:29:57] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:29:57] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-16 15:29:58] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-16 15:30:00] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: burlington, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:30:00] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%burlington%'
+            OR r.city LIKE '%burlington%'
+            OR r.state LIKE '%burlington%'
+            OR r.zip LIKE '%burlington%') 
+      ;
+[2024-06-16 15:30:00] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:30:14] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: billerica, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:30:14] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%billerica%'
+            OR r.city LIKE '%billerica%'
+            OR r.state LIKE '%billerica%'
+            OR r.zip LIKE '%billerica%') 
+      ;
+[2024-06-16 15:30:14] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:31:49] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:31:49] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 15:31:49] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:32:08] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 15:32:08] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:32:08] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:32:08] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:32:08] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 15:32:20] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:32:20] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 15:32:20] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:32:20] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 15:32:20] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:32:20] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 15:34:39] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:34:39] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 15:34:39] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 15:35:07] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 15:35:07] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 15:35:07] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 16:38:44] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 16:38:48] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 16:38:48] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 16:38:48] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 17:01:50] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: Boston, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:01:50] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Boston%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 17:01:50] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 17:03:30] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:03:30] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 17:03:31] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 17:05:55] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:05:55] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 17:05:55] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 17:16:27] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:16:27] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 17:16:27] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 17:32:28] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:32:28] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 17:32:28] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 17:35:41] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:35:41] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 17:35:41] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 17:58:01] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 17:58:01] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 17:58:01] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 18:09:16] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 18:09:20] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 18:09:20] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 18:09:20] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 18:13:14] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 18:13:18] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 18:13:18] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 18:13:18] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 18:36:16] - [info] - folder: 
+[2024-06-16 18:36:16] - [info] - folder: 
+[2024-06-16 18:36:16] - [info] - folder: 
+[2024-06-16 18:36:16] - [info] - folder: 
+[2024-06-16 18:37:46] - [info] - folder: 
+[2024-06-16 18:37:46] - [info] - folder: 
+[2024-06-16 18:37:46] - [info] - folder: 
+[2024-06-16 18:37:46] - [info] - folder: 
+[2024-06-16 19:03:18] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:03:18] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:04:42] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:04:42] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:05:32] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:05:32] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:06:00] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined
+[2024-06-16 19:06:00] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined
+[2024-06-16 19:06:19] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:06:19] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:06:19] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-16 19:06:19] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-16 19:07:03] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:07:03] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-16 19:07:03] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-16 19:07:03] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-16 19:08:27] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 19:08:27] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 19:08:27] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 19:08:29] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU3OTMwOSwiZXhwIjoxNzE4NTgyOTA5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mFFAGNBZXLzSBwy3HZrgmcp9xNNW7BnDC5r9TfgNmua8FRvgvew41PqZE_V4iUreEPSwQqkYMtRFijnGcY3MaQo4CphptwOi95Y5ceyYXAvo1_Qpso8D7Elf5IFaAfoDfkNfu6T5nxpxIiTRTRGiglca84nAXqvCuR9SvqF1JRf74vq6alWRt7ri3XODvZD9kE0tcywRg-Yf_eypYLwnj4DW788cgLtkmJyFmiZZZpFD8IKul5Rqs6H9bC__dhS4YZ6A7Jn4gE8RaVQzAVC-QGscN2zCAELLMk7ixYeJlvDQwIhImXIa5R3qIswtzWZBwKxUZ9anZmRKrQZWc-jk2A
+[2024-06-16 19:08:29] - [info] - ##################### we are in NextAuth
+[2024-06-16 19:08:29] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 19:08:29] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 19:08:29] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 19:08:29] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU3OTMwOSwiZXhwIjoxNzE4NTgyOTA5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mFFAGNBZXLzSBwy3HZrgmcp9xNNW7BnDC5r9TfgNmua8FRvgvew41PqZE_V4iUreEPSwQqkYMtRFijnGcY3MaQo4CphptwOi95Y5ceyYXAvo1_Qpso8D7Elf5IFaAfoDfkNfu6T5nxpxIiTRTRGiglca84nAXqvCuR9SvqF1JRf74vq6alWRt7ri3XODvZD9kE0tcywRg-Yf_eypYLwnj4DW788cgLtkmJyFmiZZZpFD8IKul5Rqs6H9bC__dhS4YZ6A7Jn4gE8RaVQzAVC-QGscN2zCAELLMk7ixYeJlvDQwIhImXIa5R3qIswtzWZBwKxUZ9anZmRKrQZWc-jk2A
+[2024-06-16 19:08:32] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 19:08:33] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 19:09:01] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 19:09:09] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 19:09:09] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 19:09:09] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 19:09:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 19:09:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 19:09:34] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 19:09:37] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 19:09:37] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-16 19:09:37] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-16 19:11:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 19:11:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 19:11:20] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 19:11:46] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 19:11:53] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 19:11:53] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 19:11:53] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 19:15:17] - [info] - Request to logout
+[2024-06-16 19:15:17] - [info] - Request to logout
+[2024-06-16 19:15:24] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 173
+[2024-06-16 19:15:24] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 173
+[2024-06-16 19:15:24] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 173
+[2024-06-16 19:15:24] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 173
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU3OTc1OCwiZXhwIjoxNzE4NTgzMzU4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.WydVahTrzyZBg0Dvba4eFIcE2odXpFVgZ5O2tDe59sLU3bMmCAhdeQQKlL0LhPsuY-8oqHeN72ohDnoAH6P-xVbBiNjXlwTSLsJhooYNh-977U1Csk1tUl5FQSRuO6fMuwL9hvBkVwSbP-Z5_CAfQjEch1m205gdsBYdiLBoiNyyqf6KVnGLBvlGHJedq9YrEfNF2QUT6CVq_GF9DMxdIMxj3fikoYfnrbOIrTfwN0vfmgrZPPWqIIZPrLWEi9C9re77_jZjee8c_cxmjRhxRzX0BJ4FD2mXBZNJ1eEZIA3Lgobqk_8_tAV6PRhlwA4KvTfWBZ7jCfYvjv_hXLxbdQ
+[2024-06-16 19:15:58] - [info] - ##################### we are in NextAuth
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 19:15:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU3OTc1OCwiZXhwIjoxNzE4NTgzMzU4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.WydVahTrzyZBg0Dvba4eFIcE2odXpFVgZ5O2tDe59sLU3bMmCAhdeQQKlL0LhPsuY-8oqHeN72ohDnoAH6P-xVbBiNjXlwTSLsJhooYNh-977U1Csk1tUl5FQSRuO6fMuwL9hvBkVwSbP-Z5_CAfQjEch1m205gdsBYdiLBoiNyyqf6KVnGLBvlGHJedq9YrEfNF2QUT6CVq_GF9DMxdIMxj3fikoYfnrbOIrTfwN0vfmgrZPPWqIIZPrLWEi9C9re77_jZjee8c_cxmjRhxRzX0BJ4FD2mXBZNJ1eEZIA3Lgobqk_8_tAV6PRhlwA4KvTfWBZ7jCfYvjv_hXLxbdQ
+[2024-06-16 19:16:00] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 19:16:00] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 19:16:19] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 19:16:45] - [info] - Request to logout
+[2024-06-16 19:16:45] - [info] - Request to logout
+[2024-06-16 19:16:54] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 19:16:54] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 19:16:55] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:02:30] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:02:30] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:02:30] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:06:04] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:06:04] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:06:04] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:08:51] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:08:51] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:08:51] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:10:13] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:10:13] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:10:13] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:11:27] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:11:27] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:11:27] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4MzEwOSwiZXhwIjoxNzE4NTg2NzA5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mOYnu4U7WLOBF7r2RgUNuwMSPFZnl2QOibUH5GdL5A5NUDPtdgyrdPBVVu3ImxWU_LWCkR99XazIu8EFjKKXL3AdFeeTpciin5VgWZROLCjRt8SE_zUJExYYXDXBoq5y6KS6e8-F7mUR0gn7NEQptPausawh6ExN3Q3irlOJn0VhRbB0Xu5osVPiU7LxkkGfp1kL63gsizFv9N4Cp6UJyU1JyjQWQCG614UmUiMRIYatBZiP3qaQb-5dbAkO2LVVo4Ud4uNV7E_y58vdGp_AEsmjQFuTE819442hdOeLZc06P5gg6d525o5LHOq3crejr0GqWYspMXb6GalcQ_TO3A
+[2024-06-16 20:11:49] - [info] - ##################### we are in NextAuth
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:11:49] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4MzEwOSwiZXhwIjoxNzE4NTg2NzA5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mOYnu4U7WLOBF7r2RgUNuwMSPFZnl2QOibUH5GdL5A5NUDPtdgyrdPBVVu3ImxWU_LWCkR99XazIu8EFjKKXL3AdFeeTpciin5VgWZROLCjRt8SE_zUJExYYXDXBoq5y6KS6e8-F7mUR0gn7NEQptPausawh6ExN3Q3irlOJn0VhRbB0Xu5osVPiU7LxkkGfp1kL63gsizFv9N4Cp6UJyU1JyjQWQCG614UmUiMRIYatBZiP3qaQb-5dbAkO2LVVo4Ud4uNV7E_y58vdGp_AEsmjQFuTE819442hdOeLZc06P5gg6d525o5LHOq3crejr0GqWYspMXb6GalcQ_TO3A
+[2024-06-16 20:11:51] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 20:11:51] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 20:12:55] - [info] - Request to logout
+[2024-06-16 20:12:55] - [info] - Request to logout
+[2024-06-16 20:13:14] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:13:14] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:13:14] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:13:34] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:13:34] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:13:34] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:13:34] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4MzIxNCwiZXhwIjoxNzE4NTg2ODE0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.QP7_tHVTUUyX8Zy24gG6vECq3JukDqpDess_-FZF-_4sOhRJ4StyRo2uPI5ABYDGtfHny7UYav7TjdeBS7vhDAffH-6l8N_UuDnJry_AfBz1b_Zc0Wq3ROMi9415uGc_ft9mG0v3FP38ZM8UMcwVE4uft9REWdwrNJZ0bLdoh7SvtGFM76GYdg7CheoXiW_D29MNOxpSV8hnU_fZsoS76WCPAAkeqYpuDPJ-_bm8Z-k5UGavYMgpQ19913BuWPK8tgQPdMI0A5LSHV6S2PmHkJBpWxEyRHCqbhOBAG8OMawR_YHvn_idQYf_yUU27c0-78vUOCR48usyqJEgHcGTxg
+[2024-06-16 20:13:34] - [info] - ##################### we are in NextAuth
+[2024-06-16 20:13:34] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:13:34] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:13:35] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:13:35] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4MzIxNSwiZXhwIjoxNzE4NTg2ODE1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.Q8h4vdmZosM2YalDfRclaM7hbdwhTZLiEmWfhCwb9ht4Pyl5386ishfm1QQlpscZrGryBpTl8ytv9UsFvKoSO8tVIS9tadbLrfgTSZz_Jhw7cCrlXhlc4Q_jSp9leAs7TP12cctWoeaDplefjL5xjBMsshUw5cHalIZO1jipFy62UI8WQc3gy_LM2fwz-Az8ALgEHnwks8EdBnMMFiFNlnDLAgG92w0VmBiJ2I4hAwtnsqG1ukHkblSb-zRPbZNKW_72YxXJ49j3iLE37qPUB9oYrP9yvDVsdRB6DvhVxHiIXd4d8z3WEPxrXxMV3I2fLSwkv5xT_eD2FZoERrgHWw
+[2024-06-16 20:13:37] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 20:13:37] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 20:20:16] - [info] - Request to logout
+[2024-06-16 20:20:16] - [info] - Request to logout
+[2024-06-16 20:20:24] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:20:24] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:20:24] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4MzYzOCwiZXhwIjoxNzE4NTg3MjM4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mF3LlVZSeqeo7spLYLHpx_1HUpfz7gko41vmwzSwY3ENC0EBsOVBCGgkroj8DfvUP0ChObyzhQbOVarwkIAwCWr5CNieqfeb2rUwDUNbqLsJ5AuN-T6Tdlvf1lbytHA6HDnNPLlV6WWgnnelr1OlXlGeBxW1X3J6F2wF0qAI88Z5eeOhiQAUjNSc8fR7iWvLRWjAnJRev2OGDy5KSu9M7feg4PTrjlXwiNNrUGGqnnR8E7rVcSicJKj7tNXhaw0-x-nnHconCKoyPl-gBmvEpgK2R0ljOpBT9reBT7-GirFMAE8gXTnXwelSlOxKgCaJjldFMz-woZamjPUuoxWoWg
+[2024-06-16 20:20:38] - [info] - ##################### we are in NextAuth
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:20:38] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4MzYzOCwiZXhwIjoxNzE4NTg3MjM4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.mF3LlVZSeqeo7spLYLHpx_1HUpfz7gko41vmwzSwY3ENC0EBsOVBCGgkroj8DfvUP0ChObyzhQbOVarwkIAwCWr5CNieqfeb2rUwDUNbqLsJ5AuN-T6Tdlvf1lbytHA6HDnNPLlV6WWgnnelr1OlXlGeBxW1X3J6F2wF0qAI88Z5eeOhiQAUjNSc8fR7iWvLRWjAnJRev2OGDy5KSu9M7feg4PTrjlXwiNNrUGGqnnR8E7rVcSicJKj7tNXhaw0-x-nnHconCKoyPl-gBmvEpgK2R0ljOpBT9reBT7-GirFMAE8gXTnXwelSlOxKgCaJjldFMz-woZamjPUuoxWoWg
+[2024-06-16 20:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 20:20:39] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 20:20:57] - [info] - Request to logout
+[2024-06-16 20:20:57] - [info] - Request to logout
+[2024-06-16 20:22:42] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: Boston, MA, USA, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:22:42] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Boston%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-16 20:22:43] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4Mzg3NCwiZXhwIjoxNzE4NTg3NDc0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.coxkZ97HQDZNx4-r5B15L_hY85tnonzt0abGANW6l7nkjazx6zBKAUleEugL7MZqVLZsfrLzVCE8MB2S8FIxaNo0lyhhVRCxSGJvuHuvXyAB9Phrfj7XtgnaYHyB-ahChHummSuylDKjKlbPAeQAENg6E-6goOcan3ezJXcpy33-z4Lt7v2tfevXUyGZRAuz9YSs-899ZRNxaE5a8rURVsMMbw2CKCpaZkPTohZmyTbOGTk34QP2fwaDHz1gZ2CGhF7ptc8NvPb0uJvrF-pFVRp1PHKxatUUpi54QOwBr7P4h5FWLYkEP8qgqPWFSggfidus-xwpCVUj2-h6Ohc9QQ
+[2024-06-16 20:24:34] - [info] - ##################### we are in NextAuth
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:24:34] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4Mzg3NCwiZXhwIjoxNzE4NTg3NDc0LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.coxkZ97HQDZNx4-r5B15L_hY85tnonzt0abGANW6l7nkjazx6zBKAUleEugL7MZqVLZsfrLzVCE8MB2S8FIxaNo0lyhhVRCxSGJvuHuvXyAB9Phrfj7XtgnaYHyB-ahChHummSuylDKjKlbPAeQAENg6E-6goOcan3ezJXcpy33-z4Lt7v2tfevXUyGZRAuz9YSs-899ZRNxaE5a8rURVsMMbw2CKCpaZkPTohZmyTbOGTk34QP2fwaDHz1gZ2CGhF7ptc8NvPb0uJvrF-pFVRp1PHKxatUUpi54QOwBr7P4h5FWLYkEP8qgqPWFSggfidus-xwpCVUj2-h6Ohc9QQ
+[2024-06-16 20:24:37] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 20:24:37] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 20:26:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:26:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:26:06] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:33:59] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:33:59] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:34:00] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:37:56] - [info] - Request to logout
+[2024-06-16 20:37:56] - [info] - Request to logout
+[2024-06-16 20:38:26] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:38:26] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:38:26] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:38:26] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4NDcwNiwiZXhwIjoxNzE4NTg4MzA2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.oNkr_dDvYr4rV7715fxbaC02QaoloVw3WhIimQMj1eg6xtT3rfWNyQ-zZJ5uhyelYL0G7j7ZIB-pBHlzdnepAEfORzZDfau8TfxrTrb_I2bHT3A4xABqNSOKKbvo0mD4UXNeDEDodDQx9ww2ojIiyw8ql32itsC8EE_UKvfDKbua0jP8fYtACny2HpAGVGvNZrN26TGgmHseJ3G6nlThpUh4qWp5uQydsAfX76EYDqdtTtiYtmatNOfd5hFIUtvKeOrGTKkaMo37CSLfg0Prff1CjkXiP2BuGVppmspERWr7foQSbaAu1NzNDlAvH4ZkpmnXUKGth1psBcE6214Xyw
+[2024-06-16 20:38:26] - [info] - ##################### we are in NextAuth
+[2024-06-16 20:38:26] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-16 20:38:26] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-16 20:38:27] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-16 20:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxODU4NDcwNywiZXhwIjoxNzE4NTg4MzA3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.hcHw8H1TGs7zP2nRJ0h86CMKf3Ypu_rf2Xzb_WerXKdmr5wSIT_AAHyYGstODFUbKA9r-oQw4O89Fpm-wXCjvXhmX0J37udqwTivJKY_pu6JBnn8Dfs0_1uprLAeM9Q5lqEQVaMrjfcleBLYOSxBHMQn3d_g2LYlTIamWBGXGbFgRi_LsC62ntdt3qxr8Pb4QkXINOGziiatL7tNdk8P7KSwf28rRwsf_DVxogEFA0dbHxugIJUI-fP-RRMCBfvzaFsbsa4LcBevVqBh4HZK8wI1IjDSdPw1hoYCU8PDfYIQk5dnh2pGv-SmhOam1r3bFH3wvti-1Avm2wgHWcGSnA
+[2024-06-16 20:38:32] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 20:38:33] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 20:38:37] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 20:39:17] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:39:17] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:39:18] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:39:58] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 20:40:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:40:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:40:02] - [info] - [/api/searchListings] - Room listings results returned: 22

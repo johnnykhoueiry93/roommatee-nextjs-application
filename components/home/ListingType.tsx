@@ -29,9 +29,9 @@ const ListingType = () => {
     console.log(logEvent);
     logFrontendActivityToBackend(logEvent, userInfo);
     setSearchValue(''); // this insures the value resets when switching from Search Roommate to Search Tenant to Seach Rooms
-    setIntendedDestination("/roomSearch");
+    setIntendedDestination("/find-a-room");
     localStorage.removeItem('sortedSearchResults');
-    navigateToPage("/roomSearch");
+    navigateToPage("/find-a-room");
   };
 
   const handleRedirectToFindARoomateSearch = () => {
@@ -72,7 +72,7 @@ const ListingType = () => {
         <ListingBox
           onClickFunction={handleRedirectToFindRoomForm}
           image={"/images/find-a-room.png"}
-          imageAlt={"List a room"}
+          imageAlt={"Find a Room"}
           labelText={"Find a Room"}
           height={180}
           width={200}

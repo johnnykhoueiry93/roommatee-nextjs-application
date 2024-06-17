@@ -455,3 +455,17 @@
 [2024-06-15 22:30:09] - [error] - Backend failure during the /api/updateRoomListing webservice Incorrect integer value: 'null' for column 'leaseDurationInMonth' at row 1
 [2024-06-15 22:48:52] - [error] - Backend failure during the /api/deleteRoomListing webservice emailAddress is not defined
 [2024-06-15 22:49:41] - [error] - Backend failure during the /api/deleteRoomListing webservice roomListingData is not defined
+[2024-06-16 12:33:19] - [error] - [/api/searchListings] - Error fetching search listings: Cannot read properties of undefined (reading 'emailAddress')
+[2024-06-16 12:34:06] - [error] - [/api/searchListings] - Error fetching search listings: Cannot read properties of undefined (reading 'emailAddress')
+[2024-06-16 12:42:46] - [error] - [/api/searchListings] - Error fetching search listings: Cannot read properties of undefined (reading 'emailAddress')
+[2024-06-16 12:43:40] - [error] - [/api/searchListings] - Error fetching search listings: Cannot access 'rawAddressValue' before initialization
+[2024-06-16 12:44:11] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:44:58] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:46:29] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:48:34] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:48:53] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:49:59] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:51:10] - [error] - [/api/searchListings] - Error fetching search listings: Cannot destructure property 'rawAddressValue' of 'searchValue' as it is undefined.
+[2024-06-16 12:53:30] - [error] - [/api/searchListings] - Error fetching search listings: profileLimit is not defined
+[2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined
+[2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined

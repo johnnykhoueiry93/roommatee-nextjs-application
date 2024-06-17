@@ -21,7 +21,7 @@ import { destroyCookie } from 'nookies' // Import destroyCookie from nookies for
 
 const Nav = () => {
     //@ts-ignore
-   const { userIsAdmin, userAuth, setUserAuth, resetSearchValue , isMobile, setIntendedDestination, userInfo,  setSearchClick, userProfilePicture  } = SiteData();
+   const { userIsAdmin, setUserProfilePicture, userAuth, setUserAuth, resetSearchValue , isMobile, setIntendedDestination, userInfo,  setSearchClick, userProfilePicture  } = SiteData();
    const [hasScrolled, setHasScrolled] = useState(false);
    const [badgeCount, setBadgeCount] = useState(0);
    const [activeTab, setActiveTab] = useState('Home');
@@ -140,8 +140,8 @@ const navigateToChangePasswordPage = () => {
       // e.preventDefault();
       console.log("The user clicked on the logout button");
       setUserAuth(false);
-      // setIntendedDestination("/")
-      // setUserProfilePicture('0');
+      setIntendedDestination("/")
+      setUserProfilePicture('0');
       Cookies.remove("userInfo");
       Cookies.remove("next-auth.session-token");
       Cookies.remove("next-auth.csrf-token");
@@ -269,7 +269,6 @@ const navigateToChangePasswordPage = () => {
         }
       }
       
-let yes = 1;
 if (userAuth) {
     return (
       <nav id="topNavBarId"

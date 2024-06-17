@@ -41,6 +41,7 @@ const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
       }));
 
       setImages(imagesArray);
+      console.log('ReactResponsiveCarousel: ' , imagesArray);
       setLoading(false);
 
     } else {

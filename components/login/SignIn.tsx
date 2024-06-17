@@ -160,10 +160,15 @@ const navigateToPage = (path) => {
       console.log('Setting the user info from the SignIn component');
       setUserInfo(user);
 
-      navigateToPage('/');
 
-      // setLoginStatus(user.firstName);
-      
+      // At this point the user is authenticated and ready to access the private area of the application
+      // We are checking if there is any intendedDestination provided by any component to resume his progress
+      // of we should just take him to home / if this is the first login
+      if (intendedDestination) {
+        navigateToPage(intendedDestination);
+      } else {
+        navigateToPage("/");
+      }
   
       if(user.userType == "admin") {
         setUserAdmin(true);

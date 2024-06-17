@@ -73,6 +73,7 @@ API Key is in the .env file under src/backend
 /login
 /signup
 /getUserListings
+/updateRoomListing
 /changePassword
 /resetPassword
 /verifyCode
@@ -87,7 +88,6 @@ API Key is in the .env file under src/backend
 # Webserivces Pening Migration
 /getUsers
 /posts
-/updateRoomListing
 /setMysqlDatabaseFlagTrue
 /createTicket
 /sendTicketReply

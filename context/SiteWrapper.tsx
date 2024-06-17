@@ -13,6 +13,7 @@ export const SiteData = () => useContext(SiteContext);
 import { encryptData, decryptData } from "../utils/encryptionUtils";
 import Cookies from "js-cookie";
 import { useMediaQuery } from "@mui/material";
+import dayjs from 'dayjs';
 
 // @ts-ignore
 export const SiteWrapper = ({ children }) => {
@@ -34,7 +35,21 @@ export const SiteWrapper = ({ children }) => {
   const [listingsCreated, setListingsCreated] = useState(0);
   const [showListingCreatedAlert, setShowListingCreatedAlert] = useState(false);
   const [isSearchClicked, setSearchClick] = useState(false);
-  
+  const [latitude, setLatitude] = useState(0);
+  const [longitude, setLongitude] = useState(0);
+  const [mapAddress, setMapAddress] = useState("");
+  const [badgeFilterShow, setBadgeFilterShow] = useState("");
+  const [minPriceFilter, setMinPriceFilter] = useState("");
+  const [maxPriceFilter, setMaxPriceFilter] = useState("");
+  const [moveInDate, setMoveInDate] = useState(null);
+  const [countEnabledSearchFilters, setCountEnabledSearchFilters] = useState(0);
+  const [userVerificationStatus, setUserverificationStatus] = useState(0);
+  const [homepageRoommatesResults, setHomepageRoommatesResults] = useState("");
+  const [homepageRoomResults, setHomepageRoomResults] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const searchFilterModalMobileTextSize = 5;
+  const searchFilterModalLargeScreenTextSize = 5;
+
     // This function is used to scroll up when needed
     const scrollToTop = () => {
       console.log("Scrolling to the top of the window");
@@ -376,11 +391,94 @@ setRoomListingData({
 });
 };
 
+const [booleanFilter, setBooleanFilter] = useState({
+  privateBathroom: false,
+  privateParking: false,
+  publicParking: false,
+  wheelChairAccessibility: false,
+  internetConnection: false,
+  washer: false,
+  dryer: false,
+  dishWasher: false,
+  petFriendly: false,
+  refrigerator: false,
+  smokingAllowed: false,
+  furnished: false,
+  television: false,
+  airConditionning: false,
+  heating: false,
+  fireplace: false,
+  smokeAlarm: false,
+  dishes: false,
+  toaster: false,
+  coffeeMaker: false,
+});
 
+// these are the filters used to search for a tenant
+const [tenantFilters, setTenantFilters] = useState({
+  typeOfPlace: [],
+  minBudgetFilter: '',
+  maxBudgetFilter: '',
+  socialStatus: [],
+  cleanlinessLevel: [],
+  gender: [],
+  minAge: 18,
+  maxAge: 99,
+  hasPet: [],
+  isSmoker: false,
+  isEmailVerified: false,
+  isProfileVerified: false,
+});
 
+// this functions resets the filters used to search for a tenant
+const resetAllTenantSearchFilters = () => {
+  setTenantFilters({
+    typeOfPlace: [],
+    minBudgetFilter: '',
+    maxBudgetFilter: '',
+    socialStatus: [],
+    cleanlinessLevel: [],
+    gender: [],
+    minAge: 18, 
+    maxAge: 99,
+    hasPet: [],
+    isSmoker: false,
+    isEmailVerified: false,
+    isProfileVerified: false,
+  });
+};
 
+// this functions resets the filters used to search for a listing
+const resetAllListingSearchFilters = () => {
+  console.log("The user clicked on Reset Filters button");
+  // Set all states to false
+  setBooleanFilter({
+    privateBathroom: false,
+    privateParking: false,
+    publicParking: false,
+    wheelChairAccessibility: false,
+    internetConnection: false,
+    washer: false,
+    dryer: false,
+    dishWasher: false,
+    petFriendly: false,
+    refrigerator: false,
+    smokingAllowed: false,
+    furnished: false,
+    television: false,
+    airConditionning: false,
+    heating: false,
+    fireplace: false,
+    smokeAlarm: false,
+    dishes: false,
+    toaster: false,
+    coffeeMaker: false,
+  });
 
-
+  setMoveInDate(null);
+  setMinPriceFilter("");
+  setMaxPriceFilter("");
+};
 
   return (
     <SiteContext.Provider
@@ -394,6 +492,11 @@ setRoomListingData({
         welcomeProfileSetupStep, setWelcomeProfileSetupStep, describePlaceWorkflow, setDescribePlaceWorkflow, prevProgress, setPrevProgress, nextProgress, setNextProgress,
         describeTenanteWorkflow, setDescribeTenanteWorkflow,  searchValue, setSearchValue, userSearchType, setUserSearchType, intendedDestination, setIntendedDestination,
         roomListingData, setRoomListingData, resetRoomListingData, listingsCreated, setListingsCreated, showListingCreatedAlert, setShowListingCreatedAlert,
+        latitude, setLatitude, longitude, setLongitude, mapAddress, setMapAddress, badgeFilterShow, setBadgeFilterShow, minPriceFilter, setMinPriceFilter, maxPriceFilter, 
+        setMaxPriceFilter, moveInDate, setMoveInDate, countEnabledSearchFilters, setCountEnabledSearchFilters, userVerificationStatus, setUserverificationStatus, 
+        homepageRoommatesResults, setHomepageRoommatesResults, homepageRoomResults, setHomepageRoomResults,
+        booleanFilter, setBooleanFilter, tenantFilters, setTenantFilters, resetAllTenantSearchFilters, resetAllListingSearchFilters,
+        searchFilterModalMobileTextSize, searchFilterModalLargeScreenTextSize, searchResults, setSearchResults, 
       }}
     >
       {children}
