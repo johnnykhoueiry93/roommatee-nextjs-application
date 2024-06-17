@@ -180,8 +180,8 @@ const SearchCardDetails = ({listingId}) => {
     function returnRoomListingPriceAndAddressSection() {
       return (
         <div className='section-grouping-border'>
-        <div className="price mb-2"> ${new Intl.NumberFormat().format(selectedCardDetails.price)} USD</div>
-        <h3>{selectedCardDetails.listingType}</h3>
+        <h2><div className="price mb-2">${new Intl.NumberFormat().format(selectedCardDetails.price)} USD</div></h2>
+        <h2>{selectedCardDetails.listingType}</h2>
         <div style={{display: 'flex', justifyContent: 'space-between'}}>
           <span><LocationOnIcon/>{selectedCardDetails.address}, {selectedCardDetails.city},{selectedCardDetails.zip} {selectedCardDetails.state}{" "}</span>
           <span>{calculateDaysSinceCreation(selectedCardDetails.createdDate)}</span>
@@ -194,7 +194,7 @@ const SearchCardDetails = ({listingId}) => {
       return (
         <div className='section-grouping-border'>
       <div className="row ">
-        <div className="col-12 col-lg-8 col-md-8 ">
+        <div className="col-12 col-lg-7 col-md-7 ">
           <div className="avatar">
             <Avatar
               alt={selectedCardDetails.firstName}
@@ -219,7 +219,7 @@ const SearchCardDetails = ({listingId}) => {
         erroring out on the firebase usage in SendMessage component */}
         {
           userAuth && (
-            <div className="col-12 col-lg-4 col-md-4">
+            <div className="col-12 col-lg-5 col-md-5">
               <SendMessage
                 selectedCardDetails={selectedCardDetails}
                 targetUserId={selectedCardDetails.userId}

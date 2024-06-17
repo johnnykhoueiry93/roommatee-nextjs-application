@@ -4612,3 +4612,156 @@
             OR r.zip LIKE '%%') 
       ;
 [2024-06-16 20:40:02] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:42:28] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-16 20:42:28] - [info] - 
+[2024-06-16 20:42:28] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-16 20:42:28] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-16 20:42:28] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-16 20:42:42] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button List a Room
+[2024-06-16 20:44:01] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 20:44:10] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:44:10] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:44:10] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:53:30] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 20:53:35] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:53:35] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:53:35] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:57:43] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:57:43] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:57:43] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:58:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:58:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:58:11] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:58:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:58:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:58:27] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 20:59:16] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-16 20:59:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 20:59:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 20:59:20] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 21:00:22] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: hello, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:00:22] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%hello%'
+            OR r.city LIKE '%hello%'
+            OR r.state LIKE '%hello%'
+            OR r.zip LIKE '%hello%') 
+      ;
+[2024-06-16 21:00:22] - [info] - [/api/searchListings] - Room listings results returned: 0
+[2024-06-16 21:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 21:00:32] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 21:00:42] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:00:42] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-16 21:00:42] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-16 21:05:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 21:05:01] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 21:05:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-16 21:05:06] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 21:05:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 21:05:23] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 21:05:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: Boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%Boston%'
+            OR r.city LIKE '%Boston%'
+            OR r.state LIKE '%Boston%'
+            OR r.zip LIKE '%Boston%') 
+      ;
+[2024-06-16 21:05:27] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-16 21:05:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 21:05:31] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-16 21:05:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-16 21:05:33] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-16 21:05:53] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-16 21:05:53] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-16 21:05:53] - [info] - [/api/searchListings] - Room listings results returned: 22

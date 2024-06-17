@@ -49,6 +49,9 @@ export const SiteWrapper = ({ children }) => {
   const [searchResults, setSearchResults] = useState([]);
   const searchFilterModalMobileTextSize = 5;
   const searchFilterModalLargeScreenTextSize = 5;
+  const [priceSortDirection, setPriceSortDirection] = useState("asc");
+  const [listingCreatedDateSortDirection, setListingCreatedDateSortDirection] = useState("asc");
+  const [searchFilterType, setSearchFilterType] = useState("price");
 
     // This function is used to scroll up when needed
     const scrollToTop = () => {
@@ -496,7 +499,8 @@ const resetAllListingSearchFilters = () => {
         setMaxPriceFilter, moveInDate, setMoveInDate, countEnabledSearchFilters, setCountEnabledSearchFilters, userVerificationStatus, setUserverificationStatus, 
         homepageRoommatesResults, setHomepageRoommatesResults, homepageRoomResults, setHomepageRoomResults,
         booleanFilter, setBooleanFilter, tenantFilters, setTenantFilters, resetAllTenantSearchFilters, resetAllListingSearchFilters,
-        searchFilterModalMobileTextSize, searchFilterModalLargeScreenTextSize, searchResults, setSearchResults, 
+        searchFilterModalMobileTextSize, searchFilterModalLargeScreenTextSize, searchResults, setSearchResults, priceSortDirection, setPriceSortDirection,
+        listingCreatedDateSortDirection, setListingCreatedDateSortDirection, searchFilterType, setSearchFilterType,
       }}
     >
       {children}
