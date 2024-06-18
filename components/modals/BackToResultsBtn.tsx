@@ -1,5 +1,6 @@
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import { useRouter } from 'next/navigation';
+import "../../styles/BackToResults.css";
 
 //@ts-ignore
 const BackToResultsBtn = ({ prevPage, text }) => {

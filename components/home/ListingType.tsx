@@ -48,11 +48,11 @@ const ListingType = () => {
   const handleRedirectToFindATenantSearch = () => {
     let logEvent = "The user clicked on the button Find a Tenant";
     console.log(logEvent);
-    // logFrontendActivityToBackend(logEvent, userInfo);
+    logFrontendActivityToBackend(logEvent, userInfo);
     setSearchValue(''); // this insures the value resets when switching from Search Roommate to Search Tenant to Seach Rooms
-    setIntendedDestination("/tenantSearch");
+    setIntendedDestination("/find-a-tenant");
     localStorage.removeItem('sortedSearchResults');
-    navigateToPage("/tenantSearch");
+    navigateToPage("/find-a-tenant");
   };
 
   return (

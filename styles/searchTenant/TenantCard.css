@@ -47,3 +47,96 @@
         transform: scale(1.1);
     }
 }
+
+
+.search-card-body {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    /* min-height: 470px; */
+    box-shadow: 0 0 12px #ccc;
+    overflow: hidden;
+    /* min-height: 480px; */
+}
+
+.search-card-image {
+    height: 200px;
+}
+
+.result-search-listing-type {
+    padding-top:7px;
+}
+
+.search-card-body:hover {
+    cursor: pointer;
+}
+
+.search-card-details-container {
+    padding: 15px;
+    flex-grow: 1;
+    /* Allow details container to grow and take up remaining space */
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.search-card-price {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: auto; /* Push the price to the bottom */
+}
+
+.card-image-preview {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect only for large screens */
+@media (min-width: 768px) {
+    .search-card-body:hover .card-image-preview {
+        transform: scale(1.1);
+    }
+}
+
+.label-posted-since {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust background color and opacity */
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.label-posted-since-v2 {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust background color and opacity */
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.listing-description {
+    color: #919191;
+}

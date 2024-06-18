@@ -6,7 +6,7 @@ import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
-// import TenantFilterModal from "../searchTenant/TenantFilterModal";
+import TenantFilterModal from "../searchTenant/TenantFilterModal";
 import SearchFilterModal from "../search/SearchFilterModal";
 // import RoommateFilterModal from "../searchRoommate/RoommateFilterModal";
 import React, { useState } from "react";
@@ -54,15 +54,13 @@ const FiltersBar = ({ filterRouter  }) => {
    function returnFilterModal() {
     if (filterRouter === 'listings') {
       return <SearchFilterModal />;
-    } 
-    
-    // else if (filterRouter === 'tenant') {
-    //   return <TenantFilterModal />;
+    }  else if (filterRouter === 'tenant') {
+       return <TenantFilterModal />;
     // } else if (filterRouter === 'roommate') {
     //   return <RoommateFilterModal />;
-    // } else {
-    //   return null; // Or any default component you want to render
-    // }
+    } else {
+      return null; // Or any default component you want to render
+    }
    }
 
    function returnVarticalSeparator() {
