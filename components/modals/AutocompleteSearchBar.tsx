@@ -179,7 +179,7 @@ console.log('searchRouter: ' , searchRouter);
   let requestedData;
 
   if(searchRouter == '/searchListings') {
-    requestedData = { searchValue, minPriceFilter, maxPriceFilter, moveInDate, booleanFilter };
+    requestedData = { searchValue, minPriceFilter, maxPriceFilter, moveInDate, booleanFilter, profileType };
 
   } else if(searchRouter == '/searchProfile'){
     requestedData = { searchValue, tenantFilters, profileType };
@@ -193,7 +193,7 @@ console.log('searchRouter: ' , searchRouter);
 
   try {
     console.log('frontend requestedData: ' , requestedData)
-    const response = await fetch("/api/searchListings", {
+    const response = await fetch(`/api/${searchRouter}`, {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'
@@ -274,7 +274,7 @@ const customAutocompleteItemStyle = {
 
         {/* ------------------------- Search Bar  -------------------------*/}
         <Autocomplete
-          className={`form-control border-start-0 border-end-0 ${isMobile ? 'search-input-mobile' : 'search-input'}`}
+          className={`form-control border-start-0 border-end-0 ${isMobile ? 'search-input-mobile' : 'search-input'}` }
           apiKey={GOOGLE_MAP_API_KEY}
           onChange={onInputChange}
           onKeyPress={handleKeyPress}

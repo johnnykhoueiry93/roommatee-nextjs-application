@@ -111,17 +111,24 @@ const TenantCardDetails = ({ tenantId }) => {
     fetchData();
   }, [tenantId, searchResults]); // Include id and searchResults in the dependency array
 
-  //@ts-ignore
-  function getAvatar(fetchedCard) {
-    const key = `${fetchedCard.id}-profile-picture.png?folder=profile-picture`;
-        // BackendAxios.post(`/getS3PictureUrl/${key}`)
-        //   .then((response) => {
-        //     setRecipientAvatarImgSource(response.data.s3Url);
-        //   })
-        //   .catch((error) => {
-        //     console.error("Error fetching avatar image:", error);
-        //   });
+  
+  async function getAvatar(fetchedCard) {
+    const key = `${fetchedCard.userId}-profile-picture.png&folder=profile-picture`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+      
+      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      setRecipientAvatarImgSource(data.s3Url)
+      console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+      localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
+    } catch (error) {
+      console.error("Error:", error);
     }
+  }
 
 if (!selectedCardDetails) {
   return <div>Loading...</div>; // Add a loading indicator while data is fetched

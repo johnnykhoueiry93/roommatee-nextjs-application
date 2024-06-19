@@ -4996,3 +4996,72 @@
             OR r.zip LIKE '%%') 
       ;
 [2024-06-17 21:44:52] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-17 21:48:54] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-17 22:08:11] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-17 22:08:11] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-17 22:08:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: undefined, Min Price: undefined, Move In Date: undefined, Filters: ,,,,,,,,,,,,,,,,,,,
+[2024-06-17 22:08:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-17 22:08:16] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-18 21:00:49] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:00:54] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: undefined, Min Price: undefined, Move In Date: undefined, Filters: ,,,,,,,,,,,,,,,,,,,
+[2024-06-18 21:00:54] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-18 21:00:55] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-18 21:36:58] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:37:07] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: undefined, Min Price: undefined, Move In Date: undefined, Filters: ,,,,,,,,,,,,,,,,,,,
+[2024-06-18 21:37:07] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-18 21:37:08] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-18 21:37:28] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:37:34] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: Boston, MA, USA, Max Price: undefined, Min Price: undefined, Move In Date: undefined, Filters: ,,,,,,,,,,,,,,,,,,,
+[2024-06-18 21:37:34] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE r.city LIKE '%Boston%' AND r.state LIKE '%MA%' AND r.country LIKE '%US%' 
+      ;
+[2024-06-18 21:37:34] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-18 21:40:29] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:40:32] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: undefined, Min Price: undefined, Move In Date: undefined, Filters: ,,,,,,,,,,,,,,,,,,,
+[2024-06-18 21:40:32] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-18 21:40:32] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-18 21:41:34] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:41:37] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: undefined, Min Price: undefined, Move In Date: undefined, Filters: ,,,,,,,,,,,,,,,,,,,
+[2024-06-18 21:41:37] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-18 21:41:38] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-18 21:43:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:43:44] - [info] - [Visitor] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-18 21:43:44] - [error] - [/api/searchProfile] - Error fetching search listings: buildFilterQuery is not defined
+[2024-06-18 21:55:06] - [info] - [Visitor] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-18 21:55:06] - [error] - [/api/searchProfile] - Error fetching search listings: buildFilterQuery is not defined
+[2024-06-18 21:56:54] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-18 21:56:58] - [info] - [Visitor] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-18 21:56:58] - [info] - [Visitor] - [/api/searchProfile] - Printing the full query: SELECT * FROM userprofile WHERE emailAddress != 'Visitor' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-18 21:56:58] - [info] - [Visitor] - [/api/searchProfile] - Printing the full query: SELECT * FROM userprofile WHERE emailAddress != 'Visitor' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-18 21:56:59] - [info] - [/api/searchProfile] - Room listings results returned: 24

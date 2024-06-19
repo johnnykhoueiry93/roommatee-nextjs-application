@@ -4,6 +4,33 @@ import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database"; // Adjust the path as needed
 const logger = require("../../../utils/logger");
 
+const buildFilterQuery = (filters, filterKey) => {
+  let query = '';
+
+  // Check if 'Any' is selected
+  if (filters[filterKey].includes('Any')) {
+    return ''; // Return empty string to skip the entire function
+  }
+
+  if (filters[filterKey].length > 0) {
+    query += ` AND ${filterKey} IN (`;
+
+    // Add each selected value to the query 
+    //@ts-ignore
+    filters[filterKey].forEach((value, index) => {
+      if (index !== 0) {
+        query += ', ';
+      }
+      // Add single quotes for string values
+      query += typeof value === 'string' ? `'${value}'` : value;
+    });
+
+    query += ')';
+  }
+
+  return query;
+};
+
 // Define the route function
 export async function POST(request) {
   try {
@@ -90,9 +117,6 @@ export async function POST(request) {
   if(profileLimit) {
     query += `${profileLimit ? ` LIMIT ${profileLimit}` : ''}`;
   }
-
-  logger.info(`[${emailAddress}] - [/api/searchProfile] - Printing the full query: ${query}`);
-
 
     logger.info(`[${emailAddress}] - [/api/searchProfile] - Printing the full query: ${query}`);
 

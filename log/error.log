@@ -469,3 +469,5 @@
 [2024-06-16 12:53:30] - [error] - [/api/searchListings] - Error fetching search listings: profileLimit is not defined
 [2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined
 [2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined
+[2024-06-18 21:43:44] - [error] - [/api/searchProfile] - Error fetching search listings: buildFilterQuery is not defined
+[2024-06-18 21:55:06] - [error] - [/api/searchProfile] - Error fetching search listings: buildFilterQuery is not defined
