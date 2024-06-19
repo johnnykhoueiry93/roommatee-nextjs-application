@@ -71,7 +71,7 @@ const theme = createTheme({
   },
 });
 
-const TenantFilterModal = () => {
+const RoommateFilterModal = () => {
   //@ts-ignore
     const { userAuth, userInfo, badgeFilterShow,setBadgeFilterShow,countEnabledSearchFilters,setCountEnabledSearchFilters,setSearchResults,searchValue, tenantFilters, setTenantFilters, resetAllTenantSearchFilters } = SiteData();
   
@@ -85,10 +85,9 @@ const TenantFilterModal = () => {
   const [prevMinBudgetFilter, setPrevMinBudgetFilter] = useState("");
   const [preMaxBudgetFilter, setPrevMaxBudgetFilter] = useState("");
   const [prevBooleanFilter, setPrevBooleanFilter] = useState({});
-
   const HOUSING_TYPE_LIST = StaticFrontendLabel.HOUSING_TYPE_LIST;
   const GENDER_LIST = StaticFrontendLabel.GENDER_LIST;
-  
+
   // Handle the hide/show
   const [open, setOpen] = useState(false);
   
@@ -159,9 +158,9 @@ const TenantFilterModal = () => {
   const handleSearchWithFilter = async () => {
     //e.preventDefault(); // Prevents the form from submitting (reloading the page)
     // Check if the search should be performed
-    const profileType = 'tenant';
+    const profileType = 'roommate';
 
-    let requestedData = { searchValue, tenantFilters, profileType };
+    let requestedData = { searchValue, tenantFilters, profileType};
 
     if(userAuth) {
       // if the user is authenticated send the user info as well
@@ -169,38 +168,32 @@ const TenantFilterModal = () => {
       requestedData = { ...requestedData, userInfo };
     }
 
-    try {
-      console.log('frontend requestedData: ' , requestedData)
-      const response = await fetch('/api/searchProfile', {
-        method: "POST",
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(requestedData),
-        cache: 'no-store'
-      });
-    
-      if (!response.ok) {
-        throw new Error('Network response was not ok' + response.statusText);
-      }
-    
-      const data = await response.json();
-  
-      if (response.status === 200) {
-        setSearchResults(data);
-        console.log("The search returned results of count: ", data.length);
-        console.log("The search returned object: ", data);
-      } else {
-        console.log("Error completing the search: ");
-  
-      }
-    } catch (error) {
-      // Handle the error here
-      console.error("Error:", error);
-    }
+      // try {
+      //   const response = await BackendAxios.post(
+      //     "/searchProfile", { requestedData },
+      //     {
+      //       headers: {
+      //         "Content-Type": "application/json",
+      //       },
+      //     }
+      //   );
 
+      //   setSearchResults(response.data);
+      //   console.log("The search returned: ", response.data.length);
+      // } catch (error) {
+      //   console.log("Error completing the search: ", error);
+      // }
+
+      // Update previous values
       setPrevSearchValue(searchValue);
-
+      // setPrevMinBudgetFilter(minBudgetFilter);
+      // setPrevMaxBudgetFilter(maxBudgetFilter);
+      // setPrevBooleanFilter({ ...booleanFilter });
+    // } else {
+    //   console.log(
+    //     "No change in search filter, supression call to reduce backend API calls"
+    //   );
+    // }
   };
 
 
@@ -390,4 +383,4 @@ const TenantFilterModal = () => {
   );
 };
 
-export default TenantFilterModal;
+export default RoommateFilterModal;

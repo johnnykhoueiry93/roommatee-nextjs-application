@@ -7,13 +7,11 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 import GoogleMap from "./GoogleMap";
 import AccomodationsSection from "./AccomodationsSection";
 import AccessibilityPerks from "./AccessibilityPerks";
-// import BackendAxios from "../../backend/BackendAxios";
 import { useRouter } from 'next/navigation';
 import SendMessage from "./SendMessage";
 import ReactResponsiveCarousel from "../modals/ReactResponsiveCarousel";
 import BackToResultsBtn from "../modals/BackToResultsBtn";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-//@ts-ignore
 import { calculateDaysSinceCreation } from '../../utils/utilities'
 
 const SearchCardDetails = ({listingId}) => {

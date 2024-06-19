@@ -29,12 +29,31 @@ import SendIcon from '@mui/icons-material/Send';
 import MarkunreadIcon from '@mui/icons-material/Markunread';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import InfoPopup from "../modals/InfoPopup";
+import { useRouter } from 'next/navigation';
 
 const TenantCardDetails = ({ tenantId }) => {
+    // @ts-ignore
+    const { isMobile, searchResults, userAuth, userInfo, setLatitude, setLongitude, setMapAddress } = SiteData();
+
+    const router = useRouter();
+
+    const navigateToPage = (path) => {
+      router.push(path);
+    };
+
   useEffect(() => {
     // Scroll to the top when the component mounts or updates
     window.scrollTo(0, 0);
   }, []); // Empty dependency array means this effect runs only once when the component mounts
+
+  useEffect(() => {
+    if (!userAuth) {
+      navigateToPage("/login");
+    } else {
+      console.log('The value of userAuth is: ' + userAuth);
+    }
+  }, []);
+
 
   //@ts-ignore
   const [selectedCardDetails, setSelectedCardDetails] = useState<CardDetails | null>(null);
@@ -53,8 +72,7 @@ const TenantCardDetails = ({ tenantId }) => {
   // this is the ID picked up from the URL parameter
   const { id } = useParams();
 
-  // @ts-ignore
-  const { isMobile, searchResults, userInfo, setLatitude, setLongitude, setMapAddress } = SiteData();
+
 
   useEffect(() => {
     // Logic 1: Check if selectedCardDetails exists in local storage
@@ -113,7 +131,7 @@ const TenantCardDetails = ({ tenantId }) => {
 
   
   async function getAvatar(fetchedCard) {
-    const key = `${fetchedCard.userId}-profile-picture.png&folder=profile-picture`;
+    const key = `${fetchedCard.id}-profile-picture.png&folder=profile-picture`;
     
     try {
       const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {

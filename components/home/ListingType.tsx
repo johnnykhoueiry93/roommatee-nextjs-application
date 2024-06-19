@@ -7,7 +7,7 @@ import { logFrontendActivityToBackend } from '../../utils/apiUtils'
 
 const ListingType = () => {
   //@ts-ignore
-  const {userAdmin, userInfo, setSearchValue, setUserSearchType, setIntendedDestination} = SiteData();
+  const {userAdmin, userInfo, setSearchValue, setIntendedDestination} = SiteData();
   const router = useRouter();
 
   const navigateToPage = (path) => {
@@ -39,10 +39,9 @@ const ListingType = () => {
     console.log(logEvent);
     logFrontendActivityToBackend(logEvent, userInfo);
     setSearchValue(''); // this insures the value resets when switching from Search Roommate to Search Tenant to Seach Rooms
-    // setUserSearchType("Search for a Roomate");
-    setIntendedDestination("/roommateSearch");
+    setIntendedDestination("/find-a-roommate");
     localStorage.removeItem('sortedSearchResults');
-    navigateToPage("/roommateSearch");
+    navigateToPage("/find-a-roommate");
   };
 
   const handleRedirectToFindATenantSearch = () => {

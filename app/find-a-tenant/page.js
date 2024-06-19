@@ -1,5 +1,5 @@
 import "../../styles/SearchForRoom.css";
-import AutocompleteSearchBar from "@/components/modals/AutocompleteSearchBar";
+import AutocompleteSearchBar from "../../components/modals/AutocompleteSearchBar";
 
 export default async function Protected() {
   return (

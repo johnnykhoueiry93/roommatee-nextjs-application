@@ -2,7 +2,7 @@
 "use client";
 import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import SearchCardDetails from '@/components/search/SearchCardDetails';
+import SearchCardDetails from '../../../components/search/SearchCardDetails';
 
 const ListingView = () => {
   const { listingId } = useParams(); // Access the listingId from the URL
