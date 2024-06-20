@@ -5,7 +5,7 @@
  */
 
 import { SiteData } from "../../context/SiteWrapper";
-import { useNavigate } from "react-router-dom";
+import { useRouter } from 'next/navigation';
 // import BackendAxios from "../../backend/BackendAxios";
 import { useEffect, useState } from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
@@ -15,12 +15,18 @@ import CircleIcon from "@mui/icons-material/Circle";
 import Tooltip from '@mui/material/Tooltip';
 import React from "react";
 
+
 //@ts-ignore
 const TenantCard = ({ result }) => {
   // @ts-ignore
   const { setLatitude, setLongitude, setMapAddress, userAuth, intendedDestination, setIntendedDestination } = SiteData();
 
-  let navigate = useNavigate();
+  const router = useRouter();
+
+  const navigateToPage = (path) => {
+    router.push(path);
+  };
+
   const [tenantProfilePicture, setTenantProfilePicture] = useState(""); // State to manage the avatar source
 
   const profilePicturePlaceholder = "/images/profilePicture_placeholder.png"; // TODO change no profile picture
@@ -123,19 +129,27 @@ const TenantCard = ({ result }) => {
     }
   }
 
+  async function getAvatar(result) {
+    const key = `${result.id}-profile-picture.png&folder=profile-picture`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+      
+      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      setTenantProfilePicture(data.s3Url)
+      console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+      localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+
   // this useEffect will get the recipient's picture on load once
   useEffect(() => {
-    const key = `${result.id}-profile-picture.png?folder=profile-picture`;
-    // console.log(`The useEffect triggered with key: ${key}`);
-
-  //   BackendAxios.post(`/getS3PictureUrl/${key}`)
-  //     .then((response) => {
-  //       // console.log( "Setting the user profile picture to URL: " + response.data.s3Url );
-  //       setTenantProfilePicture(response.data.s3Url); // Set the avatar source
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error:", error);
-  //     });
+    getAvatar(result);
   }, []); // Empty dependency array to run the effect only once
 
   const getRandomAvatarUrl = () => {
@@ -170,7 +184,7 @@ const TenantCard = ({ result }) => {
     // card.
     localStorage.removeItem('selectedCardDetails');
 
-    navigate(`/roommate/${result.id}`);
+    navigateToPage(`/roommate/${result.id}`);
     setIntendedDestination(`/roommate/${result.id}`);
   };
 

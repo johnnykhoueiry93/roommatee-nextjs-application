@@ -8,7 +8,7 @@ import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import TenantFilterModal from "../searchTenant/TenantFilterModal";
 import SearchFilterModal from "../search/SearchFilterModal";
-// import RoommateFilterModal from "../searchRoommate/RoommateFilterModal";
+import RoommateFilterModal from "../searchRoommate/RoommateFilterModal";
 import React, { useState } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import "../../styles/SearchFilters.css";
@@ -56,8 +56,8 @@ const FiltersBar = ({ filterRouter  }) => {
       return <SearchFilterModal />;
     }  else if (filterRouter === 'tenant') {
        return <TenantFilterModal />;
-    // } else if (filterRouter === 'roommate') {
-    //   return <RoommateFilterModal />;
+    } else if (filterRouter === 'roommate') {
+      return <RoommateFilterModal />;
     } else {
       return null; // Or any default component you want to render
     }

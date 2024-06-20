@@ -658,7 +658,7 @@ if (!selectedCardDetails) {
       )
     }
 
-
+    if (userAuth) {
   return (
     <div className="container container-elements" style={{ width: "100%" }}>
 
@@ -763,6 +763,7 @@ if (!selectedCardDetails) {
       </div>
     </div>
   );
+            }
 };
 
 export default TenantCardDetails;

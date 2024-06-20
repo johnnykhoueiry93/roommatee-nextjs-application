@@ -1,5 +1,5 @@
 import "../../styles/SearchForRoom.css";
-import AutocompleteSearchBar from "@/components/modals/AutocompleteSearchBar";
+import AutocompleteSearchBar from "../../components/modals/AutocompleteSearchBar";
 
 export default async function Protected() {
   return (
@@ -10,7 +10,7 @@ export default async function Protected() {
       </div>
 
       <div className="sliding-right-to-left center-div">
-        <AutocompleteSearchBar searchRouter={'/searchProfile'} nextPage={"/find-a-roommmate-results"} profileType={'roommate'}/>
+        <AutocompleteSearchBar searchRouter={'/searchProfile'} nextPage={"/find-a-roommate-results"} profileType={'roommate'}/>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import RommateCard from "./RommateCard";
@@ -72,7 +74,7 @@ const searchRoommateResults = () => {
           {/* ------------------------- TENANT SEARCH BAR ------------------------- */}
           <AutocompleteSearchBar
             searchRouter={"/searchProfile"}
-            nextPage={"/roommateResults"}
+            nextPage={"/find-a-roommate-results"}
             profileType={'roommate'}
           />
 

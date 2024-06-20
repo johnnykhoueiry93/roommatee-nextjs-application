@@ -174,8 +174,8 @@ const handleSearch = async (e) => {
   }
 
   console.log( `############## Searching with value: >${searchValue.rawAddressValue}<`);
-console.log('searchRouter: ' , searchRouter);
-  // let requestedData = { searchValue, tenantFilters, profileType };
+  console.log('searchRouter: ' , searchRouter);
+  
   let requestedData;
 
   if(searchRouter == '/searchListings') {

@@ -246,6 +246,7 @@ const SearchCardDetails = ({listingId}) => {
       )
     }
 
+    if (userAuth) {
   return (
     <div className="container container-elements">
 
@@ -279,6 +280,7 @@ const SearchCardDetails = ({listingId}) => {
     </div>
     </div>
   );
+    }
   
  
 };

@@ -36,13 +36,31 @@ import AccessibilityPerks from "../search/AccessibilityPerks";
 import LeaseTerms from "../search/LeaseTerms";
 import GoogleMap from "../search/GoogleMap";
 import SectionHeading from "../modals/SectionTitle";
-import '../../fonts/MAZ55.otf'
+import { useRouter } from 'next/navigation';
 
-const RoommateCardDetails = () => {
+const RoommateCardDetails = ({roommateId}) => {
+  // @ts-ignore
+  const { isMobile, userAuth, searchResults, setLatitude, setLongitude, setMapAddress } = SiteData();
+
+  const router = useRouter();
+
+  const navigateToPage = (path) => {
+    router.push(path);
+  };
+
   useEffect(() => {
     // Scroll to the top when the component mounts or updates
     window.scrollTo(0, 0);
   }, []); // Empty dependency array means this effect runs only once when the component mounts
+
+  useEffect(() => {
+    if (!userAuth) {
+      navigateToPage("/login");
+    } else {
+      console.log('The value of userAuth is: ' + userAuth);
+    }
+  }, []);
+  
   //@ts-ignore
   const [selectedCardDetails, setSelectedCardDetails] = useState<CardDetails | null>(null);
   const [recipientAvatarImgSource, setRecipientAvatarImgSource] = useState(""); // State to manage the avatar source
@@ -66,8 +84,7 @@ const RoommateCardDetails = () => {
   // this is the ID picked up from the URL parameter
   const { id } = useParams();
 
-  // @ts-ignore
-  const { isMobile, searchResults, setLatitude, setLongitude, setMapAddress } = SiteData();
+
 
 
   useEffect(() => {
@@ -78,7 +95,7 @@ const RoommateCardDetails = () => {
     // Logic 2: If not found in local storage, check searchResults from drilldown click
     if (!selectedCardDetailsFromStorage) {
       // @ts-ignore
-      const foundCard = searchResults.find( (selectedCard) => selectedCard.id.toString() === id );
+      const foundCard = searchResults.find( (selectedCard) => selectedCard.id.toString() === roommateId );
       if (foundCard) {
         console.log(
           "Logic #2 return the selectedCardDetails from drilldown searchResults"
@@ -125,11 +142,11 @@ const RoommateCardDetails = () => {
 
     fetchData();
 
-  }, [id, searchResults]); // Include id and searchResults in the dependency array
+  }, [roommateId, searchResults]); // Include id and searchResults in the dependency array
 
   //@ts-ignore
   function getAvatar(fetchedCard) {
-    const key = `${fetchedCard.id}-profile-picture.png?folder=profile-picture`;
+    const key = `${fetchedCard.roommateId}-profile-picture.png?folder=profile-picture`;
     // BackendAxios.post(`/getS3PictureUrl/${key}`)
     //   .then((response) => {
     //     setRecipientAvatarImgSource(response.data.s3Url);
@@ -684,8 +701,8 @@ const RoommateCardDetails = () => {
           >
             <SendMessage
               selectedCardDetails={selectedCardDetails}
-              targetUserId={selectedCardDetails.id}
-              cardId={selectedCardDetails.id}
+              targetUserId={selectedCardDetails.roommateId}
+              cardId={selectedCardDetails.roommateId}
               topicUrl={window.location.href}
             />
           </div>
@@ -954,7 +971,7 @@ const RoommateCardDetails = () => {
   function returnBackButton() {
     return (
       <BackToResultsBtn
-        prevPage={"/roommateResults"}
+        prevPage={"/find-a-roommate-results"}
         text={"Back to search results"}
       />
     );
