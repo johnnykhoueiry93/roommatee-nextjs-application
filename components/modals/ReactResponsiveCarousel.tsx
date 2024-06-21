@@ -8,6 +8,7 @@ import { Carousel } from "react-responsive-carousel";
 import { useState, useEffect } from "react";
 import Skeleton from '@mui/material/Skeleton';
 
+
 //@ts-ignore
 const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
   const [images, setImages] = useState([]);

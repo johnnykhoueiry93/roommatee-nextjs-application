@@ -52,6 +52,18 @@ export const SiteWrapper = ({ children }) => {
   const [priceSortDirection, setPriceSortDirection] = useState("asc");
   const [listingCreatedDateSortDirection, setListingCreatedDateSortDirection] = useState("asc");
   const [searchFilterType, setSearchFilterType] = useState("price");
+  const [chats, setChats] = useState([]);
+  const [messages, setMessages] = useState([]);
+  const [supportTicketsUpdate, setSupportTicketsUpdate] = useState(0);
+  const [reply, setReply] = useState(0);
+
+  const [conversationId, setConversationId] = useState('');    
+  const [fullNameOfOpposingChat, setFullNameOfOpposingChat] = useState('');
+  const [conversationTopicUrl, setConversationTopicUrl] = useState();
+  const [secondPartyUserId, setSecondPartyUserId] = useState('');
+  const [firstPartyUserId, setFirstPartyUserId] = useState('');
+
+
 
     // This function is used to scroll up when needed
     const scrollToTop = () => {
@@ -500,7 +512,9 @@ const resetAllListingSearchFilters = () => {
         homepageRoommatesResults, setHomepageRoommatesResults, homepageRoomResults, setHomepageRoomResults,
         booleanFilter, setBooleanFilter, tenantFilters, setTenantFilters, resetAllTenantSearchFilters, resetAllListingSearchFilters,
         searchFilterModalMobileTextSize, searchFilterModalLargeScreenTextSize, searchResults, setSearchResults, priceSortDirection, setPriceSortDirection,
-        listingCreatedDateSortDirection, setListingCreatedDateSortDirection, searchFilterType, setSearchFilterType,
+        listingCreatedDateSortDirection, setListingCreatedDateSortDirection, searchFilterType, setSearchFilterType, 
+        chats, setChats, messages, setMessages, supportTicketsUpdate, setSupportTicketsUpdate, reply, setReply,
+        conversationId, setConversationId, fullNameOfOpposingChat, setFullNameOfOpposingChat, conversationTopicUrl, setConversationTopicUrl, secondPartyUserId, setSecondPartyUserId, firstPartyUserId, setFirstPartyUserId,
       }}
     >
       {children}

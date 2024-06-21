@@ -2,8 +2,6 @@
 
 import React from "react";
 import Card from "./Card";
-import { useEffect, useState } from "react";
-import CirculatorProgressLoader from "../loaders/CirculatorProgressLoader";
 
 //@ts-ignore
 const ListingCard = ({ listing }) => {

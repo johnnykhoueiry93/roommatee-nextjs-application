@@ -168,32 +168,37 @@ const RoommateFilterModal = () => {
       requestedData = { ...requestedData, userInfo };
     }
 
-      // try {
-      //   const response = await BackendAxios.post(
-      //     "/searchProfile", { requestedData },
-      //     {
-      //       headers: {
-      //         "Content-Type": "application/json",
-      //       },
-      //     }
-      //   );
-
-      //   setSearchResults(response.data);
-      //   console.log("The search returned: ", response.data.length);
-      // } catch (error) {
-      //   console.log("Error completing the search: ", error);
-      // }
-
-      // Update previous values
+    try {
+      console.log('frontend requestedData: ' , requestedData)
+      const response = await fetch('/api/searchProfile', {
+        method: "POST",
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(requestedData),
+        cache: 'no-store'
+      });
+    
+      if (!response.ok) {
+        throw new Error('Network response was not ok' + response.statusText);
+      }
+    
+      const data = await response.json();
+  
+      if (response.status === 200) {
+        setSearchResults(data);
+        console.log("The search returned results of count: ", data.length);
+        console.log("The search returned object: ", data);
+      } else {
+        console.log("Error completing the search: ");
+  
+      }
+    } catch (error) {
+      // Handle the error here
+      console.error("Error:", error);
+    }
       setPrevSearchValue(searchValue);
-      // setPrevMinBudgetFilter(minBudgetFilter);
-      // setPrevMaxBudgetFilter(maxBudgetFilter);
-      // setPrevBooleanFilter({ ...booleanFilter });
-    // } else {
-    //   console.log(
-    //     "No change in search filter, supression call to reduce backend API calls"
-    //   );
-    // }
+      
   };
 
 

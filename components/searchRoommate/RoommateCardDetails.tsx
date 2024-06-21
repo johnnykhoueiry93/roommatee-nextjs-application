@@ -86,7 +86,6 @@ const RoommateCardDetails = ({roommateId}) => {
 
 
 
-
   useEffect(() => {
     // Logic 1: Check if selectedCardDetails exists in local storage
     // @ts-ignore
@@ -145,15 +144,22 @@ const RoommateCardDetails = ({roommateId}) => {
   }, [roommateId, searchResults]); // Include id and searchResults in the dependency array
 
   //@ts-ignore
-  function getAvatar(fetchedCard) {
-    const key = `${fetchedCard.roommateId}-profile-picture.png?folder=profile-picture`;
-    // BackendAxios.post(`/getS3PictureUrl/${key}`)
-    //   .then((response) => {
-    //     setRecipientAvatarImgSource(response.data.s3Url);
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error fetching avatar image:", error);
-    //   });
+  async function getAvatar(fetchedCard) {
+    const key = `${fetchedCard.id}-profile-picture.png&folder=profile-picture`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+      
+      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      setRecipientAvatarImgSource(data.s3Url)
+      console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+      localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
+    } catch (error) {
+      console.error("Error:", error);
+    }
   }
 
   if (!selectedCardDetails) {
@@ -890,7 +896,8 @@ const RoommateCardDetails = ({roommateId}) => {
 
           <div className="col-12 col-lg-8">{returnListingCard()}</div>
         </div>
-        <div className="row">
+
+        <div className="row pt-4">
           <h2>Location</h2>
           <div>
             <GoogleMap mapHeight="500px"/>

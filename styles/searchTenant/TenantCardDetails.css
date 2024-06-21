@@ -7,3 +7,9 @@
 .test {
     background-color: orange;
 }
+
+.price {
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--roomatee-theme-color);
+ }

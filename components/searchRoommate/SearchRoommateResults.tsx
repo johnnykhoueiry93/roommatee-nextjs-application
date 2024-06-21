@@ -25,7 +25,7 @@ const searchRoommateResults = () => {
   if (userAuth) {
     // If userAuth exists, perform the filter
     sortedSearchResults = sortedSearchResults.filter(
-      (result) => result.id !== userInfo[0].id
+      (result) => result.id !== userInfo.id
     );
   }
 
@@ -70,14 +70,17 @@ const searchRoommateResults = () => {
   return (
     <div className="container-flex">
       <div style={{ width: "100%" }}>
-        <div className="col-12 col-lg-6 pt-3">
+
+      <div className="col-12 col-lg-6 p-2 " style={{width: isMobile ? '100%' : '50%'}}>
           {/* ------------------------- TENANT SEARCH BAR ------------------------- */}
           <AutocompleteSearchBar
             searchRouter={"/searchProfile"}
             nextPage={"/find-a-roommate-results"}
             profileType={'roommate'}
           />
+      </div>
 
+        <div className='pt-1'>
           {/* ------------------------- TENANT FILTERS ------------------------- */}
           <FiltersBar filterRouter ={'roommate'}/>
         </div>

@@ -1,6 +1,5 @@
 import React from "react";
 import { useRouter } from 'next/navigation';
-// import BackendAxios from "../../backend/BackendAxios";
 import ReactResponsiveCarousel from "../modals/ReactResponsiveCarousel";
 import { SiteData } from "../../context/SiteWrapper";
 import { useState, useEffect } from "react";
@@ -108,8 +107,6 @@ const Card = ({ listingItem, index, listing }) => {
         return `${address.substring(0, maxLength)}...`;
       }
     }
-
-
 
     function returnPriceEditDeleteSection() {
       return (
