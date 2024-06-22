@@ -4,7 +4,7 @@ import UserChip from "./UserChip";
 import { SiteData } from "../../context/SiteWrapper";
 import Stack from "@mui/material/Stack";
 import { useRouter } from 'next/navigation';
-import listingPlaceholder from "../../assets/listing_placeholder.jpg";
+import { getProfilePictureUrl } from '../../utils/utilities'
 // import BackendAxios from "../../backend/BackendAxios";
 import { useEffect, useState } from "react";
 import ReactResponsiveCarousel from "../modals/ReactResponsiveCarousel";
@@ -25,12 +25,12 @@ const SearchCard = ({ result }) => {
   //@ts-ignore
   function shortenAddress(address, maxLength = 65) {
     if(address) {
-    if (address.length <= maxLength) {
-      return address;
-    } else {
-      return `${address.substring(0, maxLength)}...`;
+      if (address.length <= maxLength) {
+        return address;
+      } else {
+        return `${address.substring(0, maxLength)}...`;
+      }
     }
-  }
   }
 
   const handleOnSearchCardClick = () => {
@@ -48,37 +48,15 @@ const SearchCard = ({ result }) => {
     setIntendedDestination(`/listingView/${result.listingId}`);
   };
 
-    // This is the pirmary preview picture
-    const [ s3UrlPicture1, setS3UrlPicture1] = useState("");
- 
-    //@ts-ignore
-    const fetchS3Url = (key, setS3Url) => {
-      // BackendAxios.post(`/getS3PictureUrl/${key}`)
-      //   .then((response) => {
-      //     setS3Url(response.data.s3Url);
-      //   })
-      //   .catch((error) => {
-      //     console.error("Error:", error);
-      //   });
-    };
-
-    useEffect(() => {
-      fetchS3Url(result.picture1, setS3UrlPicture1);
-    }, [result.picture1]);
-
-
   // this useEffect will get the recipient's picture on load once
   useEffect(() => {
-    const key = `${result.userId}-profile-picture.png?folder=profile-picture`;
+    const fetchData = async () => {
+      const response = await getProfilePictureUrl(result.userId);
+      console.log(`[DEBUG] - [SearchCard] - [Listing ID: ${result.listingId} - ${result.address} - ${result.firstName} ${result.lastName}] - For user id: ${result.userId} setting profile picture url: ${response}`);
+      setRecipientAvatarImgSource(response); // Set the avatar source
+    }
 
-    // BackendAxios.post(`/getS3PictureUrl/${key}`)
-    //   .then((response) => {
-    //     // console.log("Setting the user profile picture to URL: " + response.data.s3Url);
-    //     setRecipientAvatarImgSource(response.data.s3Url); // Set the avatar source
-    //   })
-    //   .catch((error) => {
-    //     console.error("Error:", error);
-    //   });
+    fetchData();
   }, []); // Empty dependency array to run the effect only once
 
 
@@ -98,7 +76,7 @@ const SearchCard = ({ result }) => {
       className="search-card-body"
       onMouseEnter={() => {
         // Update latitude and longitude values when hovering
-        console.log( `Setting the longitude to ${result.longitude} and the latitude to ${result.latitude}` );
+        // console.log( `[DEBUG] - Setting the longitude to ${result.longitude} and the latitude to ${result.latitude}` );
         setLatitude(result.latitude);
         setLongitude(result.longitude);
         setMapAddress(result.address);

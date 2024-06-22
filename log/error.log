@@ -471,3 +471,39 @@
 [2024-06-16 19:06:00] - [error] - [Visitor] - [/api/searchListingById] - Failed to return listing details for listing id: 169. Root Cause:  id is not defined
 [2024-06-18 21:43:44] - [error] - [/api/searchProfile] - Error fetching search listings: buildFilterQuery is not defined
 [2024-06-18 21:55:06] - [error] - [/api/searchProfile] - Error fetching search listings: buildFilterQuery is not defined
+[2024-06-22 11:55:01] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:02] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 12:43:06] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 12:43:06] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 13:05:46] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 13:05:47] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:46:35] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:46:35] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:47:42] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:47:42] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 18:36:17] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:17] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'

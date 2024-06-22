@@ -35,6 +35,10 @@ const TenantCardDetails = ({ tenantId }) => {
     // @ts-ignore
     const { isMobile, searchResults, userAuth, userInfo, setLatitude, setLongitude, setMapAddress } = SiteData();
 
+    if(!userInfo) {
+      return (<div>Loading userInfo</div>)
+    }
+    
     const router = useRouter();
 
     const navigateToPage = (path) => {
@@ -106,8 +110,40 @@ const TenantCardDetails = ({ tenantId }) => {
     // Logic 3: If neither logic 1 nor logic 2 finds the card, fetch it
     const fetchData = async () => {
 
+      let emailAddress = userInfo.emailAddress;
+      let idToSearchFor = tenantId;
+      let querytype = "tenant"
 
       console.log('Logic #3 return the selectedCardDetails from WS call to backend')
+
+      try {
+        const response = await fetch('/api/searchTenantById', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ idToSearchFor, emailAddress, querytype })
+        });
+        const data = await response.json();
+
+        const fetchedCard = data.results[0];
+        console.log('[RoommateCardDetails] Returned fetchedCard: ' , fetchedCard);
+
+        setSelectedCardDetails(fetchedCard);
+        setLatitude(fetchedCard.latitude);
+        setLongitude(fetchedCard.longitude);
+        setMapAddress(fetchedCard.address);
+
+        getAvatar(fetchedCard);
+        
+        // console.log("Setting the user profile picture to URL: " + data.s3Url);
+        // setHostAvatarImgSource(data.s3Url)
+        // console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+        // localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
+      } catch (error) {
+        console.error("Error:", error);
+      }
+
       // try {
       //   const response = await BackendAxios.post("/searchTenantById", {
       //     requestedData: id,

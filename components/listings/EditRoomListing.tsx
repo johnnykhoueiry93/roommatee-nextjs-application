@@ -669,7 +669,7 @@ const EditRoomListing = () => {
       function displayBackButtonForMobile() {
         if(isMobile || isTablet) {
           return (
-            <div className='mr-3 pt-2' onClick={()=> {navigateToPage("/my-listings")}} >
+            <div className='mr-3 pt-2'>
             <BackToResultsBtn prevPage={"/my-listings"} text={"Back to search results"} />
             </div>
           )

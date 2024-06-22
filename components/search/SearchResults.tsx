@@ -12,8 +12,7 @@ import Stack from "@mui/material/Stack";
 
 const SearchResults = () => {
   // @ts-ignore
-  const { isMobile, isTablet, userInfo, userAuth, searchResults, priceSortDirection, searchValue, searchFilterType, listingCreatedDateSortDirection,
-  } = SiteData();
+  const { isMobile, isTablet, userInfo, userAuth, searchResults, priceSortDirection, searchValue, searchFilterType, listingCreatedDateSortDirection } = SiteData();
 
   /**
    * This logic here will be exluding all the listings of the current user
@@ -153,7 +152,14 @@ const SearchResults = () => {
             <div>
               <div className={`${isMobile ? "" : "row"}`}>
                 {paginatedResults.map((result, index) => (
-                  <div className="col-12 col-lg-6" key={index}>
+                  /**
+                   * IMPORTANT
+                   * key was = index in the past and was causing mismatch between the name and the picture
+                   * for example Johnny Khoueiry name was showing picture of Firas Hattoum
+                   * with this fix key={result.listingId} the key matches on the listingId which is the main
+                   * key
+                   */
+                  <div className="col-12 col-lg-6" key={result.listingId}> 
                     <SearchCard result={result} />
                   </div>
                 ))}

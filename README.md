@@ -84,6 +84,7 @@ API Key is in the .env file under src/backend
 /createNewRoomListing
 /createUserProfile
 /uploadMultiple
+/search
 
 # Webserivces Pening Migration
 /getUsers
@@ -100,6 +101,5 @@ API Key is in the .env file under src/backend
 /getUserProfileCounts
 /logInitialMessageSent
 /searchProfile
-/search
 /searchListingById
 /searchTenantById

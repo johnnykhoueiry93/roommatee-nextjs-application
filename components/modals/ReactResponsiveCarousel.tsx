@@ -42,10 +42,11 @@ const ReactResponsiveCarousel = ({ selectedCardDetails, carouselHeight }) => {
       }));
 
       setImages(imagesArray);
-      console.log('ReactResponsiveCarousel: ' , imagesArray);
+      // console.log(`[DEBUG] - [ReactResponsiveCarousel] - Returned image array for listing id: ${selectedCardDetails.id}: ` , imagesArray);
       setLoading(false);
 
     } else {
+      // console.log(`[DEBUG] - [ReactResponsiveCarousel] - No images found for listing id: ${selectedCardDetails.id}: `);
       const imagesArray = [
         {
           label: `placeholder`,

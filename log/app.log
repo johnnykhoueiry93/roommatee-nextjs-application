@@ -5543,3 +5543,551 @@
 [2024-06-21 22:57:05] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
 [2024-06-21 22:57:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * FROM userprofile WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
 [2024-06-21 22:57:05] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-22 10:48:45] - [info] - Request to logout
+[2024-06-22 10:48:45] - [info] - Request to logout
+[2024-06-22 11:06:07] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 11:06:07] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 11:06:08] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 11:06:08] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA2ODc2OCwiZXhwIjoxNzE5MDcyMzY4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.qAuagy11I2cAV09v7u2jGycw2KU_7OAzEFbV3BSYcwKJFNRyyODmDMslSGG85aQPVbBpB-ts3_-VzUMixUGWohP6ZvgeKsuvqpSHuni-rl4eSu24o8cX5KGff4GCzJ-orhk7yaBvKwT2q9WvvF6oIVVWGleMo-SXzm3hnW6MUBefHQC2uePg3s0VSkAnXHt6JY6o6zgfMXaeWQyRN1atWPdfQ0HbErLWHrA0yLZQSNeSacSuMBC0Vob3iX_DraDb0Hnbe5oiSJEsgLcTvca0P15nNQkL6uMIE4ch50COBkDMd8qpT59P6baXtpNfChYaGB75lda06_VoHX8Z5oPQCQ
+[2024-06-22 11:06:08] - [info] - ##################### we are in NextAuth
+[2024-06-22 11:06:08] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 11:06:08] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 11:06:08] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 11:06:08] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA2ODc2OCwiZXhwIjoxNzE5MDcyMzY4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.qAuagy11I2cAV09v7u2jGycw2KU_7OAzEFbV3BSYcwKJFNRyyODmDMslSGG85aQPVbBpB-ts3_-VzUMixUGWohP6ZvgeKsuvqpSHuni-rl4eSu24o8cX5KGff4GCzJ-orhk7yaBvKwT2q9WvvF6oIVVWGleMo-SXzm3hnW6MUBefHQC2uePg3s0VSkAnXHt6JY6o6zgfMXaeWQyRN1atWPdfQ0HbErLWHrA0yLZQSNeSacSuMBC0Vob3iX_DraDb0Hnbe5oiSJEsgLcTvca0P15nNQkL6uMIE4ch50COBkDMd8qpT59P6baXtpNfChYaGB75lda06_VoHX8Z5oPQCQ
+[2024-06-22 11:06:15] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 11:06:16] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 11:55:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:55:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:55:01] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:02] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:55:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:55:17] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:55:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:57:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:57:52] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:57:52] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:58:02] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:58:02] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:58:02] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly
+[2024-06-22 11:59:18] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 11:59:18] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?' at line 1
+[2024-06-22 12:02:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:02:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:02:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:02:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:03:26] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:03:26] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:03:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:03:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:05:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:05:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:05:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:05:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:08:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:08:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:08:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:08:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:09:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:09:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:09:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:09:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:10:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:10:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:10:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:10:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:10:32] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:10:32] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:10:32] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:10:32] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:11:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:11:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:11:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:11:05] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:11:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:11:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 12:11:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:11:20] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 12:40:17] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-22 12:40:17] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-22 12:40:18] - [info] - [/api/searchProfile] - Room listings results returned: 8
+[2024-06-22 12:40:56] - [info] - Request to logout
+[2024-06-22 12:40:56] - [info] - Request to logout
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA3NDQ3OCwiZXhwIjoxNzE5MDc4MDc4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.flo14PvrHyl0gAi5fe0zI0vvf08fXbZvVZkCnqCwtQEOGQ_m_0pTUx0fFM9N3TbTCO9CJv35YXAY_jtRstC4k7s9fboHaWRBcogeo_nY_Kh4dEV5c8bODCEKIaVdCCgAczIqaRSNzDQyAcIBM3BemucFrpEo1C_C1y4H6xsgtfcH4SR9CdJHjeU4QmBaSFl2iTbwGj8DU9fniRqm4t1aXifySIZlkWVc8n9Wi-5zcNS6BBtYQOGixwm3uCtw1a1PBjPTWJ68YJkKH_Uhiw6jGKS6gsq2nZd67Q3Mw8svkCNgDFRrGr7BeJt0aPKbWwF8fZn2O5BLHVEYbGdu1hjp7A
+[2024-06-22 12:41:18] - [info] - ##################### we are in NextAuth
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 12:41:18] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA3NDQ3OCwiZXhwIjoxNzE5MDc4MDc4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.flo14PvrHyl0gAi5fe0zI0vvf08fXbZvVZkCnqCwtQEOGQ_m_0pTUx0fFM9N3TbTCO9CJv35YXAY_jtRstC4k7s9fboHaWRBcogeo_nY_Kh4dEV5c8bODCEKIaVdCCgAczIqaRSNzDQyAcIBM3BemucFrpEo1C_C1y4H6xsgtfcH4SR9CdJHjeU4QmBaSFl2iTbwGj8DU9fniRqm4t1aXifySIZlkWVc8n9Wi-5zcNS6BBtYQOGixwm3uCtw1a1PBjPTWJ68YJkKH_Uhiw6jGKS6gsq2nZd67Q3Mw8svkCNgDFRrGr7BeJt0aPKbWwF8fZn2O5BLHVEYbGdu1hjp7A
+[2024-06-22 12:41:20] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 12:41:20] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 12:41:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 12:41:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 12:41:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 12:41:28] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 12:43:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 12:43:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 12:43:06] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 12:43:06] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 13:05:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:05:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:05:46] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 13:05:47] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 13:11:22] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:11:22] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:11:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:11:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:11:40] - [info] - Request to logout
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA3NjM4MSwiZXhwIjoxNzE5MDc5OTgxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.Gz-LMh8go07SCrRCDXguB_Olvjc13b0LYpg5Ki_IAETgcQbisT9H5kaI3aDw2nXa5zOC8lLXqT8qO95AGgqywlXNXaozNZe0Ja60VH4g76LOX4kXpHLe6K3oNj2u6jVIuNoZ-DjWWT1aKkNv5uALUb98tpmtvHIp8wXbtCi0rWTpkv6i4za4KVDOC1gv9RsZLXJTJj2rHj1YqTAIhis4J8eYqWhKpBS3nOjil0jt9rdvCJdox2-ZdQwppMgcTHcui7zwUHiTyMcK6_gAU4bJ-zQ1IUhUnazogmHO2_7K1iP5hq2R78WlErmavwc-VDaaM62KqMynp4a3ggUYa4a-vw
+[2024-06-22 13:13:01] - [info] - ##################### we are in NextAuth
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 13:13:01] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA3NjM4MSwiZXhwIjoxNzE5MDc5OTgxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.Gz-LMh8go07SCrRCDXguB_Olvjc13b0LYpg5Ki_IAETgcQbisT9H5kaI3aDw2nXa5zOC8lLXqT8qO95AGgqywlXNXaozNZe0Ja60VH4g76LOX4kXpHLe6K3oNj2u6jVIuNoZ-DjWWT1aKkNv5uALUb98tpmtvHIp8wXbtCi0rWTpkv6i4za4KVDOC1gv9RsZLXJTJj2rHj1YqTAIhis4J8eYqWhKpBS3nOjil0jt9rdvCJdox2-ZdQwppMgcTHcui7zwUHiTyMcK6_gAU4bJ-zQ1IUhUnazogmHO2_7K1iP5hq2R78WlErmavwc-VDaaM62KqMynp4a3ggUYa4a-vw
+[2024-06-22 13:13:05] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 13:13:05] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 13:15:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:15:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:15:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:15:23] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:16:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:16:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:16:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:16:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:16:35] - [info] - Request to logout
+[2024-06-22 13:16:35] - [info] - Request to logout
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA3NjYxMSwiZXhwIjoxNzE5MDgwMjExLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.BS06Ag5mVJQH14kopohPtfsAlMg0vMEz6AMDRcDfhgtPCejA9rl5T92MLcV1XrA5nzpRO6j2yXqy5aKLGKwGwSzv70wyoWCKkG29JNhGZrltpHI9FWJIyZoFvZ7QWswqDjsWTZJssvNByq8yNpPbo0OJgqU9fatJuBk0SUvSckuavcWdbtnxUwFWIrrqnltpOcSe3ROYZq13_xj_QbdiTetwXfkk4kY0nE4nLFXEVuP4w_k1aixohdbf-dMR3mwf2aTgZQ-vCMMDZr8pWNiemyYq2w1SGI2DGQJ2iqhzCs1ifF9HTj2zFj515bDGvwAQT_oCo9sFI5Go6a_7K103oQ
+[2024-06-22 13:16:51] - [info] - ##################### we are in NextAuth
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 13:16:51] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA3NjYxMSwiZXhwIjoxNzE5MDgwMjExLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.BS06Ag5mVJQH14kopohPtfsAlMg0vMEz6AMDRcDfhgtPCejA9rl5T92MLcV1XrA5nzpRO6j2yXqy5aKLGKwGwSzv70wyoWCKkG29JNhGZrltpHI9FWJIyZoFvZ7QWswqDjsWTZJssvNByq8yNpPbo0OJgqU9fatJuBk0SUvSckuavcWdbtnxUwFWIrrqnltpOcSe3ROYZq13_xj_QbdiTetwXfkk4kY0nE4nLFXEVuP4w_k1aixohdbf-dMR3mwf2aTgZQ-vCMMDZr8pWNiemyYq2w1SGI2DGQJ2iqhzCs1ifF9HTj2zFj515bDGvwAQT_oCo9sFI5Go6a_7K103oQ
+[2024-06-22 13:16:54] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 13:16:54] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 13:17:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:17:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:17:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:17:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:35:26] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:35:26] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:35:26] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:35:26] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:52:36] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:52:36] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:52:36] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:52:37] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:52:48] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:52:48] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:52:48] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:52:48] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:57:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:57:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 13:57:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 13:57:30] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 14:20:10] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 14:20:10] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly
+[2024-06-22 14:20:10] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 14:20:10] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 14:22:29] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-22 14:22:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 14:22:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 14:22:34] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 14:24:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 14:24:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 14:24:01] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 14:28:37] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 14:28:37] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 14:28:37] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 14:28:53] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 14:28:53] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 14:28:53] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 14:28:55] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 14:28:55] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-22 14:28:55] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-22 14:29:17] - [info] - Request to logout
+[2024-06-22 14:29:17] - [info] - Request to logout
+[2024-06-22 14:29:22] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-22 14:29:27] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 14:29:27] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 14:29:27] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 15:11:04] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 15:11:04] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 15:11:05] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 15:11:43] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 15:11:43] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 15:11:44] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 15:13:33] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 15:13:33] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 15:13:33] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 15:25:28] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 15:25:28] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 15:25:29] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 15:29:05] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 15:29:05] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 15:29:05] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 15:30:44] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 15:30:44] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 15:30:44] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:39:06] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:39:06] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:39:06] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:39:11] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: boston, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:39:11] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-22 16:39:11] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-22 16:39:25] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:39:25] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:39:25] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:45:12] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:45:12] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:45:12] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:45:37] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:45:37] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:45:37] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:49:11] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:49:11] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:49:12] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:51:56] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:51:56] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:51:57] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:54:03] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:54:03] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:54:03] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 16:55:43] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 16:55:43] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 16:55:43] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:00:19] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:00:19] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:00:20] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:02:35] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:02:35] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:02:36] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:04:44] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:04:44] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:04:44] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:05:40] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:05:40] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:05:40] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:16:37] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:16:37] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:16:37] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:18:55] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:18:55] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:18:55] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:21:39] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 17:21:39] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 17:21:40] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 17:40:16] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 17:40:16] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 17:40:16] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 17:40:18] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5MjQxOCwiZXhwIjoxNzE5MDk2MDE4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.Y-MldUP-NrcYck84VWonptJXcBljQ-TFWV_1GG2M53OQDglwU545_QQED7LN6NbbPslzlpSixrPOo1YaDq-NKeZ_kkFCq6okbGGA7ccI1oqJjSiK9FWRvXTxZlh1lVeFCW4caSjAOFVgscWj4Du8jdAhkOH6hrIdby7UdWTtzFSn3QLWeEPEr-D7FAycWeHnan_PD5Fw3Flj911NwmNepCY5lCxMG1fM3HvK6zu7_1eF6roP0GYdraBm7agein0NhaYQajgZHr3r-yAnLnJPhwN563pqxWCREVdVBV417CLPhoHfw5dHNSGH2micKdb2OQ2JqA1P5IOWpuNJymRfvA
+[2024-06-22 17:40:18] - [info] - ##################### we are in NextAuth
+[2024-06-22 17:40:18] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 17:40:18] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 17:40:18] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 17:40:18] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5MjQxOCwiZXhwIjoxNzE5MDk2MDE4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.Y-MldUP-NrcYck84VWonptJXcBljQ-TFWV_1GG2M53OQDglwU545_QQED7LN6NbbPslzlpSixrPOo1YaDq-NKeZ_kkFCq6okbGGA7ccI1oqJjSiK9FWRvXTxZlh1lVeFCW4caSjAOFVgscWj4Du8jdAhkOH6hrIdby7UdWTtzFSn3QLWeEPEr-D7FAycWeHnan_PD5Fw3Flj911NwmNepCY5lCxMG1fM3HvK6zu7_1eF6roP0GYdraBm7agein0NhaYQajgZHr3r-yAnLnJPhwN563pqxWCREVdVBV417CLPhoHfw5dHNSGH2micKdb2OQ2JqA1P5IOWpuNJymRfvA
+[2024-06-22 17:40:21] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 17:40:21] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 17:40:36] - [info] - Request to logout
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5MjQ1NSwiZXhwIjoxNzE5MDk2MDU1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UwS-Upl2cmqsFOtKGDpJD3QOgz9g0efyZ7mhmeIlVhNuGQICreM1ICJoU4hwNLiMrKmqcxTI5_LA7hVsBkxpAOIi8UCiG-AEMZjTroOj8-jBXLQizlPNIevWGd__it8ftj22itDP-aarqahlBJMJ-eSevpfTGtxZ7Xvs7XkFyXYxwJAhhPNQVoRAs8yDZBjJbG6xmpSk_sntHQ2fjwceB_BbD8f5iDDEo700JU05ASYt8QB_06twxMJTLMWl4yeO_B9VpCSwMa8YkmYqeNUazs_4tedeAWoisYNYPnZatewO2yarms37jG_GcSoJyqh8fgZDTqFPIIUpsgfkcDehZQ
+[2024-06-22 17:40:55] - [info] - ##################### we are in NextAuth
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5MjQ1NSwiZXhwIjoxNzE5MDk2MDU1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.UwS-Upl2cmqsFOtKGDpJD3QOgz9g0efyZ7mhmeIlVhNuGQICreM1ICJoU4hwNLiMrKmqcxTI5_LA7hVsBkxpAOIi8UCiG-AEMZjTroOj8-jBXLQizlPNIevWGd__it8ftj22itDP-aarqahlBJMJ-eSevpfTGtxZ7Xvs7XkFyXYxwJAhhPNQVoRAs8yDZBjJbG6xmpSk_sntHQ2fjwceB_BbD8f5iDDEo700JU05ASYt8QB_06twxMJTLMWl4yeO_B9VpCSwMa8YkmYqeNUazs_4tedeAWoisYNYPnZatewO2yarms37jG_GcSoJyqh8fgZDTqFPIIUpsgfkcDehZQ
+[2024-06-22 17:40:55] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 17:40:56] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 17:41:04] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-22 17:41:04] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-22 17:41:05] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-22 17:41:05] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-22 17:43:05] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-22 17:43:05] - [info] - [Visitor] - [/api/searchListingById] - Searching listing by id: 169
+[2024-06-22 17:43:05] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-22 17:43:05] - [info] - [Visitor] - [/api/searchListingById] - Returned listing details for listing id: 169
+[2024-06-22 17:46:35] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 17:46:35] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 17:46:35] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:46:35] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:47:42] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 17:47:42] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly
+[2024-06-22 17:47:42] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:47:42] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Failed to insert user
+[2024-06-22 17:49:32] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Roommate
+[2024-06-22 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-22 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-22 17:49:37] - [info] - [/api/searchProfile] - Room listings results returned: 8
+[2024-06-22 17:50:51] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-22 17:50:56] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-22 17:50:56] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Tenant
+[2024-06-22 17:51:01] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-22 17:51:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * FROM userprofile WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-22 17:51:01] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-22 18:34:51] - [info] - Request to logout
+[2024-06-22 18:34:51] - [info] - Request to logout
+[2024-06-22 18:34:59] - [info] - [Visitor] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-22 18:34:59] - [info] - [Visitor] - [/api/searchProfile] - Printing the full query: SELECT * FROM userprofile WHERE emailAddress != 'Visitor' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-22 18:34:59] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-22 18:35:54] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 18:35:54] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 18:35:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 18:35:55] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5NTc1NSwiZXhwIjoxNzE5MDk5MzU1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.b2WA-lK43BWXXER6V5LoHxiMqqm_x2i5l4TvlBbIjNGbf5HU9kB0Hidj2vvb5a8AmZfHF58SQOoL3Bl85g2Pz5JZyq67R5pmO4-S5UM1P_qFsjXU7wg0vgenBtVYYrIP1GMrLfiJ_1P2UtDbngRQO95vXlH4p8RuII9tEPBoF0-nEnSG5FrnTzEwxjzX5FQoTeV8Pczj9yS4z-qECjUmBlPD3-szB7Bbm1jXnHShB8_PhODdlERofg_AYcrTdFFtBCXSHJM_d-_5ej6K-IbCh_Z3FgHkYdqJ1hIAv-WTKUz4mVPeME7K9fuKj1mav2vgG7mOfqECKH1WLYpT7OrWMg
+[2024-06-22 18:35:55] - [info] - ##################### we are in NextAuth
+[2024-06-22 18:35:55] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 18:35:55] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 18:35:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 18:35:55] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5NTc1NSwiZXhwIjoxNzE5MDk5MzU1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.b2WA-lK43BWXXER6V5LoHxiMqqm_x2i5l4TvlBbIjNGbf5HU9kB0Hidj2vvb5a8AmZfHF58SQOoL3Bl85g2Pz5JZyq67R5pmO4-S5UM1P_qFsjXU7wg0vgenBtVYYrIP1GMrLfiJ_1P2UtDbngRQO95vXlH4p8RuII9tEPBoF0-nEnSG5FrnTzEwxjzX5FQoTeV8Pczj9yS4z-qECjUmBlPD3-szB7Bbm1jXnHShB8_PhODdlERofg_AYcrTdFFtBCXSHJM_d-_5ej6K-IbCh_Z3FgHkYdqJ1hIAv-WTKUz4mVPeME7K9fuKj1mav2vgG7mOfqECKH1WLYpT7OrWMg
+[2024-06-22 18:35:57] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 18:35:57] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 18:36:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
+[2024-06-22 18:36:16] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
+[2024-06-22 18:36:17] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:17] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:17] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 67 directly with querytype: tenant
+[2024-06-22 18:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 67 directly with querytype: tenant
+[2024-06-22 18:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 67 found
+[2024-06-22 18:36:31] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 67 found
+[2024-06-22 18:36:47] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-22 18:36:47] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-22 18:36:47] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:36:47] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Unknown column 'userId' in 'where clause'
+[2024-06-22 18:37:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-22 18:37:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-22 18:37:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 18:37:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-22 18:49:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
+[2024-06-22 18:49:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
+[2024-06-22 18:49:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 18:49:01] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 18:49:10] - [info] - Request to logout
+[2024-06-22 18:49:27] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 18:49:27] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 18:49:28] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 18:49:28] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5NjU2OCwiZXhwIjoxNzE5MTAwMTY4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.CrDVzqeyu17lhx8TeU4uhXwB_TnKx_wRQtZS10LYb-I7bWwYc-QunmYc0NKqQZhaPdxf55l9i5dtA5vOGm7YTeWuc_Q3p3oLtuy9p2D4pVX4l1iNpHu92k_tzmxPHAdUzy0mxoYTGX5y4X7R3jbqDtyd8mTgZBCGOfafo0kG_wy_OhX_KyAl42AwOlxmVHRsdAvMFQuLw178SY2B7wsPi2cBuBgLsgyeZ_q9Bp-mhocjtbTTJ00lV1i08WnYA-7KfrKSOz0ru-w63_0j6uVYoU5AszXIXDDbESfa9WU6WJkdPqzMTS_oZArAPn7ovy5G0COzmj0HemWRWA_jUEFlwg
+[2024-06-22 18:49:28] - [info] - ##################### we are in NextAuth
+[2024-06-22 18:49:28] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 18:49:28] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 18:49:28] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 18:49:28] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTA5NjU2OCwiZXhwIjoxNzE5MTAwMTY4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.CrDVzqeyu17lhx8TeU4uhXwB_TnKx_wRQtZS10LYb-I7bWwYc-QunmYc0NKqQZhaPdxf55l9i5dtA5vOGm7YTeWuc_Q3p3oLtuy9p2D4pVX4l1iNpHu92k_tzmxPHAdUzy0mxoYTGX5y4X7R3jbqDtyd8mTgZBCGOfafo0kG_wy_OhX_KyAl42AwOlxmVHRsdAvMFQuLw178SY2B7wsPi2cBuBgLsgyeZ_q9Bp-mhocjtbTTJ00lV1i08WnYA-7KfrKSOz0ru-w63_0j6uVYoU5AszXIXDDbESfa9WU6WJkdPqzMTS_oZArAPn7ovy5G0COzmj0HemWRWA_jUEFlwg
+[2024-06-22 18:49:29] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 18:49:30] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 18:49:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
+[2024-06-22 18:49:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
+[2024-06-22 18:49:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 18:49:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 18:49:45] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-22 18:49:45] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-22 18:49:45] - [info] - [/api/searchProfile] - Room listings results returned: 8

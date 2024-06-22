@@ -8,6 +8,8 @@ import RoommateCardDetails from '../../../components/searchRoommate/RoommateCard
 const Tenant = () => {
   const { roommateId } = useParams(); // Access the listingId from the URL
 
+  // console.log('app/roommate/[roommateId]/page.js roommateId: ' + roommateId);
+
   return (
     <div>
       <RoommateCardDetails roommateId={roommateId}/>

@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import BackToResultsBtn from "../modals/BackToResultsBtn";
 import "../../styles/searchTenant/TenantCardDetails.css";
@@ -6,7 +8,7 @@ import { useEffect, useState } from "react";
 import { Avatar } from "@mui/material";
 // import BackendAxios from "../../backend/BackendAxios";
 import SendMessage from "../search/SendMessage";
-import { useParams, Link } from "react-router-dom";
+import {  Link } from "react-router-dom";
 import MaleIcon from "@mui/icons-material/Male";
 import FemaleIcon from "@mui/icons-material/Female";
 import TransgenderIcon from "@mui/icons-material/Transgender";
@@ -37,16 +39,22 @@ import LeaseTerms from "../search/LeaseTerms";
 import GoogleMap from "../search/GoogleMap";
 import SectionHeading from "../modals/SectionTitle";
 import { useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 
 const RoommateCardDetails = ({roommateId}) => {
   // @ts-ignore
-  const { isMobile, userAuth, searchResults, setLatitude, setLongitude, setMapAddress } = SiteData();
+  const { isMobile, userInfo, userAuth, searchResults, setLatitude, setLongitude, setMapAddress } = SiteData();
+
+  if(!userInfo) {
+    return (<div>Loading userInfo</div>)
+  }
 
   const router = useRouter();
 
   const navigateToPage = (path) => {
     router.push(path);
   };
+
 
   useEffect(() => {
     // Scroll to the top when the component mounts or updates
@@ -80,11 +88,6 @@ const RoommateCardDetails = ({roommateId}) => {
     // sendTheMessage();
     setMessageSent(true); // Update state to show the second div
   };
-
-  // this is the ID picked up from the URL parameter
-  const { id } = useParams();
-
-
 
   useEffect(() => {
     // Logic 1: Check if selectedCardDetails exists in local storage
@@ -121,9 +124,41 @@ const RoommateCardDetails = ({roommateId}) => {
 
     // Logic 3: If neither logic 1 nor logic 2 finds the card, fetch it
     const fetchData = async () => {
-      console.log(
-        "Logic #3 return the selectedCardDetails from WS call to backend"
-      );
+      console.log("Logic #3 return the selectedCardDetails from WS call to backend using url param: " + roommateId);
+      let emailAddress = userInfo.emailAddress;
+      let idToSearchFor = roommateId;
+      let querytype = "roommate"
+
+      try {
+        const response = await fetch('/api/searchTenantById', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ idToSearchFor, emailAddress, querytype })
+        });
+        const data = await response.json();
+
+        const fetchedCard = data.results[0];
+        console.log('[RoommateCardDetails] Returned fetchedCard: ' , fetchedCard);
+
+        setSelectedCardDetails(fetchedCard);
+        setLatitude(fetchedCard.latitude);
+        setLongitude(fetchedCard.longitude);
+        setMapAddress(fetchedCard.address);
+
+        getAvatar(fetchedCard);
+        
+        // console.log("Setting the user profile picture to URL: " + data.s3Url);
+        // setHostAvatarImgSource(data.s3Url)
+        // console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+        // localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
+      } catch (error) {
+        console.error("Error:", error);
+      }
+
+
+
       // try {
       //   const response = await BackendAxios.post("/searchTenantById", {
       //     requestedData: id,
@@ -145,6 +180,7 @@ const RoommateCardDetails = ({roommateId}) => {
 
   //@ts-ignore
   async function getAvatar(fetchedCard) {
+    
     const key = `${fetchedCard.id}-profile-picture.png&folder=profile-picture`;
     
     try {
@@ -977,10 +1013,7 @@ const RoommateCardDetails = ({roommateId}) => {
 
   function returnBackButton() {
     return (
-      <BackToResultsBtn
-        prevPage={"/find-a-roommate-results"}
-        text={"Back to search results"}
-      />
+      <BackToResultsBtn prevPage={"/find-a-roommate-results"} text={"Back to search results"} />
     );
   }
 
