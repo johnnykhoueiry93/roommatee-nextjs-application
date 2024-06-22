@@ -39,6 +39,7 @@ const FirebaseChats = ({ userId }) => {
       }
     });
 
+    
   const chatsRef = collection(firestore, "chats");
   const filteredChatsQuery = query(
     chatsRef,
@@ -48,7 +49,6 @@ const FirebaseChats = ({ userId }) => {
   //@ts-ignore
   const useChats = () => useCollectionData(filteredChatsQuery, { idField: "id" });
 
-  // console.log("----------- NEW --------------" + useChats);
 
   return { app, firestore, useChats, firebaseConfig };
 };

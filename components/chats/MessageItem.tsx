@@ -13,42 +13,42 @@ const MessageItem = ({message ,sentByUserFullName,messageDateSent,alignClass, se
   const messageDateSentFormatted =
     messageDateSent && messageDateSent.toDate().toLocaleString();
 
-    useEffect(() => {
-      const fetchData = async () => {
-        try {
-          const chatRecipientProfileId = sentByUserId;
-          const key = `${chatRecipientProfileId}-profile-picture.png?folder=profile-picture`;
-          // console.log('Checking if the key exists: ' + key);
+    // useEffect(() => {
+    //   const fetchData = async () => {
+    //     try {
+    //       const chatRecipientProfileId = sentByUserId;
+    //       const key = `${chatRecipientProfileId}-profile-picture.png?folder=profile-picture`;
+    //       // console.log('Checking if the key exists: ' + key);
     
-          // Check if the URL already exists in localStorage
-          //@ts-ignore
-          let existingUrls = JSON.parse(localStorage.getItem('avatarUrls')) || [];
-          //@ts-ignore
-          const existingUrl = existingUrls.find(urlObj => urlObj.id === chatRecipientProfileId);
+    //       // Check if the URL already exists in localStorage
+    //       //@ts-ignore
+    //       let existingUrls = JSON.parse(localStorage.getItem('avatarUrls')) || [];
+    //       //@ts-ignore
+    //       const existingUrl = existingUrls.find(urlObj => urlObj.id === chatRecipientProfileId);
     
-          // console.log('The value of existingUrl:', existingUrl);
+    //       // console.log('The value of existingUrl:', existingUrl);
     
-          if (existingUrl) {
-            // console.log("URL already exists in localStorage, skipping POST request");
-            setMessageAvatarUrl(existingUrl.url); // Set the avatar source from localStorage
-          } else {
-            console.log("The URL was not found in localStorage, performing a POST request for key: " + key);
-            // const response = await BackendAxios.post(`/getS3PictureUrl/${key}`);
-            // console.log("Setting the user profile picture to URL: " + response.data.s3Url);
-            // const newUrlObj = { id: chatRecipientProfileId, url: response.data.s3Url };
-            // //@ts-ignore
-            // existingUrls = existingUrls.filter(urlObj => urlObj.id !== chatRecipientProfileId); // Remove existing URL with the same ID
-            // const updatedUrls = [newUrlObj, ...existingUrls];
-            // localStorage.setItem('avatarUrls', JSON.stringify(updatedUrls));
-            // setMessageAvatarUrl(response.data.s3Url); // Set the avatar source
-          }
-        } catch (error) {
-          console.error("Error:", error);
-        }
-      };
+    //       if (existingUrl) {
+    //         // console.log("URL already exists in localStorage, skipping POST request");
+    //         setMessageAvatarUrl(existingUrl.url); // Set the avatar source from localStorage
+    //       } else {
+    //         console.log("The URL was not found in localStorage, performing a POST request for key: " + key);
+    //         // const response = await BackendAxios.post(`/getS3PictureUrl/${key}`);
+    //         // console.log("Setting the user profile picture to URL: " + response.data.s3Url);
+    //         // const newUrlObj = { id: chatRecipientProfileId, url: response.data.s3Url };
+    //         // //@ts-ignore
+    //         // existingUrls = existingUrls.filter(urlObj => urlObj.id !== chatRecipientProfileId); // Remove existing URL with the same ID
+    //         // const updatedUrls = [newUrlObj, ...existingUrls];
+    //         // localStorage.setItem('avatarUrls', JSON.stringify(updatedUrls));
+    //         // setMessageAvatarUrl(response.data.s3Url); // Set the avatar source
+    //       }
+    //     } catch (error) {
+    //       console.error("Error:", error);
+    //     }
+    //   };
     
-      fetchData();
-    }, []); // Empty dependency array to run the effect only once
+    //   fetchData();
+    // }, []); 
 
 
     return (

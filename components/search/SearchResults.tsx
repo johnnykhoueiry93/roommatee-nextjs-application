@@ -82,7 +82,7 @@ const SearchResults = () => {
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     const searchFilterResultHeight = searchFilterResult ? searchFilterResult.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight - searchFilterResultHeight - 100;
-    console.log('Returning chat screen height: ' + containerHeight);
+    // console.log('Returning chat screen height: ' + containerHeight);
 
     return containerHeight;
   }
@@ -94,7 +94,7 @@ const SearchResults = () => {
     const screenHeight = window.innerHeight;
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight;
-    console.log('Returning chat screen height: ' + containerHeight);
+    // console.log('Returning chat screen height: ' + containerHeight);
 
     return containerHeight;
   }

@@ -11,6 +11,8 @@ import dayjs from "dayjs";
 import Autocomplete from "react-google-autocomplete";
 import { useRouter } from 'next/navigation';
 import StaticFrontendLabel from "../../StaticFrontend";
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import BackToResultsBtn from "../modals/BackToResultsBtn";
 import '../../styles/Signup.css'
 import {
   FormControl,
@@ -28,7 +30,7 @@ function valuetext(value) {
 //@ts-ignore
 const EditRoomListing = () => {
   // @ts-ignore
-  const { isMobile, editListingId, listing, setListingsCreated, userInfo, scrollToTop, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
+  const { isMobile, isTablet, editListingId, listing, setListingsCreated, userInfo, scrollToTop, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
 
   const router = useRouter();
   const navigateToPage = (path) => {
@@ -664,6 +666,16 @@ const EditRoomListing = () => {
         )
       }
 
+      function displayBackButtonForMobile() {
+        if(isMobile || isTablet) {
+          return (
+            <div className='mr-3 pt-2' onClick={()=> {navigateToPage("/my-listings")}} >
+            <BackToResultsBtn prevPage={"/my-listings"} text={"Back to search results"} />
+            </div>
+          )
+        }
+      }
+
   return (
     <div className="container-fluid">
 
@@ -676,6 +688,7 @@ const EditRoomListing = () => {
               onSubmit={handleUpdateRoomListing}
             >
               <div>
+              {displayBackButtonForMobile()}
                 <h2 className="create-new-listing-title">
                   Edit Your New Rental Space
                 </h2>

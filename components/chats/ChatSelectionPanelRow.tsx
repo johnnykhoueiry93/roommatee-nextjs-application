@@ -3,7 +3,7 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 import React from "react";
 import "../../styles/ChatSelectionPanelRow.css";
 import { useRouter } from 'next/navigation';
-
+import { getProfilePictureUrl } from '../../utils/utilities'
 import { SiteData } from "../../context/SiteWrapper";
 import { useEffect, useState } from "react";
 // import BackendAxios from "../../backend/BackendAxios";
@@ -112,7 +112,7 @@ const navigateToPage = (path) => {
     }
 
     if(isMobile || isTablet) {
-      navigateToPage("/mobileConversationPanel");
+      navigateToPage("/m-chat");
     }
   };
 
@@ -138,21 +138,18 @@ const navigateToPage = (path) => {
             //@ts-ignore
             const existingUrl = existingUrls.find(urlObj => urlObj.id === chatRecipientProfileId);
       
-            // console.log('The value of existingUrl:', existingUrl);
       
             if (existingUrl) {
               // console.log("URL already exists in localStorage, skipping POST request");
               setRecipientAvatarImgSource(existingUrl.url); // Set the avatar source from localStorage
             } else {
               console.log("The URL was not found in localStorage, performing a POST request for key: " + key);
-              // const response = await BackendAxios.post(`/getS3PictureUrl/${key}`);
-              // // console.log("Setting the user profile picture to URL: " + response.data.s3Url);
-              // const newUrlObj = { id: chatRecipientProfileId, url: response.data.s3Url };
-              // //@ts-ignore
-              // existingUrls = existingUrls.filter(urlObj => urlObj.id !== chatRecipientProfileId); // Remove existing URL with the same ID
-              // const updatedUrls = [newUrlObj, ...existingUrls];
-              // localStorage.setItem('avatarUrls', JSON.stringify(updatedUrls));
-              // setRecipientAvatarImgSource(response.data.s3Url); // Set the avatar source
+              const response = await getProfilePictureUrl(chatRecipientProfileId);
+              const newUrlObj = { id: chatRecipientProfileId, url: response };
+              existingUrls = existingUrls.filter(urlObj => urlObj.id !== chatRecipientProfileId); // Remove existing URL with the same ID
+              const updatedUrls = [newUrlObj, ...existingUrls];
+              localStorage.setItem('avatarUrls', JSON.stringify(updatedUrls));
+              setRecipientAvatarImgSource(response); // Set the avatar source
             }
           } catch (error) {
             console.error("Error:", error);

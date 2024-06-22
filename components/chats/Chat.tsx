@@ -25,7 +25,7 @@ const Chat = () => {
     const screenHeight = window.innerHeight;
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight;
-    console.log('Returning chat screen height: ' + containerHeight);
+    // console.log('Returning chat screen height: ' + containerHeight);
 
     return containerHeight;
   }

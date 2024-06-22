@@ -262,8 +262,8 @@ const MobileConversationPanel = () => {
     const newMessageSection = document.getElementById('conversationMessageDivId');
     const mobileBottomNavigationSection = document.getElementById('mobileBottomNavigation');
 
-    console.log('chatHeaderSection' , chatHeaderSection);
-    console.log('newMessageSection' , newMessageSection);
+    // console.log('chatHeaderSection' , chatHeaderSection);
+    // console.log('newMessageSection' , newMessageSection);
   
     // Check if the elements exist before accessing their properties
     if (!chatHeaderSection || !newMessageSection || !mobileBottomNavigationSection) {
@@ -281,7 +281,7 @@ const MobileConversationPanel = () => {
     }
     let containerHeight = calculateScreenHeightWithoutTopNavBar() - headerAndConversationSectionHeight - additionalMargin;
   
-    console.log('Returning internal messages height: ' + containerHeight);
+    // console.log('Returning internal messages height: ' + containerHeight);
     return containerHeight;
   }
 
@@ -289,8 +289,8 @@ const MobileConversationPanel = () => {
     const chatHeaderSection = document.getElementById('chatHeaderDivId');
     const newMessageSection = document.getElementById('conversationMessageDivId');
 
-    console.log('chatHeaderSection' , chatHeaderSection);
-    console.log('newMessageSection' , newMessageSection);
+    // console.log('chatHeaderSection' , chatHeaderSection);
+    // console.log('newMessageSection' , newMessageSection);
   
     // Check if the elements exist before accessing their properties
     if (!chatHeaderSection || !newMessageSection ) {
@@ -301,7 +301,7 @@ const MobileConversationPanel = () => {
     const headerAndConversationSectionHeight = chatHeaderSection.offsetHeight + newMessageSection.offsetHeight;
     let containerHeight = calculateScreenHeightWithoutTopNavBar() - headerAndConversationSectionHeight - 100;
   
-    console.log('Returning internal messages height: ' + containerHeight);
+    // console.log('Returning internal messages height: ' + containerHeight);
     return containerHeight;
   }
 

@@ -5295,3 +5295,32 @@
                 WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
                 AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%boston%' AND age >= 18 AND age <= 99
 [2024-06-21 15:08:59] - [info] - [/api/searchProfile] - Room listings results returned: 6
+[2024-06-21 18:00:45] - [info] - Request to logout
+[2024-06-21 18:11:09] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-21 18:11:09] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-21 18:11:09] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-21 18:11:11] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTAwNzg3MSwiZXhwIjoxNzE5MDExNDcxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.V7dmzUwWG4UOdo8Y3jNOuPl_sh3XmhL7q7aRicIerlOxXPzMxv-RgUQ3niKOyTfMpmIo3_xBRP2uKjlzDDLbTqJbf7_AL5eYYUkqnAKpZtJaokYxnbiKZS1h6rj2703nsBvc6SKokUfUufIBKx-WOeljnD8e0A0DK7jbDTYiCcSVraiUWcTjbZUyr_FaFT3ARtr16wGsfMizDBBGO1huZIED2yFWhQQrz0r54h4v4WLSAoLCAb2TtJ-wylp66YKoU0fVvCfbAhS1m6ZF_ABXTCznofw6nWlK9iVSuParLBPtlUSI8tmkW8sJnSDFoMAxiJUMQ6DrkOdiTf8IqsbCWA
+[2024-06-21 18:11:11] - [info] - ##################### we are in NextAuth
+[2024-06-21 18:11:11] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-21 18:11:11] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-21 18:11:11] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-21 18:11:11] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTAwNzg3MSwiZXhwIjoxNzE5MDExNDcxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.V7dmzUwWG4UOdo8Y3jNOuPl_sh3XmhL7q7aRicIerlOxXPzMxv-RgUQ3niKOyTfMpmIo3_xBRP2uKjlzDDLbTqJbf7_AL5eYYUkqnAKpZtJaokYxnbiKZS1h6rj2703nsBvc6SKokUfUufIBKx-WOeljnD8e0A0DK7jbDTYiCcSVraiUWcTjbZUyr_FaFT3ARtr16wGsfMizDBBGO1huZIED2yFWhQQrz0r54h4v4WLSAoLCAb2TtJ-wylp66YKoU0fVvCfbAhS1m6ZF_ABXTCznofw6nWlK9iVSuParLBPtlUSI8tmkW8sJnSDFoMAxiJUMQ6DrkOdiTf8IqsbCWA
+[2024-06-21 18:11:16] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-21 18:11:17] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-21 20:52:59] - [info] - Request to logout
+[2024-06-21 20:52:59] - [info] - Request to logout
+[2024-06-21 20:53:30] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-21 20:53:30] - [info] - [johnny.kh@hotmail.com] - Received plain password: 6100Be_3636
+[2024-06-21 20:53:31] - [info] - [johnny.kh@hotmail.com] - Login failed - Wrong username/password!
+[2024-06-21 20:53:31] - [info] - ##################### we are in NextAuth
+[2024-06-21 20:53:37] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-21 20:53:37] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-21 20:53:37] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-21 20:53:37] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTAxNzYxNywiZXhwIjoxNzE5MDIxMjE3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.QyAfHZaT_jeGYMOepD-GCaoZlTKnb1yGEg6dciqiUq4l4EjwPIncEgLPJJfYzZe8Lm0zPDqm8YCnjU8W4w2dirYLmcXejEyk3Jcjwf-GHKv9DT2q-C197XR8Uedks0d2qNa_VJKbzjOuZfkkHGgDFOlFfbIe9-LzIhVh-ybnTPI_qPc0CmdhndLwsoBYn8qgw0i6fT3tLu8ssgRbkUmViSsa6NA7-AXX8g2jKOAGAMLI0nzZ8fi6kicfe4n4SZoKMTb7IAoqjKe6C90IeC16zySbiT37sPPcqrGU2Onhu1Z3Gwiz-GO2PVMNK9Ma2MyftIMFA9wqGjJ4uMJmwnTacw
+[2024-06-21 20:53:37] - [info] - ##################### we are in NextAuth
+[2024-06-21 20:53:37] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-21 20:53:37] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-21 20:53:38] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-21 20:53:38] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTAxNzYxOCwiZXhwIjoxNzE5MDIxMjE4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.IYhQc39_PLexaEBXvdnXfzFm-6MWQ-aeGg-DZZFQi6fdvXH9MuFKTuz6Wt5CjLZ_FZ0HCEgNrlpyxSnwhl1ZAsJggd7biBcyNeh0JLmRT0ArnFPJms29nGk9jQgg4O4LN7UuBvHFVSnWDHm6ts06nxFip5I5-U7ZDpPCNNk0o8C3bcj27FYPzzl793-jaEhrstaA4eqqw5WeVG8p-z04yTVdPC6V6J9d-M1GWr5YtAzTSNJSGUOoJSz09m56ogKXABkDW0INbHz0bgAx5UeHSHUHaJXjeGq1WMKC3ExCO6JRLNjsAigUUMha5ShwwKLpOvt7NqCP4bdEhe7znOBgrQ
+[2024-06-21 20:53:41] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-21 20:53:41] - [info] - [/api/getUserListings] - Room listings results returned: 15

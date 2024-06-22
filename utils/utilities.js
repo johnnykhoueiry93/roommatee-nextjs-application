@@ -63,3 +63,51 @@ export const isUserAdmin = (userInfo) => {
       return `${daysDifference} days ago` || "today";
     }
   }
+
+  /**
+   * 
+   * @param {*} userId 
+   * @param {*} localStorageKey 
+   */
+   export async function getProfilePictureAndStoreInStorage(userId, localStorageKey) {
+    const key = `profile-picture/${userId}-profile-picture.png`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+      
+      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      setUserProfilePicture(data.s3Url);
+      console.log(`setting in storage ${localStorageKey}: ` + data.s3Url);
+      localStorage.setItem(localStorageKey, JSON.stringify(data.s3Url));
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }
+
+/**
+ * 
+ * @param {*} userId 
+ * @returns 
+ * 
+ * How to call: 
+ * const response = await getProfilePictureUrl(id);
+ * id is the id of the user
+ */
+  export async function getProfilePictureUrl(userId) {
+    const key = `profile-picture/${userId}-profile-picture.png`;
+    
+    try {
+      const response = await fetch(`/api/getS3PictureUrl?key=${key}`, {
+        method: 'POST',
+      });
+      const data = await response.json();
+      
+      // console.log("Returned Profile Picture S3 URL: " + data.s3Url);
+      return data.s3Url;
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  }

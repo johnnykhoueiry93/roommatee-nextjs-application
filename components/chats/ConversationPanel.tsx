@@ -32,6 +32,7 @@ import ReportUser from "../modals/ReportUser";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import StaticFrontendLabel from "../../StaticFrontend";
 import { useRouter } from 'next/navigation';
+import { getProfilePictureUrl } from '../../utils/utilities'
 
 const options = [
   'Report',
@@ -42,6 +43,11 @@ const ITEM_HEIGHT = 48;
 const ConversationPanel = () => {
   // @ts-ignore
   const { userInfo, conversationId, fullNameOfOpposingChat, isMobile, isTablet, conversationTopicUrl, firstPartyUserId, secondPartyUserId, snackbarOpen, setSnackbarOpen, snackbarMessage, snackbarSeverity } = SiteData();
+ 
+  if(!userInfo) {
+    return (<div>Loading .....</div>)
+  }
+ 
   const [ showReportUserPopup, setShowReportUserPopup ] = useState(false);
   const [message, setMessage] = useState("");
 
@@ -117,7 +123,7 @@ const ConversationPanel = () => {
     if(isMobile || isTablet) {
       return (
         <div className='mr-3 pt-2'>
-        <ArrowBackIosNewIcon onClick={()=> {navigateToPage("/chatSelectionPanel")}}/>
+        <ArrowBackIosNewIcon onClick={()=> {navigateToPage("/m-chat-select")}}/>
         </div>
       )
     }
@@ -146,8 +152,7 @@ const ConversationPanel = () => {
     const fetchData = async () => {
       try {
         const chatRecipientProfileId = getOppositonUserId();
-
-        const [ image, setImage ] = useState("");
+        console.log('chatRecipientProfileId: ' , chatRecipientProfileId);
 
         const key = `${chatRecipientProfileId}-profile-picture.png?folder=profile-picture`;
         // console.log('Checking if the key exists: ' + key);
@@ -158,21 +163,18 @@ const ConversationPanel = () => {
         //@ts-ignore
         const existingUrl = existingUrls.find(urlObj => urlObj.id === chatRecipientProfileId);
   
-        // console.log('The value of existingUrl:', existingUrl);
   
         if (existingUrl) {
           console.log("URL already exists in localStorage, skipping POST request");
           setMessageAvatarUrl(existingUrl.url); // Set the avatar source from localStorage
         } else {
-          const recipientPictureUrl = await getAvatar(key);
-          setImage(recipientPictureUrl);
-          console.log("The URL was not found in localStorage, performing a POST request for key: " + key);
-          const newUrlObj = { id: chatRecipientProfileId, url: image };
-          // //@ts-ignore
+          const avatarProfilePictureUrl = await getProfilePictureUrl(chatRecipientProfileId);
+          console.log(`The URL was not found in localStorage. Getting the Avatar Picture URL avatarProfilePictureUrl for key: ${key} ->` + avatarProfilePictureUrl);
+          const newUrlObj = { id: chatRecipientProfileId, url: avatarProfilePictureUrl };
           existingUrls = existingUrls.filter(urlObj => urlObj.id !== chatRecipientProfileId); // Remove existing URL with the same ID
           const updatedUrls = [newUrlObj, ...existingUrls];
           localStorage.setItem('avatarUrls', JSON.stringify(updatedUrls));
-          setMessageAvatarUrl(image); // Set the avatar source
+          setMessageAvatarUrl(avatarProfilePictureUrl); // Set the avatar source
         }
       } catch (error) {
         console.error("Error:", error);
@@ -180,7 +182,7 @@ const ConversationPanel = () => {
     };
   
     fetchData();
-  }, [conversationId]); // Empty dependency array to run the effect only once
+  }, [conversationId]); 
 
   function returnTopicDisplay() {
     // CRITICAL
@@ -273,8 +275,8 @@ const ConversationPanel = () => {
     const newMessageSection = document.getElementById('conversationMessageDivId');
     const mobileBottomNavigationSection = document.getElementById('mobileBottomNavigation');
 
-    console.log('chatHeaderSection' , chatHeaderSection);
-    console.log('newMessageSection' , newMessageSection);
+    // console.log('chatHeaderSection' , chatHeaderSection);
+    // console.log('newMessageSection' , newMessageSection);
   
     // Check if the elements exist before accessing their properties
     if (!chatHeaderSection || !newMessageSection || !mobileBottomNavigationSection) {
@@ -292,7 +294,7 @@ const ConversationPanel = () => {
     }
     let containerHeight = calculateScreenHeightWithoutTopNavBar() - headerAndConversationSectionHeight - additionalMargin;
   
-    console.log('Returning internal messages height: ' + containerHeight);
+    // console.log('Returning internal messages height: ' + containerHeight);
     return containerHeight;
   }
 
@@ -300,8 +302,8 @@ const ConversationPanel = () => {
     const chatHeaderSection = document.getElementById('chatHeaderDivId');
     const newMessageSection = document.getElementById('conversationMessageDivId');
 
-    console.log('chatHeaderSection' , chatHeaderSection);
-    console.log('newMessageSection' , newMessageSection);
+    // console.log('chatHeaderSection' , chatHeaderSection);
+    // console.log('newMessageSection' , newMessageSection);
   
     // Check if the elements exist before accessing their properties
     if (!chatHeaderSection || !newMessageSection ) {
@@ -312,7 +314,7 @@ const ConversationPanel = () => {
     const headerAndConversationSectionHeight = chatHeaderSection.offsetHeight + newMessageSection.offsetHeight;
     let containerHeight = calculateScreenHeightWithoutTopNavBar() - headerAndConversationSectionHeight - 100;
   
-    console.log('Returning internal messages height: ' + containerHeight);
+    // console.log('Returning internal messages height: ' + containerHeight);
     return containerHeight;
   }
 
@@ -406,7 +408,7 @@ const ConversationPanel = () => {
     const screenHeight = window.innerHeight;
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight ;
-    console.log('Returning screen height without the top nav bar: ' + containerHeight);
+    // console.log('Returning screen height without the top nav bar: ' + containerHeight);
 
     return containerHeight;
   }
