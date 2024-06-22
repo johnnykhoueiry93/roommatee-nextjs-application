@@ -27,10 +27,6 @@
   display: flex;
 }
 
-.send-message-button {
-  margin-left: 10px;
-}
-
 .message-container {
   margin-bottom: 10px;
 }

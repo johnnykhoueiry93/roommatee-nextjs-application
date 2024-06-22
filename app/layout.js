@@ -4,6 +4,7 @@ import "./globals.css";
 import ClientWrapper from "../context/ClientWrapper";
 import { Provider } from 'jotai';
 import Nav from "../components/navigation/Nav.tsx";
+import LabelBottomNavigation from "../components/navigation/LabelBottomNavigation.tsx";
 import BootstrapClient from "../components/BootstrapClient.js";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
             <Nav />
             {children}
             <BootstrapClient />
+            <LabelBottomNavigation/>
           </body>
         </ClientWrapper>
       {/* </Provider> */}

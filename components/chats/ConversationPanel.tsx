@@ -311,7 +311,7 @@ const ConversationPanel = () => {
     }
   
     const headerAndConversationSectionHeight = chatHeaderSection.offsetHeight + newMessageSection.offsetHeight;
-    let containerHeight = calculateScreenHeightWithoutTopNavBar() - headerAndConversationSectionHeight - 100;
+    let containerHeight = calculateScreenHeightWithoutTopNavBar() - headerAndConversationSectionHeight - 15;
   
     // console.log('Returning internal messages height: ' + containerHeight);
     return containerHeight;
@@ -353,12 +353,14 @@ const ConversationPanel = () => {
   function returnInputAndSendMessageSection() {
     return (
       <>
-      <div id='conversationMessageDivId' className="input-message-container">
+      <hr style={{ padding: '0', margin: '0'}} className='pb-1' />
 
+      <div id='conversationMessageDivId' className="input-message-container" style={{height: "70px"}}>
       <input
         maxLength={NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH}
         type="text"
         className="form-control rounded-pill"
+        style={{height: "40px", margin: 'auto'}}
         value={message}
         onChange={(e) => setMessage(e.target.value)}
         placeholder="Type your message..."
@@ -371,8 +373,9 @@ const ConversationPanel = () => {
       />
       <SendIcon
         onClick={sendMessage}
+        style={{margin: 'auto', paddingLeft: "5px"}}
         fontSize="large"
-        className="send-message-button cursor-pointer"
+        className="cursor-pointer"
       />
     </div>
       </>
@@ -435,6 +438,8 @@ const ConversationPanel = () => {
 
             {/* ------------------------ CHAT MESSAGES BETWEEN 2 USERS  ------------------------*/}
             {returnMessagesBetweenUsers()}
+
+
 
             {/* ------------------------ INPUT AND SEND BUTTON  ------------------------*/}
             {returnInputAndSendMessageSection()}
