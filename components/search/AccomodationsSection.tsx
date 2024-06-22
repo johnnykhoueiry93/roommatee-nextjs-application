@@ -69,7 +69,7 @@ const AccomodationsSection = ({selectedCardDetails}) => {
 
     return (
       <>
-        <SectionHeading title='Accomodation Includes'/>
+        <SectionHeading title='Accomodation Includes' paddingTop="0"/>
         {/* An array that's going to loop across all the acoomodations dynamically
 and create them on 2 columns and spread them evenly
 only when the included is true

@@ -9,7 +9,6 @@ import CircularProgress from "@mui/material/CircularProgress";
 import FirebaseChats from '../FirebaseChats'
 import React from "react";
 import StaticFrontendLabel from "../../StaticFrontend";
-// import { logFrontendActivityToBackend } from '../frontendUtils/apiUtils'
 
 import "../../styles/SendMessage.css";
 import {
@@ -24,8 +23,8 @@ import {
 //@ts-ignore
 const SendMessage = ({ selectedCardDetails, targetUserId, cardId, topicUrl }) => {
   //@ts-ignore
-  const { isMobile, userInfo } = SiteData();
-  const { app, firestore, useChats, firebaseConfig } = FirebaseChats({ userId: userInfo?.id });
+  const { isMobile, isTablet, userInfo } = SiteData();
+  const { app, firestore, useChats, firebaseConfig } = FirebaseChats({ userId: userInfo.id });
   const chatId = `${userInfo.id}-${targetUserId}-${cardId}`;
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);
@@ -122,14 +121,18 @@ const SendMessage = ({ selectedCardDetails, targetUserId, cardId, topicUrl }) =>
           { merge: true }
         );
 
-        await logInitialMessageSent();
+        // await logInitialMessageSent();
 
         setMessage("");
       } catch (error) {
         console.error("Error sending message:", error);
       } finally {
         setLoading(false);
-        navigateToPage("/chats");
+        if(isMobile || isTablet) {
+          navigateToPage("/m-chat-select");
+        } else {
+          navigateToPage("/chats");
+        }
       }
     }
   };

@@ -23,7 +23,6 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import {  } from "react-router-dom";
 import { Button } from "@mui/material";
 import { Avatar } from "@mui/material";
-// import BackendAxios from "../../backend/BackendAxios";
 import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -220,8 +219,8 @@ const ConversationPanel = () => {
         <div style={{ display: "flex" }}>
           {displayBackButtonForMobile()}
           <Avatar src={messageAvatarUrl} />
-          <h5 className="ml-2 pt-1"> {fullNameOfOpposingChat}</h5>
-          <div className="ml-auto">{returnVerticalDotsButton()}</div>
+          <h5 className="pt-2" style={{ marginLeft: "10px" }}> {fullNameOfOpposingChat}</h5>
+          <div style={{ marginLeft: "auto" }}>{returnVerticalDotsButton()}</div>
         </div>
   
         {returnTopicDisplay()}

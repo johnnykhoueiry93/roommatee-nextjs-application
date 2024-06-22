@@ -707,8 +707,8 @@ const RoommateCardDetails = ({roommateId}) => {
           >
             <SendMessage
               selectedCardDetails={selectedCardDetails}
-              targetUserId={selectedCardDetails.roommateId}
-              cardId={selectedCardDetails.roommateId}
+              targetUserId={selectedCardDetails.id}
+              cardId={selectedCardDetails.id}
               topicUrl={window.location.href}
             />
           </div>
@@ -912,7 +912,7 @@ const RoommateCardDetails = ({roommateId}) => {
       <>
         {/* -------------------------------- ABOUT ME --------------------------------*/}
 
-        <SectionHeading title="About Me" />
+        <SectionHeading title="About Me" paddingTop="5"/>
         {/* <hr /> */}
         <div style={{ fontWeight: "bold" }}>
           <div>{returnAgeField()}</div>
@@ -930,7 +930,7 @@ const RoommateCardDetails = ({roommateId}) => {
   function returnIdealHome() {
     return (
       <>
-      <SectionHeading title="MY IDEAL HOME" />
+      <SectionHeading title="MY IDEAL HOME" paddingTop="3"/>
         {/* <hr /> */}
         <div style={{ fontWeight: "bold" }}>
           <div>{returnHousingPreference()}</div>

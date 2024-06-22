@@ -1,8 +1,13 @@
 //@ts-ignore
-const SectionHeading = ({ title }) => {
+/**
+ * 
+ * @param param0 
+ * @returns 
+ */
+const SectionHeading = ({ title, paddingTop }) => {
     return (
         <div>
-            <h3 className='pt-3 '>{title}</h3>
+            <h3 className={`pt-${paddingTop}`}>{title}</h3>
         </div>
     )
 }

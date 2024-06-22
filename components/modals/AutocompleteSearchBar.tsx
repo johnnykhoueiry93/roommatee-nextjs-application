@@ -1,5 +1,6 @@
 "use client";
-import React from "react";
+
+import React, { useRef } from "react";
 import Autocomplete from "react-google-autocomplete";
 import { SiteData } from "../../context/SiteWrapper";
 import EastIcon from "@mui/icons-material/East";
@@ -29,6 +30,8 @@ const AutocompleteSearchBar = ({ searchRouter, nextPage, profileType }) => {
   const [isFieldFilled, setIsFieldFilled] = useState(false);
   const AUTOCOMPLETE_SEARCH_MAX_LENGTH = StaticFrontendLabel.AUTOCOMPLETE_SEARCH_MAX_LENGTH;
   
+  const searchInputRef = useRef(null);
+
   const router = useRouter();
   const navigateToPage = (path) => {
     router.push(path);
@@ -123,27 +126,27 @@ const AutocompleteSearchBar = ({ searchRouter, nextPage, profileType }) => {
 
   };
 
-    //@ts-ignore
     const handleKeyPress = (event) => {
       if (event.key === "Enter") {
         // Prevent the default form submission
         event.preventDefault();
-    
-        // Update the search value with the current input
-        const value = event.target.value;
-          //@ts-ignore
+
         setSearchValue((prevSearchValue) => ({
           ...prevSearchValue,
-          rawAddressValue: value,
+          rawAddressValue: event.target.value,
           locationResolved: 0,
           zip: '',
           city: '',
           state: '',
           country: '',
-          address: value,
+          address: event.target.value,
           street: ''
         }));
     
+        setIsFieldFilled(!!event.target.value.trim());
+
+        console.log("searchValue : " , searchValue );
+
         // Call handleSearch after updating the search value
         handleSearch(event);
       }
@@ -291,7 +294,7 @@ const customAutocompleteItemStyle = {
 
         {/* ------------------------- Arrow Clickable button ->  -------------------------*/}
         <button className="search-btn" type="submit" onClick={handleSearch} >
-          <EastIcon style={arrowIconStyle} />
+          <EastIcon style={arrowIconStyle}/>
         </button>
       </div>
   );

@@ -7,16 +7,14 @@
   overflow-y: scroll;
   padding-left: 20px;
   padding-right: 20px;
-  /* Set the width of the scrollbar */
   scrollbar-width: thin;
-  /* Set the color of the scrollbar thumb */
-  scrollbar-color: rgb(207, 196, 196) transparent;
+  /* scrollbar-color: rgb(207, 196, 196) transparent; */
+  scrollbar-color: rgb(20, 18, 18) transparent;
 }
 
 /* For Webkit browsers (e.g., Chrome, Safari) */
 .inner-container-size-properties::-webkit-scrollbar {
   width: 3px;
-  /* Set the width of the scrollbar */
 }
 
 .inner-container-size-properties::-webkit-scrollbar-thumb {
@@ -25,9 +23,7 @@
 
 .input-message-container {  
   width: 95%;
-  /* Makes the input and button centered */
   margin: auto; 
-  /* Makes the input and button on the same line */
   display: flex;
 }
 
@@ -36,7 +32,6 @@
 }
 
 .message-container {
-  /* Common styles for both left and right alignment */
   margin-bottom: 10px;
 }
 
@@ -77,9 +72,9 @@
   .conversation-container {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    /* margin-bottom: 20px; */
+    /* border-top-right-radius: 15px; */
+    /* border-bottom-right-radius: 15px; */
   }
   
   /* CSS for content inside container */

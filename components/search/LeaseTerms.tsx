@@ -22,7 +22,7 @@ const LeaseTerms = ({ selectedCardDetails }) => {
 
   return (
     <div >
-      <SectionHeading title='Lease Term'/>
+      <SectionHeading title='Lease Term' paddingTop="0"/>
       <CalendarMonthIcon  style={iconStyle}/> {selectedCardDetails.leaseDurationInMonth} month
       </div>
   );
