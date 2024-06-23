@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
-import ListingType from "../Listings/ListingType";
+// import ListingType from "../Listings/ListingType";
 import React from "react";
 import '../../styles/Modal.css'
 
@@ -20,7 +20,7 @@ function SelectListingType(props) {
       </Modal.Header> */}
       <Modal.Body>
 
-        <ListingType/>
+        {/* <ListingType/> */}
 
       </Modal.Body>
       {/* <Modal.Footer>

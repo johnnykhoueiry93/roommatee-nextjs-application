@@ -1,5 +1,5 @@
 import "../../styles/ListingType.css";
-import { SiteData } from "../SiteWrapper";
+import { SiteData } from "../../context/SiteWrapper";
 
 //@ts-ignore
 const ListingBox = ({ onClickFunction, image, imageAlt, labelText, height, width }) => {

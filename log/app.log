@@ -6095,3 +6095,56 @@
 [2024-06-22 18:51:00] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 1024 directly with querytype: roommate
 [2024-06-22 18:51:00] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
 [2024-06-22 18:51:00] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 1024 found
+[2024-06-22 19:52:48] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-22 20:36:54] - [info] - Request to logout
+[2024-06-22 20:36:54] - [info] - Request to logout
+[2024-06-22 20:37:06] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 20:37:06] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 20:37:07] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 20:37:09] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTEwMzAyOSwiZXhwIjoxNzE5MTA2NjI5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.NC_KtUIhu73T7GVxzImxZEo-TILJaC9FehGLxsNhzgXCMfAmG70rUSH0bH9s6cm_NRZVFd5EiHi8hINKo17Ve5djbGkWYv-7iaRgu3oClA4tk_abS9qe7ec76tEkm90_XuJPExsJifjVKqZR0_1qc3jdrCQGHdB5QDHrEXSRmy6OOogaVi9_jYejlyHdgXViWDJaxjDZ02o3aIL2iz39Dl6t2FuEATtZ_cSjezrQW7F0FISe0pHkyXlXknTcT5uf4r91O6xUObltAiYzAzxt2e-Hjqsmw1GaKRnf0Ou3mczc75D0UODGxMKPaU2xuQ-0F6tKe4P8g8VarCoUVZ-8BQ
+[2024-06-22 20:37:13] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 20:37:13] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 20:37:30] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-22 20:37:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 20:37:34] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 20:37:34] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 20:37:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: , Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 20:37:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-22 20:37:53] - [info] - [/api/searchListings] - Room listings results returned: 22
+[2024-06-22 20:37:57] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend: staten, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-22 20:37:57] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') 
+      ;
+[2024-06-22 20:37:57] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-22 20:55:00] - [info] - Request to logout
+[2024-06-22 20:55:00] - [info] - Request to logout
+[2024-06-22 21:02:24] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-22 21:02:24] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-22 21:02:24] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-22 21:02:26] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTEwNDU0NiwiZXhwIjoxNzE5MTA4MTQ2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.pIuIePEarZLBrmAFShdRuDVIpbG-h6uQZIYEEZoj-TZjwA5rMs1mhih2rnv6wJOvq1XpTmBgEFwWPur9CTfIQLCprmQTt1hfueia4-sJssbvCNyZF0ncNsi5vPp0F1wQ7QHDqI9Kof31cvfkxPCzEM9TfgYYa57yhzBAQOwWDI2kFw4hHLYqePF5QL3O_dgvb6PR4K4Z2vWjfDQLVD4PEdRtWoYjtf2aJXIj9bVz7pPf6hwP-gSAP1GQHZLGuPSPKWfXPERzjFwyl_zBxtnFwE9qQv-qH-GyLhqB5gk-Fh4CmXmZfK4-rqvmmKS80_b3bJgH60a5fJciUYTkqtQxnA
+[2024-06-22 21:02:30] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-22 21:02:30] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-22 21:02:37] - [info] - Request to logout
+[2024-06-22 21:02:37] - [info] - Request to logout
+[2024-06-23 13:29:03] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-23 13:29:03] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-23 13:29:03] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-23 13:29:05] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTE2Mzc0NSwiZXhwIjoxNzE5MTY3MzQ1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.kotLfnLk2xZG8wALAYpefBLL1M2pEOJ415Zr7Jk9SMMXt3W3lDLv99piaLP3125f53-oRMLtopB1JgzPeMEWHMCXf0egldbD3g1UpPn86xQxOaHgQ0gG4tMqUCUqrLTzDHG6zNhDQrOu13VfSb5sF_AX5KG3rraY3uo33c70NHH8CN5Tny3TRgu6Op_VXxFMs2IxUFGV0bMIcCPHuL2oB0ayetgcP9f-0ckYa1H0P4bvvgN_zGO-DVakT8MgI4XNWGOHb1AOxhnSE64sDpGkDkMeiXQSz_lMOgY_VCUM_v9UmVvFNGkvJBk5gn_3fpQfORMaoqvWyj5RD4Wwe-tnOQ
+[2024-06-23 13:29:11] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-23 13:29:12] - [info] - [/api/getUserListings] - Room listings results returned: 15

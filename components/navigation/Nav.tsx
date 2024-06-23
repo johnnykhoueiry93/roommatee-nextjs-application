@@ -158,7 +158,7 @@ const navigateToChangePasswordPage = () => {
       // resetSearchValue();
 
       // Sign out the user using NextAuth
-      await signOut({ redirect: false }); // Set redirect to false to prevent automatic redirection
+      // await signOut({ redirect: false }); // Set redirect to false to prevent automatic redirection
 
       // // Remove the session cookie manually
       // destroyCookie(null, "next-auth.session-token", {

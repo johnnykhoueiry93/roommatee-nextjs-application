@@ -96,6 +96,33 @@ const ConversationPanel = () => {
     }
   };
 
+  const [navBar, setNavBar] = useState(null);
+  const [screenHeight, setScreenHeight] = useState(0);
+
+  useEffect(() => {
+    // This code runs only on the client side
+    if (typeof document !== 'undefined') {
+      const navBarElement = document.getElementById('topNavBarId');
+      setNavBar(navBarElement);
+    }
+     // This code runs only on the client side
+     const updateScreenHeight = () => {
+      setScreenHeight(window.innerHeight);
+    };
+
+    // Set the initial height
+    updateScreenHeight();
+
+    // Add a resize event listener to update the height on window resize
+    window.addEventListener('resize', updateScreenHeight);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateScreenHeight);
+    };
+    
+  }, []);
+
   function getOppositonUserId() {
     let idValueToReturn;
 
@@ -405,9 +432,11 @@ const ConversationPanel = () => {
     )
   }
 
+
+
   function calculateScreenHeightWithoutTopNavBar() {
-    const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
-    const screenHeight = window.innerHeight;
+    // const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
+    // const screenHeight = window.innerHeight;
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight ;
     // console.log('Returning screen height without the top nav bar: ' + containerHeight);
@@ -415,7 +444,7 @@ const ConversationPanel = () => {
     return containerHeight;
   }
   
-  const containerHeight = calculateScreenHeightWithoutTopNavBar();
+  // const containerHeight = calculateScreenHeightWithoutTopNavBar();
 
   return (
     <div className="conversation-container" >

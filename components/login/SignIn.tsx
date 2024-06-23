@@ -16,7 +16,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from 'next/navigation';
-import { signIn } from 'next-auth/react'
+// import { signIn } from 'next-auth/react'
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import Snackbar, { SnackbarOrigin } from "@mui/material/Snackbar";
 
@@ -202,21 +202,23 @@ const navigateToPage = (path) => {
         console.log("Sending WS /api/login request from frontend to backend");
 
 
-        const result = await signIn('credentials', {
-          redirect: false, // Prevents automatic redirection
-          emailAddress,
-          password,
-        })
+        // const result = await signIn('credentials', {
+        //   redirect: false, // Prevents automatic redirection
+        //   emailAddress,
+        //   password,
+        // })
     
         setLoading(false)
     
-        if (result?.error) {
-          console.log(result.error);
-          setLoginStatus("Incorrect email or password.");
-          setUserAuth(false);
-        } else {
+        // if (result?.error) {
+        //   console.log(result.error);
+        //   setLoginStatus("Incorrect email or password.");
+        //   setUserAuth(false);
+        // } else {
+
+
           // Handle successful login (e.g., redirect to a dashboard)
-          console.log('Login successful:', result)
+          // console.log('Login successful:', result)
           const response = await fetch('/api/login', {
             method: 'POST',
             headers: {
@@ -232,7 +234,7 @@ const navigateToPage = (path) => {
             handleUserLogin(user, firebaseToken);
 
       // setLoginStatus(result.firstName);
-        }
+        // }
 
         // 
 

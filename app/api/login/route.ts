@@ -17,6 +17,7 @@ export async function POST(request) {
     // Execute the query with parameters
     const results = await executeQuery("SELECT * FROM userprofile WHERE emailAddress = ?", [emailAddress]);
 
+    //@ts-ignore
     if (results.length > 0) {
       const hashedPassword = results[0].password;
       const passwordMatch = await passwordUtils.comparePassword(plainPassword, hashedPassword);

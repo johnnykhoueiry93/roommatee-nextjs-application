@@ -80,7 +80,7 @@ const LookingToLiveWhere = ({ nextStep, prevStep }) => {
   const [cityInput, setCityInput] = useState(""); // State to store current input value
   const [maxCitiesReached, setMaxCitiesReached] = useState(false); 
   const [maxCitiesReachedMessage, setMaxCitiesReachedMessage] = useState(''); 
-  const SETUP_PROFILE_MAX_ALLOWED_CITIES = welcomeProfileSetupStep.userHasAPlace == 1 ? '1' : StaticFrontendLabel.SETUP_PROFILE_MAX_ALLOWED_CITIES;
+  const SETUP_PROFILE_MAX_ALLOWED_CITIES = welcomeProfileSetupStep.userHasAPlace == 1 ? 1 : 3;
   const COMPONENT_TITLE = welcomeProfileSetupStep.userHasAPlace == 1 ? 'Where do you live?' : 'Where are you looking to live?';
   const COMPONENT_SUB_HEADING = welcomeProfileSetupStep.userHasAPlace == 1 ? 'This will help potential roommmates find you' : 'Add one or more cities you\'re interested in';
   const GOOGLE_MAP_API_KEY = StaticFrontendLabel.GOOGLE_MAP_API_KEY;

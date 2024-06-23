@@ -73,11 +73,37 @@ const SearchResults = () => {
   const endIndex = startIndex + itemsPerPage;
   const paginatedResults = sortedSearchResults.slice(startIndex, endIndex);
 
+  let navBar;
+  let searchFilterResult;
+  useEffect(() => {
+    navBar = document.getElementById('topNavBarId');
+    searchFilterResult = document.getElementById('searchFilterResultsId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
+
+  }, []); // The empty dependency array ensures this runs once on mount
+
+  const [screenHeight, setScreenHeight] = useState(0);
+  useEffect(() => {
+    // This code runs only on the client side
+    const updateScreenHeight = () => {
+      setScreenHeight(window.innerHeight);
+    };
+
+    // Set the initial height
+    updateScreenHeight();
+
+    // Add a resize event listener to update the height on window resize
+    window.addEventListener('resize', updateScreenHeight);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateScreenHeight);
+    };
+  }, []);
 
   function calculateScreenSizeWithoutTopNavBar() {
-    const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
-    const searchFilterResult = document.getElementById('searchFilterResultsId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
-    const screenHeight = window.innerHeight;
+    // const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
+    // const searchFilterResult = document.getElementById('searchFilterResultsId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
+    // const screenHeight = window.innerHeight;
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     const searchFilterResultHeight = searchFilterResult ? searchFilterResult.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight - searchFilterResultHeight - 100;
@@ -88,15 +114,15 @@ const SearchResults = () => {
   const mapHeight = calculateScreenSizeWithoutTopNavBar() -20;
 
 
-  function calculateContainerHeight() {
-    const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
-    const screenHeight = window.innerHeight;
-    const navBarHeight = navBar ? navBar.offsetHeight : 0;
-    let containerHeight = screenHeight - navBarHeight;
-    // console.log('Returning chat screen height: ' + containerHeight);
+  // function calculateContainerHeight() {
+  //   // const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
+  //   const screenHeight = window.innerHeight;
+  //   const navBarHeight = navBar ? navBar.offsetHeight : 0;
+  //   let containerHeight = screenHeight - navBarHeight;
+  //   // console.log('Returning chat screen height: ' + containerHeight);
 
-    return containerHeight;
-  }
+  //   return containerHeight;
+  // }
 
 
   return (

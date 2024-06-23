@@ -11,7 +11,6 @@ import dayjs from "dayjs";
 import Autocomplete from "react-google-autocomplete";
 import { useRouter } from 'next/navigation';
 import StaticFrontendLabel from "../../StaticFrontend";
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import BackToResultsBtn from "../modals/BackToResultsBtn";
 import '../../styles/Signup.css'
 import {
@@ -65,6 +64,12 @@ const EditRoomListing = () => {
     // @ts-ignore
     (roomListing) => roomListing.id.toString() == editListingId
   );
+
+  // Add a condition to handle null or undefined roomListing
+if (!roomListing) {
+  // Return a default value or handle the null case here
+  return <p>No listing found.</p>;
+}
 
   console.log('listing: ' , listing);
   console.log('The value for editListingId: ' , editListingId);
@@ -121,46 +126,46 @@ const EditRoomListing = () => {
   };
 
 
-  const [isWheelChairAccessibleChecked, setWheelChairAccessibleChecked] = useState(Boolean(roomListing.wheelChairAccessibility));
-  const [isPrivateParkingAvailableChecked, setPrivateParkingAvailableChecked] = useState(Boolean(roomListing.privateParking));
-  const [isPublicParkingAvailableChecked, setPublicParkingAvailableChecked] = useState(roomListing.publicParking);
-  const [isPetFriendlyChecked, setPetFriendlyChecked] = useState( Boolean(roomListing.petFriendly));
-  const [isPrivateBathroomChecked, setPrivateBathroomChecked] = useState(roomListing.privateBathroom);
-  const [isWasherChecked, setWasherChecked] = useState(roomListing.washer);
-  const [isDryerChecked, setDryerChecked] = useState(roomListing.dryer);
-  const [isRefrigeratorChecked, setRefrigeratorChecked] = useState(roomListing.refrigerator);
-  const [isDishWasherChecked, setDishWasherChecked] = useState(roomListing.dishWasher);
-  const [isInternetConnectionChecked, setInternetConnectionChecked] = useState(roomListing.internetConnection);
-  const [isMicorwaveChecked, setMicorwaveChecked] = useState(roomListing.microwave);
-  const [isSmokingChecked, setSmokingAllowed] = useState(roomListing.smokingAllowed);
-  const [isFurnishedChecked, setFurnishedChecked] = useState(roomListing.furnished);
-  const [isTelevisionChecked, setTelevisionChecked] = useState(roomListing.television);
-  const [isAirConditionningChecked, setAirConditionningChecked] = useState(roomListing.airConditionning);
-  const [isHeatingChecked, setHeatingChecked] = useState(roomListing.heating);
-  const [isFireplaceChecked, setFireplaceChecked] = useState(roomListing.fireplace);
-  const [isSmokeAlarmChecked, setSmokeAlarmChecked] = useState(roomListing.smokeAlarm);
-  const [isDishesChecked, setDishesChecked] = useState(roomListing.dishes);
-  const [isToasterChecked, setToasterChecked] = useState(roomListing.toaster);
-  const [isCoffeeMakerChecked, setCoffeeMakerChecked] = useState(roomListing.coffeeMaker);
-  const [genderPreference, setGenderPreference] = useState(roomListing.genderPreference);
-  const [agePreference, setAgePreference] = useState(roomListing.agePreference);
-  const [minAge, setMinAge] = useState(roomListing.minAge);
-  const [maxAge, setMaxAge] = useState(roomListing.maxAge);
-  const [address, setAddress] = useState(roomListing.address);
-  const [city, setCity] = useState(roomListing.city);
-  const [state, setState] = useState(roomListing.state);
-  const [country, setCountry] = useState(roomListing.country);
-  const [zip, setZip] = useState(roomListing.zip);
-  const [floor, setFloor] = useState(roomListing.floor);
-  const [description, setDescription] = useState(roomListing.description);
-  const [listingType, setListingType] = useState(roomListing.listingType);
-  const [bedSize, setBedSize] = useState(roomListing.bedSize);
-  const [longitude, setLongitude] = useState(roomListing.longitude);
-  const [latitude, setLatitude] = useState(roomListing.latitude);
-  const [price, setPrice] = useState(roomListing.price);
-  const [moveInDate, setMoveInDate] = useState(roomListing.moveInDate.split("T")[0]);
-  const [leaseDurationInMonth, setLeaseDurationInMonth] = useState(roomListing.leaseDurationInMonth);
-  const [userProfileId, setUserProfileId] = useState(roomListing.userProfileId);
+  const [isWheelChairAccessibleChecked, setWheelChairAccessibleChecked] = useState(Boolean(roomListing?.wheelChairAccessibility));
+  const [isPrivateParkingAvailableChecked, setPrivateParkingAvailableChecked] = useState(Boolean(roomListing?.privateParking));
+  const [isPublicParkingAvailableChecked, setPublicParkingAvailableChecked] = useState(roomListing?.publicParking);
+  const [isPetFriendlyChecked, setPetFriendlyChecked] = useState( Boolean(roomListing?.petFriendly));
+  const [isPrivateBathroomChecked, setPrivateBathroomChecked] = useState(roomListing?.privateBathroom);
+  const [isWasherChecked, setWasherChecked] = useState(roomListing?.washer);
+  const [isDryerChecked, setDryerChecked] = useState(roomListing?.dryer);
+  const [isRefrigeratorChecked, setRefrigeratorChecked] = useState(roomListing?.refrigerator);
+  const [isDishWasherChecked, setDishWasherChecked] = useState(roomListing?.dishWasher);
+  const [isInternetConnectionChecked, setInternetConnectionChecked] = useState(roomListing?.internetConnection);
+  const [isMicorwaveChecked, setMicorwaveChecked] = useState(roomListing?.microwave);
+  const [isSmokingChecked, setSmokingAllowed] = useState(roomListing?.smokingAllowed);
+  const [isFurnishedChecked, setFurnishedChecked] = useState(roomListing?.furnished);
+  const [isTelevisionChecked, setTelevisionChecked] = useState(roomListing?.television);
+  const [isAirConditionningChecked, setAirConditionningChecked] = useState(roomListing?.airConditionning);
+  const [isHeatingChecked, setHeatingChecked] = useState(roomListing?.heating);
+  const [isFireplaceChecked, setFireplaceChecked] = useState(roomListing?.fireplace);
+  const [isSmokeAlarmChecked, setSmokeAlarmChecked] = useState(roomListing?.smokeAlarm);
+  const [isDishesChecked, setDishesChecked] = useState(roomListing?.dishes);
+  const [isToasterChecked, setToasterChecked] = useState(roomListing?.toaster);
+  const [isCoffeeMakerChecked, setCoffeeMakerChecked] = useState(roomListing?.coffeeMaker);
+  const [genderPreference, setGenderPreference] = useState(roomListing?.genderPreference || '');
+  const [agePreference, setAgePreference] = useState(roomListing?.agePreference || '');
+  const [minAge, setMinAge] = useState(roomListing?.minAge || '');
+  const [maxAge, setMaxAge] = useState(roomListing?.maxAge || '');
+  const [address, setAddress] = useState(roomListing?.address || '');
+  const [city, setCity] = useState(roomListing?.city || '');
+  const [state, setState] = useState(roomListing?.state || '');
+  const [country, setCountry] = useState(roomListing?.country || '');
+  const [zip, setZip] = useState(roomListing?.zip || '');
+  const [floor, setFloor] = useState(roomListing?.floor || '');
+  const [description, setDescription] = useState(roomListing?.description || '');
+  const [listingType, setListingType] = useState(roomListing?.listingType || '');
+  const [bedSize, setBedSize] = useState(roomListing?.bedSize || '');
+  const [longitude, setLongitude] = useState(roomListing?.longitude || '');
+  const [latitude, setLatitude] = useState(roomListing?.latitude || '');
+  const [price, setPrice] = useState(roomListing?.price || '');
+  const [moveInDate, setMoveInDate] = useState(roomListing?.moveInDate.split("T")[0] || '');
+  const [leaseDurationInMonth, setLeaseDurationInMonth] = useState(roomListing?.leaseDurationInMonth || '');
+  const [userProfileId, setUserProfileId] = useState(roomListing?.userProfileId || '');
 
   const [roomListingData, setRoomListingData] = useState({
     id: editListingId,
@@ -207,7 +212,7 @@ const EditRoomListing = () => {
     description: description,
   });
 
-  const [selectedAddress, setSelectedAddress] = useState(roomListing.address || "");
+  const [selectedAddress, setSelectedAddress] = useState(roomListing?.address || "");
 
   // @ts-ignore
   const handleCheckboxChange = (checkboxNumber) => {

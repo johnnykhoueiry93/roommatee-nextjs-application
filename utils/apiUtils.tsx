@@ -19,7 +19,6 @@ export async function logFrontendActivityToBackend(message, userInfo) {
         throw error;
       }
       
-      console.log('Insertion successful:', response.data);
     } catch (error) {
       console.error('Error in logFrontendActivityToBackend:', error);
       // Handle error response

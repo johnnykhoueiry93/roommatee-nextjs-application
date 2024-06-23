@@ -1,13 +1,10 @@
 "use client";
 
-import { useCollectionData } from "react-firebase-hooks/firestore";
 import { Avatar } from "@mui/material";
-import { getFirestore, collection } from "firebase/firestore";
-import { useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import ChatSelectionPanelRow from "./ChatSelectionPanelRow";
 import "../../styles/ChatSelectionPanel.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import FirebaseChats from '../FirebaseChats'
 import React from "react";
@@ -19,7 +16,9 @@ const ChatSelectionPanel = () => {
   if(!userInfo) {
     return (<div>Loading .....</div>)
   }
-  
+
+  const [navBar, setNavBar] = useState(null);
+  const [headerAvatarSearchSectionDivId, setHeaderAvatarSearchSectionDivId] = useState(null);
   const { useChats } = FirebaseChats({ userId: userInfo.id });
   const [searchValue, setSearchValue] = useState("");
   const [activeConversation, setActiveConversation] = useState("");
@@ -67,9 +66,38 @@ const ChatSelectionPanel = () => {
    * live from top to bottom
    * The logic works by calculating the height of the screen size - the nav bar
    */
+   const [screenHeight, setScreenHeight] = useState(0);
+
+   useEffect(() => {
+    // This code runs only on the client side
+    if (typeof document !== 'undefined') {
+      const navBarElement = document.getElementById('topNavBarId');
+      const headerAvatarElement = document.getElementById('headerAvatarSearchSectionDivId');
+      setNavBar(navBarElement);
+      setHeaderAvatarSearchSectionDivId(headerAvatarElement);
+    }
+
+     // This code runs only on the client side
+     const updateScreenHeight = () => {
+      setScreenHeight(window.innerHeight);
+    };
+
+    // Set the initial height
+    updateScreenHeight();
+
+    // Add a resize event listener to update the height on window resize
+    window.addEventListener('resize', updateScreenHeight);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', updateScreenHeight);
+    };
+
+  }, []);
+
   function calculateContainerHeight() {
-    const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
-    const screenHeight = window.innerHeight;
+    // const navBar = document.getElementById('topNavBarId'); // Replace 'yourNavBarId' with the actual ID of your navigation bar
+    // const screenHeight = window.innerHeight;
     const navBarHeight = navBar ? navBar.offsetHeight : 0;
     let containerHeight = screenHeight - navBarHeight;
     // console.log('Returning chat screen height: ' + containerHeight);
@@ -78,7 +106,7 @@ const ChatSelectionPanel = () => {
   }
 
   function calculateContainerHeightFunc2() {
-    const headerAvatarSearchSectionDivId = document.getElementById('headerAvatarSearchSectionDivId');
+    // const headerAvatarSearchSectionDivId = document.getElementById('headerAvatarSearchSectionDivId');
     let containerHeight = calculateContainerHeight();
     const tempDivHeight = headerAvatarSearchSectionDivId ? headerAvatarSearchSectionDivId.offsetHeight : 0;
     let chatSelectionDiv = containerHeight - tempDivHeight - 30;

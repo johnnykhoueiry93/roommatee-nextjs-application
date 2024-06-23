@@ -19,16 +19,6 @@ export default async function Login() {
   const emailAddress = "johnny.kh@hotmail.com";
   const password = "password123";
 
-  // const data = await fetchUserData(emailAddress, password);
-  // const data = await fetchUserData(emailAddress);
-
-// if(!data) {
-//   return (
-//     <div>Loading...</div>
-//   )
-// }
-
-// const session = await getSession();
   return (
     <div>
       <SignIn />
