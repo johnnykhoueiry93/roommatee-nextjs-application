@@ -73,7 +73,7 @@ export async function POST(request) {
 
     const { rawAddressValue, locationResolved, zip, city, state, country, address, street } = searchValue;
 
-    logger.info(`[${emailAddress}] - [/api/searchListings] - Backend received input from frontend: ${rawAddressValue}, Max Price: ${maxPriceFilter}, Min Price: ${minPriceFilter}, Move In Date: ${moveInDate}, Filters: ${booleanFilters}`);
+    logger.info(`[${emailAddress}] - [/api/searchListings] - Backend received input from frontend value: >${rawAddressValue}<, Max Price: ${maxPriceFilter}, Min Price: ${minPriceFilter}, Move In Date: ${moveInDate}, Filters: ${booleanFilters}`);
 
 
     let conditions = [];

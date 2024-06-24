@@ -35,9 +35,6 @@ const TenantCardDetails = ({ tenantId }) => {
     // @ts-ignore
     const { isMobile, searchResults, userAuth, userInfo, setLatitude, setLongitude, setMapAddress } = SiteData();
 
-    if(!userInfo) {
-      return (<div>Loading userInfo</div>)
-    }
     
     const router = useRouter();
 
@@ -143,23 +140,6 @@ const TenantCardDetails = ({ tenantId }) => {
       } catch (error) {
         console.error("Error:", error);
       }
-
-      // try {
-      //   const response = await BackendAxios.post("/searchTenantById", {
-      //     requestedData: id,
-      //   });
-      //   const fetchedCard = response.data[0];
-      //   setSelectedCardDetails(fetchedCard);
-      //   setLatitude(fetchedCard.latitude);
-      //   setLongitude(fetchedCard.longitude);
-      //   setMapAddress(fetchedCard.address);
-      //   getAvatar(fetchedCard);
-
-      // } catch (error) {
-      //   console.error("Error fetching search details:", error);
-      // }
-
-
     };
 
     fetchData();
@@ -182,6 +162,11 @@ const TenantCardDetails = ({ tenantId }) => {
     } catch (error) {
       console.error("Error:", error);
     }
+  }
+
+  
+  if(!userInfo) {
+    return (<div>Loading userInfo</div>)
   }
 
 if (!selectedCardDetails) {
@@ -217,22 +202,6 @@ if (!selectedCardDetails) {
     marginRight: "8px",
     color: "var(--roomatee-theme-color)",
   }
-
-  // // this useEffect will get the recipient's picture on load once
-  // useEffect(() => {
-  //   const key = `${selectedCardDetails.id}-profile-picture.png?folder=profile-picture`;
-
-  //   BackendAxios.post(`/getS3PictureUrl/${key}`)
-  //     .then((response) => {
-  //       console.log(
-  //         "Setting the user profile picture to URL: " + response.data.s3Url
-  //       );
-  //       setRecipientAvatarImgSource(response.data.s3Url); // Set the avatar source
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error:", error);
-  //     });
-  // }, []); // Empty dependency array to run the effect only once
 
   function returnSocialStatus() {
     let valueToReturn;

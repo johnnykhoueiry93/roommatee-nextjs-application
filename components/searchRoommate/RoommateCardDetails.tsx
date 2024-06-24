@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import { Avatar } from "@mui/material";
 // import BackendAxios from "../../backend/BackendAxios";
 import SendMessage from "../search/SendMessage";
-import {  Link } from "react-router-dom";
 import MaleIcon from "@mui/icons-material/Male";
 import FemaleIcon from "@mui/icons-material/Female";
 import TransgenderIcon from "@mui/icons-material/Transgender";
@@ -44,10 +43,6 @@ import { useParams } from 'next/navigation';
 const RoommateCardDetails = ({roommateId}) => {
   // @ts-ignore
   const { isMobile, userInfo, userAuth, searchResults, setLatitude, setLongitude, setMapAddress } = SiteData();
-
-  if(!userInfo) {
-    return (<div>Loading userInfo</div>)
-  }
 
   const router = useRouter();
 
@@ -157,21 +152,6 @@ const RoommateCardDetails = ({roommateId}) => {
         console.error("Error:", error);
       }
 
-
-
-      // try {
-      //   const response = await BackendAxios.post("/searchTenantById", {
-      //     requestedData: id,
-      //   });
-      //   const fetchedCard = response.data[0];
-      //   setSelectedCardDetails(fetchedCard);
-      //   setLatitude(fetchedCard.latitude);
-      //   setLongitude(fetchedCard.longitude);
-      //   setMapAddress(fetchedCard.address);
-      //   getAvatar(fetchedCard);
-      // } catch (error) {
-      //   console.error("Error fetching search details:", error);
-      // }
     };
 
     fetchData();
@@ -198,6 +178,9 @@ const RoommateCardDetails = ({roommateId}) => {
     }
   }
 
+  if(!userInfo) {
+    return (<div>Loading userInfo</div>)
+  }
   if (!selectedCardDetails) {
     return <div>Loading...</div>; // Add a loading indicator while data is fetched
   }

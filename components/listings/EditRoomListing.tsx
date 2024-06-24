@@ -149,8 +149,8 @@ if (!roomListing) {
   const [isCoffeeMakerChecked, setCoffeeMakerChecked] = useState(roomListing?.coffeeMaker);
   const [genderPreference, setGenderPreference] = useState(roomListing?.genderPreference || '');
   const [agePreference, setAgePreference] = useState(roomListing?.agePreference || '');
-  const [minAge, setMinAge] = useState(roomListing?.minAge || '');
-  const [maxAge, setMaxAge] = useState(roomListing?.maxAge || '');
+  const [minAge, setMinAge] = useState(roomListing?.minAge || '18');
+  const [maxAge, setMaxAge] = useState(roomListing?.maxAge || '99');
   const [address, setAddress] = useState(roomListing?.address || '');
   const [city, setCity] = useState(roomListing?.city || '');
   const [state, setState] = useState(roomListing?.state || '');
@@ -919,11 +919,6 @@ if (!roomListing) {
                       </Select>
                     </FormControl>
                   </div>
-
-
-
-
-                  
 
                   {/* This is the custom check.
                   IF the age is CUSTOM will display the Age Range and the Slider for Min and Max Age */}
