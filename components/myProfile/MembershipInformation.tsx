@@ -41,7 +41,6 @@ const MembershipInformation = () => {
 
   return (
     <div className="container membership-information-container">
-      <ProfileComponentTitle title={"Membership Information"} />
       <p>Member since: {formatDate(userInfo.registrationDate)}</p>
       <p>Last Login: {formatDateWithTimezone(userInfo.lastLoginDate)}</p>
     </div>

@@ -20,6 +20,7 @@
 .remaining-characters-style {
     font-size: 14px;
     color: grey;
+    margin-bottom: 10px;
 }
 
 .cursor-pointer {

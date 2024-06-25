@@ -1,10 +1,9 @@
 import { SiteData } from "../../context/SiteWrapper";
 import Button from "@mui/material/Button";
-// import BackendAxios from "../../backend/BackendAxios";
 import { useState, useEffect } from "react";
-import StaticFrontendLabel from "../../StaticFrontend";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import SocialMediaInput from "./SocialMediaInput";
+import { encryptData } from '../../utils/encryptionUtils';
 
 const SocialMediaLink = () => {
   //@ts-ignore
@@ -62,6 +61,21 @@ const SocialMediaLink = () => {
       }
   }, [welcomeProfileSetupStep]); // Dependency array containing the state you want to track
 
+        //@ts-ignore
+        function showSuccessSnackBarAlert(message) {
+          setSnackbarMessage(message);
+          setSnackbarSeverity("success");
+          setSnackbarOpen(true);
+          setIsAnyValueChanged(false);
+        }
+    
+    //@ts-ignore
+    function showFailureSnackBarAlert(message) {
+      setSnackbarMessage(message);
+      setSnackbarSeverity("error");
+      setSnackbarOpen(true);
+    }
+
   const updateProfileSetup = async () => {
     if(!isAnyValueChanged) {
       setSnackbarMessage("You haven't made any changes yet");
@@ -81,23 +95,22 @@ const SocialMediaLink = () => {
     instagram: prependSocialMediaUrl(welcomeProfileSetupStep.instagram, 'instagram'),
   };
 
-    // try {
-    //   let emailAddress = userInfo.emailAddress;
-    //   const response = await BackendAxios.post("/updateSocialMediaLinks", {
-    //     welcomeProfileSetupStep: updatedSocialMediaLinks,
-    //     emailAddress,
-    //   });
-    //   console.log("Insertion successful:", response.data);
-    //   setSnackbarMessage("Success! Social media links updated.");
-    //   setSnackbarSeverity("success");
-    //   setSnackbarOpen(true);
-    //   setIsAnyValueChanged(false);
-    // } catch (error) {
-    //   console.error("Error inserting profile setup info:", error);
-    //   setSnackbarMessage("Failed to update social media links.");
-    //   setSnackbarSeverity("error");
-    //   setSnackbarOpen(true);
-    // }
+  try {
+    let emailAddress = userInfo.emailAddress;
+    const response =  await fetch("/api/insertProfileSetupInfo", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
+      cache: 'no-store' // Ensures the data is fetched on every request
+    });
+    showSuccessSnackBarAlert('Basic account information updated successfully!');
+    setIsAnyValueChanged(false);
+  } catch (error) {
+    console.error("Error inserting profile setup info:", error);
+    showFailureSnackBarAlert(`Failed ${error}`);
+  }
 
     updateCurrentUserInfo();
 
@@ -110,15 +123,22 @@ const SocialMediaLink = () => {
      // Function to update a subset of userInfo 
     //@ts-ignore
     const updateUserInfoSubset = (updatedSubset) => {
-      setUserInfo([
-        {
-          ...userInfo, // Copy existing userInfo
-          ...updatedSubset, // Update the specified subset
-        },
-        ...userInfo.slice(1), // Keep other elements unchanged
-      ]);
+      console.log("Updating user info subset with:", updatedSubset);
+  
+      setUserInfo((prevUserInfo) => ({
+        ...prevUserInfo,
+        ...updatedSubset,
+      }));
+  
+      console.log('[DEBUG] - Printing after update userInfo: ' , userInfo);
     };
   
+    useEffect(() => {
+      console.log('[DEBUG] - Updated userInfo afer change detection:', userInfo);
+      setUserInfo(userInfo);
+      localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
+    }, [userInfo]);
+
     /**
      * This function is very important.
      * 1- Why do I need it? Because when the update happens, if the user refreshes the page they need their updated info to persist

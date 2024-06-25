@@ -1,4 +1,4 @@
-// /api/resetPassword
+// /api/api/resetPassword
 
 import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database"; // Adjust the import path based on your project structure
@@ -29,29 +29,32 @@ export async function POST(request) {
     const results = await executeQuery("SELECT * FROM userprofile WHERE emailAddress = ?", [emailAddressToReset]);
 
     if(results.length > 0 ) {
-        logger.info(`[${emailAddressToReset}] - [/resetPassword] - The email address: ${emailAddressToReset} requested to reset was found.`);
+        logger.info(`[${emailAddressToReset}] - [/api/resetPassword] - The email address: ${emailAddressToReset} requested to reset was found.`);
         const user = results[0];
         const { firstName, lastName } = user;
         const profileStatus = "PASSWORD RESET";
 
         const newTempPassword = generateTempPassword(8);
-        logger.info(`[${emailAddressToReset}] - [/resetPassword] - newTempPassword : >` + newTempPassword +'<')
+        logger.info(`[${emailAddressToReset}] - [/api/resetPassword] - newTempPassword : >` + newTempPassword +'<')
 
+        // send the reset email instructions
         emailModule.sendEmailResetPassword(emailAddressToReset, newTempPassword, firstName, lastName);
-        const encryptedNewTempPassword = await passwordUtils.hashPassword(newTempPassword);
-        logger.info(`[${emailAddressToReset}] - [/resetPassword] - encryptedNewTempPassword : >` + encryptedNewTempPassword +'<')
 
-        const resetPasswordResults = await executeQuery("UPDATE userprofile SET password = ?, profileStatus = ? WHERE emailAddress = ?", [newTempPassword, profileStatus, emailAddressToReset]);
+        const encryptedNewTempPassword = await passwordUtils.hashPassword(newTempPassword);
+        logger.info(`[${emailAddressToReset}] - [/api/resetPassword] - encryptedNewTempPassword : >` + encryptedNewTempPassword +'<')
+
+        const resetPasswordResults = await executeQuery("UPDATE userprofile SET password = ?, profileStatus = ? WHERE emailAddress = ?", [encryptedNewTempPassword, profileStatus, emailAddressToReset]);
+        
         if(resetPasswordResults.affectedRows > 0) {
-            logger.info(`[${emailAddressToReset}] - [/resetPassword] - Password updated successfully in the database`);
+            logger.info(`[${emailAddressToReset}] - [/api/resetPassword] - Password updated successfully in the database`);
             return NextResponse.json({ message: "Email found." }, { status: 200 });
         } else {
-            logger.error(`[${emailAddressToReset}] - [/resetPassword] - Error updating password in the database:`);
+            logger.error(`[${emailAddressToReset}] - [/api/resetPassword] - Error updating password in the database:`);
         }
         
     
     } else {
-        logger.info(`[${emailAddressToReset}] - [/resetPassword] - The requested email address does not exist in the database. System will do nothing.`);
+        logger.info(`[${emailAddressToReset}] - [/api/resetPassword] - The requested email address does not exist in the database. System will do nothing.`);
         return NextResponse.json({ message: 'This email does not exist' }, { status: 401 });
     }
 

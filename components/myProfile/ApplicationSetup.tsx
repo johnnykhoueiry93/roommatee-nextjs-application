@@ -1,9 +1,10 @@
 import "../../styles/myProfile/EditAccountInformation.css";
-import "../../styles/myProfile/ApplicationSetup.css";
+import "../../styles/userProfileWorkflow/Welcome.css";
 import { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import Button from "@mui/material/Button";
 // import BackendAxios from "../../backend/BackendAxios";
+import { encryptData } from '../../utils/encryptionUtils';
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -31,7 +32,7 @@ import {
 //@ts-ignore
 const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialStatusInitiallyIsStudentOrEmployee}) => {
   //@ts-ignore
-  const { userInfo, setUserInfo, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity } = SiteData();
+  const { userInfo, setUserInfo, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, showFailureSnackBarAlert, snackbarSeverity, setSnackbarSeverity } = SiteData();
 
   if(!userInfo) {
     return <div>Loading userinfo in Profile Picture...</div>
@@ -113,13 +114,14 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
     // Function to update a subset of userInfo 
     //@ts-ignore
     const updateUserInfoSubset = (updatedSubset) => {
-      setUserInfo([
-        {
-          ...userInfo, // Copy existing userInfo
-          ...updatedSubset, // Update the specified subset
-        },
-        ...userInfo.slice(1), // Keep other elements unchanged
-      ]);
+      console.log("Updating user info subset with:", updatedSubset);
+  
+      setUserInfo((prevUserInfo) => ({
+        ...prevUserInfo,
+        ...updatedSubset,
+      }));
+  
+      console.log('[DEBUG] - Printing after update userInfo: ' , userInfo);
     };
 
     /**
@@ -228,6 +230,12 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
     console.log('full object value value: ' , welcomeProfileSetupStep);
   };
   
+  useEffect(() => {
+    console.log('[DEBUG] - Updated userInfo afer change detection:', userInfo);
+    setUserInfo(userInfo);
+    localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
+  }, [userInfo]);
+
   //@ts-ignore
   const removeLeadingComma = (str) => {
     const updatedStr = str.replace(/^, /, ""); // Remove leading comma and space
@@ -240,6 +248,7 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
 
     if(!isAnyValueChanged) {
       setSnackbarMessage("You haven't made any changes yet");
+      console.log('Showing alert message');
       setSnackbarSeverity("error");
       setSnackbarOpen(true);
       return
@@ -256,12 +265,29 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
       }
     }
 
-    console.log('isPlaceUpdated is: ' , isPlaceUpdated);
-
-
     if(isPlaceUpdated) {
       updateCitiesLookingToLiveIn(welcomeProfileSetupStep.citiesLookingToLiveIn);
     }
+
+    try {
+      let emailAddress = userInfo.emailAddress;
+      const response =  await fetch("/api/insertProfileSetupInfo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
+        cache: 'no-store' // Ensures the data is fetched on every request
+      });
+      setSnackbarMessage("Success! Application setup updated.");
+      setIsAnyValueChanged(false);
+    } catch (error) {
+      console.error("Error inserting profile setup info:", error);
+      showFailureSnackBarAlert(`Failed ${error}`);
+      setSnackbarMessage("Failed to update application setup.");
+    }
+
+    updateCurrentUserInfo();
 
     // try {
     //   let emailAddress = userInfo.emailAddress;
@@ -983,7 +1009,7 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
     //@ts-ignore
     function handleDateFormat(dateValue) {
       //@ts-ignore
-    const formattedDate = new Date(dateValue).toISOString().split('T');
+    const formattedDate = new Date(dateValue).toISOString().split('T')[0];
     return formattedDate;
   }
 
@@ -1027,9 +1053,6 @@ function returnMoveInDate() {
     return null; // Return null if isLookingForRoommate is not 1
   }
 }
-
-
-
 
   return (
     <div className="container edit-account-information-container">

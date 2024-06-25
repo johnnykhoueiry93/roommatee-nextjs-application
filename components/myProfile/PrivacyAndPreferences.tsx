@@ -2,7 +2,7 @@ import "../../styles/myProfile/EditAccountInformation.css";
 import { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import Button from "@mui/material/Button";
-// import BackendAxios from "../../backend/BackendAxios";
+import { encryptData } from '../../utils/encryptionUtils';
 //@ts-ignore
 import IphoneSwitch from "../modals/iphoneSwitch";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
@@ -56,14 +56,21 @@ const PrivacyAndPreferences = () => {
     // Function to update a subset of userInfo 
     //@ts-ignore
     const updateUserInfoSubset = (updatedSubset) => {
-      setUserInfo([
-        {
-          ...userInfo, // Copy existing userInfo
-          ...updatedSubset, // Update the specified subset
-        },
-        ...userInfo.slice(1), // Keep other elements unchanged
-      ]);
+      console.log("Updating user info subset with:", updatedSubset);
+  
+      setUserInfo((prevUserInfo) => ({
+        ...prevUserInfo,
+        ...updatedSubset,
+      }));
+  
+      console.log('[DEBUG] - Printing after update userInfo: ' , userInfo);
     };
+
+    useEffect(() => {
+      console.log('[DEBUG] - Updated userInfo afer change detection:', userInfo);
+      setUserInfo(userInfo);
+      localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
+    }, [userInfo]);
   
     /**
      * This function is very important.
@@ -111,18 +118,22 @@ const PrivacyAndPreferences = () => {
       return
     }
     
-    // try {
-    //   let emailAddress = userInfo.emailAddress;
-    //   const response = await BackendAxios.post("/insertProfileSetupInfo", {
-    //     welcomeProfileSetupStep,
-    //     emailAddress,
-    //   });
-    //   console.log("Insertion successful:", response.data);
-    //   showSuccessSnackBarAlert('Privacy and preferences updated successfully!')
-    // } catch (error) {
-    //   showFailureSnackBarAlert('Privacy and preferences failed to update!');
-    //   console.error("Error inserting profile setup info:", error);
-    // }
+    try {
+      let emailAddress = userInfo.emailAddress;
+      const response =  await fetch("/api/insertProfileSetupInfo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
+        cache: 'no-store' // Ensures the data is fetched on every request
+      });
+      showSuccessSnackBarAlert('Basic account information updated successfully!');
+      setIsAnyValueChanged(false);
+    } catch (error) {
+      console.error("Error inserting profile setup info:", error);
+      showFailureSnackBarAlert(`Failed ${error}`);
+    }
 
     updateCurrentUserInfo();
 

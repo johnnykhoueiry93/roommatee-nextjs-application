@@ -46,7 +46,7 @@ export async function POST(request) {
         moveInDate,
       } = welcomeProfileSetupStep;
 
-      logger.info("Pringint the fill welcomeProfileSetupStep: " , welcomeProfileSetupStep);
+      console.log("Pringint the fill welcomeProfileSetupStep: " , welcomeProfileSetupStep);
 
       // Convert typeOfPlace to a comma-separated string if it's an array
       const typeOfPlaceStr = Array.isArray(typeOfPlace) ? typeOfPlace.join(',') : typeOfPlace;

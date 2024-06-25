@@ -44,11 +44,11 @@ function sendEmailResetPassword(emailAddress, newTempPassword, firstName, lastNa
 
   //@ts-ignore
   apiInstance.sendTransacEmail(sendSmtpEmail).then(function(data) {
-    logger.info(`[${emailAddress}] - Reset email was sent successfully`);
+    logger.info(`[${emailAddress}] - [/api/resetPassword] - Reset email was sent successfully`);
 
     //@ts-ignore
   }, function(error) {
-    logger.error(`[${emailAddress}] - Reset email failed to send. Root Cause: ` + error);;
+    logger.error(`[${emailAddress}] - [/api/resetPassword] - Reset email failed to send. Root Cause: ` + error);;
   });
 }
 

@@ -6,6 +6,7 @@ import { Provider } from 'jotai';
 import Nav from "../components/navigation/Nav.tsx";
 import LabelBottomNavigation from "../components/navigation/LabelBottomNavigation.tsx";
 import BootstrapClient from "../components/BootstrapClient.js";
+
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Create Next App",

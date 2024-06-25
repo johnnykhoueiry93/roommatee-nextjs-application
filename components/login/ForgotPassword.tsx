@@ -56,12 +56,12 @@ const ForgotPassword = () => {
     //   return data;
 
     if (response.status === 200) {
-        window.alert('changed!'); //TODO add success snack bar
+        // window.alert('changed!'); //TODO add success snack bar
         console.log(`User with email: ${emailAddressToReset} was found. Redirecting user to  /resetInstructions`);
         navigateToPage('/resetInstructions');
         setErrorMessage('');
       } else {
-        window.alert('nayyik!') //TODO add success snack bar
+        // window.alert('nayyik!') //TODO add success snack bar
         navigateToPage('/resetInstructions');
         console.log(`User with email: ${emailAddressToReset} was not found. Showing error message`);
       }

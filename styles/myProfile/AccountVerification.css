@@ -2,8 +2,9 @@
     /* Add your desired border style */
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
     /* Add your desired box shadow style */
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 25px;
     display: flex;
     background-color: white;
 }

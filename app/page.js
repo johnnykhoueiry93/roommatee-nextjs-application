@@ -1,4 +1,6 @@
 import ListingType from "../components/home/ListingType";
+import '../styles/myProfile/AccountVerification.css';
+import '../styles/userProfileWorkflow/Welcome.css';
 
 export default function Home() {
 
