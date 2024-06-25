@@ -111,3 +111,34 @@ export const isUserAdmin = (userInfo) => {
       console.error("Error:", error);
     }
   }
+
+
+
+  export async function setMysqlDatabaseFlagTrue(emailAddress, table, column, value) {
+    const requestedData = {
+      emailAddress: emailAddress,
+      table: table,
+      column: column,
+      value: value
+    };
+
+    try {
+      const response = await fetch('/api/setMysqlDatabaseFlagTrue', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ requestedData }),
+      });
+  
+      if (!response.ok) {
+        throw new Error('Query failed');
+      }
+  
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.error('Column updat failed:', error);
+      throw error;
+    }
+  }

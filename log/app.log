@@ -6156,3 +6156,142 @@
                 WHERE u.emailAddress != 'Visitor' 
                 AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
 [2024-06-23 21:15:28] - [info] - [/api/searchProfile] - Room listings results returned: 23
+[2024-06-24 17:22:58] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-24 17:22:58] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-24 17:22:59] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-24 17:23:00] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTI2NDE4MCwiZXhwIjoxNzE5MjY3NzgwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.hVfi61fatSr7c6Ey5Nn-iBoHXj-BlbXBIpOcNyug46mEvWK3JiHBshQKitXsnEHccXl6MBhLgNYN6V8BMub_fGAcVZS_etsNndIy3tB3rOXrV9L0lRiogkSU3J8rzZfUiCmvYMsl8okiHzRvd-OypZBJXKGoDwjWfG4Z6c1vs_NxYfsRZxIEqFY_-nEJVT1Y7f2Vj6UxXBP23GmaEokxw4mlHYLzrytYR2ZoCVDpkvG_QfGy7371AsmyQ6QCQhHuxWtccCsBGwxyDh7Rb4-2ARBPGcHnbeetcg_YM7Y0e1zkCIymle22SLPZR3AQF5eAJc7ldh7tTpXrxwnE6o3lJw
+[2024-06-24 17:23:04] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-24 17:23:05] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-24 18:02:11] - [info] - Request to logout
+[2024-06-24 18:02:11] - [info] - Request to logout
+[2024-06-24 18:03:22] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-24 18:03:22] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-24 18:03:22] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-24 18:03:22] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTI2NjYwMiwiZXhwIjoxNzE5MjcwMjAyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.jRR7bjLts8QeaVlmkarCaNCoCyoyXKZo6shcvCiXU5lVgt-GtvxzaK74H0uPCK3ZLpQ8JBv2CFae3zQs387HTw1kuk11MOLpGR15VlgRGV0fQMWFWJPkWAoynu9OrrDWzPboK_1fYbd3YdeQyC9BALVjlNzvxyeoz5ZtO3YOLww6uvr7EfwrTMS0Bk-_oQNhajSNBYO_7esbTupWB-SUEilq0o6-ffb9Ela0nFzqSKoXU3ikgXTCKo5jvsl9txpJw8-O9tsB7OUpV5fftzz2UD5hGpfWGBy5jWnbE-3LdyOVFDpOs1UnnWfdmorFm8EYOVzwBDLzqe7Gtbm8s4OWnQ
+[2024-06-24 18:03:29] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-24 18:05:10] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user started the Profile Setup workflow
+[2024-06-24 18:06:29] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:06:33] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user completed the Setup Profile workflow
+[2024-06-24 18:06:36] - [info] - [johnny.kh@hotmail.com] - [/api/insertProfileSetupInfo] - The user is completing their profile
+[2024-06-24 18:06:36] - [info] - Pringint the fill welcomeProfileSetupStep: 
+[2024-06-24 18:06:36] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - SQL Query: UPDATE userprofile SET dob=?, age=?, budget=?, citiesLookingToLiveIn=?, isLookingForRoommate=?, gender=?, userHasAPlace=?, typeOfPlace=?, minAge=?, maxAge=?, socialStatus=?, isSmoker=?, hasPet=?, cleanlinessLevel=?, bio=?, languages=?, hasKids=?, preferredFurnishedPlace=?, preferredLeaseTerm=?, phoneNumber=?, roommateCount=?, moveInDate=?, isProfileComplete=? WHERE emailAddress=?
+[2024-06-24 18:06:36] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Update Values: 06/13/1991, 33, 1600, Boston, MA, 1, Male, 1, House, 18, 30, Military, 0, 0, Normal, 121212, English, 1, 1, 6, +1 857 829 1233, 2, 2024-06-26, 1, johnny.kh@hotmail.com
+[2024-06-24 18:06:36] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.
+[2024-06-24 18:07:09] - [info] - Request to logout
+[2024-06-24 18:07:09] - [info] - Request to logout
+[2024-06-24 18:07:22] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-24 18:07:22] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-24 18:07:23] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-24 18:07:23] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTI2Njg0MywiZXhwIjoxNzE5MjcwNDQzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.QSZ3kLQ3h_ysCtSUBYAvmfTjz240wIKwkErfm3qWJDGiZP2kRwgo-r84wQA8_oEb_P2yBbADydVDFShL6d9xKBypTNpJvPHr48NPHs-S1i7Ox_D7UM1g3HcfJaVg6KLDA7DI1e0o1-60cEEN2r269RxFB0_oS_Ul44_BZM5xfW4cSdMMZYUocy-gAP8YlIsWWh-j2quk28-JyCI9D-m51lAZ5uBCh2_upgToiEzOcvpuq-5lscOkRXJGSYjf1oRZgWKm8IgJrvmea8v8kTk_peJjBSVx3xk6_hoFV4PojuVuwtjIMS2kBU14E0l3uQL0KOH_hhB0V3ZXVTmjMisVRw
+[2024-06-24 18:07:24] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-24 18:07:25] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-24 18:07:30] - [info] - Request to logout
+[2024-06-24 18:07:30] - [info] - Request to logout
+[2024-06-24 18:19:56] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-24 18:19:56] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-24 18:19:56] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-24 18:19:56] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTI2NzU5NiwiZXhwIjoxNzE5MjcxMTk2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.P50xfYeBGPt7QKH010Hdmn6xSxesFKM83lXIqH-OciAhmie6jm16OCPtro8Aoe8jgy7Pv_72c4mhYXnEyw7ojRM8Cw8E5LvCLa05LhxyxWBlzE4InFMkNXzBYdDNY3n2aL5pjalzImtE3GbgXT7Gz-5K-GdSWE_fqjXjF9QTFygBh2KnZhkW8p5Oip-GDt17ntUA6CoZEDt9GFLX93zXTE2yds6sw6ZlchF16VE1DigyOXUzJ9IwFffgXTvq--fRPSbYqNL7tFZK2qK3yqZ4I36qppO--CbENi5UpIsQNDHX5w6V2TFlLUId2lfA_VR7vJVNgsmrB2-tbHhSyqh3rw
+[2024-06-24 18:19:58] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-24 18:19:59] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-24 18:29:49] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:31:26] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:31:28] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:31:40] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:31:41] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:31:56] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:31:56] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:32:23] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:32:24] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:32:39] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:32:40] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:32:50] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:32:50] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:33:24] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:33:25] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:35:09] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:35:11] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:39:30] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:39:33] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:41:35] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:41:39] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:47:47] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:47:50] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:48:01] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:48:02] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:50:30] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:50:32] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:51:32] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:51:34] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 18:53:31] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 18:53:33] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:02:00] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:02:02] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:02:07] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:02:08] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:02:16] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:02:19] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:03:37] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:03:41] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:03:56] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:03:58] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:05:55] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:05:57] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:06:21] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:06:21] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:06:44] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:06:45] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:09:10] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:09:15] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:09:22] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:09:23] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:09:31] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:09:32] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:32:48] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:32:52] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 19:37:06] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 19:37:17] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 19:43:52] - [error] - [executeQuery] - Error executing MySQL query: Table 'roomzeydb.documentType' doesn't exist
+[2024-06-24 19:43:52] - [error] - [userprofile] - [/api/setMysqlDatabaseFlagTrue] - Error while updating column: Passport was updated to: undefined: Table 'roomzeydb.documentType' doesn't exist
+[2024-06-24 19:55:07] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: documentType was updated to: Driver's License
+[2024-06-24 19:55:11] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: documentType was updated to: Passport
+[2024-06-24 19:57:14] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 19:57:19] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 20:04:45] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:04:46] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = NULL WHERE emailAddress = 'userprofile'' at line 1
+[2024-06-24 20:04:46] - [error] - [userprofile] - [/api/setMysqlDatabaseFlagTrue] - Error while updating column: 1 was updated to: undefined: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = NULL WHERE emailAddress = 'userprofile'' at line 1
+[2024-06-24 20:05:26] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:05:27] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = NULL WHERE emailAddress = 'userprofile'' at line 1
+[2024-06-24 20:05:27] - [error] - [userprofile] - [/api/setMysqlDatabaseFlagTrue] - Error while updating column: 1 was updated to: undefined: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = NULL WHERE emailAddress = 'userprofile'' at line 1
+[2024-06-24 20:08:41] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:08:41] - [error] - [executeQuery] - Error executing MySQL query: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = NULL WHERE emailAddress = 'userprofile'' at line 1
+[2024-06-24 20:08:41] - [error] - [userprofile] - [/api/setMysqlDatabaseFlagTrue] - Error while updating column: 1 was updated to: undefined: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 = NULL WHERE emailAddress = 'userprofile'' at line 1
+[2024-06-24 20:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:15:31] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:15:46] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:15:46] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 20:20:36] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:20:38] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:26:24] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:26:29] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:41:37] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:41:39] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:46:44] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:46:46] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 20:46:46] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 20:48:29] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:48:30] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 20:48:41] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:48:42] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:48:42] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 20:49:22] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:49:23] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:49:32] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:49:34] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 20:49:34] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 20:50:25] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 20:50:26] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 20:50:34] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 20:50:36] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 20:50:36] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 20:51:38] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-24 20:51:39] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1

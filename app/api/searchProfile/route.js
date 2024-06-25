@@ -37,7 +37,7 @@ export async function POST(request) {
     // Parse JSON body from the request
     const requestedData = await request.json();
 
-    console.log('requestedData: ' , requestedData);
+    // console.log('[DEBUG] requestedData: ' , requestedData);
 
     const { profileType, searchValue, userInfo, tenantFilters, profileLimit, homePageRequest } = requestedData;
 
@@ -54,7 +54,9 @@ export async function POST(request) {
     
     if (profileType == 'tenant') {
       profileBasedConfition='userHasAPlace = 0';
-      query = `SELECT * FROM userprofile WHERE emailAddress != '${emailAddress}' AND ${profileBasedConfition}`;
+      query = `SELECT * 
+               FROM userprofile 
+               WHERE emailAddress != '${emailAddress}' AND ${profileBasedConfition}`;
 
     } else if (profileType == 'roommate') {
       profileBasedConfition='u.isLookingForRoommate = 1';

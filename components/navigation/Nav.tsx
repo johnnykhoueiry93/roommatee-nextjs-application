@@ -18,6 +18,7 @@ import NavigationItem from "./NavigationItem";
 import { useRouter } from 'next/navigation';
 import { signOut } from 'next-auth/react'
 import { destroyCookie } from 'nookies' // Import destroyCookie from nookies for cookie removal
+import { getProfilePictureAndStoreInStorage } from '../../utils/utilities'
 
 const Nav = () => {
     //@ts-ignore
@@ -60,6 +61,10 @@ const navigateToPage = (path) => {
 //   }
 // }, [userInfo, userProfilePicture, userAuth]);
 
+useEffect(() => {
+  console.log('Nav detected change in the profile picture. Loading new profile picture');
+  getProfilePictureAndStoreInStorage(userAuth.id, 'userProfilePicture');
+}, [userProfilePicture])
 
 const handleLogoClick = () => {
     console.log("The user clicked on the logo");
@@ -222,7 +227,7 @@ const navigateToChangePasswordPage = () => {
             label="My Profile"
             activeTab={activeTab}
             handleTabClick={handleTabClick}
-            path="/myProfile"
+            path="/profile"
             setSearchClick={setSearchClick}
           >
             My Profile

@@ -9,7 +9,6 @@ import { Avatar } from "@mui/material";
 import { useState } from "react";
 import { Button } from "@mui/material";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
-import Snackbar, { SnackbarOrigin } from "@mui/material/Snackbar";
 
 //@ts-ignore
 const UploadProfilePicture = ({ nextStep, prevStep }) => {

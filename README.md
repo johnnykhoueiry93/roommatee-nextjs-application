@@ -85,11 +85,15 @@ API Key is in the .env file under src/backend
 /createUserProfile
 /uploadMultiple
 /search
+/searchProfile
+/searchListingById
+/searchTenantById
+/logInitialMessageSent
+/setMysqlDatabaseFlagTrue
 
 # Webserivces Pening Migration
 /getUsers
 /posts
-/setMysqlDatabaseFlagTrue
 /createTicket
 /sendTicketReply
 /reportUserChat
@@ -99,7 +103,3 @@ API Key is in the .env file under src/backend
 /insertProfileSetupInfo
 /getUserCounts
 /getUserProfileCounts
-/logInitialMessageSent
-/searchProfile
-/searchListingById
-/searchTenantById
