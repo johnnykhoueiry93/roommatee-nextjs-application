@@ -5,10 +5,9 @@ import FormControl from "@mui/material/FormControl";
 import { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import Button from "@mui/material/Button";
-// import BackendAxios from "../../backend/BackendAxios";
-//@ts-ignore
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import { MuiTelInput } from 'mui-tel-input'
+import { encryptData } from '../../utils/encryptionUtils';
 
 const BasicAccountInformation = () => {
   //@ts-ignore
@@ -47,13 +46,14 @@ const BasicAccountInformation = () => {
         // Function to update a subset of userInfo? 
     //@ts-ignore
     const updateUserInfoSubset = (updatedSubset) => {
-      setUserInfo([
-        {
-          ...userInfo, // Copy existing userInfo?
-          ...updatedSubset, // Update the specified subset
-        },
-        ...userInfo.slice(1), // Keep other elements unchanged
-      ]);
+      console.log("Updating user info subset with:", updatedSubset);
+  
+      setUserInfo((prevUserInfo) => ({
+        ...prevUserInfo,
+        ...updatedSubset,
+      }));
+  
+      console.log('[DEBUG] - Printing after update userInfo: ' , userInfo);
     };
 
         /**
@@ -63,12 +63,18 @@ const BasicAccountInformation = () => {
      * So before this function, the user needs to logout and then log in to view their changes, this one makes it dynamic by updating the exisitng
      * userInfo? locally and if the user refreshes / logs out and back in they have the latest info
      */
-         const updateCurrentUserInfo = () => {
-          const updatedSubset = {
-            phoneNumber: welcomeProfileSetupStep.phoneNumber,
-          };
-          updateUserInfoSubset(updatedSubset);
-        };
+      const updateCurrentUserInfo = () => {
+      const updatedSubset = {
+        phoneNumber: welcomeProfileSetupStep.phoneNumber,
+      };
+      updateUserInfoSubset(updatedSubset);
+    };
+
+    useEffect(() => {
+      console.log('[DEBUG] - Updated userInfo afer change detection:', userInfo);
+      setUserInfo(userInfo);
+      localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
+    }, [userInfo]);
 
     const updateProfileSetup = async () => {
       console.log(
@@ -82,18 +88,22 @@ const BasicAccountInformation = () => {
         return
       }
 
-      // try {
-      //   let emailAddress = userInfo?.emailAddress;
-      //   const response = await BackendAxios.post("/insertProfileSetupInfo", {
-      //     welcomeProfileSetupStep,
-      //     emailAddress,
-      //   });
-      //   console.log("Insertion successful:", response.data);
-      //   showSuccessSnackBarAlert('Basic account information updated successfully!');
-      // } catch (error) {
-      //   showFailureSnackBarAlert('Basic account information failed to update');
-      //   console.error("Error inserting profile setup info:", error);
-      // }
+      try {
+        let emailAddress = userInfo.emailAddress;
+        const response =  await fetch("/api/insertProfileSetupInfo", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
+          cache: 'no-store' // Ensures the data is fetched on every request
+        });
+        showSuccessSnackBarAlert('Basic account information updated successfully!');
+  
+      } catch (error) {
+        console.error("Error inserting profile setup info:", error);
+        showFailureSnackBarAlert(`Failed ${error}`);
+      }
   
       updateCurrentUserInfo();
   
@@ -111,25 +121,25 @@ const BasicAccountInformation = () => {
         setIsAnyValueChanged(false);
       }
   
-      //@ts-ignore
-      function showFailureSnackBarAlert(message) {
-        setSnackbarMessage(message);
-        setSnackbarSeverity("error");
-        setSnackbarOpen(true);
-      }
+  //@ts-ignore
+  function showFailureSnackBarAlert(message) {
+    setSnackbarMessage(message);
+    setSnackbarSeverity("error");
+    setSnackbarOpen(true);
+  }
 
-      useEffect(() => {
-        // Compare the current state with the initial state
-         const hasValueChanged = phoneNumber !== userInfo?.phoneNumber ;
-    
-          if (hasValueChanged) {
-            setIsAnyValueChanged(true);
-            // Values have changed, you can do something here
-            console.log('Values have changed:', welcomeProfileSetupStep);
-          } else {
-            setIsAnyValueChanged(false);
-          }
-      }, [phoneNumber]); // Dependency array containing the state you want to track
+  useEffect(() => {
+    // Compare the current state with the initial state
+      const hasValueChanged = phoneNumber !== userInfo?.phoneNumber ;
+
+      if (hasValueChanged) {
+        setIsAnyValueChanged(true);
+        // Values have changed, you can do something here
+        console.log('Values have changed:', welcomeProfileSetupStep);
+      } else {
+        setIsAnyValueChanged(false);
+      }
+  }, [phoneNumber]); // Dependency array containing the state you want to track
 
   return (
     <div className='container edit-account-information-container'>

@@ -6355,3 +6355,20 @@
 [2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
 [2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - Login was successful
 [2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTI3OTMwNSwiZXhwIjoxNzE5MjgyOTA1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.AVQok0jrDY8jhg5xAETXiIFsoX8kD0M8hzNUn-R_scSLhDJxjHJ3nZTMtWNk6h_4Sk12PSFmj6pZiGWExgFUrxOrdAn0cLkEILv-DiJWlC7MGg6KDR8rXNnfRJrNYjiFXxDd3skoJi8NxRCL_pga0BG10UEwMTDDagJav-c3vds4PA2k3wfSNpTMDba2TN-fIXRXyEJ1K_6R605LgnmCS52xlKwNaKpiPQotGhsTCnQparaczTXM3wXQvq3RbHqaBVw4allz6jJ7UhRM7X9QD2weNhkrgOH_GZx7NwMb1qtA1mNhAW2ts5AEq8NzgT_DVAohyhoYDBVLc3n9Z0fTog
+[2024-06-24 21:35:13] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-24 21:35:13] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-24 21:40:27] - [info] - [johnny.kh@hotmail.com] - [/api/insertProfileSetupInfo] - The user is completing their profile
+[2024-06-24 21:40:27] - [info] - Pringint the fill welcomeProfileSetupStep: 
+[2024-06-24 21:40:27] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - SQL Query: UPDATE userprofile SET minAge=?, maxAge=?, phoneNumber=?, isProfileComplete=? WHERE emailAddress=?
+[2024-06-24 21:40:27] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Update Values: 18, 30, +1 857 829 1255, 1, johnny.kh@hotmail.com
+[2024-06-24 21:40:28] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.
+[2024-06-24 21:41:03] - [info] - [johnny.kh@hotmail.com] - [/api/insertProfileSetupInfo] - The user is completing their profile
+[2024-06-24 21:41:03] - [info] - Pringint the fill welcomeProfileSetupStep: 
+[2024-06-24 21:41:03] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - SQL Query: UPDATE userprofile SET minAge=?, maxAge=?, phoneNumber=?, isProfileComplete=? WHERE emailAddress=?
+[2024-06-24 21:41:03] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Update Values: 18, 30, +1 857 829 1254, 1, johnny.kh@hotmail.com
+[2024-06-24 21:41:03] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.
+[2024-06-24 21:41:43] - [info] - [johnny.kh@hotmail.com] - [/api/insertProfileSetupInfo] - The user is completing their profile
+[2024-06-24 21:41:43] - [info] - Pringint the fill welcomeProfileSetupStep: 
+[2024-06-24 21:41:43] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - SQL Query: UPDATE userprofile SET minAge=?, maxAge=?, phoneNumber=?, isProfileComplete=? WHERE emailAddress=?
+[2024-06-24 21:41:43] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Update Values: 18, 30, +1 857 829 1259, 1, johnny.kh@hotmail.com
+[2024-06-24 21:41:43] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.

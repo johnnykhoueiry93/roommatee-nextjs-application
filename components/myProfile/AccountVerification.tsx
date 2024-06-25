@@ -14,7 +14,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import StaticFrontendLabel from "../../StaticFrontend";
 import { setMysqlDatabaseFlagTrue } from '../../utils/utilities'
-import { encryptData, decryptData } from '../../utils/encryptionUtils';
+import { encryptData } from '../../utils/encryptionUtils';
 
 const AccountVerification = () => {
   //@ts-ignore
