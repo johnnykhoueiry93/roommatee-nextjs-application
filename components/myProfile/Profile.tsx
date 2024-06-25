@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from 'react';
+import '../../styles/myProfile/Profile.css'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
@@ -24,6 +25,11 @@ import VerifiedIcon from '@mui/icons-material/Verified';
 const Profile = () => {
   //@ts-ignore
   const { isMobile, userInfo } = SiteData();
+
+  if(!userInfo) {
+    return <div>Loading userinfo in Profile.tsx...</div>
+  }
+
   const [expanded, setExpanded] = React.useState(false);
   let [socialStatusInitiallyIsStudentOrEmployee, setSocialStatusInitiallyIsStudentOrEmployee] = useState(false);
   
@@ -56,6 +62,11 @@ const Profile = () => {
     { key: 'panel6', icon: <DisplaySettingsIcon style={iconStyle}/>, title: 'Privacy and Preferences', content: <PrivacyAndPreferences /> },
     { key: 'panel7', icon: <LoyaltyIcon style={iconStyle}/>, title: 'Membership Information', content: <MembershipInformation /> },
   ];
+
+  useEffect(() => {
+    console.log('Profile component load with userInfo: ' , userInfo);
+
+  },[])
 
   return (
     <div className='container mt-3'>

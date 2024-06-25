@@ -6,6 +6,10 @@ const MembershipInformation = () => {
   //@ts-ignore
   const { userInfo } = SiteData();
 
+  if(!userInfo) {
+    return <div>Loading userinfo in Membership...</div>
+  }
+
   //@ts-ignore
   const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" };

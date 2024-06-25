@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from "react";
 import "../../styles/myProfile/AccountVerification.css";
 import InputLabel from "@mui/material/InputLabel";
@@ -5,7 +7,6 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 import { Input, Button } from "@mui/material";
-// import BackendAxios from "../../backend/BackendAxios";
 import { SiteData } from "../../context/SiteWrapper";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import SafetyCheckIcon from '@mui/icons-material/SafetyCheck';
@@ -13,6 +14,7 @@ import CancelIcon from '@mui/icons-material/Cancel';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import StaticFrontendLabel from "../../StaticFrontend";
 import { setMysqlDatabaseFlagTrue } from '../../utils/utilities'
+import { encryptData, decryptData } from '../../utils/encryptionUtils';
 
 const AccountVerification = () => {
   //@ts-ignore
@@ -110,13 +112,11 @@ const AccountVerification = () => {
     setMysqlDatabaseFlagTrue(userInfo.emailAddress, "userprofile", "documentType", event.target.value);
   };
 
-  //@ts-ignore
     const handleIdDocumentChange = (event) => {
       const file = event.target.files;
       setSelectedIdDocumentFile(file);
     };
 
-  //@ts-ignore
     const handleIdDocumentSelfieChange = (event) => {
       const file = event.target.files;
       setSelectedIdDocumentSelfieFile(file);
@@ -165,8 +165,6 @@ const AccountVerification = () => {
   
       if (response.status === 200) {
           const updatedImageUrl = `${data.imageUrl}?timestamp=${new Date().getTime()}`; // Append a timestamp to force reload
-          // setUserProfilePicture(updatedImageUrl);
-          // console.log('Returned profile picture data.imageUrl: ' + updatedImageUrl);
           showSuccessAlert('Success! Document picture updated.')
           setMysqlDatabaseFlagTrue(userInfo.emailAddress, 'userprofile', databaseColumn, '1');
           isIdDocumentSelfie ? setIdDocumentSelfieFileUploaded(true) : setIdDocumentFileUploaded(true);
@@ -330,19 +328,33 @@ const AccountVerification = () => {
   // };
 
   const updateUserInfoSubset = (updatedSubset) => {
-    setUserInfo({
-      ...userInfo, // Copy existing userInfo
-      ...updatedSubset, // Update the specified subset
-    });
+    console.log("Updating user info subset with:", updatedSubset);
+
+    setUserInfo((prevUserInfo) => ({
+      ...prevUserInfo,
+      ...updatedSubset,
+    }));
+
+    console.log('[DEBUG] - Printing after update userInfo: ' , userInfo);
   };
 
+  useEffect(() => {
+    console.log('[DEBUG] - Updated userInfo afer change detection:', userInfo);
+    setUserInfo(userInfo);
+    localStorage.setItem('userInfo', encryptData(userInfo)); // encrypted userInfo
+  }, [userInfo]);
+
+  // this function ensures if the user hits refresh we are maintaining the stats of his changes and not
+  // open up the dialogs again.
   const updateCurrentUserInfo = () => {
+    console.log('[DEBUG] - Updating current user info with verificationStatus: PENDING and idDocument: true and idDocumentSelfie: 1 and idDocument: 1');
     const updatedSubset = {
       verificationStatus: 'PENDING',
       documentType: documentType,
-      idDocument: idDocumentFileUploaded,
-      idDocumentSelfie: idDocumentSelfieFileUploaded,
+      idDocument: 1,
+      idDocumentSelfie: 1,
     };
+
     updateUserInfoSubset(updatedSubset);
   };
 

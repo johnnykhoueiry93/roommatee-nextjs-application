@@ -9,6 +9,12 @@ import SocialMediaInput from "./SocialMediaInput";
 const SocialMediaLink = () => {
   //@ts-ignore
   const { userInfo, setUserInfo, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity } = SiteData();
+
+  if(!userInfo) {
+    return <div>Loading userinfo in Profile Picture...</div>
+  }
+  
+  
   const [isAnyValueChanged, setIsAnyValueChanged] = useState(false); 
 
   const [welcomeProfileSetupStep, setWelcomeProfileSetupStep] = useState({

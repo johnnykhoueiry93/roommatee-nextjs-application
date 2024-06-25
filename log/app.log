@@ -6295,3 +6295,63 @@
 [2024-06-24 20:50:36] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
 [2024-06-24 20:51:38] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
 [2024-06-24 20:51:39] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-24 21:03:19] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:03:22] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:03:29] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:03:30] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:03:30] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:07:51] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:07:53] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:08:07] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:08:08] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:08:08] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:09:34] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:09:36] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:09:59] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:10:00] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:10:00] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:12:06] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:12:10] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:12:14] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:12:15] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:12:15] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:14:42] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:14:47] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:15:04] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:15:05] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:15:05] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:16:42] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:16:48] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:16:53] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:16:53] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:16:53] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:18:01] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:18:02] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:18:09] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:18:10] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:18:10] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:21:11] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:21:22] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:21:23] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:21:23] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:25:57] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:26:02] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:26:06] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:26:07] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:26:07] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:30:42] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:30:47] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:30:52] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:30:52] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:30:52] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:33:38] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document
+[2024-06-24 21:33:40] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocument was updated to: 1
+[2024-06-24 21:33:49] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: id-document-selfie
+[2024-06-24 21:33:50] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: idDocumentSelfie was updated to: 1
+[2024-06-24 21:33:50] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: verificationStatus was updated to: PENDING
+[2024-06-24 21:34:39] - [info] - Request to logout
+[2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-24 21:35:05] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTI3OTMwNSwiZXhwIjoxNzE5MjgyOTA1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.AVQok0jrDY8jhg5xAETXiIFsoX8kD0M8hzNUn-R_scSLhDJxjHJ3nZTMtWNk6h_4Sk12PSFmj6pZiGWExgFUrxOrdAn0cLkEILv-DiJWlC7MGg6KDR8rXNnfRJrNYjiFXxDd3skoJi8NxRCL_pga0BG10UEwMTDDagJav-c3vds4PA2k3wfSNpTMDba2TN-fIXRXyEJ1K_6R605LgnmCS52xlKwNaKpiPQotGhsTCnQparaczTXM3wXQvq3RbHqaBVw4allz6jJ7UhRM7X9QD2weNhkrgOH_GZx7NwMb1qtA1mNhAW2ts5AEq8NzgT_DVAohyhoYDBVLc3n9Z0fTog

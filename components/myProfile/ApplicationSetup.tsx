@@ -32,6 +32,12 @@ import {
 const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialStatusInitiallyIsStudentOrEmployee}) => {
   //@ts-ignore
   const { userInfo, setUserInfo, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity } = SiteData();
+
+  if(!userInfo) {
+    return <div>Loading userinfo in Profile Picture...</div>
+  }
+
+  
   const HOUSING_TYPE_LIST = StaticFrontendLabel.HOUSING_TYPE_LIST;
   const [cityInput, setCityInput] = useState(""); // State to store current input value
   let [isPlaceUpdated, setIsPlaceUpdated] = useState(false); // State to store current input value
@@ -1023,9 +1029,6 @@ function returnMoveInDate() {
 }
 
 
-if(!userInfo) {
-  return <div>Loading userinfo in Profile Picture...</div>
-}
 
 
   return (

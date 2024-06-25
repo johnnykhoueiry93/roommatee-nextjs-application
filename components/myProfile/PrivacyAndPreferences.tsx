@@ -10,6 +10,12 @@ import SnackBarAlert from "../alerts/SnackBarAlerts";
 const PrivacyAndPreferences = () => {
     //@ts-ignore
     const { userInfo, setUserInfo, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity } = SiteData();
+
+    if(!userInfo) {
+      return <div>Loading userinfo in Privacy...</div>
+    }
+    
+
     const [isAnyValueChanged, setIsAnyValueChanged] = useState(false); 
 
     const [welcomeProfileSetupStep, setWelcomeProfileSetupStep] = useState({
