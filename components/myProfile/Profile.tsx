@@ -72,7 +72,7 @@ const Profile = () => {
     <div className='container mt-3'>
       {accordionData.map(item => (
         //@ts-ignore
-        <Accordion key={item.key} expanded={expanded === item.key} onChange={handleChange(item.key)}>
+        <Accordion key={item.key} expanded={expanded === item.key} onChange={handleChange(item.key)} style={{width: '100%'}}>
           <AccordionSummary expandIcon={<ExpandMoreIcon />} aria-controls={`${item.key}bh-content`} id={`${item.key}bh-header`}>
             <Typography sx={{ width: '100%', flexShrink: 0 }}>
               {item.icon} <span style={{ fontSize: "20px", paddingLeft: "10px" }}>{item.title}</span>

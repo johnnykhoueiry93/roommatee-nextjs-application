@@ -72,7 +72,7 @@
 }
 
 
-  .container {
+  .container-answer-box {
     display: flex;
     justify-content: center; /* Center the items horizontally */
     align-items: center; /* Center the items vertically */

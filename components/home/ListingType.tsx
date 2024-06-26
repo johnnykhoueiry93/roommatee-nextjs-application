@@ -55,7 +55,7 @@ const ListingType = () => {
   };
 
   return (
-    <div className="container sliding-right-to-left">
+    <div className="container container-flex sliding-right-to-left">
       <div className="row margin-auto">
         {/* ---------------------------- BOX 1  ----------------------------*/}
         <ListingBox

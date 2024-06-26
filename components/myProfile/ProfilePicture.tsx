@@ -1,8 +1,8 @@
+import "../../styles/myProfile/ProfilePicture.css";
 import { SiteData } from "../../context/SiteWrapper";
 import { Avatar } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { Input, Button } from "@mui/material";
-import "../../styles/myProfile/ProfilePicture.css";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import StaticFrontendLabel from "../../StaticFrontend";
 import { setMysqlDatabaseFlagTrue } from '../../utils/utilities'

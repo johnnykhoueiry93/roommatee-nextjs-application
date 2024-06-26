@@ -154,7 +154,7 @@ const BasicAccountInformation = () => {
         system match you with people looking for someone like you!
       </p>
         {/* ----------------------------- FIRST NAME ----------------------------- */}
-        <div className="form-floating mb-3">
+        <div className="form-floating mb-3 max-width-size">
           <FormControl sx={{ width: "100%" }} variant="outlined">
             <InputLabel htmlFor="emailAddress">First Name</InputLabel>
             <OutlinedInput
@@ -168,7 +168,7 @@ const BasicAccountInformation = () => {
         </div>
 
         {/* ----------------------------- LAST NAME ----------------------------- */}
-        <div className="form-floating mb-3">
+        <div className="form-floating mb-3 max-width-size">
           <FormControl sx={{ width: "100%" }} variant="outlined">
             <InputLabel htmlFor="emailAddress">Last Name</InputLabel>
             <OutlinedInput
@@ -182,7 +182,7 @@ const BasicAccountInformation = () => {
         </div>
 
         {/* ----------------------------- EMAIL ADDRESS ----------------------------- */}
-        <div className="form-floating mb-3 index-back">
+        <div className="form-floating mb-3 max-width-size index-back">
           <FormControl sx={{ width: "100%" }} variant="outlined">
             <InputLabel htmlFor="emailAddress">Email Address</InputLabel>
             <OutlinedInput
@@ -196,12 +196,12 @@ const BasicAccountInformation = () => {
         </div>
 
         {/* ----------------------------- PHONE NUMBER ----------------------------- */}
-        <div className="form-floating mb-3 index-back">
+        <div className="form-floating mb-3 max-width-size index-back">
           <MuiTelInput value={phoneNumber} onChange={handlePhoneNumberChange} sx={{ '& .MuiOutlinedInput-root': { height: '55px' }, width: '100%' }} />
         </div>
 
         {/* ----------------------------- GENDER  ----------------------------- */}
-                <div className="form-floating mb-3 index-back">
+                <div className="form-floating mb-3 max-width-size index-back">
           <FormControl sx={{ width: "100%" }} variant="outlined">
             <InputLabel >Gender</InputLabel>
             <OutlinedInput
@@ -219,7 +219,7 @@ const BasicAccountInformation = () => {
         if the user already completed this step we will show the age and no longer allow him
         to update or hit the save buttom */}
 
-          <div className="form-floating mb-3">
+          <div className="form-floating mb-3 max-width-size">
             <FormControl sx={{ width: "100%" }} variant="outlined">
               <InputLabel htmlFor="emailAddress">Age</InputLabel>
               <OutlinedInput

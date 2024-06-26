@@ -6493,3 +6493,23 @@
 [2024-06-25 17:04:17] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - SQL Query: UPDATE userprofile SET emailNotificationEnabled=?, chatNotificationEnabled=?, newListingNotificationEnabled=?, showEmailAddressToPublic=?, showPhoneNumberToPublic=?, showSocialMediatoPublic=?, showGenderToPublic=?, showAgeToPublic=?, isProfileComplete=? WHERE emailAddress=?
 [2024-06-25 17:04:17] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Update Values: 1, 1, 1, 0, 0, 1, 1, false, 1, johnny.kh@hotmail.com
 [2024-06-25 17:04:17] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.
+[2024-06-25 17:37:45] - [info] - [johnny.kh@hotmail.com] - [/api/insertProfileSetupInfo] - The user is completing their profile
+[2024-06-25 17:37:45] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - SQL Query: UPDATE userprofile SET isProfileComplete=? WHERE emailAddress=?
+[2024-06-25 17:37:45] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Update Values: 1, johnny.kh@hotmail.com
+[2024-06-25 17:37:45] - [info] - [johnny.kh@hotmail.com] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.
+[2024-06-26 13:11:00] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-26 13:11:00] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-26 13:11:01] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-26 13:11:03] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQyMTg2MywiZXhwIjoxNzE5NDI1NDYzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.ZJHUFl6EAZ2QvDnwy2qpJMhWxIPhejTG-1XEq1xoyvIsZg9JmqWNpPCkIGLpIJV4Pc5upTdbsix4MRP2txxruXP5TTeGkKXGZL5UF77sl46ptbNzze2T3wBjnhSEXzZ9Wv6gUCi4R4JGTzi0XofxA1SUUezlmlfyZ6M3Qz_s5rId50vnmM-8jAbxA15Hh6MoywD0EcLWZNMfi9yiiPAAwg_WmyJ1UwfXryNrLidOatfuGO4vIPc6uY6w5uDmuQcsmMGMZj7YvTkJWvJWaw3DRKmbNTSXfzdqojlVZhBRji4PzjqtZZ8rUS4uYZHXqq3wth5cpwsXRd5xPYmEDLww1w
+[2024-06-26 13:11:05] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-26 13:11:05] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-26 14:58:08] - [info] - Request to logout
+[2024-06-26 14:58:08] - [info] - Request to logout
+[2024-06-26 14:58:22] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-26 14:58:22] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-26 14:58:23] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-26 14:58:25] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQyODMwNSwiZXhwIjoxNzE5NDMxOTA1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.MntcGS8ieVUDDs6UeSEjGFSpczDuH0MjZf9j0uemp5RRePjlNV3ymnqgsijzBcdfBzdZlGrB4mQQh-7G9dJUcYvQOuFB_KYfAQKk86O8LtVhTy7yvWSeRUKjkBy-utvyiul_wQX18hOwkxo50H1Pdz1oW59qR4dWOGs2uAAYKYBQPbEG92GBLDoVJajqPoRcvJyrdDlN2qLdz96RxSXrxe7gHqqOgqRWy4iTVJqf39b391a9v2NNxIjG8d1jKp2aX-Vmys0wq0SUtxhINhn7l8rfzn7GJQQa9J8O1KNrbOKUcOvJJzlaqq65M6-i1vnImgdA69TXD7qffU_7_KCFnA
+[2024-06-26 14:58:27] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-26 14:58:27] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-26 16:37:00] - [info] - Request to logout
+[2024-06-26 16:37:00] - [info] - Request to logout
