@@ -75,23 +75,11 @@ if (!roomListing) {
   console.log('The value for editListingId: ' , editListingId);
   console.log('roomListing : ' , roomListing);
 
-  const [isValidAddress, setIsValidAddress] = useState(false);
-  const [showNotification, setShowNotification] = useState(false);
-  const [isFormEdited, setIsFormEdited] = useState(false);
   const GOOGLE_MAP_API_KEY = StaticFrontendLabel.GOOGLE_MAP_API_KEY;
   const NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH = StaticFrontendLabel.NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH;
-  const [isFieldFilled, setIsFieldFilled] = useState(false);
-  //@ts-ignore
-  const onInputChange = (event) => {
-    const value = event.target.value;
-    setAddress(value);
-      //@ts-ignore
-     setIsFieldFilled(!!value.trim()); // Set isFieldFilled to true if value is not empty
-    
-    };
 
 
-    
+  
   //@ts-ignore
   const handleMoveInDate = (selectedDate) => {
     // Convert epoch timestamp to Date object
@@ -109,21 +97,11 @@ if (!roomListing) {
     setRoomListingData({ ...roomListingData, moveInDate: formattedDate });
   };
 
-  // this function ensure we are capture a least a single edit.
-  // if 1 or more edits happened the button will be clickable to submit
-  const handleInputChange = () => {
-    setIsFormEdited(true);
-  };
 
-  const showUpdateStatus = () => {
-    // Show the notification after the action is completed
-    setShowNotification(true);
 
-    // Hide the notification after a certain duration (e.g., 3 seconds)
-    setTimeout(() => {
-      setShowNotification(false);
-    }, 5000);
-  };
+
+
+
 
 
   const [isWheelChairAccessibleChecked, setWheelChairAccessibleChecked] = useState(Boolean(roomListing?.wheelChairAccessibility));
@@ -213,7 +191,28 @@ if (!roomListing) {
   });
 
   const [selectedAddress, setSelectedAddress] = useState(roomListing?.address || "");
+  const [isFieldFilled, setIsFieldFilled] = useState(false);
+  //@ts-ignore
+  const onInputChange = (event) => {
+    const value = event.target.value;
+    setAddress(value);
+      //@ts-ignore
+     setIsFieldFilled(!!value.trim()); // Set isFieldFilled to true if value is not empty
+    
+    };
 
+    const [showNotification, setShowNotification] = useState(false);
+
+    const showUpdateStatus = () => {
+      // Show the notification after the action is completed
+      setShowNotification(true);
+  
+      // Hide the notification after a certain duration (e.g., 3 seconds)
+      setTimeout(() => {
+        setShowNotification(false);
+      }, 5000);
+    };
+    
   // @ts-ignore
   const handleCheckboxChange = (checkboxNumber) => {
     switch (checkboxNumber) {
@@ -300,6 +299,13 @@ if (!roomListing) {
         break;
     }
   };
+  const [isFormEdited, setIsFormEdited] = useState(false);
+  // this function ensure we are capture a least a single edit.
+  // if 1 or more edits happened the button will be clickable to submit
+  const handleInputChange = () => {
+    setIsFormEdited(true);
+  };
+
   useEffect(() => {
     // Reset the form edit status when the form is submitted
     if (showNotification) {
@@ -408,6 +414,7 @@ if (!roomListing) {
     return component ? component.short_name : "";
   };
 
+  const [isValidAddress, setIsValidAddress] = useState(false);
 
   //@ts-ignore
   const onPlaceSelected = (place) => {

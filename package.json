@@ -17,6 +17,7 @@
     "@mui/x-date-pickers": "^7.6.2",
     "aws-sdk": "^2.1633.0",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "bootstrap": "^5.3.3",
     "crypto-js": "^4.2.0",
     "dayjs": "^1.11.11",

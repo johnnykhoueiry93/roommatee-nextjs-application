@@ -82,6 +82,7 @@ export const isUserAdmin = (userInfo) => {
       // setUserProfilePicture(data.s3Url);
       console.log(`[DEBUG] - [utilities.js] - setting in storage ${localStorageKey}: ` + data.s3Url);
       localStorage.setItem(localStorageKey, JSON.stringify(data.s3Url));
+      return data.s3Url;
     } catch (error) {
       console.error("Error:", error);
     }

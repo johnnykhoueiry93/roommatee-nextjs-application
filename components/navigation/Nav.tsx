@@ -61,12 +61,12 @@ const navigateToPage = (path) => {
 //   }
 // }, [userInfo, userProfilePicture, userAuth]);
 
-useEffect(() => {
-  if(userInfo) {
-    console.log('Nav detected change in the profile picture. Loading new profile picture');
-    getProfilePictureAndStoreInStorage(userInfo.id, 'userProfilePicture');
-  }
-}, [userProfilePicture])
+// useEffect(() => {
+//   if(userInfo) {
+//     console.log('Nav detected change in the profile picture. Loading new profile picture');
+//     getProfilePictureAndStoreInStorage(userInfo.id, 'userProfilePicture');
+//   }
+// }, [userProfilePicture])
 
 const handleLogoClick = () => {
     console.log("The user clicked on the logo");
@@ -113,7 +113,7 @@ const iconStyle = {
 
 const navigateToChangePasswordPage = () => {
     console.log("The user clicked on the change password button from the navigation bar");
-    // navigate("/changePassword");
+    navigateToPage("/changePassword");
   };
 
   const navigateToSupportPage = () => {
@@ -276,6 +276,18 @@ const navigateToChangePasswordPage = () => {
         }
       }
       
+      function getAlternateName() {
+        if(userAuth) {
+          return userInfo.firstName;
+        }
+      }
+
+      const handleImageError = () => {
+        // Call the function to get the profile picture and store it in storage
+        console.log('An error occured or token expired - retrying to fetch the userProfilePicture');
+        setUserProfilePicture(getProfilePictureAndStoreInStorage(userInfo.id, 'userProfilePicture'));
+      }
+
 if (userAuth) {
     return (
       <nav id="topNavBarId"
@@ -308,9 +320,9 @@ if (userAuth) {
           {/* DROP DOWN IF LOGGED IN */}
           <div className={`d-flex isMobile ? mr-2 : ml-2`}>
             <Avatar
-              alt={'test'}
-              // alt={userInfo.firstName}
+              alt={getAlternateName()}
               src={userProfilePicture}
+              // onError={handleImageError}
             />
             <div className="btn-group">
 

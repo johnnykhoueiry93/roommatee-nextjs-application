@@ -168,7 +168,7 @@ import {
       } else {
         // handleFailedVerificationCode(data.message);
         console.log(`User with email: ${signUpEmail} was not found. Showing error message`);
-      }
+    }
 
 
 
