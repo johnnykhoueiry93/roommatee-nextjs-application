@@ -169,9 +169,9 @@ const RoommateCardDetails = ({roommateId}) => {
       });
       const data = await response.json();
       
-      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      console.log("[DEBUG] - [RoommateCardDetauls.tsx] - Setting the user profile picture to URL: " + data.s3Url);
       setRecipientAvatarImgSource(data.s3Url)
-      console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+      console.log("[DEBUG] - [RoommateCardDetauls.tsx] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
       localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
     } catch (error) {
       console.error("Error:", error);

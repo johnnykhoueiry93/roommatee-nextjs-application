@@ -110,9 +110,9 @@ const navigateToPage = (path) => {
       });
       const data = await response.json();
       
-      console.log("Setting the user profile picture to URL: " + data.s3Url);
+      console.log("[DEBUG] - [SignIn.tsx] - Setting the user profile picture to URL: " + data.s3Url);
       setUserProfilePicture(data.s3Url);
-      console.log("setting in storage userProfilePicture: " + data.s3Url);
+      console.log("[DEBUG] - [SignIn.tsx] - setting in storage userProfilePicture: " + data.s3Url);
       localStorage.setItem("userProfilePicture", JSON.stringify(data.s3Url));
     } catch (error) {
       console.error("Error:", error);

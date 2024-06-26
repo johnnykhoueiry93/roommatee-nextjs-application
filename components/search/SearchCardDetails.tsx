@@ -108,9 +108,9 @@ const SearchCardDetails = ({listingId}) => {
 
           getAvatar(fetchedCard);
           
-          console.log("Setting the user profile picture to URL: " + data.s3Url);
+          console.log("[DEBUG] - [SearchCardDetails.tsx] - Setting the user profile picture to URL: " + data.s3Url);
           setHostAvatarImgSource(data.s3Url)
-          console.log("[SearcCardDetails] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
+          console.log("[DEBUG] - [SearchCardDetails.tsx] - Setting in storage hostAvatarProfilePicture: " + data.s3Url);
           localStorage.setItem("hostAvatarProfilePicture", JSON.stringify(data.s3Url));
         } catch (error) {
           console.error("Error:", error);

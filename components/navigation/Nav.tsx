@@ -62,8 +62,10 @@ const navigateToPage = (path) => {
 // }, [userInfo, userProfilePicture, userAuth]);
 
 useEffect(() => {
-  console.log('Nav detected change in the profile picture. Loading new profile picture');
-  getProfilePictureAndStoreInStorage(userAuth.id, 'userProfilePicture');
+  if(userInfo) {
+    console.log('Nav detected change in the profile picture. Loading new profile picture');
+    getProfilePictureAndStoreInStorage(userInfo.id, 'userProfilePicture');
+  }
 }, [userProfilePicture])
 
 const handleLogoClick = () => {

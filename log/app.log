@@ -6513,3 +6513,22 @@
 [2024-06-26 14:58:27] - [info] - [/api/getUserListings] - Room listings results returned: 15
 [2024-06-26 16:37:00] - [info] - Request to logout
 [2024-06-26 16:37:00] - [info] - Request to logout
+[2024-06-26 16:42:28] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-26 16:42:28] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-26 16:42:28] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-26 16:42:30] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQzNDU1MCwiZXhwIjoxNzE5NDM4MTUwLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.AvFnFfMT4XCOPUcwjEZTrk0Ftu8gKLPui4Fy7UTXme0W9LJAgJs97OjS_7Y3xXjW4TpkgpFu1NHHjNxhpvF1A2XGOCvsbVJxqbeDlocQh4B63uEwXqDmgZhEO_Ka7R5r3PvvveVR3NQMKjhdzb1qWs9UlFEjWhjP6zTRXaNwWWUTQ-AxBlrQxJsIfsh3t6oXA6JyD7ZUk_u0k82yFvB3Ry0Av7K5CI9vyRsfm3DJ4VrlappJk8ZbHHGwAhcKnJXEilEqxEtjl7gVSsj-WJdFTKNO2F2IZvX0DIevj7ZOvfosAiDoEfrIzBNx-jxtJZu3pJUBcmUbpk2Yc5j-OzYdKA
+[2024-06-26 16:42:33] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-26 16:42:33] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-26 16:47:26] - [info] - Request to logout
+[2024-06-26 16:47:51] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-26 16:47:51] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-26 16:47:52] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-26 16:47:52] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQzNDg3MiwiZXhwIjoxNzE5NDM4NDcyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.YRnmRLwNmGaf-HhCngaqm3xNyC2P7VDSNCphY1Ub3YFlwn26bnAaKeDPDqCOiMAJIbkVaAVwvn5WoOfPd1_aOYYKslGghNhL4VMm8tMoOTCuk3H_N5pDwiBKlokW20nloidh_hvGbX_aHIKK67oE7g95WUCaynzbizYSE2_w7B3H6baS-i6qdX6z_7sBd1WnkJ12wOq6djAEAbTzcSWts8LE8SJHYdQEwPaVNS9u5SIeuQmCngYtYEQZUkjk8WFDhfFftUS_mqnvig5dCFh1YSYeaIS_Bd3I7mC7Y9i4eVz7JOYus3mgjM9WXMS4yvy-LEu4-eHpv86dhjMawoYPaQ
+[2024-06-26 16:47:54] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-26 16:47:54] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-26 16:52:13] - [info] - Request to logout
+[2024-06-26 16:52:13] - [info] - Request to logout
+[2024-06-26 16:52:58] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-26 16:52:58] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-26 16:52:58] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-26 16:52:58] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQzNTE3OCwiZXhwIjoxNzE5NDM4Nzc4LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.Py3WFGKDdPSMIYtnSq0i81KT4peWsYFQlIL6rrGTkPXxCogTFqv7Athb2-33nJUrWSJOyhYQ9nVIH7SbnhbJxW2RiJ5yksJgY3jDtxOOErJQelBqsa2iIB9xw7ElqH6puFah0m6KPIROQFSq3ow3TCCSHwSXosh1Evc2tVqH9PqpvtEC20aQ2IlMd-v3cg9oXDjh0WLz_msaPKfeekqQaeImnOETVIn3NeI8wdm2CbRG4mQBMumuF05RqKhWCiPiWEjtWhGjbkbBBLZDs3VuSdlXE-niMDAeKnc1jsVIfZPHUMY2C7lobNKWGM9S6yw56VsUwhwPVXUHx550sJoLZQ
