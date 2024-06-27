@@ -3,7 +3,6 @@ import "../../styles/searchTenant/TenantCardDetails.css";
 import { SiteData } from "../../context/SiteWrapper";
 import { useEffect, useState } from "react";
 import { Avatar } from "@mui/material";
-// import BackendAxios from "../../backend/BackendAxios";
 import SendMessage from "../search/SendMessage";
 import { useParams, Link } from "react-router-dom";
 import MaleIcon from "@mui/icons-material/Male";

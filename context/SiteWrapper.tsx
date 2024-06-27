@@ -85,7 +85,7 @@ export const SiteWrapper = ({ children }) => {
   function userIsAdmin() {
     let isAdmin = false;
     // if(userInfo) {
-    //   if (userInfo[0].userType == "admin" && userAuth) {
+    //   if (userInfo.userType == "admin" && userAuth) {
     //     isAdmin = true;
     //   }
     // }
@@ -94,12 +94,26 @@ export const SiteWrapper = ({ children }) => {
   }
 
 
-  const [userInfo, setUserInfo] = useState(null);
 
+
+
+
+
+
+
+
+
+  const [userInfo, setUserInfo] = useState();
+  const [supportTickets, setSupportTickets] = useState();
+  const [openedSupportTicket, setOpenedSupportTicket] = useState();
+  const [supportTicketMessages, setSupportTicketMessages] = useState();
   useEffect(() => {
     // If the userInfo already exists meaning the user was logged in
     // and they performed a refresh then get it from the local storage
     const storedUserInfo = localStorage.getItem("userInfo");
+    const storedSupportTickets = localStorage.getItem("userSupportTickets");
+    const storedOpenedSupportTicket = localStorage.getItem("openedSupportTicket");
+    const storedSupportTicketMessages = localStorage.getItem('supportTicketMessages');
 
     console.log("SiteWrapper Getting storedUserInfo: ", storedUserInfo);
 
@@ -108,7 +122,34 @@ export const SiteWrapper = ({ children }) => {
       console.log("SiteWrapper: ", decryptedUserInfo);
       setUserInfo(decryptedUserInfo);
     }
+
+    if (storedSupportTickets) {
+      setSupportTickets(JSON.parse(storedSupportTickets));
+    }
+
+    if (storedOpenedSupportTicket) {
+      setOpenedSupportTicket(JSON.parse(storedOpenedSupportTicket));
+    }
+
+    if (storedSupportTicketMessages) {
+      setSupportTicketMessages(JSON.parse(storedSupportTicketMessages));
+    }
+
   }, []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   const [editListingId, setEditListingId] = useState(null);
   useEffect(() => {
@@ -128,7 +169,7 @@ export const SiteWrapper = ({ children }) => {
   useEffect(() => {
     const storedUserListings = localStorage.getItem('userListings');
 
-    console.log('SiteWrapper Getting storedUserListings: ', storedUserListings);
+    // console.log('SiteWrapper Getting storedUserListings: ', storedUserListings);
 
     if (storedUserListings) {
       try {
@@ -509,11 +550,11 @@ const resetAllListingSearchFilters = () => {
         roomListingData, setRoomListingData, resetRoomListingData, listingsCreated, setListingsCreated, showListingCreatedAlert, setShowListingCreatedAlert,
         latitude, setLatitude, longitude, setLongitude, mapAddress, setMapAddress, badgeFilterShow, setBadgeFilterShow, minPriceFilter, setMinPriceFilter, maxPriceFilter, 
         setMaxPriceFilter, moveInDate, setMoveInDate, countEnabledSearchFilters, setCountEnabledSearchFilters, userVerificationStatus, setUserverificationStatus, 
-        homepageRoommatesResults, setHomepageRoommatesResults, homepageRoomResults, setHomepageRoomResults,
+        homepageRoommatesResults, setHomepageRoommatesResults, homepageRoomResults, setHomepageRoomResults, supportTicketMessages, setSupportTicketMessages,
         booleanFilter, setBooleanFilter, tenantFilters, setTenantFilters, resetAllTenantSearchFilters, resetAllListingSearchFilters,
         searchFilterModalMobileTextSize, searchFilterModalLargeScreenTextSize, searchResults, setSearchResults, priceSortDirection, setPriceSortDirection,
-        listingCreatedDateSortDirection, setListingCreatedDateSortDirection, searchFilterType, setSearchFilterType, 
-        chats, setChats, messages, setMessages, supportTicketsUpdate, setSupportTicketsUpdate, reply, setReply,
+        listingCreatedDateSortDirection, setListingCreatedDateSortDirection, searchFilterType, setSearchFilterType, openedSupportTicket, setOpenedSupportTicket,
+        chats, setChats, messages, setMessages, supportTicketsUpdate, setSupportTicketsUpdate, reply, setReply, supportTickets, setSupportTickets,
         conversationId, setConversationId, fullNameOfOpposingChat, setFullNameOfOpposingChat, conversationTopicUrl, setConversationTopicUrl, secondPartyUserId, setSecondPartyUserId, firstPartyUserId, setFirstPartyUserId,
       }}
     >

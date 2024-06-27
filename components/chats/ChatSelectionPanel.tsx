@@ -8,13 +8,14 @@ import { useState, useEffect } from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import FirebaseChats from '../FirebaseChats'
 import React from "react";
-
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
 const ChatSelectionPanel = () => {
   // @ts-ignore
   const { userInfo, userProfilePicture } = SiteData();
 
+  // DO NOT DELETE
   if(!userInfo) {
-    return (<div>Loading .....</div>)
+    return (<div></div>)
   }
 
   const [navBar, setNavBar] = useState(null);

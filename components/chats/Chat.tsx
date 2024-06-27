@@ -5,10 +5,15 @@ import ChatSelectionPanel from "./ChatSelectionPanel";
 import ConversationPanel from "./ConversationPanel";
 import "../../styles/Chat.css";
 import React, { useEffect, useState } from "react";
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
 
 const Chat = () => {
   //@ts-ignore
-  const { isMobile, isTablet } = SiteData();
+  const { userInfo, isMobile, isTablet } = SiteData();
+
+  if(!userInfo) {
+    return (<div><MessageComponentLoader loadingMessage={"Loading chats..."}/></div>)
+  }
 
   function returnConversationPanel() {
     if (!isMobile && !isTablet) {

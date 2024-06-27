@@ -1,7 +1,7 @@
 // app/listingView/[listingId]/page.js
+
 "use client";
 import { useParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
 import SearchCardDetails from '../../../components/search/SearchCardDetails';
 
 const ListingView = () => {

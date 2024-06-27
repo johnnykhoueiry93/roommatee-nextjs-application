@@ -90,16 +90,16 @@ API Key is in the .env file under src/backend
 /searchTenantById
 /logInitialMessageSent
 /setMysqlDatabaseFlagTrue
+/sendTicketReply
+/updateSocialMediaLinks
+/insertProfileSetupInfo
+/getUserSupportTickets
+/getTicketDetails
 
 # Webserivces Pening Migration
 /getUsers
 /posts
 /createTicket
-/sendTicketReply
 /reportUserChat
-/getUserSupportTickets
-/getTicketDetails
-/updateSocialMediaLinks
-/insertProfileSetupInfo
 /getUserCounts
 /getUserProfileCounts

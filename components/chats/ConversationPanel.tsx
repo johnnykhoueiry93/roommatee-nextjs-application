@@ -32,7 +32,6 @@ import SnackBarAlert from "../alerts/SnackBarAlerts";
 import StaticFrontendLabel from "../../StaticFrontend";
 import { useRouter } from 'next/navigation';
 import { getProfilePictureUrl } from '../../utils/utilities'
-
 const options = [
   'Report',
 ];
@@ -44,7 +43,7 @@ const ConversationPanel = () => {
   const { userInfo, conversationId, fullNameOfOpposingChat, isMobile, isTablet, conversationTopicUrl, firstPartyUserId, secondPartyUserId, snackbarOpen, setSnackbarOpen, snackbarMessage, snackbarSeverity } = SiteData();
  
   if(!userInfo) {
-    return (<div>Loading .....</div>)
+    return (<div></div>)
   }
  
   const [ showReportUserPopup, setShowReportUserPopup ] = useState(false);

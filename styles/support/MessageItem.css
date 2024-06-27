@@ -1,0 +1,70 @@
+.chat-sent-by-author {
+  font-weight: bold;
+}
+
+/* Chat bubble styles */
+.chat-bubble {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 5px 0;
+  max-width: 70%;
+  min-width: 200px;
+  word-wrap: break-word;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-bubble-left {
+  background-color: #ffffff;
+  
+}
+
+.chat-bubble-right {
+  background-color: #d9fdd3;
+}
+
+/* Styles for the chat sent by the author */
+.chat-sent-by-author {
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+/* Optional: Add styling for the timestamp if needed */
+.chat-timestamp {
+  color: #888;
+  font-size: 12px;
+}
+
+/* Align the chat bubble to the right when using the right-align class */
+.message-item.right-align .chat-bubble {
+  margin-left: auto;
+}
+
+.right-align {
+  border-radius: 9px 0 9px 9px;
+}
+
+.left-align {
+  border-radius: 0 9px 9px 9px;
+}
+
+.avatar-container {
+  display: inline-block;
+  vertical-align: top; /* Aligns the avatar container with the top of the chat bubble */
+  margin-right: 5px; /* Adjust as needed for spacing between avatar and chat bubble */
+}
+
+.message-item.right .avatar-container {
+  float: right;
+  margin-left: auto; /* Adjust as needed for spacing between avatar and chat bubble */
+  margin-right: 5px; /* Adjust as needed for spacing between avatar and chat bubble */
+}
+
+.message-item.left .avatar-container {
+  float: left;
+  margin-right: 5px; /* Adjust as needed for spacing between avatar and chat bubble */
+}
+
+.chat-message-item {
+  font-size: 16px;
+}

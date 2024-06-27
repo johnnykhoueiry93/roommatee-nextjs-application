@@ -6,7 +6,6 @@ import "../../styles/searchTenant/TenantCardDetails.css";
 import { SiteData } from "../../context/SiteWrapper";
 import { useEffect, useState } from "react";
 import { Avatar } from "@mui/material";
-// import BackendAxios from "../../backend/BackendAxios";
 import SendMessage from "../search/SendMessage";
 import MaleIcon from "@mui/icons-material/Male";
 import FemaleIcon from "@mui/icons-material/Female";

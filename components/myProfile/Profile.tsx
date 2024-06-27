@@ -22,9 +22,24 @@ import LoyaltyIcon from '@mui/icons-material/Loyalty';
 import { SiteData } from "../../context/SiteWrapper";
 import { useState, useEffect } from 'react';
 import VerifiedIcon from '@mui/icons-material/Verified';
+import { useRouter } from 'next/navigation';
+
 const Profile = () => {
   //@ts-ignore
-  const { isMobile, userInfo } = SiteData();
+  const { userAuth, isMobile, userInfo } = SiteData();
+  const router = useRouter();
+
+  const navigateToPage = (path) => {
+    router.push(path);
+  };
+
+  useEffect(() => {
+    if (!userAuth) {
+      navigateToPage("/login");
+    } else {
+      console.log('The value of userAuth is: ' + userAuth);
+    }
+  }, []);
 
   if(!userInfo) {
     return <div>Loading userinfo in Profile.tsx...</div>

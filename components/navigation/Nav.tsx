@@ -118,7 +118,7 @@ const navigateToChangePasswordPage = () => {
 
   const navigateToSupportPage = () => {
     console.log("The user clicked on the support button from the navigation bar");
-    // navigate("/support");
+    navigateToPage("/support");
   };
 
 
@@ -265,7 +265,7 @@ const navigateToChangePasswordPage = () => {
 
       
       if (!isHydrated) {
-        return <div>Loading...</div>; //TODO update to something better!!
+        return <div></div>; //TODO update to something better!!
       }
 
       function returnMenuBasedOnUserType() {

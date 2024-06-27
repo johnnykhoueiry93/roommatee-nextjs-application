@@ -6613,3 +6613,956 @@
 [2024-06-26 19:33:55] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
 [2024-06-26 19:33:55] - [info] - encryptedNewTempPassword : >$2b$10$Bw2GdhViNUXZ1Vh7y6wOO.G9X8J7kP9/d2qPh2ePtMn0ky3mVhA7C<
 [2024-06-26 19:33:55] - [info] - Password updated successfully in the database
+[2024-06-26 21:00:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:01:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:01:23] - [error] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Failed to get the support tickets for this user profile id: 48 Root Cause: admin is not defined
+[2024-06-26 21:01:49] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:01:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:04:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:04:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:06:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:07:00] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:07:00] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:07:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:07:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:07:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:07:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:08:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:08:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:08:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:08:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:08:58] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:08:58] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:09:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:09:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:11:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:11:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:11:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:11:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:11:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:11:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:11:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:11:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:11:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:11:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:11:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:11:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:13:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:13:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:14:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:14:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:14:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:14:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:15:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:15:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:17:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:17:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:37:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:37:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:39:00] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:39:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:41:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:41:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:41:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:41:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:42:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:42:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:42:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:42:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:43:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:43:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:43:54] - [info] - Request to logout
+[2024-06-26 21:43:54] - [info] - Request to logout
+[2024-06-26 21:44:09] - [info] - [firas.hattoum@yahoo.com] - User attempting to login with email: firas.hattoum@yahoo.com
+[2024-06-26 21:44:09] - [info] - [firas.hattoum@yahoo.com] - Received plain password: 123456!!
+[2024-06-26 21:44:10] - [info] - [firas.hattoum@yahoo.com] - Login was successful
+[2024-06-26 21:44:11] - [info] - [firas.hattoum@yahoo.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQ1MjY1MSwiZXhwIjoxNzE5NDU2MjUxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiZmlyYXMuaGF0dG91bUB5YWhvby5jb20ifQ.miGGPecVdFBSLk9M6Mmm1-yT8BO3PXi33Tn_C9ydlRy9t9sgRsftdr0j2_7L0WPI8luqqnvu_XJtHrTIDRnPha96XvVoWaCG6-9sgVe0NZfZ51FTVqleSIwASpTI9EgoUnL2Ubr-0gu6ah4n-oOoaIVHUtCJSEdb-t7sJ0YrzZKVd0-4CcnSfNxeUWN9fJEBAafpTgs8AJ5AKLznjiRWFcjGMPofkr3V2HTjXLWDq8yBi48Bdhs8J_dpHfgG0dwf6ns_yPwV7H50iYmmbIzIm1g1D2Wd2s_gnu8Jo4NyV3cV0-5pUxnxVMKFsnALPHfuOXoYR6i9h6oJfeQ51GNF2A
+[2024-06-26 21:44:20] - [info] - [firas.hattoum@yahoo.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-26 21:44:20] - [info] - [/api/getUserListings] - Room listings results returned: 2
+[2024-06-26 21:44:35] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Received request to get all support tickets for firas.hattoum@yahoo.com
+[2024-06-26 21:44:35] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Received request to get all support tickets for firas.hattoum@yahoo.com
+[2024-06-26 21:44:35] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Received request to get all support tickets for firas.hattoum@yahoo.com
+[2024-06-26 21:44:35] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Received request to get all support tickets for firas.hattoum@yahoo.com
+[2024-06-26 21:44:35] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Support tickets results returned: 1
+[2024-06-26 21:44:35] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Support tickets results returned: 1
+[2024-06-26 21:44:36] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Support tickets results returned: 1
+[2024-06-26 21:44:36] - [info] - [firas.hattoum@yahoo.com] - [/api/getSupportTickets] - Support tickets results returned: 1
+[2024-06-26 21:44:45] - [info] - Request to logout
+[2024-06-26 21:44:45] - [info] - Request to logout
+[2024-06-26 21:47:22] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-26 21:47:22] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-26 21:47:23] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-26 21:47:23] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQ1Mjg0MywiZXhwIjoxNzE5NDU2NDQzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.d_Lcj5JuKQluEfjTWYoHRq2QgA3UhJ-UWOMYP4u6zjXRFyE06rO5Wk5oT-d0mXQeYqhBmLU9oKvOg_hvLzcyX7_mAdUNMp1C7AtqnAJqclZ9X6CTUOypDjxoxrQeNm0aBFRaavq1_VmrK-qhlIwnA7w3ngnuVOnvM3G7UdhA3t4GqyEnZJqU2tpFkKzPpr1fIWxPdxd8uReCK4ZoMkhEw8lUC2qQgdhELT5hCDbdnoMYmdiG08yjWgtdKjKL1j-L1ZxdhVW-3rap3tdsne2K9PtJ7lCe6lB7yIHHHB1Io75HNk0oPUaI8Wwbvsu5EI828NFftkspwuIqFSbcTfMuTA
+[2024-06-26 21:47:28] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-26 21:47:28] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:52:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:56:51] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:56:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 21:58:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 21:58:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 22:00:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-26 22:00:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-26 22:02:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly with querytype: tenant
+[2024-06-26 22:02:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly with querytype: tenant
+[2024-06-26 22:02:53] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Query returned 0 results
+[2024-06-26 22:02:53] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Query returned 0 results
+[2024-06-27 09:09:17] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-27 09:09:17] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-27 09:09:17] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-27 09:09:19] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTQ5Mzc1OSwiZXhwIjoxNzE5NDk3MzU5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.KWAk1oqhVcELelM0ni731lkFd0dNrCSET1CcHVmkx6jfBEc0aXGWRuvaB7MaDEyKXQ6uNu3wqa9HIJCUjSUDpsJdoEFtHrkUxuoOd-MSBkflQ4zL3EMTkjDNr2qo8fZFZxKxYckehp19Ct8dL0HCO-EyNxfEWtBW2JMvL09A3u9A_WFeemcUghZVsrMbuy_3-Fc7p_ykl-3o2vysJSFJt0elhx9H_sk2QW5q-CkUBiTcmNhh3pRoGpZ8hvtapjYbohBt4mAd8em2xotjjx1zDf2Urp9g5NgfUncE5Rh8zZs_KVji-oztgEqzSCpUwuzMwsF6uTCUOLzj-X4gkBGbvg
+[2024-06-27 09:09:28] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-27 09:09:28] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:09:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:18:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:18:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:19:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly with querytype: tenant
+[2024-06-27 09:19:06] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: undefined directly with querytype: tenant
+[2024-06-27 09:19:06] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Query returned 0 results
+[2024-06-27 09:19:06] - [error] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Error while fetching Tenant/Roommate by id: Query returned 0 results
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:39:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:39:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:43:04] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:43:04] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:44:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:44:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:48:15] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:48:15] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:50:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:50:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:51:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:51:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:53:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:53:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:53:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:53:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:53:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:53:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:13] - [error] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Failed to get the support tickets details for this user profile id: 48 and ticket id: 21. Root Cause: openedSupportTicketrId is not defined
+[2024-06-27 09:54:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:13] - [error] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Failed to get the support tickets details for this user profile id: 48 and ticket id: 21. Root Cause: openedSupportTicketrId is not defined
+[2024-06-27 09:54:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:13] - [error] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Failed to get the support tickets details for this user profile id: 48 and ticket id: 21. Root Cause: openedSupportTicketrId is not defined
+[2024-06-27 09:54:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:13] - [error] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Failed to get the support tickets details for this user profile id: 48 and ticket id: 21. Root Cause: openedSupportTicketrId is not defined
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:54:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:55:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:55:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 09:55:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 09:55:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 09:55:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 09:55:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 15:47:29] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-27 15:47:29] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-27 15:47:29] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-27 15:47:31] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTUxNzY1MSwiZXhwIjoxNzE5NTIxMjUxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.GbP_fYQ2IFyC7QsS9z4ksEAhcZGkuNDczwHCK4mhpU7OdOnKWMR8gOL6YfNH1AejJrMsJjlAdspwklzcmdev1O0GA7muog_UejIvcKzCh67UfgUHkqX6cLZQT7NlG2n4q1EH_SlCwLITcXcr0JOkYpEmdSNDCJbYGXKDoog_O3Dped6s-EhVtt7qM3N-f4mrxLEENViAP0oOnSekNzqI4WFaQ10Yp3ATKpPiFA5cOTLMM3EUD86ErPvKbZjm4_czgDZYgy2AthQSxgdUHl74gPWECp4AzmJKHh0EwHlL9jZHJEWGSyvvk9zmeNMLR16plqQWIk4NX8nFyxFmNLozsw
+[2024-06-27 15:47:47] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-27 15:47:47] - [info] - [/api/getUserListings] - Room listings results returned: 15
+[2024-06-27 15:58:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:58:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:58:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:58:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:58:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:58:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:58:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:58:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 15:59:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 15:59:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 15:59:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 15:59:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:00:30] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:00:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:00:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:00:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:00:47] - [error] - [executeQuery] - Error executing MySQL query: Column 'caseId' cannot be null
+[2024-06-27 16:00:47] - [info] - [undefined] - [/api/sendTicketReply] - Reply to case ID: undefined submitted successfully. Reply: undefined
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:01:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:01:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:01:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:01:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:02:04] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:02:04] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:02:04] - [error] - [executeQuery] - Error executing MySQL query: Column 'caseId' cannot be null
+[2024-06-27 16:02:04] - [info] - [undefined] - [/api/sendTicketReply] - Reply to case ID: undefined submitted successfully. Reply: undefined
+[2024-06-27 16:02:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:02:57] - [error] - [executeQuery] - Error executing MySQL query: Column 'caseId' cannot be null
+[2024-06-27 16:02:57] - [info] - [undefined] - [/api/sendTicketReply] - Reply to case ID: undefined submitted successfully. Reply: undefined
+[2024-06-27 16:02:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:04:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:04:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:06:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:06:11] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 24 submitted successfully. Reply: hello
+[2024-06-27 16:06:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:06:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:06:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:06:17] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 24 submitted successfully. Reply: wleee
+[2024-06-27 16:06:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:06:24] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 24 submitted successfully. Reply: kifak
+[2024-06-27 16:06:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:06:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:06:32] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 24 submitted successfully. Reply: ahllaaa
+[2024-06-27 16:06:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:20:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:20:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:20:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:20:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:21:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 16:21:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:21:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:21:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:21:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 16:21:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:13:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:13:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:15:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:17:12] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:23:25] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:37:01] - [info] - Received request to create a ticket
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:37:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:38:06] - [info] - Received request to create a ticket
+[2024-06-27 17:38:06] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'emailAddress' in 'field list'
+[2024-06-27 17:38:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:38:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:38:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:38:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:38:33] - [info] - Received request to create a ticket
+[2024-06-27 17:38:33] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'emailAddress' in 'field list'
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:43:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 19
+[2024-06-27 17:44:07] - [info] - Received request to create a ticket
+[2024-06-27 17:44:07] - [info] - Ticket ID: 40 submitted successfully
+[2024-06-27 17:44:07] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - Reply to case ID: 40 submitted successfully. Reply: 121212
+[2024-06-27 17:44:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:44:16] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:44:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:45:58] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:45:58] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 20
+[2024-06-27 17:46:21] - [info] - Received request to create a ticket
+[2024-06-27 17:46:21] - [info] - Ticket ID: 41 submitted successfully
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - Reply to case ID: 41 submitted successfully. Reply: fu
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:46:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:46:22] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:46:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:46:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:46:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:46:33] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 41 submitted successfully. Reply: hbb
+[2024-06-27 17:47:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:47:03] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 41 submitted successfully. Reply: 2
+[2024-06-27 17:47:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:49:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:49:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 17:49:47] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: kifak
+[2024-06-27 17:49:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:47] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-27 17:49:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:53] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: chou?
+[2024-06-27 17:49:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-27 17:49:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:57] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: ahla
+[2024-06-27 17:49:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:49:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:49:57] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:50:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:02] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: hawiil
+[2024-06-27 17:50:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 17:50:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 17:50:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:06] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: yalla jeye
+[2024-06-27 17:50:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 6
+[2024-06-27 17:50:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 6
+[2024-06-27 17:50:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:11] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: masmissssssss
+[2024-06-27 17:50:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 7
+[2024-06-27 17:50:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 7
+[2024-06-27 17:50:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:17] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 28 submitted successfully. Reply: chwe chwee ok!!!
+[2024-06-27 17:50:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 8
+[2024-06-27 17:50:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:50:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 8
+[2024-06-27 17:51:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:31] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:51:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:34] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 17:51:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 17:51:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 17:51:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 17:51:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:42] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 21 submitted successfully. Reply: hello sir
+[2024-06-27 17:51:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 17
+[2024-06-27 17:51:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:42] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 18
+[2024-06-27 17:51:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:48] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 21 submitted successfully. Reply: how are you today?
+[2024-06-27 17:51:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 19
+[2024-06-27 17:51:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 19
+[2024-06-27 17:51:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:53] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 21 submitted successfully. Reply: good!!!
+[2024-06-27 17:51:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:51:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 17:51:53] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 17:57:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:50] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:57:52] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:59:18] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:59:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 17:59:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 17:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 17:59:45] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:01:37] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 18:01:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 18:03:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:03:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 5
+[2024-06-27 18:03:29] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 24 submitted successfully. Reply: heyyyyyy
+[2024-06-27 18:03:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:03:29] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 6
+[2024-06-27 18:04:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:04:09] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 24 submitted successfully. Reply: hey
+[2024-06-27 18:04:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 7
+[2024-06-27 18:04:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:04:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 7
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:07:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:09:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:09:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:09:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:09:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:09:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:09:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:11:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:11:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:11:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:11:09] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:11:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:11:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:11:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:11:44] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:12:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:12:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:12:32] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:12:33] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:12:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:12:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:13:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:13:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:13:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:13:39] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:13:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:13:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:14:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:14:10] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:14:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:14:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:15:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 21
+[2024-06-27 18:15:19] - [info] - Received request to create a ticket
+[2024-06-27 18:15:19] - [info] - Ticket ID: 42 submitted successfully
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - Reply to case ID: 42 submitted successfully. Reply: 121212
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:15:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:15:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:15:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 18:15:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-27 18:19:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:11] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:14] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:35] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:19:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:19:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 20
+[2024-06-27 18:22:00] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:22:00] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:23:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:23:48] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:24:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:24:17] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:30:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 18:34:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
