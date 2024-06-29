@@ -32,7 +32,7 @@ const ListingType = () => {
 
   return (
     <div className="container container-flex sliding-right-to-left">
-      <div className="row row-gap margin-auto" >
+      <div className="row row-gap" >
         {/* ---------------------------- BOX 1  ----------------------------*/}
         <ListingBox
           onClickFunction={() => handleRedirect("List a Room", "/list-a-room")}
@@ -54,7 +54,7 @@ const ListingType = () => {
         />
       </div>
 
-      <div className="row row-gap margin-auto">
+      <div className="row row-gap">
         {/* ---------------------------- BOX 3  ----------------------------*/}
         <ListingBox
           onClickFunction={() => handleRedirect("Find a Roommate", "/find-a-roommate")}

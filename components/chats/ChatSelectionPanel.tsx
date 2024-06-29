@@ -8,7 +8,6 @@ import { useState, useEffect } from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import FirebaseChats from '../FirebaseChats'
 import React from "react";
-import MessageComponentLoader from "../loaders/MessageComponentLoader";
 const ChatSelectionPanel = () => {
   // @ts-ignore
   const { userInfo, userProfilePicture } = SiteData();
@@ -129,7 +128,7 @@ const ChatSelectionPanel = () => {
           alt={userInfo.firstName + " " + userInfo.lastName}
           src={userProfilePicture}
         />
-        <span className="chat-selection-row-full-name">
+        <span className="chat-selection-current-user-full-name">
           {userInfo.firstName + " " + userInfo.lastName}
         </span>
 

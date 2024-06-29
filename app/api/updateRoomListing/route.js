@@ -32,12 +32,10 @@ const s3 = new AWS.S3({
         await s3.upload(params).promise();
       }
   
-        // Join the array of picture filenames into a CSV string
-        const csvPictures = arrayPictures.join(',');
+      // Join the array of picture filenames into a CSV string
+      const csvPictures = arrayPictures.join(',');
 
-    //   const result = await executeQuery(`UPDATE roomListings SET picture1='${arrayPictures[0]}', picture2='${arrayPictures[1]}', picture3='${arrayPictures[2]}', picture4='${arrayPictures[3]}', picture5='${arrayPictures[4]}' WHERE id = ${lastInsertedListingId}`);
-    const result = await executeQuery(`UPDATE roomListings SET pictures='${csvPictures}' WHERE id = ${lastInsertedListingId}`);
-
+      const result = await executeQuery(`UPDATE roomListings SET pictures='${csvPictures}' WHERE id = ${lastInsertedListingId}`);
 
       if (result.affectedRows > 0) {
         return true;

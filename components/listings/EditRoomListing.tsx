@@ -59,7 +59,7 @@ const EditRoomListing = () => {
   // we are getting from the useContext
   // We filter filter based on the id that matches
   // this will be added in the new variable roomListing which can be used across this entire component.
-  console.log('I am in EditRoomLosting.tsx and the value of listing: ' , listing);
+  // console.log('I am in EditRoomLosting.tsx and the value of listing: ' , listing);
   const roomListing = listing.find(
     // @ts-ignore
     (roomListing) => roomListing.id.toString() == editListingId
@@ -71,9 +71,7 @@ if (!roomListing) {
   return <p>No listing found.</p>;
 }
 
-  console.log('listing: ' , listing);
-  console.log('The value for editListingId: ' , editListingId);
-  console.log('roomListing : ' , roomListing);
+  console.log('[DEBUG] - Current object before updates roomListing : ' , roomListing);
 
   const GOOGLE_MAP_API_KEY = StaticFrontendLabel.GOOGLE_MAP_API_KEY;
   const NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH = StaticFrontendLabel.NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH;
@@ -365,6 +363,7 @@ if (!roomListing) {
       //TODO PICTURES
     }));
   }, [
+    listingType,
     price,
     moveInDate,
     leaseDurationInMonth,
@@ -489,8 +488,8 @@ if (!roomListing) {
     scrollToTop();
 
     showUpdateStatus();
-    //   // Submit the form and pass the foreign key the user
-    //   // id to associate this listing to his personal key id
+      // Submit the form and pass the foreign key the user
+      // id to associate this listing to his personal key id
       // Create a new data object with updated values
       const updatedData = {
         ...roomListingData,
@@ -513,6 +512,7 @@ if (!roomListing) {
   // @ts-ignore
   const handleUpdateRoomListing = async (e) => {
     e.preventDefault();
+    console.log('The user clicked on the Update Listing button!')
     
     if(!isValidAddress) {
       setSnackbarMessage("Please Double check the address and make sure it matches");
@@ -556,19 +556,13 @@ if (!roomListing) {
         const data = await response.json();
 
         if (response.status === 200) {
-          console.log("Place listing added successfully");
-
-          // setShowListingCreatedAlert(true);
-          // resetInputForm();
-          // takeUserToHisListings();
-          // scrollToTop();
-          // resetRoomListingData(setRoomListingData);
+          console.log("Place listing updated successfully.");
           setSnackbarMessage(data.message);
           setSnackbarSeverity("success");
           setSnackbarOpen(true);
         } else {
           console.error("Error room listing: " + data.message);
-          setSnackbarMessage("Error creating place listing");
+          setSnackbarMessage("Failed listing update.");
           setSnackbarSeverity("error");
           setSnackbarOpen(true);
         }

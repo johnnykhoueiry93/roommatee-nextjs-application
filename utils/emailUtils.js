@@ -66,11 +66,11 @@ function sendNewSupportTicketCreated(emailAddress, firstName, caseId) {
 
   //@ts-ignore
   apiInstance.sendTransacEmail(sendSmtpEmail).then(function(data) {
-    logger.info(`[${emailAddress}] - New support ticket notification was sent successfully`);
+    logger.info(`[${emailAddress}] - [sendNewSupportTicketCreated] - New support ticket notification was sent successfully`);
 
     //@ts-ignore
   }, function(error) {
-    logger.error(`[${emailAddress}] - Failed to send new support ticket. Root Cause: ` + error);;
+    logger.error(`[${emailAddress}] - [sendNewSupportTicketCreated] - Failed to send new support ticket. Root Cause: ` + error);;
   });
 }
 

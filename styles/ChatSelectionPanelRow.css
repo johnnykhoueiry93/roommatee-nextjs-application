@@ -1,7 +1,5 @@
 .chat-selection-row {
   display: flex;
-  /* margin-bottom: 10px; */
-  /* padding: 10px; */
   height: 70px;
   align-items: center;
   padding-left: 20px;
@@ -9,7 +7,14 @@
 
 .chat-selection-row-full-name {
   padding-left: 10px;
+  padding-top: 0px;
+  font-weight: 600;
+}
+
+.chat-selection-current-user-full-name {
+  padding-left: 10px;
   padding-top: 7px;
+  font-weight: 600;
 }
 
 .active-selection-class {

@@ -11,14 +11,17 @@ import ListingCard from "./ListingCard";
 import { Fab } from "@mui/material";
 import { useRouter } from 'next/navigation';
 import "../../styles/Listings.css"
-import CirculatorProgressLoader from "../loaders/CirculatorProgressLoader";
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
+
 
 const UserListings = () => {
   //@ts-ignore
-  const {  userAuth, listing, showListingCreatedAlert, setShowListingCreatedAlert, createListingStatus, setCreateListingStatus, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
+  const {  userInfo, userAuth, listing, setListing, listingsCreated, scrollToTop, setShowListingCreatedAlert, createListingStatus, setCreateListingStatus, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
   const router = useRouter();
   const [isHydrated, setIsHydrated] = useState(false);
 
+  scrollToTop();
+  
   const navigateToPage = (path) => {
     router.push(path);
   };
@@ -41,9 +44,63 @@ const UserListings = () => {
     setIsHydrated(true);
   }, []);
 
+      /**
+   * GET ALL USER LISTINGs
+   */
+       useEffect(() => {
+        // This delay allows the record to get inserted before we try to retrieve everything again.
+        const delay = 100; // 100ms
+    
+        async function getUserListings(user) {
+          if (!user) return;
+          
+          const { id: userProfileId, emailAddress } = user;
+    
+          try {
+            const response = await fetch('/api/getUserListings', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ userProfileId, emailAddress }),
+            });
+    
+            if (!response.ok) {
+              throw new Error('Failed to fetch user listings');
+            }
+    
+            const data = await response.json();
+    
+            setListing(data);
+            localStorage.setItem('userListings', JSON.stringify(data));
+            console.log('getUserListings:', data);
+            return data;
+          } catch (error) {
+            console.error('Error fetching user listings:', error);
+            throw error;
+          }
+        }
+    
+        // Ensure userInfo is available before calling the function
+        if (userInfo) {
+          const timeout = setTimeout(() => {
+            getUserListings(userInfo);
+          }, delay);
+    
+          // Cleanup timeout on component unmount or on dependency change
+          return () => clearTimeout(timeout);
+        }
+      }, [listingsCreated]);
+
+
+
   if (!isHydrated) {
-    return <div></div>; //TODO update to something better!!
+    return <div><MessageComponentLoader loadingMessage={"Loading user listing..."}/></div>; 
   }
+
+
+
+
     return (
     // @ts-ignore
     <div className="container-fluid" style={{'paddingBottom': '100px'}}>

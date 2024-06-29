@@ -1,3 +1,11 @@
+.row-gap {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
 .container-flex {
     display: flex;
     flex-direction: column;
@@ -26,13 +34,6 @@
     }
 }
 
-.row-gap {
-    display: flex;
-    flex: 1;
-    margin-bottom: 10px;
-    gap: 10px;
-}
-
 .box {
     display: flex;
     flex-direction: column;
@@ -42,16 +43,11 @@
     height: 250px;
     border-radius: 15px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: auto;
+    
 }
 
 .content-container {
     text-align: center;
-}
-
-.margin-auto {
-    margin: auto;
-    padding-bottom: 10px;
 }
 
 .listing-type-image {
