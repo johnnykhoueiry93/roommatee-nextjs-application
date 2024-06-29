@@ -278,10 +278,12 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
         body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
         cache: 'no-store' // Ensures the data is fetched on every request
       });
+      setSnackbarOpen(true);
       setSnackbarMessage("Success! Application setup updated.");
       setIsAnyValueChanged(false);
     } catch (error) {
       console.error("Error inserting profile setup info:", error);
+      setSnackbarOpen(true);
       showFailureSnackBarAlert(`Failed ${error}`);
       setSnackbarMessage("Failed to update application setup.");
     }
