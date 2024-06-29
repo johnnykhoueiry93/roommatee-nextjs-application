@@ -2,10 +2,17 @@
 
 import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database"; // Adjust the import path based on your project structure
-import { cookies } from "next/headers";
 import admin from "../../../utils/firebaseAdmin";
 const logger = require("../../../utils/logger");
 const passwordUtils = require("../../../utils/passwordUtils");
+
+async function incrementLoginFrequencyAndLastLogin(emailAddress) {
+  try {
+    await executeQuery("UPDATE userprofile SET loginCounter = loginCounter + 1 , lastLoginDate = CURRENT_TIMESTAMP where emailAddress = ?", emailAddress);
+  } catch (error) {
+    logger.error(`[${emailAddress}] - [/api/login] - Failed to update the login counter and last login date`);
+  }
+}
 
 export async function POST(request) {
   try {
@@ -25,8 +32,10 @@ export async function POST(request) {
       if (passwordMatch) {
         logger.info(`[${emailAddress}] - Login was successful`);
 
+        await incrementLoginFrequencyAndLastLogin(emailAddress);
 
-        // await incrementLoginFrequencyAndLastLogin(emailAddress);
+        // Update the lastLoginDate in the results object
+        results[0].lastLoginDate = new Date().toISOString();
 
         const firebaseToken = await admin.auth().createCustomToken(emailAddress);
         logger.info(`[${emailAddress}] - [/api/login] - Firestore token generated: ${firebaseToken}`);
