@@ -546,3 +546,11 @@
 [2024-06-27 16:02:57] - [error] - [executeQuery] - Error executing MySQL query: Column 'caseId' cannot be null
 [2024-06-27 17:38:06] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'emailAddress' in 'field list'
 [2024-06-27 17:38:33] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'emailAddress' in 'field list'
+[2024-06-28 12:43:52] - [error] - [/api/getUserListings] - Error fetching user listings: Unexpected end of JSON input
+[2024-06-29 09:49:34] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'emailAddress' in 'field list'
+[2024-06-29 09:49:34] - [error] - [johnny.kh@hotmail.com] - [/reportUserChat] - Error reporting the user chat with conversation id: 48-1002-1002. Root Cause: NaN
+[2024-06-29 11:15:19] - [error] - [johnny.kh@hotmail.com] - [/api/createTicket] - Failed to create support case. Root Cause: NaN
+[2024-06-29 11:22:03] - [error] - [johnny.kh@hotmail.com] - Failed to send new support ticket. Root Cause: Error: self-signed certificate in certificate chain
+[2024-06-29 11:23:00] - [error] - [johnny.kh@hotmail.com] - Failed to send new support ticket. Root Cause: Error: self-signed certificate in certificate chain
+[2024-06-29 11:23:25] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
+[2024-06-29 11:23:25] - [error] - [johnny.kh@hotmail.com] - [/api/createTicket] - Failed to create support case. Root Cause: NaN

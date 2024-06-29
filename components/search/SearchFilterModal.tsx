@@ -20,7 +20,6 @@ import dayjs from 'dayjs';
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import "../../styles/SearchFilters.css";
-// import BackendAxios from "../../backend/BackendAxios";
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
@@ -159,32 +158,43 @@ const SearchFilterModal = () => {
       moveInDate !== prevMoveInDateFilter ||
       !compareBooleanFilters(booleanFilter, prevBooleanFilter)
     ) {
-      // try {
-      //   const response = await BackendAxios.post(
-      //     "/search",
-      //     {
-      //       requestedData
-      //     },
-      //     {
-      //       headers: {
-      //         "Content-Type": "application/json",
-      //       },
-      //     }
-      //   );
-
-      //   setSearchResults(response.data);
-      //   console.log("The search returned: ", response.data.length);
-      // } catch (error) {
-      //   console.log("Error completing the search: ", error);
-      // }
-
-      // Update previous values
+      try {
+        console.log('frontend requestedData: ' , requestedData)
+        const response = await fetch('/api/searchListings', {
+          method: "POST",
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(requestedData),
+          cache: 'no-store'
+        });
+      
+        if (!response.ok) {
+          throw new Error('Network response was not ok' + response.statusText);
+        }
+      
+        const data = await response.json();
+    
+        if (response.status === 200) {
+          setSearchResults(data);
+          console.log("The search returned results of count: ", data.length);
+          console.log("The search returned object: ", data);
+        } else {
+          console.log("Error completing the search: ");
+    
+        }
+          
       setPrevSearchValue(searchValue);
       setPrevMinPriceFilter(minPriceFilter);
       setPrevMaxPriceFilter(maxPriceFilter);
       setPrevMoveInDateFilter(moveInDate);
       setPrevBooleanFilter({ ...booleanFilter });
-    } else {
+
+      } catch (error) {
+        // Handle the error here
+        console.error("Error:", error);
+      }
+    }  else {
       console.log(
         "No change in search filter, supression call to reduce backend API calls"
       );

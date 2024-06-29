@@ -11,7 +11,6 @@ import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { useState } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import "../../styles/Signup.css"
-// import BackendAxios from "../../backend/BackendAxios";
 import StaticFrontendLabel from "../../StaticFrontend";
 import PasswordPolicy from "./PasswordPolicy";
 import { useRouter } from 'next/navigation';

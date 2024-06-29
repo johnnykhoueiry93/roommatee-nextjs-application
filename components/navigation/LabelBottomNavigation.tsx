@@ -111,7 +111,7 @@ if (userInfo) {
             label="Settings"
             value="Settings"
             icon={<SettingsIcon style={iconStyle}/>}
-            onClick={() => navigateToPage("/myProfile")}
+            onClick={() => navigateToPage("/profile")}
           />
           <BottomNavigationAction
             label="Chat"

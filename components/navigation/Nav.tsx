@@ -78,12 +78,22 @@ const handleLogoClick = () => {
 
   function getLogoWidth() {
     let logoWidth;
-    logoWidth = '130';
+    logoWidth = '140';
     if(isMobile) {
-      logoWidth = '85';
+      logoWidth = '90';
     }
 
     return logoWidth;
+  }
+
+  function getLogoHeight() {
+    let logoHeight;
+    logoHeight = '60';
+    if(isMobile) {
+      logoHeight = '50';
+    }
+
+    return logoHeight;
   }
 
   function returnApplicationLogo() {
@@ -93,7 +103,7 @@ const handleLogoClick = () => {
           <Image
             src="/images/logo.png"
             alt="Roomatee Logo"
-            height="60"
+            height={getLogoHeight()}
             width={getLogoWidth()}
           />
         </Link>
@@ -385,36 +395,14 @@ if (userAuth) {
           {/* -------------------------- HOME BUTTON LOGO --------------------------*/}
           {returnApplicationLogo()}
 
-          <button
-            className="navbar-toggler mr-2"
-            type="button"
-            data-bs-toggle="collapse"
-            // data-target="#navbarSupportedContent"// bootrap 4
-            data-bs-target="#navbarSupportedContent" // bootrap
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            onClick={handleNavBarBurgerButtonOnClick}
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
 
           {/* HOME BUTTON NO LOGO */}
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#"></a>
-              </li>
-            </ul>
-
-            {/* <Link href="/login"> */}
-            <div className="d-flex nav-item" onClick={handleLoginClick}>
+          <div className="d-flex nav-item" onClick={handleLoginClick}>
               <div className="btn-group nav-login-btn"> 
                 <span><PersonOutlineIcon style={iconStyle}/> Log in</span>
                </div>
             </div> 
-            {/* </Link> */}
-          </div>
+          
         </div>
 
 

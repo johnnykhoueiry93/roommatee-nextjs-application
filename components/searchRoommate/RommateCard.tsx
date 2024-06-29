@@ -6,7 +6,6 @@
 
 import { SiteData } from "../../context/SiteWrapper";
 import { useRouter } from 'next/navigation';
-// import BackendAxios from "../../backend/BackendAxios";
 import { useEffect, useState } from "react";
 import VerifiedIcon from "@mui/icons-material/Verified";
 import MarkEmailReadIcon from '@mui/icons-material/MarkEmailRead';

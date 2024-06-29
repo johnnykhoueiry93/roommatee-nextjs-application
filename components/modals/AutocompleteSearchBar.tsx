@@ -5,7 +5,6 @@ import Autocomplete from "react-google-autocomplete";
 import { SiteData } from "../../context/SiteWrapper";
 import EastIcon from "@mui/icons-material/East";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-// import BackendAxios from "../../backend/BackendAxios";
 import '../../styles/AutocompleteSearchBar.css'
 import '../../styles/HomeSearchBar.css'
 import { useRouter } from 'next/navigation';
@@ -271,7 +270,7 @@ const customAutocompleteItemStyle = {
       />
 
         {/* ------------------------- Pin Icon  -------------------------*/}
-        <span className="input-group-text bg-white">
+        <span className="input-group-text bg-white no-right-border">
           <LocationOnIcon style={locationPinStyle} />
         </span>
 

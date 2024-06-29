@@ -74,19 +74,13 @@ const FiltersBar = ({ filterRouter  }) => {
       {returnVarticalSeparator()}
 
       {/* ------------------------- PRICE SORT -------------------------*/}
-      <FormControl 
-      
-        className="price-sort"
-      >
-        <InputLabel
-          id="price-sort"
-        >
+      <FormControl className="price-sort" >
+        <InputLabel id="price-sort" >
           {returnPriceOrBudgetLabel()}
         </InputLabel>
         <Select
           sx={{
             ".MuiOutlinedInput-notchedOutline": {
-              borderColor: "blue",
               fontSize: "20px",
               width: isMobile ? "100%" : undefined
             },
@@ -116,7 +110,6 @@ const FiltersBar = ({ filterRouter  }) => {
         <Select
           sx={{
             ".MuiOutlinedInput-notchedOutline": {
-              borderColor: "blue",
               fontSize: "20px",
               width: isMobile ? "100%" : undefined
             },

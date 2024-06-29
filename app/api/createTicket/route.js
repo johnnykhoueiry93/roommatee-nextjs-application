@@ -18,8 +18,9 @@ async function insertMessage(ticketMessage) {
   export async function POST(request) {
     let { ticketData } = await request.json();
 
+    const  { subject, caseArea, description, userProfileId, emailAddress, firstName } = ticketData;
+
       try {
-        const  { subject, caseArea, description, userProfileId, emailAddress } = ticketData;
 
         const sqlInsert = {
           subject,
@@ -47,19 +48,22 @@ async function insertMessage(ticketMessage) {
           if(isMessageSuccess) {
             logger.info(`[${emailAddress}] - [/api/createTicket] - A new support ticket with ID: ${caseId} was submited successfully.`)
 
-            // TODO send email when a ticket was successfully created
-            // use the caseID as reference caseId
-            emailModule.sendNewSupportTicketCreated(emailAddress, firstName, caseId);
-            return NextResponse.json({ message: "Ticket created successfully" }, { status: 200 });
+            try {
+              emailModule.sendNewSupportTicketCreated(emailAddress, firstName, caseId);
+              return NextResponse.json({ message: "Ticket created successfully" }, { status: 200 });
+            } catch (error) {
+              logger.error(`[${emailAddress}] - [/api/createTicket] - Failed to send support case notification to the user.`);
+              return NextResponse.json({ message: "Failed to send support case notification to the user.", error: error.message }, { status: 500 });
+            }
           } 
 
         } else {
-          logger.error(`[${emailAddress}] - [/api/createTicket] - Error creating the case. Root Cause: ` + + err.message);
-          return NextResponse.json({ message: "Column updat failed", error: error.message }, { status: 500 });
+          logger.error(`[${emailAddress}] - [/api/createTicket] - Failed to create support case.`);
+          return NextResponse.json({ message: "Failed to create support case"}, { status: 500 });
         }
   
       } catch (error) {
-        logger.error(`[${emailAddress}] - [/api/createTicket] - Error creating the case. Root Cause: ` + + err.message);
-        return NextResponse.json({ message: "Column updat failed", error: error.message }, { status: 500 });
+        logger.error(`[${emailAddress}] - [/api/createTicket] - Failed to create support case. Root Cause: ` + + error.message);
+        return NextResponse.json({ message: "Failed to create support case", error: error.message }, { status: 500 });
       }
   }

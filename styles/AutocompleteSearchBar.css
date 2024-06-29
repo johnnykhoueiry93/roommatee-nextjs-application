@@ -10,6 +10,11 @@
     border: 2px solid red;
 }
 
+.no-right-border {
+    border-right: none !important;
+    padding-left: 3px;
+  }
+
 @media screen and (max-width: 767px) {
     .primary-search-bar {
         padding-top:20px;

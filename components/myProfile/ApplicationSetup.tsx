@@ -3,7 +3,6 @@ import "../../styles/userProfileWorkflow/Welcome.css";
 import { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import Button from "@mui/material/Button";
-// import BackendAxios from "../../backend/BackendAxios";
 import { encryptData } from '../../utils/encryptionUtils';
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
@@ -286,27 +285,6 @@ const ApplicationSetup = ({socialStatusInitiallyIsStudentOrEmployee , setSocialS
       showFailureSnackBarAlert(`Failed ${error}`);
       setSnackbarMessage("Failed to update application setup.");
     }
-
-    updateCurrentUserInfo();
-
-    // try {
-    //   let emailAddress = userInfo.emailAddress;
-    //   console.log('Directly before sending the data to backend: ' , welcomeProfileSetupStep);
-    //   const response = await BackendAxios.post("/insertProfileSetupInfo", {
-    //     welcomeProfileSetupStep,
-    //     emailAddress,
-    //   });
-    //   console.log("Insertion successful:", response.data);
-    //   setSnackbarMessage("Success! Application setup updated.");
-    //   setSnackbarSeverity("success");
-    //   setSnackbarOpen(true);
-    //   setIsAnyValueChanged(false);
-    // } catch (error) {
-    //   console.error("Error inserting profile setup info:", error);
-    //   setSnackbarMessage("Failed to update application setup.");
-    //   setSnackbarSeverity("error");
-    //   setSnackbarOpen(true);
-    // }
 
     updateCurrentUserInfo();
 

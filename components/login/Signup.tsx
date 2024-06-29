@@ -2,7 +2,6 @@
 
 import "../../styles/Signup.css";
 import React, { useState, useEffect } from "react";
-// import BackendAxios from "../../backend/BackendAxios";
 import Link from 'next/link';
 import { SiteData } from "../../context/SiteWrapper";
 import IconButton from "@mui/material/IconButton";

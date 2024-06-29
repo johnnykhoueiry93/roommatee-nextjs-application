@@ -11,7 +11,6 @@ import {
 } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import { SiteData } from "../../context/SiteWrapper";
-// import BackendAxios from "../../backend/BackendAxios";
 import StaticFrontendLabel from "../../StaticFrontend";
 //@ts-ignore
 function ReportUser(props) {
@@ -42,16 +41,26 @@ function ReportUser(props) {
    const handleSendTicketReply = async () => {
     console.log('Logging the object reportData: ' , reportData)
 
-    // try {
-    //   const response = await BackendAxios.post("/reportUserChat", reportData);
-    //   setSnackbarMessage(StaticFrontendLabel.CHAT_REPORT_USER_SUCCESS_MESSAGE);
-    //   setSnackbarSeverity("success");
-    //   setSnackbarOpen(true);
-    //   //@ts-ignore
-    // } catch (error) {
-    //   // @ts-ignore
-    //   console.error("Reporting the user: " + error.message);
-    // }
+    const response = await fetch("/api/reportUserChat", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ reportData }), 
+      cache: 'no-store' 
+    });
+
+    const data = await response.json();
+
+  if (response.status === 200) {
+      setSnackbarMessage(StaticFrontendLabel.CHAT_REPORT_USER_SUCCESS_MESSAGE);
+      setSnackbarSeverity("success");
+      setSnackbarOpen(true);
+    } else {
+      setSnackbarMessage("Failed to report user");
+      setSnackbarSeverity("error");
+      setSnackbarOpen(true);
+    }
   };
 
   const handleReportUserChat = async () => {

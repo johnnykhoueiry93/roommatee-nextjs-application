@@ -1,10 +1,11 @@
-.conversation-fixed-header-mobile {
+/* .conversation-fixed-header-mobile {
     position: sticky;
     z-index: 1000;
-    background-color: white; /* Optionally set a background color */
-    padding: 10px 20px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 0px !important;
     height: 18vh;
-  }
+  } */
 
 .inner-container-size-properties-mobile {
     overflow-y: scroll;

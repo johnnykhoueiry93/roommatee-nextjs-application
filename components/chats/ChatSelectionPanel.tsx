@@ -151,7 +151,7 @@ const ChatSelectionPanel = () => {
       <div className="input-group mb-3 conversation-search-input">
         <input
           type="text"
-          className="form-control rounded-pill"
+          className="form-control rounded-pill search-chats-formatting"
           placeholder="Search..."
           aria-label="Search..."
           aria-describedby="basic-addon2"

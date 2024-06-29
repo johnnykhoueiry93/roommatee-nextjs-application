@@ -15,7 +15,6 @@ import {
   import { LoadingButton } from "@mui/lab";
   import { SiteData } from "../../context/SiteWrapper";
   import "../../styles/EmailVerification.css";
-//   import BackendAxios from "../backend/BackendAxios";
   import SnackBarAlert from "../alerts/SnackBarAlerts";
   import Snackbar, { SnackbarOrigin } from "@mui/material/Snackbar";
   import Button from "@mui/material/Button";
@@ -169,25 +168,6 @@ import {
         // handleFailedVerificationCode(data.message);
         console.log(`User with email: ${signUpEmail} was not found. Showing error message`);
     }
-
-
-
-  
-    //   BackendAxios.post("/resendVerificationToken", {
-    //     emailAddress: signUpEmail
-    //   }).then((response) => {
-    //     console.log(response.data);
-  
-    //     // Invalid Token
-    //     if (response.data.message) {
-    //       handleFailedVerificationCode(response.data.message);
-    //     } else {
-    //       // Valid Token
-    //       if (response.data[0]) {
-    //         handleSuccessVerificationCode();
-    //       }
-    //     }
-    //   });
   
       setDisabled(true);
       setTimer(RESEND_BUTTON_TIMER_DELAY); // Reset timer

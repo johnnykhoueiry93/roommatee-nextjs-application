@@ -40,8 +40,21 @@ const ITEM_HEIGHT = 48;
 
 const ConversationPanel = () => {
   // @ts-ignore
-  const { userInfo, conversationId, fullNameOfOpposingChat, isMobile, isTablet, conversationTopicUrl, firstPartyUserId, secondPartyUserId, snackbarOpen, setSnackbarOpen, snackbarMessage, snackbarSeverity } = SiteData();
+  const { userInfo, userAuth, conversationId, fullNameOfOpposingChat, isMobile, isTablet, conversationTopicUrl, firstPartyUserId, secondPartyUserId, snackbarOpen, setSnackbarOpen, snackbarMessage, snackbarSeverity } = SiteData();
  
+  const router = useRouter();
+  const navigateToPage = (path) => {
+    router.push(path);
+  };
+  
+  useEffect(() => {
+    if (!userAuth) {
+      navigateToPage("/login");
+    } else {
+      console.log('The value of userAuth is: ' + userAuth);
+    }
+  }, []);
+
   if(!userInfo) {
     return (<div></div>)
   }
@@ -50,10 +63,7 @@ const ConversationPanel = () => {
   const [message, setMessage] = useState("");
 
   const { firestore } = FirebaseChats({ userId: userInfo.id });
-  const router = useRouter();
-  const navigateToPage = (path) => {
-    router.push(path);
-  };
+
   const NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH = StaticFrontendLabel.NEW_LISTING_HOUSING_DESCRIPTION_MAX_LENGTH;
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);

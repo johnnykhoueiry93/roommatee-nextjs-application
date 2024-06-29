@@ -5,7 +5,6 @@ import InputLabel from "@mui/material/InputLabel";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import FormControl from "@mui/material/FormControl";
 import { useState } from "react";
-// import BackendAxios from "../../backend/BackendAxios";
 import "../../styles/Signup.css";
 import { SiteData } from "../../context/SiteWrapper";
 import LockResetIcon from '@mui/icons-material/LockReset';

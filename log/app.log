@@ -7566,3 +7566,451 @@
 [2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
 [2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
 [2024-06-27 18:34:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 22
+[2024-06-28 10:26:54] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-28 10:26:54] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-28 10:26:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-28 10:26:57] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTU4NDgxNywiZXhwIjoxNzE5NTg4NDE3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.J2UOm64ahmV0nStynDK7SWjHGrPbBZtIq8jJdHBqyIXslhktBcQG0fa1-CywNCKVQSdd-_21xPpg-YSawmSgRZ9PsbkFJZKfxrDU3If5uqf6wvtbVIutvQ0zpl5NtQzKxtAhB7njR7ofRwqt5RtoerPdzXRWX7cI4pPVt9torNhAp8SirocbGR4BVR1z-Z4JddW9aQKN5p4bHguUcl3b_sOd4bKiynk2huI91PACzVIwy7XUlj5MQBgC9N3B98zJfLWTZfgET0tPnqpesyewxyz52smzjWQv0J002ACQyn1CMYuJHWCF9ZWqf94_jk393863wqAkH57dPuFHNOE02A
+[2024-06-28 10:27:06] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-28 10:27:06] - [info] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-28 12:20:00] - [info] - Request to logout
+[2024-06-28 12:20:00] - [info] - Request to logout
+[2024-06-28 12:20:17] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-28 12:20:17] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-28 12:20:17] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-28 12:20:19] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTU5MTYxOSwiZXhwIjoxNzE5NTk1MjE5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.WVBXQ4vJYnld4AB2E3pjZ492a9xm5YLCsrGb0_KAIHnJugdkUTukmN7HXZAhD_SxiZwMdIsYJ_RzR5AblZf3MAUgmbFJtOByKN0w0AX5gzmqfEQu6D3dnKPkAvwuufWsWnhwFiy927cyURid0M7Cueiiw6Lw3Gktsjd636Xbv67BKpD4U2UgTV48yv6DroqgiTK1mjgukdVrri49ycbzLpZJYLXlwzPCUYt8WE3XH_0Qg_Y9brA_LeVbPgep_t6nf6zIxqFG0VBgpM9eoDexmNQ5j53RtLnlbT_CRmjDaikINdRofU_2SWTCRb7a-CV0-LYdtb6HhffiHzTsADrMEQ
+[2024-06-28 12:20:31] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-28 12:20:32] - [info] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-28 12:35:30] - [info] - Request to logout
+[2024-06-28 12:35:30] - [info] - Request to logout
+[2024-06-28 12:43:39] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-28 12:43:39] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-28 12:43:39] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-28 12:43:39] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTU5MzAxOSwiZXhwIjoxNzE5NTk2NjE5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.WO3lBdle08xwzubcH8HS_kg4-abdK90T23g2o4Bq-dbUant-skL5UqpSFewlBabvPPgta7MS9Z-YKLw6vnBFzmI0HFH0ZTuWgesW_kSsK2Ko-aSqfOwLAhQEjC7v4j3lhmf3m63ajrekR1cQmVeo9TFYg9_zaWwmIgtdE0uvq8ndqkALlNi0IhJH7bzyL9sJXplsYWAeJZjFJdfpZy1rvMxr1QqYTXPjtgYQ4hsE0uLIx7MwvJNouBJQXsveIP65bYfc6dLT2aADnVDNjc6Ixkr2MmOWQ3bjGVpcKd9JdjgLnuFp3J1ypMGhmcPwiCNdX-pIw6nrpbkAft1wHwIkpw
+[2024-06-28 12:43:52] - [info] - Request to logout
+[2024-06-28 12:43:52] - [info] - Request to logout
+[2024-06-28 12:43:52] - [error] - [/api/getUserListings] - Error fetching user listings: Unexpected end of JSON input
+[2024-06-28 14:19:27] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-28 14:19:27] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-28 14:19:27] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-28 14:19:27] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTU5ODc2NywiZXhwIjoxNzE5NjAyMzY3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.lft7IAbZuY9exk6HSaCr3ZiSG1nJWL9BVSfFcVFl9h83j7rnxQQKMrxV82JkTHt24Wq7pNxEElVuBjNYMcaLwfrpNUAV6p7gNHBSYQs0bZ3c-Act9kXNXjOkeWFjxAZV6Q2UUZiQ9cQq2vyRp4I6mO0CJPgqBwIFYa7rOKLmRYnDV3YR8v48Ro5HO8e8XzBgQxSt05TBMj9oogmkNTGYePkK2w3HgWD-az6qB3LUIGcgtYipKXkAlNyJMIcELLms3JSvmrB0PMMC_DnhWhSz4D0M_LEPTRZ_FUIF7KZFCsHF7rg0WuwsotKR_HDhpz8JeNO6aA1D3RhNbQdlVD5K-Q
+[2024-06-28 14:19:33] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-28 14:19:33] - [info] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-28 14:20:02] - [info] - Request to logout
+[2024-06-28 14:20:02] - [info] - Request to logout
+[2024-06-28 14:56:06] - [info] - [Visitor] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-28 14:56:06] - [info] - [Visitor] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-28 14:56:07] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-28 14:56:55] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-28 14:56:55] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-28 14:56:55] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-28 14:56:55] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTYwMTAxNSwiZXhwIjoxNzE5NjA0NjE1LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.gOrKmBTL4ok_TkRGSG_If1mNBcRKHO-UwhN_eXWIwAguSC2x383yYSnueR_uA1wLaIqyf5bSNmWARl_2dRQ_jf8Z_5Iy1_XANI3QxqfzHxGIsYl9Le8iJp4tz946e2pntLQNuSkN5_wNppKHpIKXJEQlBzdmHi5XxOcBCgu87o4zn3d95VKhVZazE0_YNf8k6A9fUA4XG9zeCahpmsvlUxKm1Xg1sKLmAzit78fnYIFAo-9ClKj3tKKbWF2Gi2rFNalebGtAARdf8011VPDpTa9_HvmRRshpjg1GcDwfMZXclLO4w-J64LJYno3QZnQIRyDwIW-6-XUJftxLZNn9hA
+[2024-06-28 14:56:57] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-28 14:56:58] - [info] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 09:13:19] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-29 09:13:19] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-29 09:13:19] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-29 09:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTY2Njc5OSwiZXhwIjoxNzE5NjcwMzk5LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.FaXb1KMTEa3iTpJJeve0xQF2s0oRrb9zUzTJSoLZ8yn5eYdIadPuEbldPLvHfOhS7tO3G7LiDLOea8DY6TQF4Dhb4lYzYG1uh2bp3CLpTjvhsVv76suzNse1txZqyCnr5d6HBuDLHYYzveTZQIu887Efj7E4gFKtniBFhm46LsoDkLm86WI1TiZi_R6Aq6th178nXR2dELgbMqZdJM71aM1jYpqv7z7NrnRf9N3e8sUlNq7-MCo-5Ax2HHicvavtxMxjLFOTVod7w9YkwfUagyedpqZg_bXflbY2G4h3HjQCvKVPhTV3V4zLucwHLVbOXbVY66PDSu0ytP9eyKWAVQ
+[2024-06-29 09:13:23] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Getting user property listings
+[2024-06-29 09:13:23] - [info] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 09:49:34] - [error] - [executeQuery] - Error executing MySQL query: Unknown column 'emailAddress' in 'field list'
+[2024-06-29 09:49:34] - [error] - [johnny.kh@hotmail.com] - [/reportUserChat] - Error reporting the user chat with conversation id: 48-1002-1002. Root Cause: NaN
+[2024-06-29 09:51:04] - [info] - [johnny.kh@hotmail.com] - [/api/reportUserChat] - Successfully reported the user chat with conversation id: 48-1002-1002.
+[2024-06-29 10:30:31] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-29 10:30:35] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 10:30:35] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 10:30:36] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 10:31:30] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-29 10:31:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 10:31:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 10:31:33] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 10:31:48] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 10:31:48] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 10:31:48] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 10:32:00] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-29 10:32:02] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 10:32:02] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 10:32:03] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 10:33:11] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button Find a Room
+[2024-06-29 10:33:14] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 10:33:14] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 10:33:15] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 10:47:19] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room
+[2024-06-29 10:47:23] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: List a Room
+[2024-06-29 10:47:35] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Roommate
+[2024-06-29 10:47:38] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Tenant
+[2024-06-29 10:49:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:40] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 10:49:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 22
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 22
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 22
+[2024-06-29 11:04:46] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 22
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 11:05:21] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 24
+[2024-06-29 11:12:38] - [info] - Ticket ID: 45 submitted successfully
+[2024-06-29 11:12:38] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 45 was submited successfully.
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 25
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 25
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 25
+[2024-06-29 11:13:20] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 25
+[2024-06-29 11:13:32] - [info] - Ticket ID: 46 submitted successfully
+[2024-06-29 11:13:32] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 46 was submited successfully.
+[2024-06-29 11:14:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:02] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:14:06] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:08] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 26
+[2024-06-29 11:14:17] - [info] - Ticket ID: 47 submitted successfully
+[2024-06-29 11:14:17] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 47 was submited successfully.
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 27
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 27
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 27
+[2024-06-29 11:15:07] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 27
+[2024-06-29 11:15:19] - [info] - Ticket ID: 48 submitted successfully
+[2024-06-29 11:15:19] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 48 was submited successfully.
+[2024-06-29 11:15:19] - [error] - [johnny.kh@hotmail.com] - [/api/createTicket] - Failed to create support case. Root Cause: NaN
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 28
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 28
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 28
+[2024-06-29 11:20:43] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 28
+[2024-06-29 11:20:54] - [info] - Ticket ID: 49 submitted successfully
+[2024-06-29 11:20:54] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 49 was submited successfully.
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 29
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 29
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 29
+[2024-06-29 11:20:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 29
+[2024-06-29 11:22:03] - [info] - Ticket ID: 50 submitted successfully
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 50 was submited successfully.
+[2024-06-29 11:22:03] - [error] - [johnny.kh@hotmail.com] - Failed to send new support ticket. Root Cause: Error: self-signed certificate in certificate chain
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 30
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 30
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 30
+[2024-06-29 11:22:03] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 30
+[2024-06-29 11:23:00] - [info] - Ticket ID: 51 submitted successfully
+[2024-06-29 11:23:00] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 51 was submited successfully.
+[2024-06-29 11:23:00] - [error] - [johnny.kh@hotmail.com] - Failed to send new support ticket. Root Cause: Error: self-signed certificate in certificate chain
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:23:01] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:23:25] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
+[2024-06-29 11:23:25] - [error] - [johnny.kh@hotmail.com] - [/api/createTicket] - Failed to create support case. Root Cause: NaN
+[2024-06-29 11:25:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:27] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:25:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:25:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:25:28] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 31
+[2024-06-29 11:25:36] - [info] - Ticket ID: 52 submitted successfully
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 52 was submited successfully.
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - New support ticket notification was sent successfully
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:25:36] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:25:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:26:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 1
+[2024-06-29 11:26:13] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 52 submitted successfully. Reply: hellozzz
+[2024-06-29 11:26:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:13] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 2
+[2024-06-29 11:26:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:19] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 52 submitted successfully. Reply: comment ca?
+[2024-06-29 11:26:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-29 11:26:19] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 3
+[2024-06-29 11:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/sendTicketReply] - Reply to case ID: 52 submitted successfully. Reply: cv  bient eh vous?
+[2024-06-29 11:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-29 11:26:26] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTicketDetails] - Support tickets details results returned: 4
+[2024-06-29 11:26:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:26:54] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:26:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:26:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:26:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:28:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:23] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:28:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:28:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:28:24] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 32
+[2024-06-29 11:28:40] - [info] - Ticket ID: 53 submitted successfully
+[2024-06-29 11:28:40] - [info] - [johnny.kh@hotmail.com] - [/api/createTicket] - A new support ticket with ID: 53 was submited successfully.
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - New support ticket notification was sent successfully
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:28:41] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:29:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:29:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:29:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:29:05] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:29:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:29:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:29:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:29:55] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Received request to get all support tickets for johnny.kh@hotmail.com
+[2024-06-29 11:29:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:29:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:29:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:29:56] - [info] - [johnny.kh@hotmail.com] - [/api/getSupportTickets] - Support tickets results returned: 33
+[2024-06-29 11:32:41] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room
+[2024-06-29 11:32:45] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:32:45] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 11:32:45] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 11:37:38] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:37:38] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 11:37:38] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 11:37:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:37:52] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') AND privateBathroom = true AND privateParking = true 
+      ;
+[2024-06-29 11:37:52] - [info] - [/api/searchListings] - Room listings results returned: 5
+[2024-06-29 11:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:38:27] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') AND privateBathroom = true AND privateParking = true 
+      ;
+[2024-06-29 11:38:27] - [info] - [/api/searchListings] - Room listings results returned: 5
+[2024-06-29 11:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: >hello4<, Max Price: , Min Price: , Move In Date: null, Filters: true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:38:36] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%hello4%'
+            OR r.city LIKE '%hello4%'
+            OR r.state LIKE '%hello4%'
+            OR r.zip LIKE '%hello4%') AND privateBathroom = true AND privateParking = true 
+      ;
+[2024-06-29 11:38:36] - [info] - [/api/searchListings] - Room listings results returned: 0
+[2024-06-29 11:39:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:39:24] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') AND washer = true AND dryer = true 
+      ;
+[2024-06-29 11:39:24] - [info] - [/api/searchListings] - Room listings results returned: 8
+[2024-06-29 11:41:04] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Tenant
+[2024-06-29 11:41:07] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-29 11:41:07] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * 
+               FROM userprofile 
+               WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 11:41:07] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-29 11:41:25] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: boston
+[2024-06-29 11:41:25] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * 
+               FROM userprofile 
+               WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%boston%' AND age >= 18 AND age <= 99 AND isSmoker = '1'
+[2024-06-29 11:41:26] - [info] - [/api/searchProfile] - Room listings results returned: 0
+[2024-06-29 11:41:59] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room
+[2024-06-29 11:42:03] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:42:03] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') AND privateBathroom = true AND privateParking = true 
+      ;
+[2024-06-29 11:42:03] - [info] - [/api/searchListings] - Room listings results returned: 5
+[2024-06-29 11:44:36] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room
+[2024-06-29 11:44:43] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: >boston<, Max Price: , Min Price: , Move In Date: null, Filters: true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:44:44] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') AND privateBathroom = true AND privateParking = true 
+      ;
+[2024-06-29 11:44:44] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-29 11:44:50] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: >boston<, Max Price: , Min Price: , Move In Date: null, Filters: false,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:44:50] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') AND privateParking = true 
+      ;
+[2024-06-29 11:44:50] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-29 11:44:55] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: >boston<, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:44:55] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%boston%'
+            OR r.city LIKE '%boston%'
+            OR r.state LIKE '%boston%'
+            OR r.zip LIKE '%boston%') 
+      ;
+[2024-06-29 11:44:55] - [info] - [/api/searchListings] - Room listings results returned: 1
+[2024-06-29 11:45:00] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:45:00] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 11:45:00] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 11:45:07] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: >staten<, Max Price: , Min Price: , Move In Date: null, Filters: true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 11:45:07] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%staten%'
+            OR r.city LIKE '%staten%'
+            OR r.state LIKE '%staten%'
+            OR r.zip LIKE '%staten%') AND privateBathroom = true 
+      ;
+[2024-06-29 11:45:07] - [info] - [/api/searchListings] - Room listings results returned: 4
+[2024-06-29 12:17:00] - [info] - Request to logout
+[2024-06-29 12:17:00] - [info] - Request to logout
+[2024-06-29 12:17:50] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-29 12:17:50] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-29 12:17:50] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-29 12:17:52] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTY3Nzg3MiwiZXhwIjoxNzE5NjgxNDcyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.j1swkipXTo-A__OU1TS4FboxbcuSuJEaZl0lGLe3JTXvpMIvosHaQD4R88w5x8M4dMmhB9DJBHabJBE0vYXH6ax5AX1cXXAOanTvtwtLRBNpdKuxeqrhi3V-Q7-wh4qvqHiNNptiRChdYoNdLfO9U21tKoIuwi2kY17QI-8UWiHBh3ejjsrMUiuFUnFqKe0FYfaCwTPPnjcqjN4MjLfdcQlrud6ddoWmrBBqzQ2f9aGThxOC2gUHn_qVYSLyDzguFarMGqmHXZFvnaeZgy3oJowodkZjieOCQ8qZOki3MreNKwzZUbQILfgGXYKvy4XFGdIMBBm-8ppgvHxbk8_WJw

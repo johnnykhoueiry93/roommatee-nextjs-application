@@ -3,9 +3,7 @@
 import React, { useEffect } from 'react';
 import DoneAnimation from "../modals/DoneAnimation";
 import { useRouter } from 'next/navigation';
-
 import { SiteData } from "../../context/SiteWrapper";
-// import BackendAxios from "../../backend/BackendAxios";
 
 const ProfileCompleteScreen = () => {
 //@ts-ignore

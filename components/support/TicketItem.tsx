@@ -31,6 +31,14 @@ const navigateToPage = (path) => {
     color: "var(--roomatee-theme-color)", // Change the color to your desired color
   };
 
+  const truncateText = (text) => {
+    let maxLength = isMobile ? 45 : 120;
+    if (text.length > maxLength) {
+      return text.substring(0, maxLength) + '...';
+    }
+    return text;
+  };
+
   return (
     <div
       className="ticket-item-row container support-container mt-2"
@@ -42,8 +50,8 @@ const navigateToPage = (path) => {
             <MailIcon style={mailIconStyle} />
           </div>
 
-          <div style={{ height: "70px", paddingLeft: "20px", paddingTop: "20px" }}>
-            <h5>{ticket.subject}</h5>
+          <div style={{ height: "70px", paddingLeft: "20px"}}>
+          <h5>{truncateText(ticket.subject)}</h5>
             <p className="last-update-on">Last Update on {formattedDate}</p>
           </div>
         </div>

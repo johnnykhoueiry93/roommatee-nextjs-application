@@ -4,14 +4,18 @@ import React from "react";
 import "../../styles/support/CreateTicket.css";
 import { useRouter } from 'next/navigation';
 import ProfileComponentTitle from "../myProfile/ProfileComponentTitle";
-import OutlinedInput from "@mui/material/OutlinedInput";
-import InputLabel from "@mui/material/InputLabel";
-import FormControl from "@mui/material/FormControl";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { useState } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 import BackToResultsBtn from "../modals/BackToResultsBtn";
+import {
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem,
+  OutlinedInput,
+} from "@mui/material";
 
 const CreateTicket = () => {
   //@ts-ignore
@@ -114,40 +118,34 @@ const navigateToPage = (path) => {
             />
           </FormControl>
 
-          {/* ----------------------------- AREA ----------------------------- */}
-          <div className="form-floating pt-3 ml-auto">
-            <select
-              required
-              className="input-dropdown "
-              id="listingType"
+
+
+
+          <div className='pt-3'>
+          <FormControl fullWidth>
+            <InputLabel id="demo-simple-select-label">Issue Area</InputLabel>
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              label="Issue Area"
               onChange={(e) =>
                 setTicketData({
-                  ...ticketData,
+                  ...ticketData, //@ts-ignore
                   caseArea: e.target.value,
                 })
               }
             >
-              <option value="" selected disabled>
-                Select Issue Category
-              </option>
-              <option value="Application Bug">Application Bug</option>
-              <option value="System Slowness">System Slowness</option>
-              <option value="Can't create new listing">
-                Can't create new listing
-              </option>
-              <option value="Can't list my profile">
-                Can't list my profile
-              </option>
-              <option value="Unable to search for properties">
-                Unable to search for properties
-              </option>
-              <option value="Chat system not functionning">
-                Chat system not functionning
-              </option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-
+              <MenuItem value={"Application Bug"}>Application Bug</MenuItem>
+              <MenuItem value={"System Slowness"}>System Slowness</MenuItem>
+              <MenuItem value={"Can't create new listing"}>Can't create new listing</MenuItem>
+              <MenuItem value={"Can't list my profile"}>Can't list my profile</MenuItem>
+              <MenuItem value={"Unable to search for properties"}>Unable to search for properties</MenuItem>
+              <MenuItem value={"Chat system not functionning"}>Chat system not functionning</MenuItem>
+              <MenuItem value={"Other"}>Other</MenuItem>
+            </Select>
+          </FormControl>
+        </div>
+       
           {/* ----------------------------- DESCRIPTION ----------------------------- */}
           <div className="pt-3 ml-auto">
             <TextField

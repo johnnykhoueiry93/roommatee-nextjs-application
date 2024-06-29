@@ -5,7 +5,6 @@ import { SiteData } from "../../context/SiteWrapper";
 import Stack from "@mui/material/Stack";
 import { useRouter } from 'next/navigation';
 import { getProfilePictureUrl } from '../../utils/utilities'
-// import BackendAxios from "../../backend/BackendAxios";
 import { useEffect, useState } from "react";
 import ReactResponsiveCarousel from "../modals/ReactResponsiveCarousel";
 

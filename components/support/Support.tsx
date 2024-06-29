@@ -65,7 +65,7 @@ const Support = () => {
 
   useEffect(() => {
     fetchSupportTickets();
-  }, [supportTicketsUpdate, userInfo]);
+  }, [supportTicketsUpdate]);
 
   useEffect(() => {
     console.log('Support component loaded')
@@ -77,7 +77,6 @@ const Support = () => {
   }, [supportTickets]);
 
   if (loading) {
-    // return <div>Loading support tickets...</div>; // Render loading message while fetching
     return <div><MessageComponentLoader loadingMessage={"Loading support tickets..."}/></div>; // Render loading message while fetching
   }
 

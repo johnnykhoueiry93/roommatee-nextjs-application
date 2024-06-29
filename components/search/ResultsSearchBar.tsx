@@ -4,7 +4,7 @@ import "../../styles/ResultsSearchBar.css";
 import React, { useState, useEffect } from "react";
 import { SiteData } from "../../context/SiteWrapper";
 // @ts-ignore
-import BackendAxios from "../../backend/BackendAxios";
+// import BackendAxios from "../../backend/BackendAxios";
 import { useRouter } from 'next/navigation';
 import { SelectChangeEvent } from '@mui/material/Select';
 import ManageSearchIcon from '@mui/icons-material/ManageSearch';

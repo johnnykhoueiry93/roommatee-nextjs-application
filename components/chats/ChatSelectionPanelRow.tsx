@@ -6,7 +6,6 @@ import { useRouter } from 'next/navigation';
 import { getProfilePictureUrl } from '../../utils/utilities'
 import { SiteData } from "../../context/SiteWrapper";
 import { useEffect, useState } from "react";
-// import BackendAxios from "../../backend/BackendAxios";
 import {
   getFirestore,
   collection,

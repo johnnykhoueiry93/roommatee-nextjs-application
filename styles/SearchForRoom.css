@@ -9,7 +9,7 @@
 /* For screens smaller than 768px (including mobile devices) */
 @media screen and (max-width: 767px) {
     .center-div {
-        width: 100%;
+        width: 90%;
     }
 }
 

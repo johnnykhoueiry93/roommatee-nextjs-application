@@ -40,13 +40,12 @@
   .nav-login-btn {
     /* Add a border to the login button */
     /* border: 2px solid var(--roomatee-theme-color); */
-    padding: 10px 20px; /* Add padding to the button for better appearance */
+    /* padding: 10px 20px; Add padding to the button for better appearance */
     border-radius: 5px; /* Optional: Add rounded corners */
     color: #333; 
     cursor: pointer; /* Add a cursor pointer on hover */
     margin-right: 20px;
     text-align: center;
-    padding-left: 10px;
   }
   
   .dropdown-item {
@@ -66,3 +65,30 @@
     font-weight: bold;
     color: var(--roomatee-theme-color) !important;
   }
+
+  /* For screens smaller than 768px (including mobile devices) */
+@media screen and (max-width: 767px) {
+  .menu-item {
+    font-size: 16px;
+  }
+
+  .nav-item a {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    padding: 3px !important;
+  }
+}
+
+/* For iPad (768px to 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu-item {
+    font-size: 15px;
+  }
+
+  .nav-link {
+    padding: 3px !important;
+  }
+  
+}

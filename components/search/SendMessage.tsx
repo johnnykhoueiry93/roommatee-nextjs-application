@@ -5,7 +5,6 @@ import { SiteData } from "../../context/SiteWrapper";
 import { useRouter } from 'next/navigation';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import CircularProgress from "@mui/material/CircularProgress";
-// import BackendAxios from "../../backend/BackendAxios";
 import FirebaseChats from '../FirebaseChats'
 import React from "react";
 import StaticFrontendLabel from "../../StaticFrontend";
@@ -61,25 +60,6 @@ const SendMessage = ({ selectedCardDetails, targetUserId, cardId, topicUrl }) =>
     return filteredChats && filteredChats.length > 0;
   };
 
-  
-
-  //@ts-ignore
-  const logInitialMessageSent = () => {
-    // BackendAxios.post("/logInitialMessageSent", {
-    //   emailAddress: userInfo.emailAddress,
-    //   message: message,
-    //   //@ts-ignore
-    //   firstPartyFullName: firstPartyFullName,
-    //   //@ts-ignore
-    //   secondPartyFullName: secondPartyFullName,
-    //   //@ts-ignore
-    //   concatChatId: concatChatId,
-    //   topicUrl: topicUrl,
-    // }).catch((error) => {
-    //   console.error("Error:", error);
-    // });
-  };
-
   const sendMessage = async () => {
     console.log("The user clicked on button Send Message from Message Box.");
 
@@ -120,8 +100,6 @@ const SendMessage = ({ selectedCardDetails, targetUserId, cardId, topicUrl }) =>
           },
           { merge: true }
         );
-
-        // await logInitialMessageSent();
 
         setMessage("");
       } catch (error) {
