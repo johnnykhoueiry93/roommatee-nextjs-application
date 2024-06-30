@@ -112,22 +112,22 @@ export async function POST(request) {
 
       updateValues.push(emailAddress);
 
-      logger.info(`[${emailAddress}] - [/insertProfileSetupInfo] - SQL Query: ${sql}`);
-      logger.info(`[${emailAddress}] - [/insertProfileSetupInfo] - Update Values: ${updateValues.join(', ')}`);
+      logger.info(`[${emailAddress}] - [/api/insertProfileSetupInfo] - SQL Query: ${sql}`);
+      logger.info(`[${emailAddress}] - [/api/insertProfileSetupInfo] - Update Values: ${updateValues.join(', ')}`);
 
     // Execute the query with parameters
     const results = await executeQuery(sql, updateValues);
 
     if(results.affectedRows > 0 ) {
-        logger.info(`[${emailAddress}] - [/insertProfileSetupInfo] - Profile Setup data update completed successfully.`);
+        logger.info(`[${emailAddress}] - [/api/insertProfileSetupInfo] - Profile Setup data update completed successfully.`);
         return NextResponse.json({ message: "Profile setup info updated successfully." }, { status: 200 });
     } else {
-      logger.info(`[${emailAddress}] - [/insertProfileSetupInfo] - No rows affected during the update process.`);
+      logger.info(`[${emailAddress}] - [/api/insertProfileSetupInfo] - No rows affected during the update process.`);
         return NextResponse.json({ message: `Invalid Verification Code` }, { status: 401 });
     }
 
   } catch (err) {
-    logger.error(`[${emailAddress}] - [/insertProfileSetupInfo] - Error executing query: ${err.message}`);
+    logger.error(`[${emailAddress}] - [/api/insertProfileSetupInfo] - Error executing query: ${err.message}`);
     return NextResponse.json({ message: "Internal server error", error: err.message }, { status: 500 });
   }
 }

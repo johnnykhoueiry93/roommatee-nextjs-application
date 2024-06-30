@@ -8305,3 +8305,33 @@
 [2024-06-30 17:57:05] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
 [2024-06-30 17:57:12] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
 [2024-06-30 18:00:58] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 18:31:58] - [info] - Request to logout
+[2024-06-30 18:31:58] - [info] - Request to logout
+[2024-06-30 18:33:26] - [info] - [johnny.kh@hotmail.com] - User attempting to reset email: johnny.kh@hotmail.com
+[2024-06-30 18:33:27] - [info] - [johnny.kh@hotmail.com] - [/api/resetPassword] - The email address: johnny.kh@hotmail.com requested to reset was found.
+[2024-06-30 18:33:27] - [info] - [johnny.kh@hotmail.com] - [/api/resetPassword] - newTempPassword : >+wM=0a55<
+[2024-06-30 18:33:27] - [info] - [johnny.kh@hotmail.com] - [/api/resetPassword] - encryptedNewTempPassword : >$2b$10$2V0./H3eJZRKptxZWjYCKee2c9pxkPbZKgSb3aWeIHjOQjzCjx.tC<
+[2024-06-30 18:33:27] - [info] - [johnny.kh@hotmail.com] - [/api/resetPassword] - Password updated successfully in the database
+[2024-06-30 18:33:27] - [info] - [johnny.kh@hotmail.com] - [/api/resetPassword] - Reset email was sent successfully
+[2024-06-30 18:34:34] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-30 18:34:34] - [info] - [johnny.kh@hotmail.com] - Received plain password: +wM=0a55
+[2024-06-30 18:34:34] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-30 18:34:36] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTc4Njg3NiwiZXhwIjoxNzE5NzkwNDc2LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.lKuLrhiEdCHXHm7eHNWgfAQ_VqFDkCewIJc5EEJazfmaN2WCEiuGfAQxOzsqZ6XpbZjnPdzvwA3jJH_iOSrE8mtYSvRg0uJ77qmkAWIXDhy8osZX6EW4wGkr5f4_ddiAXKw0YQi3LgC6ZahADWea3iMPDN-PnjleOOJxZtcSI6YiRByZeRLHyearBYWbwSl3ylKD6zfMgXQGXEPyiEaJ_pYmLGRhYIS2k6Z08NQYW37UpSaUpkaPy56AhfCwACxOd6YwkPVdSAG7rQcAaDxevtNQWsCm_AQvuVCMOoZmWkcfZ0w7PU2IViBuomlN_ifRRDE-bPhjen2n3-b-_WyEow
+[2024-06-30 18:34:52] - [info] - [undefined] - User attempting to login with email: undefined
+[2024-06-30 18:34:52] - [info] - encryptedNewTempPassword : >$2b$10$DgOlnwhtemTMHQyhROcJf.TV0YN13Dn4KY4Xngc5dfBVRFLeKL.NC<
+[2024-06-30 18:34:52] - [error] - Error updating password in the database:!
+[2024-06-30 18:35:06] - [info] - [undefined] - User attempting to login with email: undefined
+[2024-06-30 18:35:06] - [info] - encryptedNewTempPassword : >$2b$10$CizYNkOi0Oc72xDGbejQJ.Iy2hL7b1640xTwfoEOIDWY9pFNqJUk.<
+[2024-06-30 18:35:06] - [error] - Error updating password in the database:!
+[2024-06-30 18:48:36] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-30 18:48:36] - [info] - [johnny.kh@hotmail.com] - Received plain password: +wM=0a55
+[2024-06-30 18:48:37] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-30 18:48:37] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTc4NzcxNywiZXhwIjoxNzE5NzkxMzE3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.k8fnDPYZpd2vm3cPGaTbMVDC8Wjo-RMxFGmnvT9g2IOtjPT2rhjksvWsHeIJynUnl3gUbR6cObKLPpzjJKxXtS_7xy1fsKubg_gUI8dPSFQZG9nabSQSBo9B_WnpethSu5BNMblIMQa305qgr80u6nPyVUZZ_tSX424s8c0tZdNMi8a0H7ox856_xaeMXF6Q01uSq7vGavvE6j3C7jCFgVUBr8LuF0Bl6ovUP5xYg3UEDwg2ag_cooZbJcHES5fUAHeu3XGtYlxbKkfKwns-ywEvGJNiqaunVauvHARZcSX0VdafvNhY8N0dUuckWedobQtctu5c8vvKKlRB3hLbUQ
+[2024-06-30 18:48:51] - [info] - [johnny.kh@hotmail.com] - [/api/changePassword] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-30 18:48:51] - [info] - [${emailAddressToReset}] - [${WS}] - Setting a new encryptedNewTempPassword : >$2b$10$T6b7wjhj67.61aagCVmUpuoD04ojN9AL65/jZ04Oyk7FQiViUKlWO<
+[2024-06-30 18:48:51] - [info] - [${emailAddressToReset}] - [${WS}] - Password updated successfully in the database
+[2024-06-30 18:49:56] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-30 18:49:56] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-30 18:49:57] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-30 18:49:57] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTc4Nzc5NywiZXhwIjoxNzE5NzkxMzk3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.MlZfTzzFOBku4FlZ9apm-b70_ZkoDJ-j_TVnVAI06aamnqXQyUowivEcLe6etLwrL9NNJFaaCthecmVcGe41UZ6TysTxouZoH6VxQJAWUW-FeC7DBHqOnz5rysOkghC2bcg_LaT_P1VPHrFIM0sJe0aN2cgQdEvh2KVjkgEelUd9m6dx6EiZO0tOoa-AVXZ2NOmrTAxWdmCTeF6zwDgSUILbdg1D_JW4HWCOx_Zbyh3RnFa2Fjor6LCWeKlRFgGPOfg6IF-SJFDk5LMQpRNjb0BCeM5nEpzUevxEpr1-zvzBstn9ohsRVpkBJBk1fVl9mPVpqY0B0Qaohnqc0PLrPg
+[2024-06-30 18:50:03] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14

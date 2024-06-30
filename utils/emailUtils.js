@@ -12,7 +12,7 @@ const logger = require("./logger");
 
 //@ts-ignore
 async function sendEmailVerificationCode(verificationCode, firstName, emailAddress) {
-  logger.info(`[${emailAddress}] - Sennding the verification code to email address: ${emailAddress}`)
+  logger.info(`[${emailAddress}] - [sendEmailVerificationCode] - Sennding the verification code to email address: ${emailAddress}`)
   let sendSmtpEmail = new SibApiV3Sdk.SendSmtpEmail(); 
 
   sendSmtpEmail.subject = "Your Roomatee Verification Code";
@@ -24,11 +24,11 @@ async function sendEmailVerificationCode(verificationCode, firstName, emailAddre
   
   //@ts-ignore
   apiInstance.sendTransacEmail(sendSmtpEmail).then(function(data) {
-    logger.info(`[${emailAddress}] - Email verification code sent successfully`);
+    logger.info(`[${emailAddress}] - [sendEmailVerificationCode] - Email verification code sent successfully`);
 
     //@ts-ignore
   }, function(error) {
-    logger.error(`[${emailAddress}] - Email verification code failed to send. Root Cause: ` + error);;
+    logger.error(`[${emailAddress}] - [sendEmailVerificationCode] - Email verification code failed to send. Root Cause: ` + error);;
   });
 }
 
@@ -44,11 +44,11 @@ function sendEmailResetPassword(emailAddress, newTempPassword, firstName, lastNa
 
   //@ts-ignore
   apiInstance.sendTransacEmail(sendSmtpEmail).then(function(data) {
-    logger.info(`[${emailAddress}] - [/api/resetPassword] - Reset email was sent successfully`);
+    logger.info(`[${emailAddress}] - [sendEmailResetPassword] - Reset email was sent successfully`);
 
     //@ts-ignore
   }, function(error) {
-    logger.error(`[${emailAddress}] - [/api/resetPassword] - Reset email failed to send. Root Cause: ` + error);;
+    logger.error(`[${emailAddress}] - [sendEmailResetPassword] - Reset email failed to send. Root Cause: ` + error);;
   });
 }
 

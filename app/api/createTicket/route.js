@@ -35,7 +35,7 @@ async function insertMessage(ticketMessage) {
 
           const caseId = results.insertId;
           const message = description;
-          logger.info(`Ticket ID: ${caseId} submitted successfully`)
+          logger.info(`[${emailAddress}] - [/api/createTicket] - Ticket ID: ${caseId} submitted successfully`)
 
           const ticketMessage = {
             caseId,

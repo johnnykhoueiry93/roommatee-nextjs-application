@@ -554,3 +554,5 @@
 [2024-06-29 11:23:00] - [error] - [johnny.kh@hotmail.com] - Failed to send new support ticket. Root Cause: Error: self-signed certificate in certificate chain
 [2024-06-29 11:23:25] - [error] - [executeQuery] - Error executing MySQL query: Can't add new command when connection is in closed state
 [2024-06-29 11:23:25] - [error] - [johnny.kh@hotmail.com] - [/api/createTicket] - Failed to create support case. Root Cause: NaN
+[2024-06-30 18:34:52] - [error] - Error updating password in the database:!
+[2024-06-30 18:35:06] - [error] - Error updating password in the database:!

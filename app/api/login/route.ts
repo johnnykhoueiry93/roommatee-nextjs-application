@@ -15,11 +15,11 @@ async function incrementLoginFrequencyAndLastLogin(emailAddress) {
 }
 
 export async function POST(request) {
-  try {
-    const { emailAddress, password: plainPassword } = await request.json();
+  const { emailAddress, password: plainPassword } = await request.json();
 
-    logger.info(`[${emailAddress}] - User attempting to login with email: ${emailAddress}`);
-    logger.info(`[${emailAddress}] - Received plain password: ${plainPassword}`);
+  try {
+    logger.info(`[${emailAddress}] - [/api/login] - User attempting to login with email: ${emailAddress}`);
+    logger.info(`[${emailAddress}] - [/api/login] - Received plain password: ${plainPassword}`);
 
     // Execute the query with parameters
     const results = await executeQuery("SELECT * FROM userprofile WHERE emailAddress = ?", [emailAddress]);
@@ -30,7 +30,7 @@ export async function POST(request) {
       const passwordMatch = await passwordUtils.comparePassword(plainPassword, hashedPassword);
 
       if (passwordMatch) {
-        logger.info(`[${emailAddress}] - Login was successful`);
+        logger.info(`[${emailAddress}] - [/api/login] - Login was successful`);
 
         await incrementLoginFrequencyAndLastLogin(emailAddress);
 
@@ -47,15 +47,15 @@ export async function POST(request) {
 
         return NextResponse.json(responseData);
       } else {
-        logger.info(`[${emailAddress}] - Login failed - Wrong username/password!`);
+        logger.info(`[${emailAddress}] - [/api/login] - Login failed - Wrong username/password!`);
         return NextResponse.json({ message: "Wrong username/password!" }, { status: 401 });
       }
     } else {
-      logger.info(`[${emailAddress}] - Login failed - User not found!`);
+      logger.info(`[${emailAddress}] - [/api/login] - Login failed - User not found!`);
       return NextResponse.json({ message: "User not found!" }, { status: 404 });
     }
   } catch (err) {
-    logger.error(`Backend failure during the /login webservice`, err);
+    logger.error(`[${emailAddress}] - [/api/login] - Backend failure during the /login webservice`, err);
     // logPoolStatus();
     return NextResponse.json({ message: "Internal server error", error: err.message }, { status: 500 });
   }

@@ -254,12 +254,12 @@ const SignIn = () => {
         <link rel="canonical" href="/login" />
       </Helmet> */}
 
-<SnackBarAlert
-          message={snackbarMessage}
-          open={snackbarOpen}
-          handleClose={() => setSnackbarOpen(false)}
-          severity={snackbarSeverity}
-        />
+      <SnackBarAlert
+        message={snackbarMessage}
+        open={snackbarOpen}
+        handleClose={() => setSnackbarOpen(false)}
+        severity={snackbarSeverity}
+      />
 
 
       <div className="row login-box-container">

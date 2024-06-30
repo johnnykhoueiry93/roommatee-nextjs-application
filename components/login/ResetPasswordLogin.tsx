@@ -17,7 +17,7 @@ import { useRouter } from 'next/navigation';
 
 const ResetPasswordLogin = () => {
   // @ts-ignore
-  const { emailAddressToReset } = SiteData();
+  const { emailAddressToReset, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity } = SiteData();
   const [showPassword, setShowPassword] = useState(false);
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -68,10 +68,14 @@ const ResetPasswordLogin = () => {
     //   return data;
 
     if (response.status === 200) {
-        window.alert('changed!'); //TODO add success snack bar
+        setSnackbarMessage("Password updated successfully!");
+        setSnackbarSeverity("success");
+        setSnackbarOpen(true);
         navigateToPage('/login');
       } else {
-        window.alert('nayyik!') //TODO add success snack bar
+        setSnackbarMessage("Failed to update password");
+        setSnackbarSeverity("error");
+        setSnackbarOpen(true);
       }
   };
 

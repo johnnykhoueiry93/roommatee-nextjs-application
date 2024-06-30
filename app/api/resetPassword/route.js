@@ -1,4 +1,4 @@
-// /api/api/resetPassword
+// /api/resetPassword
 
 import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database"; // Adjust the import path based on your project structure
@@ -23,7 +23,7 @@ export async function POST(request) {
   try {
     const { emailAddressToReset } = await request.json();
 
-    logger.info(`[${emailAddressToReset}] - User attempting to reset email: ${emailAddressToReset}`);
+    logger.info(`[${emailAddressToReset}] - [/api/resetPassword] - User attempting to reset email: ${emailAddressToReset}`);
 
     // Execute the query with parameters
     const results = await executeQuery("SELECT * FROM userprofile WHERE emailAddress = ?", [emailAddressToReset]);

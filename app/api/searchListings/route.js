@@ -183,10 +183,10 @@ export async function POST(request) {
     // Execute the database query to fetch user listings
     const results = await executeQuery(query);
 
-    logger.info(`[/api/searchListings] - Room listings results returned: ${results.length}`);
+    logger.info(`[${emailAddress}] - [/api/searchListings] - Room listings results returned: ${results.length}`);
     return NextResponse.json(results);
   } catch (error) {
-    logger.error("[/api/searchListings] - Error fetching search listings:", error);
+    logger.error(`[${emailAddress}] - [/api/searchListings] - Error fetching search listings: `, error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
 }
