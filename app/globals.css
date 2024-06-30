@@ -28,6 +28,16 @@
 	font-size: 18px;
 }
 
+.submit-button-disabled {
+	margin-top: 30px;
+	margin: auto;
+	font-weight: bold;
+	font-size: 18px;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
 .section-grouping-border {
   border: 1px solid #edeeee;
   padding: 3%;

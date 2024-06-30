@@ -10,11 +10,13 @@ import { SiteData } from "../../context/SiteWrapper";
 import LockResetIcon from '@mui/icons-material/LockReset';
 import { useRouter } from 'next/navigation';
 import FooterSimple from "../footer/FooterSimple";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const ForgotPassword = () => {
   const [errorMessage, setErrorMessage] = useState('');
   //@ts-ignore
-  const { emailAddressToReset, setEmailAddressToReset } = SiteData();
+  const { emailAddressToReset, setEmailAddressToReset, loading, setLoading } = SiteData();
+  const [recaptchaToken, setRecaptchaToken] = useState('');
   const router = useRouter();
   const navigateToPage = (path) => {
     router.push(path);
@@ -52,15 +54,12 @@ const ForgotPassword = () => {
         cache: 'no-store' // Ensures the data is fetched on every request
       });
       const data = await response.json();
-    //   return data;
 
     if (response.status === 200) {
-        // window.alert('changed!'); //TODO add success snack bar
         console.log(`User with email: ${emailAddressToReset} was found. Redirecting user to  /resetInstructions`);
         navigateToPage('/resetInstructions');
         setErrorMessage('');
       } else {
-        // window.alert('nayyik!') //TODO add success snack bar
         navigateToPage('/resetInstructions');
         console.log(`User with email: ${emailAddressToReset} was not found. Showing error message`);
       }
@@ -78,8 +77,8 @@ const ForgotPassword = () => {
           <p className='forgot-password-instructions'>Enter your email address to send a recovery temp password</p>
 
           <form id="signUpForm" onSubmit={handleResetPassword}>
-          <FormControl sx={{ m: 1, width: "100%" }} variant="outlined">
-            <InputLabel htmlFor="emailAddress">Email address</InputLabel>
+          <FormControl sx={{ width: "100%" }} variant="outlined">
+            <InputLabel htmlFor="emailAddress">Email Address</InputLabel>
             <OutlinedInput
               required
               id="emailAddress"
@@ -93,8 +92,18 @@ const ForgotPassword = () => {
           <div className='pt-1 email-does-not-exist'>{errorMessage}</div>
           </FormControl>
 
+          {/* ---------------------- RECAPTCHA ----------------------*/}
+          <div className='pt-2 pb-1'>
+            <ReCAPTCHA sitekey='6LdqU-cpAAAAAOvIqjHD1FaLAeiOVeTU8PQJilHA' onChange={(e) => setRecaptchaToken(e)} />
+          </div>
+
           {/* ----------------------------- SUBMIT BUTTON ----------------------------- */}
-          <input type="submit" value="Submit" className="submit-button" />
+          <input 
+            type="submit" 
+            value="Submit" 
+            className={recaptchaToken ? 'submit-button' : 'submit-button-disabled'} 
+            disabled={loading}
+          />
           </form>
 
           <div className='back-to-login-container text-center' >          

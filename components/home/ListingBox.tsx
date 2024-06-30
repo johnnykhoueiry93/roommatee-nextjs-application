@@ -20,7 +20,7 @@ const ListingBox: React.FC<ListingBoxProps> = ({ onClickFunction, image, imageAl
   return (
     <div className="box" onClick={onClickFunction}>
       <Image className="listing-type-image" src={image} alt={imageAlt} height={height} width={width} />
-      {isMobile ? <h6>{labelText}</h6> : <h3>{labelText}</h3>}
+      {isMobile ? <h6>{labelText}</h6> : <h4>{labelText}</h4>}
     </div>
   );
 };

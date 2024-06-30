@@ -16,7 +16,7 @@ const BackToResultsBtn = ({ prevPage, text }) => {
 
   return (
     <div>
-      <p className=" back-to-result-style" >
+      <p className="back-to-result-style">
         <KeyboardBackspaceIcon className='cursor-pointer'/>
         <span className='cursor-pointer' onClick={() => handleBackToResults(prevPage)} style={{ fontWeight: "500" }} > {text}</span>
       </p>

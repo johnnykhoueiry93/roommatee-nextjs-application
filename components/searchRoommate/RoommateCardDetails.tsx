@@ -37,7 +37,6 @@ import LeaseTerms from "../search/LeaseTerms";
 import GoogleMap from "../search/GoogleMap";
 import SectionHeading from "../modals/SectionTitle";
 import { useRouter } from 'next/navigation';
-import { useParams } from 'next/navigation';
 import MessageComponentLoader from "../loaders/MessageComponentLoader";
 
 const RoommateCardDetails = ({roommateId}) => {
@@ -68,12 +67,6 @@ const RoommateCardDetails = ({roommateId}) => {
   const [messageSent, setMessageSent] = useState(false);
   const [showInfoPopup, setShowInfoPopup] = useState(false);
   const [popupMessage, setPopupMessage] = useState("");
-
-  const ID_VERIFIED = "/images/id-checked-icon.png";
-  const INSTAGRAM_ICON = "/images/instagram-icon.png";
-  const FACEBOOK_ICON = "/images/facebook-icon.png";
-  const EMAIL_VERIFIED = "/images/email-verified-icon.png";
-  const TWITTER_ICON = "/images/twitterx-icon.png";
 
   const handleSendMessage = () => {
     // Logic to handle sending the message
@@ -286,7 +279,7 @@ const RoommateCardDetails = ({roommateId}) => {
         <Tooltip title="Email verified" placement="top-start">
           <img
             key="emailVerified"
-            src={EMAIL_VERIFIED}
+            src={"/images/email-verified-icon.png"}
             style={socialIconStyle}
             alt="Email Verified"
           />
@@ -300,9 +293,9 @@ const RoommateCardDetails = ({roommateId}) => {
         <Tooltip title="ID verified" placement="top-start">
           <img
             key="profileVerified"
-            src={ID_VERIFIED}
+            src={"/images/id-checked-icon.png"}
             style={socialIconStyle}
-            alt="Profile Verified"
+            alt="ID Verified"
           />
         </Tooltip>
       );
@@ -350,9 +343,9 @@ const RoommateCardDetails = ({roommateId}) => {
             <img
               key="instagram"
               className="cursor-pointer"
-              src={INSTAGRAM_ICON}
+              src={"/images/instagram-icon.png"}
               style={socialIconStyle}
-              alt="Profile Verified"
+              alt="Instagram"
               onClick={() => openSocialMedia("instagram")}
             />
           </Tooltip>
@@ -366,9 +359,9 @@ const RoommateCardDetails = ({roommateId}) => {
             <img
               key="facebook"
               className="cursor-pointer"
-              src={FACEBOOK_ICON}
+              src={"/images/facebook-icon.png"}
               style={socialIconStyle}
-              alt="Profile Verified"
+              alt="Facebook"
               onClick={() => openSocialMedia("facebook")}
             />
           </Tooltip>
@@ -382,7 +375,7 @@ const RoommateCardDetails = ({roommateId}) => {
             <img
               key="twitter"
               className="cursor-pointer"
-              src={TWITTER_ICON}
+              src={"/images/twitterx-icon.png"}
               style={socialIconStyle}
               alt="Profile Verified"
               onClick={() => openSocialMedia("twitter")}
@@ -874,8 +867,6 @@ const RoommateCardDetails = ({roommateId}) => {
         </div>
         </div>
 
-    
-
         <div className='section-grouping-border'>
           <div>
             <LeaseTerms selectedCardDetails={selectedCardDetails} />
@@ -928,10 +919,8 @@ const RoommateCardDetails = ({roommateId}) => {
   function returnAboutMeSection() {
     return (
       <>
-        {/* -------------------------------- ABOUT ME --------------------------------*/}
-
-        <SectionHeading title="About Me" paddingTop="5"/>
-        {/* <hr /> */}
+      {/* -------------------------------- ABOUT ME --------------------------------*/}
+      <SectionHeading title="About Me" paddingTop="5"/>
         <div style={{ fontWeight: "bold" }}>
           <div>{returnAgeField()}</div>
           <div>{returnGenderField()}</div>

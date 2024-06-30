@@ -20,7 +20,7 @@ const UserListings = () => {
   const router = useRouter();
   const [isHydrated, setIsHydrated] = useState(false);
 
-  scrollToTop();
+  // scrollToTop();
   
   const navigateToPage = (path) => {
     router.push(path);

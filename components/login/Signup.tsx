@@ -37,7 +37,7 @@ const navigateToPage = (path) => {
 };
 
   // @ts-ignore
-  const { setSignUpEmail } = SiteData();
+  const { setSignUpEmail, loading, setLoading } = SiteData();
   const [recaptchaToken, setRecaptchaToken] = useState('');
   const navigateUserToTokenVerification = () => {
     navigateToPage("/emailVerification");
@@ -256,7 +256,11 @@ async function registerNewUser() {
 
               {/* ----------------------------- SUBMIT BUTTON ----------------------------- */}
               <div className="row submit-button">
-                <input type="submit" value="Submit" className="submit-button"  disabled={!isPasswordValid || !recaptchaToken} />
+                <input type="submit" 
+                value="Submit" 
+                className={recaptchaToken ? 'submit-button' : 'submit-button-disabled'} 
+                disabled={loading}
+              />
               </div>
               
               {/* ALREADY HAVE ACCOUNT REDIRECT */}

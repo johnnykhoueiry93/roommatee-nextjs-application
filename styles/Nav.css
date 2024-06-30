@@ -1,7 +1,7 @@
 /* VERY IMPORTNAT
 This ensure the navbar is not covering the below elements */
 body {
-  padding-top: 70px;
+  padding-top: 75px;
 }
 
 .navbar {

@@ -3,6 +3,20 @@
 UseContext is created to support sibling components and holding values across the lifecyle of the application
 Some values upon a screen refresh will be stored in storage including userInfo, userAuth, profilePicture meaning if you reload the page they will not be lost until logout
 
+# How to Build Production
+--------------------------------------------------------------------
+1- npm run build
+2- The run build will zip the .next folder to next.js folder which you can reveal in Explorer
+3- Zip the public to public.zip
+4- Scp next.zip to the /home/administrator
+5- Scp public.zip to the /home/administrator
+6- Login to the Linux server
+
+cd /root/app/nextjs
+rm -rf .next/
+mv /home/administrator/next.zip .
+unzip next.zip
+npm run start
 
 # Use Context Main values
 --------------------------------------------------------------------
@@ -95,11 +109,11 @@ API Key is in the .env file under src/backend
 /insertProfileSetupInfo
 /getUserSupportTickets
 /getTicketDetails
+/createTicket
+/reportUserChat
 
 # Webserivces Pening Migration
 /getUsers
 /posts
-/createTicket
-/reportUserChat
 /getUserCounts
 /getUserProfileCounts

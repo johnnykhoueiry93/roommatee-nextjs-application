@@ -8213,3 +8213,27 @@
                 AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
 [2024-06-29 20:16:11] - [info] - [/api/searchProfile] - Room listings results returned: 8
 [2024-06-29 20:31:42] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room
+[2024-06-29 20:33:41] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 22:14:54] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Roommate
+[2024-06-29 22:14:58] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-29 22:14:58] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 22:14:58] - [info] - [/api/searchProfile] - Room listings results returned: 8
+[2024-06-29 23:22:20] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 23:29:36] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 23:30:07] - [info] - 
+[2024-06-29 23:30:07] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
+[2024-06-29 23:30:07] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] -  Room listing with id: 169 updated successfully. No pictures provided.
+[2024-06-29 23:30:09] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 23:31:27] - [info] - Request to logout
+[2024-06-29 23:31:27] - [info] - Request to logout
+[2024-06-29 23:53:31] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-29 23:53:31] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-29 23:53:32] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-29 23:53:33] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTcxOTYxMywiZXhwIjoxNzE5NzIzMjEzLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.SVV0EqrmsiBPeD0FEo26COwl_QesZDial8xaxMgKKgS3_8xpUMr61eNcG6uc3D6zEte-FMrEdLvoSCDdErnfN4iInX6VJlSWZLJdgQCfD_dXto8pLSROtS7fzi9rynPHTMP94Fag7r1ETuI7WIjRecrSExTOkPL8se7on-gNhu3396p7-ZFQPXmWCXlb_-Shf07vchX8ef0AJuJbrXaWIDwzrn-aN3LMgECfzC1ZHfljlHfsKXxNFk1zL8MECYk1CyH2smdevYk2iuVat9TsigRJ4tBEhrV3Ut6ZF8kbks_xOkJZhJOt1g9WZimcAJSu-sS014Rt4WYn-c8-2icqdw
+[2024-06-29 23:53:41] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 23:53:48] - [info] - Request to logout
+[2024-06-29 23:53:48] - [info] - Request to logout

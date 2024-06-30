@@ -14,30 +14,25 @@ import CirculatorProgressLoader from "../loaders/CirculatorProgressLoader";
 import { encryptData, decryptData } from '../../utils/encryptionUtils';
 import ReCAPTCHA from 'react-google-recaptcha';
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
 import { useRouter } from 'next/navigation';
 // import { signIn } from 'next-auth/react'
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import Snackbar, { SnackbarOrigin } from "@mui/material/Snackbar";
 
 const SignIn = () => {
-    // @ts-ignore
+  // @ts-ignore
   const { loading, setLoading, setUserAdmin, userAuth, userInfo, setUserAuth, intendedDestination, setUserProfilePicture, setFirebaseToken, setEmailAddressToReset, setSupportTickets, setUserInfo, setListing, setSignUpEmail, setUserProfileSetupComplete, snackbarOpen, setSnackbarOpen, snackbarMessage, setSnackbarMessage, snackbarSeverity, setSnackbarSeverity} = SiteData();
   const [loginStatus, setLoginStatus] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   const [password, setPassword] = useState("");
   const [recaptchaToken, setRecaptchaToken] = useState('');
-
-  
   const [showPassword, setShowPassword] = React.useState(false);
   const handleClickShowPassword = () => setShowPassword((show) => !show);
-
-
   const router = useRouter();
 
-const navigateToPage = (path) => {
-  router.push(path);
-};
+  const navigateToPage = (path) => {
+    router.push(path);
+  };
 
   const handleMouseDownPassword = (
     event: React.MouseEvent<HTMLButtonElement>
@@ -147,8 +142,6 @@ const navigateToPage = (path) => {
     }
   }
 
-  
-
     //@ts-ignore
     async function triggerSuccessLoginSteps(user, firebaseToken) {
 
@@ -209,13 +202,6 @@ const navigateToPage = (path) => {
         // })
     
         setLoading(false)
-    
-        // if (result?.error) {
-        //   console.log(result.error);
-        //   setLoginStatus("Incorrect email or password.");
-        //   setUserAuth(false);
-        // } else {
-
 
           // Handle successful login (e.g., redirect to a dashboard)
           // console.log('Login successful:', result)
@@ -232,26 +218,6 @@ const navigateToPage = (path) => {
           const { message, firebaseToken, user } = responseData;
           console.log("[/api/login] response returned: " , responseData);
             handleUserLogin(user, firebaseToken);
-
-      // setLoginStatus(result.firstName);
-        // }
-
-        // 
-
-        // 
-
-        // console.log('Printing out: ' , responseData);
-        
-          // if (message) {
-          //   // LOGIN FAILED
-
-          // } else {
-          //   // LOGIN SUCCESS
-
-          //   if (isUserValid(user)) {
-          //     console.log('I am here 2')
-          //   }
-          // }
       };
 
       useEffect(() => {
@@ -359,10 +325,10 @@ const navigateToPage = (path) => {
               ) : (
                 <div className="pt-2">
                   <input
-                    disabled={loading || !recaptchaToken} 
+                    disabled={loading} 
                     type="submit"
                     value="Submit"
-                    className="submit-button"
+                    className={recaptchaToken ? 'submit-button' : 'submit-button-disabled'}
                     onClick={() =>
                       console.log("The user clicked on the Submit button")
                     }
