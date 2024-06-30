@@ -6,6 +6,7 @@ import { Input, Button } from "@mui/material";
 import SnackBarAlert from "../alerts/SnackBarAlerts";
 import StaticFrontendLabel from "../../StaticFrontend";
 import { setMysqlDatabaseFlagTrue } from '../../utils/utilities'
+import { logFrontendActivityToBackend } from '../../utils/apiUtils'
 
 const ProfilePicture = () => {
   //@ts-ignore
@@ -49,51 +50,82 @@ const ProfilePicture = () => {
   }
 
   const handleUploadPictureToS3SubFolder = async (s3SubFolderPath) => {
-    if (selectedFile) {
-      console.log(`Upoading profile picture to: ${s3SubFolderPath}`);
+    try {
+      if (selectedFile) {
+        await logFrontendActivityToBackend(`Breakpoint #1`, userInfo);
 
-      const key = `${userInfo.id}-${s3SubFolderPath}.png?folder=${s3SubFolderPath}`;
+        const formData = new FormData();
+        formData.append("selectedFile", selectedFile[0]);
+        formData.append("userId", userInfo.id);
+        formData.append("emailAddress", userInfo.emailAddress);
+        formData.append("s3SubFolderPath", s3SubFolderPath);
+        await logFrontendActivityToBackend(`Breakpoint #2`, userInfo);
 
-      //@ts-ignore
-      const toBase64 = (file) => new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        //@ts-ignore
-        reader.onload = () => resolve(reader.result.split(',')[1]);
-        reader.onerror = (error) => reject(error);
-      });
-    
-      console.log('Output of selectedFile: ' , selectedFile);
-      const base64File = await toBase64(selectedFile[0]);
-
-      const response =  await fetch("/api/handleUploadPictureToS3SubFolder", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ selectedFile: base64File,
+        const formDataDetails = {
+          selectedFile: selectedFile[0].name,
           userId: userInfo.id,
           emailAddress: userInfo.emailAddress,
-          s3SubFolderPath}), // Send the parameters in the request body
-        cache: 'no-store' // Ensures the data is fetched on every request
-      });
+          s3SubFolderPath: s3SubFolderPath,
+        };
 
-      const data = await response.json();
+        logFrontendActivityToBackend(`Breakpoint #3`, userInfo);
 
-    if (response.status === 200) {
-        const updatedImageUrl = `${data.imageUrl}?timestamp=${new Date().getTime()}`; // Append a timestamp to force reload
-        setUserProfilePicture(updatedImageUrl);
-        console.log('Returned profile picture data.imageUrl: ' + updatedImageUrl);
-        showSuccessAlert('Success! Profile picture updated.')
-        setMysqlDatabaseFlagTrue(userInfo.emailAddress, 'userprofile', 'isProfilePictureUploaded', '1');
+        await logFrontendActivityToBackend(`formData: ${JSON.stringify(formDataDetails)}`, userInfo);
+  
+        // Debugging
+        console.log('FormData Keys:', Array.from(formData.keys()));
+        console.log('FormData Entries:', Array.from(formData.entries()));
+
+        await logFrontendActivityToBackend(`Selected File: ${JSON.stringify({
+          name: selectedFile[0].name,
+          type: selectedFile[0].type,
+          size: selectedFile[0].size,
+        })}`, userInfo);
+
+        await logFrontendActivityToBackend(`${selectedFile[0].type}`, userInfo);
+        await logFrontendActivityToBackend(`${selectedFile[0].size}`, userInfo);
+
+        const response = await fetch("/api/handleUploadPictureToS3SubFolder", {
+          method: "POST",
+          body: formData,
+          // Ensure correct headers for FormData (automatically set)
+        });
+
+        await logFrontendActivityToBackend(`Breakpoint #4`, userInfo);
+
+        if (!response.ok) {
+          logFrontendActivityToBackend(`Breakpoint #5`, userInfo);
+          const errorText = await response.text();
+          console.log(errorText);
+          console.log(response.status);
+          throw new Error(`Server responded with status ${response.status}: ${errorText}`);
+        }
+
+
+        const data = await response.json();
+
+        await logFrontendActivityToBackend(`Breakpoint #5`, userInfo);
+  
+        if (response.status === 200) {
+          const updatedImageUrl = `${data.imageUrl}?timestamp=${new Date().getTime()}`;
+          setUserProfilePicture(updatedImageUrl);
+          console.log('Returned profile picture data.imageUrl: ' + updatedImageUrl);
+          showSuccessAlert('Success! Profile picture updated.')
+          setMysqlDatabaseFlagTrue(userInfo.emailAddress, 'userprofile', 'isProfilePictureUploaded', '1');
+        } else {
+          console.error("Failed to update profile picture.");
+          showFailureAlert('Failed to update profile picture.');
+        }
       } else {
-        console.error("Failed to update profile picture.");
-        showFailureAlert('Failed to update profile picture.');
+        console.log("No profile picture selected");
+        showFailureAlert("No profile picture selected");
       }
-    }  else {
-      console.log("No profile picture selected");
-      showFailureAlert("No profile picture selected");
+    } catch (error) {
+      console.error('Error during upload:', error);
+      await logFrontendActivityToBackend(`handleUploadPictureToS3SubFolder ERROR ${error.message}`, userInfo);
     }
+
+    await logFrontendActivityToBackend(`Breakpoint #6`, userInfo);
   };
 
 

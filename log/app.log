@@ -8273,3 +8273,9 @@
 [2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture button was clicked
 [2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 4
 [2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 5
+[2024-06-30 13:29:10] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-30 13:29:18] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-30 13:38:21] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-30 13:38:26] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-30 14:37:41] - [info] - Received request for profile picture upload
+[2024-06-30 14:37:52] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1

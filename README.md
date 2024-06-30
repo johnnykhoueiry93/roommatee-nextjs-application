@@ -39,7 +39,7 @@ navigateToPage('/new page');
 --------------------------------------------------------------------
 step 1: import { logFrontendActivityToBackend } from '../../utils/apiUtils'
 Step 2: let message = 'whatever you want to send';
-Step 3: logFrontendActivityToBackend( message, userInfo)
+Step 3: logFrontendActivityToBackend( message, userInfo);
 
 
 # How to use the frontend static labels and messages
