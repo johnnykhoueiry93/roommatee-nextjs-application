@@ -128,7 +128,7 @@ const PrivacyAndPreferences = () => {
         body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
         cache: 'no-store' // Ensures the data is fetched on every request
       });
-      showSuccessSnackBarAlert('Basic account information updated successfully!');
+      showSuccessSnackBarAlert('Privacy and preferences updated successfully!');
       setIsAnyValueChanged(false);
     } catch (error) {
       console.error("Error inserting profile setup info:", error);

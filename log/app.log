@@ -8237,3 +8237,39 @@
 [2024-06-29 23:53:41] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
 [2024-06-29 23:53:48] - [info] - Request to logout
 [2024-06-29 23:53:48] - [info] - Request to logout
+[2024-06-30 00:04:27] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-30 00:04:27] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-30 00:04:27] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-30 00:04:27] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTcyMDI2NywiZXhwIjoxNzE5NzIzODY3LCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.e3pc6-E8UQwHTp5P6RgTyO_8LAgKpXT0GQp4HZ9U4rlLukJONfHuEPo--Bh9Z-E4OdYLPXFa0BovkJuS4dK75eQxxELS500NV9y2spueE4EVtjAq9aa9zzbcbP96LQNR9HD48Ht806bn0m5ywbFxSrbSti54G6bAyGxfa1LWco7R5lsIEbReUntYyUXywULWJ7tLOzg14GlKjuNjDb3nfbatkESrK3OTw-TGrnI3vVm1rgqXN3zwHFrcOJggP8Iix19WYq_ATvNgYyEg_S-thm88mw90vS6-kgV_bjmQhJQKTqoKoA4IGoiqtX0gyEJ7BW4hdc7SJEdxhPrUrneWBg
+[2024-06-30 00:04:33] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 10:22:29] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-30 10:22:29] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-30 10:22:29] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-30 10:22:31] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTc1NzM1MSwiZXhwIjoxNzE5NzYwOTUxLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.VtIhmpj_55wyF6EEdpfk8EQE6tWjPh5DDklkiqcEodLaLGq1zd302ldGEvCtMzxWN4q5rvT-bPAMxkpS-1L0U_14yNmbfAWDkNYMX2w2i0lixESWGNPk7lXSTd18z6t9hgZLNv8F_7u9P81OVWwL0J7VsOSln4if7D6l-0t7UdkmTmfUUxqV-qEOIbPFPZLRL2YmmC2xiLmlLKXeW-9SYm0KVauYu1mdt-YqqEwBdxnwKQwuQW1iHzbw0A3hOCBPOfXMMCrsS6YHV1IHc827LDCNgtAJ477uhPTk0cMn02wefQ0rxbP2qwzrw48tajJtTACJu9nxP7E7RlVDLt68GA
+[2024-06-30 10:22:36] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 10:23:10] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-30 10:23:12] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-30 10:23:33] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-30 10:23:34] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-30 11:28:52] - [info] - [johnny.kh@hotmail.com] - [/api/handleUploadPictureToS3SubFolder] - Received WS request with parameter: profile-picture
+[2024-06-30 11:28:52] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture button was clicked
+[2024-06-30 11:28:52] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 2
+[2024-06-30 11:28:52] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 1
+[2024-06-30 11:28:53] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 3
+[2024-06-30 11:28:56] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 4
+[2024-06-30 11:28:56] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 6
+[2024-06-30 11:28:56] - [info] - [johnny.kh@hotmail.com] - [/api/setMysqlDatabaseFlagTrue] - Column: isProfilePictureUploaded was updated to: 1
+[2024-06-30 12:07:24] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 1
+[2024-06-30 12:07:24] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture button was clicked
+[2024-06-30 12:07:25] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 4
+[2024-06-30 12:07:25] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 5
+[2024-06-30 12:16:03] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 1
+[2024-06-30 12:16:03] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture button was clicked
+[2024-06-30 12:19:06] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 1
+[2024-06-30 12:19:06] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture button was clicked
+[2024-06-30 12:19:06] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 4
+[2024-06-30 12:19:06] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 5
+[2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 1
+[2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture button was clicked
+[2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 4
+[2024-06-30 12:20:40] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - Upload picture is HERE 5

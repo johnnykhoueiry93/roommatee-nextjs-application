@@ -37,7 +37,7 @@ navigateToPage('/new page');
 
 # How to send frontend log to the backend
 --------------------------------------------------------------------
-step 1: import { logFrontendActivityToBackend } from '../frontendUtils/apiUtils'
+step 1: import { logFrontendActivityToBackend } from '../../utils/apiUtils'
 Step 2: let message = 'whatever you want to send';
 Step 3: logFrontendActivityToBackend( message, userInfo)
 

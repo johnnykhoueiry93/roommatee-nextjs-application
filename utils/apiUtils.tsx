@@ -1,3 +1,10 @@
+
+/**
+ * Usage: logFrontendActivityToBackend( message, userInfo)
+ * @param message 
+ * @param userInfo 
+ * @returns 
+ */
 export async function logFrontendActivityToBackend(message, userInfo) {
     try {
       if (!userInfo || userInfo.length === 0) {

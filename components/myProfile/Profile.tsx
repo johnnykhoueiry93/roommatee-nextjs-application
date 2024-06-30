@@ -43,7 +43,7 @@ const Profile = () => {
     return <div>Loading userinfo in Profile.tsx...</div>
   }
 
-  const [expanded, setExpanded] = React.useState(false);
+  const [expanded, setExpanded] = useState(false);
   let [socialStatusInitiallyIsStudentOrEmployee, setSocialStatusInitiallyIsStudentOrEmployee] = useState(false);
   
 

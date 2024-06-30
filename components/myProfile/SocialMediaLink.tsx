@@ -13,7 +13,6 @@ const SocialMediaLink = () => {
     return <div>Loading userinfo in Profile Picture...</div>
   }
   
-  
   const [isAnyValueChanged, setIsAnyValueChanged] = useState(false); 
 
   const [welcomeProfileSetupStep, setWelcomeProfileSetupStep] = useState({
@@ -61,13 +60,13 @@ const SocialMediaLink = () => {
       }
   }, [welcomeProfileSetupStep]); // Dependency array containing the state you want to track
 
-        //@ts-ignore
-        function showSuccessSnackBarAlert(message) {
-          setSnackbarMessage(message);
-          setSnackbarSeverity("success");
-          setSnackbarOpen(true);
-          setIsAnyValueChanged(false);
-        }
+    //@ts-ignore
+    function showSuccessSnackBarAlert(message) {
+      setSnackbarMessage(message);
+      setSnackbarSeverity("success");
+      setSnackbarOpen(true);
+      setIsAnyValueChanged(false);
+    }
     
     //@ts-ignore
     function showFailureSnackBarAlert(message) {
@@ -105,7 +104,7 @@ const SocialMediaLink = () => {
       body: JSON.stringify({ welcomeProfileSetupStep, emailAddress }), // Send the parameters in the request body
       cache: 'no-store' // Ensures the data is fetched on every request
     });
-    showSuccessSnackBarAlert('Basic account information updated successfully!');
+    showSuccessSnackBarAlert('Social media links updated successfully!');
     setIsAnyValueChanged(false);
   } catch (error) {
     console.error("Error inserting profile setup info:", error);
