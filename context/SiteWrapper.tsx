@@ -168,6 +168,14 @@ const showLoaderWithMessage = () => {
       setEditListingId(storedEditListingId);
   }, []);
 
+  const [editListingDetails, setEditListingDetails] = useState(null);
+  useEffect(() => {
+    const storedEditListingDetails = localStorage.getItem('storedEditListingDetails');
+    console.log('SiteWrapper Getting storedEditListingDetails: ', storedEditListingDetails);
+
+    setEditListingDetails(storedEditListingDetails);
+  }, []);
+
   /**
    * ---------------------------- Context for Listings --------------------------------
    */
@@ -552,7 +560,7 @@ const resetAllListingSearchFilters = () => {
     <SiteContext.Provider
       value={{
         isMobile,isTablet, PROFILE_PICTURE_S3_SUB_FOLDER, ID_DOCUMENT_S3_SUB_FOLDER, ID_DOCUMENT_SELFIE_S3_SUB_FOLDER,
-        profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo, editListingId, setEditListingId,
+        profiles, setProfiles, Bootstrap, scrollToTop, userAuth, setUserAuth, userInfo, setUserInfo, editListingId, setEditListingId, editListingDetails, setEditListingDetails,
         userIsAdmin, firebaseToken, setFirebaseToken, userAdmin, setUserAdmin, listing, setListing,
         userProfilePicture, setUserProfilePicture, userEmailVerified, setUserEmailVerified, isSearchClicked, setSearchClick,
         loading, setLoading, emailAddressToReset, setEmailAddressToReset, signUpEmail, setSignUpEmail,

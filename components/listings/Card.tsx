@@ -18,7 +18,7 @@ const Card = ({ listingItem, index, listing }) => {
   const router = useRouter();
 
   // @ts-ignore
-  const { setListing, userInfo, setEditListingId, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData([]);
+  const { setListing, userInfo, setEditListingId, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, setEditListingDetails, snackbarOpen, snackbarSeverity } = SiteData([]);
   const [deleteConfirmationShow, setDeleteConfirmationShow] = useState(false);
   const [loading, setLoading] = useState(true); // State to manage loading status
 
@@ -31,20 +31,13 @@ const Card = ({ listingItem, index, listing }) => {
       setLoading(false); // Simulating content loaded after some time
     }, []);
 
-  // @ts-ignore
-  const bufferToBase64 = (buffer) => {
-    let binary = "";
-    const bytes = new Uint8Array(buffer);
-    for (let i = 0; i < bytes.byteLength; i++) {
-      binary += String.fromCharCode(bytes[i]);
-    }
-    return window.btoa(binary);
-  };
 
   const redirectUserToFullCardDetails = () => {
     console.log( `The user clicked on Edit button for listing item with ID: ${listingItem.id}`);
     setEditListingId(listingItem.id);
+    setEditListingDetails(listingItem);
     localStorage.setItem('storedEditListingId', listingItem.id);
+    localStorage.setItem('storedEditListingDetails', JSON.stringify(listingItem));
     console.log( `Setting setEditListingId to value: ${listingItem.id}`);
     navigateToPage('/edit-place-listing');
   };

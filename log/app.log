@@ -8296,3 +8296,12 @@
 [2024-06-30 17:39:10] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - WS request received to update existing place listing with id
 [2024-06-30 17:39:13] - [info] - [johnny.kh@hotmail.com] - [/api/updateRoomListing] - Room listing with id: 169 updated successfully and pictures uploaded to S3
 [2024-06-30 17:39:14] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:43:56] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:44:12] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:44:15] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:47:49] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:49:24] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:49:54] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:57:05] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 17:57:12] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-30 18:00:58] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14

@@ -13,6 +13,8 @@ import { useRouter } from 'next/navigation';
 import StaticFrontendLabel from "../../StaticFrontend";
 import BackToResultsBtn from "../modals/BackToResultsBtn";
 import '../../styles/Signup.css'
+import "../../styles/Card.css";
+import "../../styles/Listings.css";
 import {
   FormControl,
   InputLabel,
@@ -20,7 +22,7 @@ import {
   MenuItem,
   OutlinedInput,
 } from "@mui/material";
-
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
   //@ts-ignore
 function valuetext(value) {
   return `${value}°C`;
@@ -36,26 +38,6 @@ const EditRoomListing = () => {
     router.push(path);
   };
 
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // Check if the user navigated to Component 2 properly
-      const navigatedToEditListing = localStorage.getItem('navigatedToEditListing');
-
-      if (!navigatedToEditListing) {
-        // If the flag is not set, redirect to Component 1
-        navigateToPage('/my-listings');
-      } else {
-        // Remove the flag to handle refresh
-        localStorage.removeItem('navigatedToEditListing');
-      }
-    }, 0); // A delay of 0ms ensures this runs after the component is fully rendered
-
-    return () => clearTimeout(timer); // Cleanup the timer
-  }, []);
-
-
-
   // We are using this id to filter om the array listing that
   // we are getting from the useContext
   // We filter filter based on the id that matches
@@ -67,10 +49,10 @@ const EditRoomListing = () => {
   );
 
   // Add a condition to handle null or undefined roomListing
-if (!roomListing) {
-  // Return a default value or handle the null case here
-  return <p>No listing found.</p>;
-}
+  if (!roomListing) {
+    // Return a default value or handle the null case here
+    return (<div><MessageComponentLoader loadingMessage={"Loading listing..."}/></div>)
+  }
 
   console.log('[DEBUG] - Current object before updates roomListing : ' , roomListing);
 
@@ -95,13 +77,6 @@ if (!roomListing) {
 
     setRoomListingData({ ...roomListingData, moveInDate: formattedDate });
   };
-
-
-
-
-
-
-
 
   const [isWheelChairAccessibleChecked, setWheelChairAccessibleChecked] = useState(Boolean(roomListing?.wheelChairAccessibility));
   const [isPrivateParkingAvailableChecked, setPrivateParkingAvailableChecked] = useState(Boolean(roomListing?.privateParking));
