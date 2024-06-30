@@ -13,6 +13,7 @@ import ReactResponsiveCarousel from "../modals/ReactResponsiveCarousel";
 import BackToResultsBtn from "../modals/BackToResultsBtn";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { calculateDaysSinceCreation } from '../../utils/utilities'
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
 
 const SearchCardDetails = ({listingId}) => {
   //@ts-ignore
@@ -143,7 +144,7 @@ const SearchCardDetails = ({listingId}) => {
     }
 
   if (!selectedCardDetails) {
-    return <div>Loading...</div>; // Add a loading indicator while data is fetched
+    return (<div><MessageComponentLoader loadingMessage={"Loading listing..."}/></div>)
   }
 
   const searchResultChipAvatarStyle = {

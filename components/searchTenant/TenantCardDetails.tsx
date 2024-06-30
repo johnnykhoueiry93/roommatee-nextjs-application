@@ -161,15 +161,14 @@ const TenantCardDetails = ({ tenantId }) => {
       console.error("Error:", error);
     }
   }
-
   
   if(!userInfo) {
     return (<div><MessageComponentLoader loadingMessage={"Loading user info..."}/></div>)
   }
 
-if (!selectedCardDetails) {
-  return <div><MessageComponentLoader loadingMessage={"Loading user..."}/></div>; // Add a loading indicator while data is fetched
-}
+  if (!selectedCardDetails) {
+    return <div><MessageComponentLoader loadingMessage={"Loading user..."}/></div>; 
+  }
 
   const avatarStyle = {
     ...(isMobile

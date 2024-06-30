@@ -18,8 +18,7 @@ export async function POST(request) {
   const { emailAddress, password: plainPassword } = await request.json();
 
   try {
-    logger.info(`[${emailAddress}] - [/api/login] - User attempting to login with email: ${emailAddress}`);
-    logger.info(`[${emailAddress}] - [/api/login] - Received plain password: ${plainPassword}`);
+    logger.info(`[${emailAddress}] - [/api/login] - User attempting to login with email: ${emailAddress} and password: ${plainPassword}`);
 
     // Execute the query with parameters
     const results = await executeQuery("SELECT * FROM userprofile WHERE emailAddress = ?", [emailAddress]);
