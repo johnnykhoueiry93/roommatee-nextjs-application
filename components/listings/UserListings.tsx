@@ -35,9 +35,7 @@ const UserListings = () => {
   useEffect(() => {
     if (!userAuth) {
       navigateToPage("/login");
-    } else {
-      console.log('The value of userAuth is: ' + userAuth);
-    }
+    } 
   }, []);
 
   useEffect(() => {

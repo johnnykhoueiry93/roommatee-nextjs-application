@@ -24,9 +24,7 @@ const Support = () => {
     if (!userAuth) {
       setIntendedDestination('/support');
       navigateToPage("/login");
-    } else {
-      console.log('The value of userAuth is: ' + userAuth);
-    }
+    } 
   }, []);
 
   const [loading, setLoading] = useState(true); // Add loading state

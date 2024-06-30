@@ -77,10 +77,7 @@ const ListARoom = () => {
     useEffect(() => {
         if (!userAuth) {
           navigateToPage("/login");
-        } else {
-        //   setIsHydrated(true);
-          console.log('The value of userAuth is: ' + userAuth);
-        }
+        } 
       }, []);
 
     // const [isHydrated, setIsHydrated] = useState(false);

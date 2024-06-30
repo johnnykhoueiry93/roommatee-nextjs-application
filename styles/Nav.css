@@ -1,8 +1,22 @@
+/* VERY IMPORTNAT
+This ensure the navbar is not covering the below elements */
+body {
+  padding-top: 70px;
+}
+
 .navbar {
     transition: box-shadow 0.3s; /* Add transition for smooth effect */
     border-bottom: 2px solid rgb(243, 218, 218);
+    top: 0;
+    z-index: 900000; /* Ensure this is higher than other elements */
+    position: fixed;
+    width: 100%;
   }
   
+  .navbar.sticky-top {
+    position: fixed;
+  }
+
   .navbar.shadow {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Define the shadow properties */
   }

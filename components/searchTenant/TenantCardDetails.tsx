@@ -29,6 +29,7 @@ import MarkunreadIcon from '@mui/icons-material/Markunread';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 import InfoPopup from "../modals/InfoPopup";
 import { useRouter } from 'next/navigation';
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
 
 const TenantCardDetails = ({ tenantId }) => {
     // @ts-ignore
@@ -49,8 +50,6 @@ const TenantCardDetails = ({ tenantId }) => {
   useEffect(() => {
     if (!userAuth) {
       navigateToPage("/login");
-    } else {
-      console.log('The value of userAuth is: ' + userAuth);
     }
   }, []);
 
@@ -165,11 +164,11 @@ const TenantCardDetails = ({ tenantId }) => {
 
   
   if(!userInfo) {
-    return (<div>Loading userInfo</div>)
+    return (<div><MessageComponentLoader loadingMessage={"Loading user info..."}/></div>)
   }
 
 if (!selectedCardDetails) {
-  return <div>Loading...</div>; // Add a loading indicator while data is fetched
+  return <div><MessageComponentLoader loadingMessage={"Loading user..."}/></div>; // Add a loading indicator while data is fetched
 }
 
   const avatarStyle = {
@@ -268,7 +267,7 @@ if (!selectedCardDetails) {
         <Tooltip title="Email verified" placement="top-start">
           <img
             key="emailVerified"
-            src={'/images/email-verified-icon.png'}
+            src='/images/email-verified-icon.png'
             style={socialIconStyle}
             alt="Email Verified"
           />
@@ -281,7 +280,7 @@ if (!selectedCardDetails) {
         <Tooltip title="ID verified" placement="top-start">
           <img
             key="profileVerified"
-            src={'/images/id-checked-icon.png'}
+            src='/images/id-checked-icon.png'
             style={socialIconStyle}
             alt="Profile Verified"
           />

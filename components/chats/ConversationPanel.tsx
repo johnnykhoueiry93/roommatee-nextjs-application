@@ -50,17 +50,13 @@ const ConversationPanel = () => {
   useEffect(() => {
     if (!userAuth) {
       navigateToPage("/login");
-    } else {
-      console.log('The value of userAuth is: ' + userAuth);
-    }
+    } 
   }, []);
 
   if(!userInfo) {
     return (<div></div>)
   }
  
-  const [ showReportUserPopup, setShowReportUserPopup ] = useState(false);
-  const [message, setMessage] = useState("");
 
   const { firestore } = FirebaseChats({ userId: userInfo.id });
 
@@ -71,6 +67,10 @@ const ConversationPanel = () => {
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
+
+  const [message, setMessage] = useState("");
+
+  const [ showReportUserPopup, setShowReportUserPopup ] = useState(false);
 
   //@ts-ignore
   const reportUserAndClose = () => {

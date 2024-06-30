@@ -50,7 +50,6 @@ const SendMessage = ({ selectedCardDetails, targetUserId, cardId, topicUrl }) =>
     const filteredChats =
       chats &&
       userInfo &&
-      userInfo.length > 0 &&
       chats.filter(
         (chat) =>
           chat?.firstPartyUserId === targetUserId ||

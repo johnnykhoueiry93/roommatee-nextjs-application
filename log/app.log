@@ -8147,3 +8147,69 @@
 [2024-06-29 19:10:22] - [info] - [johnny.kh@hotmail.com] - Login was successful
 [2024-06-29 19:10:22] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTcwMjYyMiwiZXhwIjoxNzE5NzA2MjIyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.MLYHtHtHBVRYpA0fP59hA_ndFGv4NCQXwAT549EKbJfjkioT1s1S-cAgq1Jf92n4RZ-xiQ0gAzJDWlY4UEOChGJ8oyCv0QmC0bse17dEUFA9BaxTaw_WVkYv1azHRorDJPoL1RCPoWy63LxwIb69bhtaWN3IsKMNhMsJTSNEbGTw-FKb4HS-xiTj4JJZwmTFKBNx5dz-3y8ZpnPAipq68pJg35zbJcyjb9aJj0maUDPIveD1Mv8XqoaFUUy-mDMiVt9pYDS4vgHclXfo52pscHsDLVdJc5Hg9Eds3SQIf1gNx1GQbxtRWdvY_Cluo5m6izEonxN0kNoRSrBIQy3J1Q
 [2024-06-29 19:10:23] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 19:13:45] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room
+[2024-06-29 19:13:49] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Backend received input from frontend value: ><, Max Price: , Min Price: , Move In Date: null, Filters: false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false
+[2024-06-29 19:13:49] - [info] - [johnny.kh@hotmail.com] - [/api/searchListings] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId FROM roomListings r
+      JOIN userprofile u ON r.userProfileId = u.id
+      WHERE (r.address LIKE '%%'
+            OR r.city LIKE '%%'
+            OR r.state LIKE '%%'
+            OR r.zip LIKE '%%') 
+      ;
+[2024-06-29 19:13:49] - [info] - [/api/searchListings] - Room listings results returned: 21
+[2024-06-29 19:15:20] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Roommate
+[2024-06-29 19:15:25] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-29 19:15:25] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 19:15:25] - [info] - [/api/searchProfile] - Room listings results returned: 8
+[2024-06-29 19:18:33] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Tenant
+[2024-06-29 19:18:46] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-29 19:18:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * 
+               FROM userprofile 
+               WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 19:18:46] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-29 19:41:46] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-29 19:41:46] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * 
+               FROM userprofile 
+               WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 19:41:46] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-29 19:43:33] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: tenant and input from frontend: 
+[2024-06-29 19:43:33] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT * 
+               FROM userprofile 
+               WHERE emailAddress != 'johnny.kh@hotmail.com' AND userHasAPlace = 0 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 19:43:34] - [info] - [/api/searchProfile] - Room listings results returned: 24
+[2024-06-29 19:44:23] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Roommate
+[2024-06-29 19:44:54] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-29 19:44:54] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 19:44:54] - [info] - [/api/searchProfile] - Room listings results returned: 8
+[2024-06-29 20:12:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-29 20:12:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-29 20:12:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-29 20:12:51] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-29 20:13:57] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-29 20:13:57] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Received request to search tenant/roommate by id: 117 directly with querytype: roommate
+[2024-06-29 20:13:57] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-29 20:13:57] - [info] - [johnny.kh@hotmail.com] - [/api/searchTenantById] - Tenant/Roommate by id: 117 found
+[2024-06-29 20:15:16] - [info] - Request to logout
+[2024-06-29 20:15:16] - [info] - Request to logout
+[2024-06-29 20:15:42] - [info] - [johnny.kh@hotmail.com] - User attempting to login with email: johnny.kh@hotmail.com
+[2024-06-29 20:15:42] - [info] - [johnny.kh@hotmail.com] - Received plain password: 123456!!
+[2024-06-29 20:15:42] - [info] - [johnny.kh@hotmail.com] - Login was successful
+[2024-06-29 20:15:43] - [info] - [johnny.kh@hotmail.com] - [/api/login] - Firestore token generated: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImlhdCI6MTcxOTcwNjU0MiwiZXhwIjoxNzE5NzEwMTQyLCJpc3MiOiJmaXJlYmFzZS1hZG1pbnNkay1od2xnMEByb29tYXRlZWRldi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLWh3bGcwQHJvb21hdGVlZGV2LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwidWlkIjoiam9obm55LmtoQGhvdG1haWwuY29tIn0.fqc45q6HZx6TcarxiLcljNGzEraMKkHeAWWA4LwYVNlPUI7lNsECLy9GY8_gqj1-xXt0Q56zh0NRo-SKp1sDIqPFuUP1sLtIwm56BnLZQDsBux1qqWlAWiI65q5BzX7foQS2-A5k2ydv26XmATwm6OjSwvjFejTiEWBCgwSJXjtPsLuKaK2gIhyxMMwTwz-QM57eQT94HRaSxg6NxkJ7ZFtfg7Nbtd8sr4JWTtC7c9byeiXpMcd4hw8DNT9_aQQwfTbxv5j1GYxzrx3Xbtxfzy59q0rnHHvt_tvaoKr_3Sn6VmA4YixvEzPuhEyfZfHmIGILLnG32LUyKzqMe4iQlQ
+[2024-06-29 20:15:56] - [info] - [johnny.kh@hotmail.com] - [/api/getUserListings] - Room listings results returned: 14
+[2024-06-29 20:15:57] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Roommate
+[2024-06-29 20:16:11] - [info] - [johnny.kh@hotmail.com] - [/searchProfile] - Backend received profileType: roommate and input from frontend: 
+[2024-06-29 20:16:11] - [info] - [johnny.kh@hotmail.com] - [/api/searchProfile] - Printing the full query: SELECT *, u.id AS userId, r.id AS listingId 
+                FROM roomListings r 
+                RIGHT OUTER JOIN userprofile u ON r.userProfileId = u.id 
+                WHERE u.emailAddress != 'johnny.kh@hotmail.com' 
+                AND u.isLookingForRoommate = 1 AND citiesLookingToLiveIn like '%%' AND age >= 18 AND age <= 99
+[2024-06-29 20:16:11] - [info] - [/api/searchProfile] - Room listings results returned: 8
+[2024-06-29 20:31:42] - [info] - [johnny.kh@hotmail.com] - [/logFrontEndActivity] - The user clicked on the button: Find a Room

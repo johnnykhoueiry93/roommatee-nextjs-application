@@ -38,6 +38,7 @@ import GoogleMap from "../search/GoogleMap";
 import SectionHeading from "../modals/SectionTitle";
 import { useRouter } from 'next/navigation';
 import { useParams } from 'next/navigation';
+import MessageComponentLoader from "../loaders/MessageComponentLoader";
 
 const RoommateCardDetails = ({roommateId}) => {
   // @ts-ignore
@@ -58,9 +59,7 @@ const RoommateCardDetails = ({roommateId}) => {
   useEffect(() => {
     if (!userAuth) {
       navigateToPage("/login");
-    } else {
-      console.log('The value of userAuth is: ' + userAuth);
-    }
+    } 
   }, []);
   
   //@ts-ignore
@@ -178,10 +177,11 @@ const RoommateCardDetails = ({roommateId}) => {
   }
 
   if(!userInfo) {
-    return (<div>Loading userInfo</div>)
+    return (<div><MessageComponentLoader loadingMessage={"Loading user info..."}/></div>)
   }
+
   if (!selectedCardDetails) {
-    return <div>Loading...</div>; // Add a loading indicator while data is fetched
+    return (<div><MessageComponentLoader loadingMessage={"Loading user"}/></div>)
   }
 
   const avatarStyle = {

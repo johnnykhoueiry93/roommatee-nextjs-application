@@ -39,7 +39,6 @@ const ProfileSetup = () => {
       navigateToPage("/login");
     } else {
       setIsHydrated(true);
-      console.log('The value of userAuth is: ' + userAuth);
     }
   }, []);
 
