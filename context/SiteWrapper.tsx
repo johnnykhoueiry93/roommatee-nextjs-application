@@ -14,6 +14,7 @@ import { encryptData, decryptData } from "../utils/encryptionUtils";
 import Cookies from "js-cookie";
 import { useMediaQuery } from "@mui/material";
 import dayjs from 'dayjs';
+import MessageComponentLoader from "../components/loaders/MessageComponentLoader";
 
 // @ts-ignore
 export const SiteWrapper = ({ children }) => {
@@ -63,6 +64,14 @@ export const SiteWrapper = ({ children }) => {
   const [secondPartyUserId, setSecondPartyUserId] = useState('');
   const [firstPartyUserId, setFirstPartyUserId] = useState('');
 
+  const [showLoader, setShowLoader] = useState(false);
+  const [loaderMessage, setLoaderMessage] = useState('');
+
+const showLoaderWithMessage = () => {
+  if (showLoader) {
+    return <div><MessageComponentLoader loadingMessage={loaderMessage}/></div>; 
+  }
+}
 
 
     // This function is used to scroll up when needed
@@ -557,7 +566,7 @@ const resetAllListingSearchFilters = () => {
         booleanFilter, setBooleanFilter, tenantFilters, setTenantFilters, resetAllTenantSearchFilters, resetAllListingSearchFilters,
         searchFilterModalMobileTextSize, searchFilterModalLargeScreenTextSize, searchResults, setSearchResults, priceSortDirection, setPriceSortDirection,
         listingCreatedDateSortDirection, setListingCreatedDateSortDirection, searchFilterType, setSearchFilterType, openedSupportTicket, setOpenedSupportTicket,
-        chats, setChats, messages, setMessages, supportTicketsUpdate, setSupportTicketsUpdate, reply, setReply, supportTickets, setSupportTickets,
+        chats, setChats, messages, setMessages, supportTicketsUpdate, setSupportTicketsUpdate, reply, setReply, supportTickets, setSupportTickets, setShowLoader, setLoaderMessage,
         conversationId, setConversationId, fullNameOfOpposingChat, setFullNameOfOpposingChat, conversationTopicUrl, setConversationTopicUrl, secondPartyUserId, setSecondPartyUserId, firstPartyUserId, setFirstPartyUserId,
       }}
     >

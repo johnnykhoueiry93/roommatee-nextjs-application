@@ -123,7 +123,7 @@ const ChatSelectionPanel = () => {
     <div>
       <div id='headerAvatarSearchSectionDivId'>
       {/* ------------------------------- CURRENT PROFILE INFO AND VERIFICATION ICON  ------------------------------- */}
-      <div className="chat-selection-panle-current-user-profile">
+      <div className="chat-selection-panel-current-user-profile">
         <Avatar
           alt={userInfo.firstName + " " + userInfo.lastName}
           src={userProfilePicture}

@@ -29,12 +29,13 @@ function valuetext(value) {
 //@ts-ignore
 const EditRoomListing = () => {
   // @ts-ignore
-  const { isMobile, isTablet, editListingId, listing, setListingsCreated, userInfo, scrollToTop, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, snackbarMessage, snackbarOpen, snackbarSeverity } = SiteData();
+  const { isMobile, isTablet, editListingId, listing, setListingsCreated, userInfo, scrollToTop, setSnackbarOpen, setSnackbarMessage, setSnackbarSeverity, setShowLoader, setLoaderMessage} = SiteData();
 
   const router = useRouter();
   const navigateToPage = (path) => {
     router.push(path);
   };
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -477,6 +478,7 @@ if (!roomListing) {
   // @ts-ignore
   const handleImageChange = (e) => {
     setRoomListingData({ ...roomListingData, pictures: e.target.files });
+    handleInputChange();
   };
 
   const handleEdit = () => {
@@ -484,8 +486,6 @@ if (!roomListing) {
     if(!isValidAddress) {
       return;
     }
-
-    scrollToTop();
 
     showUpdateStatus();
       // Submit the form and pass the foreign key the user
@@ -509,8 +509,10 @@ if (!roomListing) {
     console.log("The user clicked on Update Listing");
   };
 
+
   // @ts-ignore
   const handleUpdateRoomListing = async (e) => {
+
     e.preventDefault();
     console.log('The user clicked on the Update Listing button!')
     
@@ -521,6 +523,8 @@ if (!roomListing) {
       setSelectedAddress("");
       return;
     }
+    setShowLoader(true);
+    setLoaderMessage("Loading");
 
     setSelectedAddress("");
 
@@ -551,6 +555,7 @@ if (!roomListing) {
       
         if (!response.ok) {
           throw new Error('Network response was not ok' + response.statusText);
+          setShowLoader(false);
         }
       
         const data = await response.json();
@@ -569,16 +574,21 @@ if (!roomListing) {
       } catch (error) {
         // Handle the error here
         console.error("Error:", error);
+        setShowLoader(false);
       }  
 
       navigateToPage('/my-listings');
+      
+      scrollToTop();
 
     } catch (error) {
       console.log("Error updating the listing: ", error);
       setSnackbarMessage("Error updating room listing" + error);
       setSnackbarSeverity("error");
       setSnackbarOpen(true);
+      setShowLoader(false);
     }
+    setShowLoader(false);
   };
 
   // this is for the slider value
@@ -595,12 +605,12 @@ if (!roomListing) {
   };
 
 
-        //@ts-ignore
-        const checkAddressValidity = (address) => {
-          // Call the Google Maps API to validate the address
-          // For simplicity, we'll assume any non-empty address is valid
-          setIsValidAddress(!!address);
-        };
+  //@ts-ignore
+  const checkAddressValidity = (address) => {
+    // Call the Google Maps API to validate the address
+    // For simplicity, we'll assume any non-empty address is valid
+    setIsValidAddress(!!address);
+  };
 
   useEffect(() => {
     // Check validity of prepopulated address when component mounts
