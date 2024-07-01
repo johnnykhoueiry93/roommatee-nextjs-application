@@ -91,16 +91,6 @@ const showLoaderWithMessage = () => {
     }
   }, []);
 
-  function userIsAdmin() {
-    let isAdmin = false;
-    // if(userInfo) {
-    //   if (userInfo.userType == "admin" && userAuth) {
-    //     isAdmin = true;
-    //   }
-    // }
-
-    return isAdmin;
-  }
 
 
 
@@ -146,7 +136,17 @@ const showLoaderWithMessage = () => {
 
   }, []);
 
+  function userIsAdmin() {
+    let isAdmin = false;
+    if(userInfo) {
+      //@ts-ignore
+      if (userInfo.userType == "admin" && userAuth) {
+        isAdmin = true;
+      }
+    }
 
+    return isAdmin;
+  }
 
 
 

@@ -1,3 +1,5 @@
+// /api/getUserListings
+
 import { NextRequest, NextResponse } from "next/server";
 import { executeQuery } from "../../../utils/database"; // Adjust the path as needed
 const logger = require("../../../utils/logger");

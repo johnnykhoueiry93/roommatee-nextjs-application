@@ -1,6 +1,7 @@
 "use client";
 
 import ListingBox from "./ListingBox";
+import AdminMainScreen from "../admin/AdminMainScreen";
 import { useRouter } from "next/navigation";
 import { SiteData } from "../../context/SiteWrapper";
 import { logFrontendActivityToBackend } from '../../utils/apiUtils'
@@ -8,7 +9,7 @@ import '../../styles/ListingType.css'
 
 const ListingType = () => {
   //@ts-ignore
-  const {userAdmin, userInfo, setSearchValue, setIntendedDestination} = SiteData();
+  const {userIsAdmin, userInfo, setSearchValue, setIntendedDestination} = SiteData();
   const router = useRouter();
 
   const navigateToPage = (path) => {
@@ -30,6 +31,20 @@ const ListingType = () => {
     navigateToPage(destination);
   };
 
+  function returnHomeMainComponent() {
+    if (userIsAdmin()) {
+      return <AdminMainScreen />;
+    } else {
+      return (
+        <>
+          {/* <TypeScriptLabel /> */}
+          {returnNormalUserMenu()}
+        </>
+      );
+    }
+  }
+
+function returnNormalUserMenu() {
   return (
     <div className="container container-flex sliding-right-to-left">
       <div className="row row-gap" >
@@ -77,6 +92,10 @@ const ListingType = () => {
       </div>
     </div>
   );
+}
+
+return (<>{returnHomeMainComponent()}</>)
+  
 };
 
 export default ListingType;
