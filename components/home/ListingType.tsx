@@ -31,6 +31,7 @@ const ListingType = () => {
     navigateToPage(destination);
   };
 
+
   function returnHomeMainComponent() {
     if (userIsAdmin()) {
       return <AdminMainScreen />;

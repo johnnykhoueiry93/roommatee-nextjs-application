@@ -111,9 +111,10 @@ API Key is in the .env file under src/backend
 /getTicketDetails
 /createTicket
 /reportUserChat
+/getUserCounts
+/getUserProfileCounts
 
 # Webserivces Pening Migration
 /getUsers
 /posts
-/getUserCounts
-/getUserProfileCounts
+
