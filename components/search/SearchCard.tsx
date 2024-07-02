@@ -32,7 +32,11 @@ const SearchCard = ({ result }) => {
     }
   }
 
-  const handleOnSearchCardClick = () => {
+  const handleOnSearchCardClick = (e) => {
+    // if (e.target.closest('.carousel-root')) {
+    //   return; // If yes, don't navigate to the listing
+    // }
+
     console.log( `The user clicked on the search card with id: ${result.listingId}` );
 
     // Reset and nullify the selectedCardDetails in session storage
