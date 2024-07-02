@@ -8,7 +8,7 @@ const RoommatesNearMe = () => {
   const Phoenix = "/images/phoenix-city.jpg";
 
     return (
-    <div className='pt-4 pb-5'>
+    <div className='pt-4 pb-5 container'>
       <HomePageTitle title={'Roommates Near Me'}/>
           
 

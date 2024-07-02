@@ -2,26 +2,41 @@
 
 import { SiteData } from "../../context/SiteWrapper";
 import { useEffect, useState } from "react";
-// import BackendAxios from "../../backend/BackendAxios";
+import RommateCard from "../searchRoommate/RommateCard";
 import HomePageTitle from "./HomePageTitle";
-import SearchCard from "../search/SearchCard";
 
-const RoomHighlights = () => {
+const RoommatesHighlight = () => {
     //@ts-ignore
-    const { isMobile, setHomepageRoomResults, homepageRoomResults, searchValue, tenantFilters } = SiteData();
-    // const cachedResults = localStorage.getItem('homePageRooms');
+    const { isMobile, homepageRoommatesResults, setHomepageRoommatesResults, searchValue, tenantFilters } = SiteData();
+    // const cachedResults = localStorage.getItem('homePageRoommates');
     
       // @ts-ignore
-      const returnHomePageRooms = async () => {
+      const returnHomePageRoommates = async () => {
+      
+        // if (cachedResults) {
+        // try {
+        //     const parsedResults = JSON.parse(cachedResults);
+        //     setHomepageRoommatesResults(parsedResults);
+        //     console.log('Loaded search results from local storage');
+        //     return; // Exit function if results found in local storage
+        // } catch (error) {
+        //     console.error('Error parsing cached search results:', error);
+        //     // Consider clearing the cached data if parsing fails consistently
+        //     localStorage.removeItem('homePageRoommates');
+        // }
+        // }
       
         console.log(`############## Searching with value: >${searchValue.rawAddressValue}<`);
       
+        let profileType = 'roommate';
         let profileLimit = 12;
-        let requestedData = { searchValue, tenantFilters, profileLimit };
+        let homePageRequest = true;
+        let requestedData = { searchValue, tenantFilters, profileType, profileLimit, homePageRequest};
       
+
         try {
           console.log('frontend requestedData: ' , requestedData)
-          const response = await fetch(`/api/searchListings`, {
+          const response = await fetch(`/api/searchProfile`, {
             method: "POST",
             headers: {
               'Content-Type': 'application/json'
@@ -37,8 +52,8 @@ const RoomHighlights = () => {
           const data = await response.json();
       
           if (response.status === 200) {
-            setHomepageRoomResults(data);
-            localStorage.setItem('homePageRooms', JSON.stringify(data));
+            setHomepageRoommatesResults(data);
+            localStorage.setItem('homePageRoommates', JSON.stringify(data));
             console.log("The search returned results of count: ", data.length);
             console.log("The search returned object: ", data);
           } else {
@@ -49,41 +64,22 @@ const RoomHighlights = () => {
           // Handle the error here
           console.error("Error:", error);
         }
-
-
-        // try {
-        //   console.log('Function returnHomePageRooms from homepage started with WS /search');
-        //   const response = await BackendAxios.post('/search', { requestedData }, {
-        //     headers: {
-        //       "Content-Type": "application/json",
-        //     },
-        //   });
-      
-        //   setHomepageRoomResults(response.data);
-      
-        //   localStorage.setItem('homePageRooms', JSON.stringify(response.data));
-      
-        //   console.log("The search returned results of count: ", response.data.length);
-        //   console.log("The search returned object: ", response.data);
-        // } catch (error) {
-        //   console.log("Error completing the search: ", error);
-        // }
       };
 
   useEffect(() => {
-    returnHomePageRooms();
+    returnHomePageRoommates();
   },[])
 
   const itemsPerPage = 18;
   const [page, setPage] = useState(1);
   const startIndex = (page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const paginatedResults = homepageRoomResults.slice(startIndex, endIndex);
+  const paginatedResults = homepageRoommatesResults.slice(startIndex, endIndex);
     return (
         <div>
-            <HomePageTitle title={'Find Local Rooms'}/>
+            <HomePageTitle title={'Find Local Rommates'}/>
     
-{homepageRoomResults && homepageRoomResults.length > 0 ? (
+{homepageRoommatesResults && homepageRoommatesResults.length > 0 ? (
         // [ROOMT-88] - Conditional formatting included
         <div
           className={`${isMobile ? "" : "row"}`}
@@ -96,14 +92,17 @@ const RoomHighlights = () => {
           <div className="listing-panels">
             <div>
             <div className="profiles-conatiner container">
-            <div className="row">
-              {/* @ts-ignore */}
-                {paginatedResults.map((result, index) => (
-                  <div className="col-12 col-md-6 col-lg-3" key={index}>
-                    <SearchCard result={result} />
-                  </div>
-                ))}
-              </div>
+  <div className="row">
+    {/* Get the first 12 records only */}
+    {paginatedResults.slice(0, 12).map(
+        //@ts-ignore
+      (result, index) => (
+        <div className="col-12 col-md-6 col-lg-2" key={index}>
+          <RommateCard result={result} />
+        </div>
+      )
+    )}
+  </div>
 </div>
 
             </div>
@@ -120,4 +119,4 @@ const RoomHighlights = () => {
     )
 }
 
-export default RoomHighlights;
+export default RoommatesHighlight;
